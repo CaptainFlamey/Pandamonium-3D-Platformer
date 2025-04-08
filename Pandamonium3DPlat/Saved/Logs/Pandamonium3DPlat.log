@@ -1962,3 +1962,892 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.04.08-15.23.00:094][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
 [2025.04.08-15.23.00:099][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
 [2025.04.08-15.23.00:157][295]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.04.08-15.24.45:259][900]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.08-15.24.45:265][900]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.08-15.24.45:265][900]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.08-15.24.45:266][900]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 14 ms)
+[2025.04.08-15.24.45:266][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.08-15.24.45:266][900]PIE: New page: PIE session: ThirdPersonMap (8 kwi 2025, 17:24:45)
+[2025.04.08-15.24.45:266][900]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.08-15.24.45:269][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003413s)
+[2025.04.08-15.24.45:269][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003441s)
+[2025.04.08-15.24.45:282][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.04.08-15.24.45:285][900]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.08-15.24.45:285][900]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.08-15.24.45:285][900]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.08-15.24.45:285][900]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.08-15.24.45:285][900]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.08-15.24.45:285][900]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.08-15.24.45:285][900]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.08-15.24.45:286][900]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.08-15.24.45:286][900]LogWorldPartition: Display: WorldPartition initialize took 988 us (total: 70 ms)
+[2025.04.08-15.24.45:286][900]LogPlayLevel: PIE: World Init took: (0.001922s)
+[2025.04.08-15.24.45:286][900]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.04.08-15.24.45:286][900]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.08-15.24.45:286][900]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.08-15.24.45:286][900]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.08-15.24.45:287][900]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.08-15.24.45:287][900]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.08-15.24.45:287][900]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.08-15.24.45:287][900]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.08-15.24.45:287][900]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.08-15.24.45:287][900]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.08-15.24.45:287][900]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.08-15.24.45:287][900]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.08-15.24.45:289][900]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.08-15.24.45:304][900]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.08-15.24.45:304][900]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.08-15.24.45:304][900]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.08-15.24.45:304][900]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.08-15.24.45:305][900]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.04.08-15.24.45:305][900]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.04.08-15.24.45:306][900]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.04.08-15.24.45:306][900]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.04.08-15.24.45:306][900]LogInit: FAudioDevice initialized with ID 10.
+[2025.04.08-15.24.45:306][900]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonMap'.
+[2025.04.08-15.24.45:306][900]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.04.08-15.24.45:309][900]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.08-15.24.45:310][900]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.08-16.24.45
+[2025.04.08-15.24.45:310][900]LogWorld: Bringing up level for play took: 0.001663
+[2025.04.08-15.24.45:312][900]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2025.04.08-15.24.45:315][900]PIE: Server logged in
+[2025.04.08-15.24.45:315][900]PIE: Play in editor total start time 0,051 seconds.
+[2025.04.08-15.24.48:331][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.08-15.24.48:331][ 80]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.08-15.24.48:331][ 80]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.08-15.24.48:332][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-15.24.48:332][ 80]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.08-15.24.48:340][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.08-15.24.48:344][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-15.24.48:356][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.08-15.24.48:356][ 80]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.04.08-15.24.48:356][ 80]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.04.08-15.24.48:358][ 80]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.04.08-15.24.48:364][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.04.08-15.24.48:423][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2025.04.08-15.32.34:907][463]LogSlate: Window 'Revision Control Login' being destroyed
+[2025.04.08-15.32.40:675][617]LogSlate: Window 'Revision Control Login' being destroyed
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:917][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:918][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:918][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:918][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:918][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.47:918][793]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.32.48:051][793]EditorErrors: Warning: No assets to check in!
+[2025.04.08-15.43.58:164][  1]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.08-15.43.58:169][  1]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.08-15.43.58:169][  1]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.08-15.43.58:170][  1]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 16 ms)
+[2025.04.08-15.43.58:170][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.08-15.43.58:171][  1]PIE: New page: PIE session: ThirdPersonMap (8 kwi 2025, 17:43:58)
+[2025.04.08-15.43.58:171][  1]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.08-15.43.58:175][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003843s)
+[2025.04.08-15.43.58:175][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003879s)
+[2025.04.08-15.43.58:191][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.04.08-15.43.58:194][  1]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.08-15.43.58:194][  1]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.08-15.43.58:195][  1]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.08-15.43.58:195][  1]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.08-15.43.58:195][  1]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.08-15.43.58:195][  1]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.08-15.43.58:195][  1]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.08-15.43.58:196][  1]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.08-15.43.58:196][  1]LogWorldPartition: Display: WorldPartition initialize took 983 us (total: 71 ms)
+[2025.04.08-15.43.58:196][  1]LogPlayLevel: PIE: World Init took: (0.001984s)
+[2025.04.08-15.43.58:196][  1]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.04.08-15.43.58:196][  1]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.08-15.43.58:196][  1]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.08-15.43.58:196][  1]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.08-15.43.58:196][  1]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.08-15.43.58:196][  1]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.08-15.43.58:196][  1]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.08-15.43.58:196][  1]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.08-15.43.58:196][  1]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.08-15.43.58:197][  1]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.08-15.43.58:197][  1]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.08-15.43.58:197][  1]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.08-15.43.58:198][  1]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.08-15.43.58:214][  1]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.08-15.43.58:214][  1]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.08-15.43.58:214][  1]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.08-15.43.58:214][  1]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.08-15.43.58:215][  1]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.04.08-15.43.58:215][  1]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.04.08-15.43.58:216][  1]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.04.08-15.43.58:216][  1]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.04.08-15.43.58:216][  1]LogInit: FAudioDevice initialized with ID 11.
+[2025.04.08-15.43.58:216][  1]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonMap'.
+[2025.04.08-15.43.58:217][  1]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.04.08-15.43.58:219][  1]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.08-15.43.58:221][  1]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.08-16.43.58
+[2025.04.08-15.43.58:222][  1]LogWorld: Bringing up level for play took: 0.001745
+[2025.04.08-15.43.58:223][  1]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2025.04.08-15.43.58:227][  1]PIE: Server logged in
+[2025.04.08-15.43.58:227][  1]PIE: Play in editor total start time 0,058 seconds.
+[2025.04.08-15.44.36:805][311]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.44.43:007][683]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.44.52:972][280]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.44.53:755][327]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.44.54:738][386]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.44.55:622][439]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.44.56:738][506]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.44.57:654][561]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.44.58:488][611]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.44.59:272][658]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.45.00:304][720]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.45.01:389][785]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.45.02:388][845]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.45.12:371][444]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F65C02_1812333943] Hello
+[2025.04.08-15.45.17:506][752]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F65C02_1812333943] Hello
+[2025.04.08-15.45.23:655][121]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.45.25:890][255]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.46.17:136][328]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F65C02_1812333943] Hello
+[2025.04.08-15.46.19:005][440]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F65C02_1812333943] Hello
+[2025.04.08-15.46.20:419][525]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.46.30:322][118]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120] Hello
+[2025.04.08-15.46.47:390][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.08-15.46.47:390][140]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.08-15.46.47:390][140]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.08-15.46.47:390][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-15.46.47:391][140]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.08-15.46.47:394][140]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.08-15.46.47:398][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-15.46.47:410][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.08-15.46.47:411][140]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.04.08-15.46.47:411][140]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.04.08-15.46.47:413][140]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.04.08-15.46.47:419][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.04.08-15.46.47:478][141]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2025.04.08-15.46.53:005][313]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.04.08-15.46.53:041][313]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.04.08-15.46.53:049][313]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.04.08-15.46.53:061][314]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.04.08-15.47.02:821][903]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_PlatformTeleport
+[2025.04.08-15.47.02:959][903]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.04.08-15.47.03:866][957]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport
+[2025.04.08-15.47.03:866][957]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.08-15.47.03:866][957]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.08-15.47.04:029][957]LogViewport: Scene viewport resized to 900x685, mode Windowed.
+[2025.04.08-15.47.17:530][678]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.08-15.47.32:554][489]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:554][489]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:569][490]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:569][490]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:569][490]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:588][491]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:588][491]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:588][491]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:603][492]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:603][492]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:603][492]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:619][493]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:619][493]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:619][493]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:637][494]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:637][494]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:637][494]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:653][495]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:653][495]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:653][495]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:670][496]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:670][496]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:670][496]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:689][497]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:689][497]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:689][497]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:697][498]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:697][498]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:697][498]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:721][499]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:721][499]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:721][499]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:737][500]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:737][500]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:737][500]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:753][501]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:753][501]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:753][501]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:770][502]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:770][502]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:770][502]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:791][503]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:791][503]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:791][503]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:804][504]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:804][504]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:804][504]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:819][505]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:819][505]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:819][505]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:836][506]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:836][506]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:836][506]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:853][507]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:853][507]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:853][507]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:870][508]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:870][508]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:870][508]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:889][509]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:889][509]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:889][509]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:904][510]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:904][510]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:904][510]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:919][511]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:919][511]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:919][511]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:937][512]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:938][512]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:938][512]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:953][513]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:953][513]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:954][513]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:969][514]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:969][514]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:969][514]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:989][515]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:989][515]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:989][515]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:998][516]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:998][516]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.32:998][516]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:021][517]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:021][517]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:021][517]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:042][518]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:042][518]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:042][518]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:056][519]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:057][519]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:057][519]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:068][520]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:068][520]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:068][520]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:089][521]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:089][521]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:089][521]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:104][522]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:104][522]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:104][522]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:125][523]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:125][523]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:125][523]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:137][524]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:137][524]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:137][524]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:155][525]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:155][525]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:155][525]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:170][526]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:170][526]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:170][526]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:190][527]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:190][527]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:190][527]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:203][528]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:203][528]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:203][528]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:219][529]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:219][529]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:219][529]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:236][530]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:236][530]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:236][530]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:253][531]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:253][531]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:253][531]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:269][532]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:271][532]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:271][532]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:288][533]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:288][533]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:288][533]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:303][534]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:304][534]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:304][534]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:320][535]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:320][535]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:320][535]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:336][536]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:336][536]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.33:336][536]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:304][593]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:305][593]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:305][593]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:313][594]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:313][594]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:313][594]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:326][595]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:326][595]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:326][595]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:340][596]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:340][596]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:340][596]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:353][597]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:353][597]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:353][597]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:369][598]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:371][598]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:371][598]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:390][599]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:390][599]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:390][599]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:398][600]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:398][600]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:398][600]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:421][601]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:421][601]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:421][601]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:437][602]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:437][602]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:437][602]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:453][603]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:453][603]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:454][603]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:470][604]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:470][604]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:470][604]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:490][605]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.34:490][605]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:304][714]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:305][714]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:320][715]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:320][715]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:320][715]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:337][716]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:337][716]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:337][716]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:355][717]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:356][717]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:356][717]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:370][718]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:370][718]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:370][718]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:391][719]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:391][719]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:391][719]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:403][720]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:404][720]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:404][720]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:420][721]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:420][721]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:420][721]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:437][722]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:437][722]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:437][722]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:455][723]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:455][723]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:455][723]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:470][724]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:470][724]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:470][724]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:489][725]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:489][725]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:489][725]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:503][726]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:503][726]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:503][726]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:520][727]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:520][727]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:520][727]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:537][728]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:537][728]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:537][728]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:556][729]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:556][729]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:556][729]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:570][730]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:570][730]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:570][730]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:588][731]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:588][731]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:588][731]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:603][732]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.36:603][732]LogPhysics: Warning: Scale for /Engine/Transient.World_10:PersistentLevel.BP_PlatformTeleport_C_0.Cube has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.04.08-15.47.41:771][ 34]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.08-15.47.41:873][ 34]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_PlatformTeleport
+[2025.04.08-15.47.41:873][ 34]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_PlatformTeleportFA788E954DAB57C35BF3CBB8600F4264.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_PlatformTeleport.uasset'
+[2025.04.08-15.47.42:043][ 34]LogFileHelpers: InternalPromptForCheckoutAndSave took 271 ms (total: 3.90 sec)
+[2025.04.08-15.47.42:043][ 34]AssetCheck: New page: Asset Save: BP_PlatformTeleport
+[2025.04.08-15.47.42:043][ 34]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport
+[2025.04.08-15.47.42:858][ 73]BlueprintLog: New page: Compile BP_PlatformTeleport
+[2025.04.08-15.47.42:900][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2025.04.08-15.48.04:103][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.08-15.48.04:205][ 20]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_PlatformTeleport
+[2025.04.08-15.48.04:206][ 20]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_PlatformTeleport64086CF3483FD54F562579B9A51B8502.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_PlatformTeleport.uasset'
+[2025.04.08-15.48.04:231][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 4.03 sec)
+[2025.04.08-15.48.04:233][ 20]AssetCheck: New page: Asset Save: BP_PlatformTeleport
+[2025.04.08-15.48.04:233][ 20]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport
+[2025.04.08-15.48.05:413][ 92]BlueprintLog: New page: Compile BP_PlatformTeleport
+[2025.04.08-15.48.05:441][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.04.08-15.48.29:851][331]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.08-15.48.29:938][331]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_PlatformTeleport
+[2025.04.08-15.48.29:938][331]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_PlatformTeleport93ABECCA4F59A78E9014469AB71189E9.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_PlatformTeleport.uasset'
+[2025.04.08-15.48.29:962][331]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 4.14 sec)
+[2025.04.08-15.48.29:964][331]AssetCheck: New page: Asset Save: BP_PlatformTeleport
+[2025.04.08-15.48.29:964][331]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport
+[2025.04.08-15.48.35:046][606]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport_C
+[2025.04.08-15.48.35:046][606]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport_C
+[2025.04.08-15.48.35:048][606]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport as actor: BP_PlatformTeleport_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PlatformTeleport_C_0
+[2025.04.08-15.48.35:049][606]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport as actor: BP_PlatformTeleport_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PlatformTeleport_C_0
+[2025.04.08-15.48.35:208][611]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport_C
+[2025.04.08-15.48.35:208][611]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport_C
+[2025.04.08-15.48.35:209][611]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport as actor: BP_PlatformTeleport_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PlatformTeleport_C_1
+[2025.04.08-15.48.35:209][611]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport as actor: BP_PlatformTeleport_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PlatformTeleport_C_1
+[2025.04.08-15.48.36:353][681]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport_C
+[2025.04.08-15.48.36:353][681]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport_C
+[2025.04.08-15.48.36:357][681]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport as actor: BP_PlatformTeleport_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PlatformTeleport_C_UAID_74563C6C81B0F95C02_1572586473
+[2025.04.08-15.48.36:358][681]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport as actor: BP_PlatformTeleport_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PlatformTeleport_C_UAID_74563C6C81B0F95C02_1572586473
+[2025.04.08-15.48.52:652][546]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.08-15.48.52:756][546]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_PlatformTeleport
+[2025.04.08-15.48.52:756][546]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_PlatformTeleport9ECBD77A4E5A2612B49B58BCFF365F58.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_PlatformTeleport.uasset'
+[2025.04.08-15.48.52:783][546]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 4.27 sec)
+[2025.04.08-15.48.52:785][546]AssetCheck: New page: Asset Save: BP_PlatformTeleport
+[2025.04.08-15.48.52:785][546]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport
+[2025.04.08-15.48.53:396][581]BlueprintLog: New page: Compile BP_PlatformTeleport
+[2025.04.08-15.48.53:431][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.08-15.48.59:226][808]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.04.08-15.48.59:226][808]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.04.08-15.48.59:228][808]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0F95C02_1595459474
+[2025.04.08-15.48.59:229][808]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0F95C02_1595459474
+[2025.04.08-15.49.06:726][252]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.061 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 434 files in 789 folders with total size 24 MiB.
+[2025.04.08-15.49.12:938][610]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.08-15.49.12:943][610]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.08-15.49.12:943][610]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.08-15.49.12:945][610]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 17 ms)
+[2025.04.08-15.49.12:945][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.08-15.49.12:945][610]PIE: New page: PIE session: ThirdPersonMap (8 kwi 2025, 17:49:12)
+[2025.04.08-15.49.12:945][610]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.08-15.49.12:949][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004105s)
+[2025.04.08-15.49.12:949][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004133s)
+[2025.04.08-15.49.12:967][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.04.08-15.49.12:970][610]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.08-15.49.12:970][610]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.08-15.49.12:971][610]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.08-15.49.12:971][610]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.08-15.49.12:971][610]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.08-15.49.12:971][610]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.08-15.49.12:971][610]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.08-15.49.12:972][610]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.08-15.49.12:972][610]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 72 ms)
+[2025.04.08-15.49.12:972][610]LogPlayLevel: PIE: World Init took: (0.002044s)
+[2025.04.08-15.49.12:972][610]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.04.08-15.49.12:972][610]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.08-15.49.12:972][610]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.08-15.49.12:972][610]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.08-15.49.12:972][610]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.08-15.49.12:972][610]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.08-15.49.12:972][610]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.08-15.49.12:972][610]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.08-15.49.12:972][610]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.08-15.49.12:972][610]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.08-15.49.12:972][610]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.08-15.49.12:972][610]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.08-15.49.12:974][610]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.08-15.49.12:989][610]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.08-15.49.12:991][610]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.08-15.49.12:991][610]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.08-15.49.12:991][610]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.08-15.49.12:992][610]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.04.08-15.49.12:992][610]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.04.08-15.49.12:993][610]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.04.08-15.49.12:993][610]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.04.08-15.49.12:993][610]LogInit: FAudioDevice initialized with ID 12.
+[2025.04.08-15.49.12:993][610]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonMap'.
+[2025.04.08-15.49.12:993][610]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.04.08-15.49.12:996][610]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.08-15.49.12:998][610]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.08-16.49.12
+[2025.04.08-15.49.12:998][610]LogWorld: Bringing up level for play took: 0.001778
+[2025.04.08-15.49.12:999][610]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.04.08-15.49.13:002][610]PIE: Server logged in
+[2025.04.08-15.49.13:003][610]PIE: Play in editor total start time 0,06 seconds.
+[2025.04.08-15.49.25:769][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.08-15.49.25:771][375]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.08-15.49.25:771][375]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.08-15.49.25:771][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-15.49.25:771][375]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.08-15.49.25:775][375]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.08-15.49.25:779][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-15.49.25:793][375]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.08-15.49.25:794][375]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.04.08-15.49.25:794][375]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.04.08-15.49.25:795][375]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.04.08-15.49.25:798][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.08-15.49.25:801][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.04.08-15.49.25:858][376]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.04.08-15.49.29:436][550]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.08-15.49.29:522][550]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_PlatformTeleport
+[2025.04.08-15.49.29:523][550]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_PlatformTeleport880AD5FF44F94289BF4384BE560A3F2E.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_PlatformTeleport.uasset'
+[2025.04.08-15.49.29:548][550]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 4.38 sec)
+[2025.04.08-15.49.29:549][550]AssetCheck: New page: Asset Save: BP_PlatformTeleport
+[2025.04.08-15.49.29:549][550]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport
+[2025.04.08-15.49.29:948][578]BlueprintLog: New page: Compile BP_PlatformTeleport
+[2025.04.08-15.49.29:977][578]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.04.08-15.49.31:961][684]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.08-15.49.31:967][684]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.08-15.49.31:967][684]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.08-15.49.31:968][684]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 19 ms)
+[2025.04.08-15.49.31:968][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.08-15.49.31:968][684]PIE: New page: PIE session: ThirdPersonMap (8 kwi 2025, 17:49:31)
+[2025.04.08-15.49.31:968][684]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.08-15.49.31:972][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003821s)
+[2025.04.08-15.49.31:972][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003849s)
+[2025.04.08-15.49.31:990][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.08-15.49.31:992][684]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.08-15.49.31:992][684]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.08-15.49.31:993][684]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.08-15.49.31:993][684]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.08-15.49.31:993][684]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.08-15.49.31:993][684]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.08-15.49.31:993][684]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.08-15.49.31:994][684]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.08-15.49.31:994][684]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 73 ms)
+[2025.04.08-15.49.31:994][684]LogPlayLevel: PIE: World Init took: (0.002079s)
+[2025.04.08-15.49.31:994][684]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.04.08-15.49.31:994][684]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.08-15.49.31:994][684]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.08-15.49.31:994][684]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.08-15.49.31:994][684]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.08-15.49.31:994][684]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.08-15.49.31:994][684]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.08-15.49.31:994][684]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.08-15.49.31:994][684]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.08-15.49.31:995][684]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.08-15.49.31:995][684]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.08-15.49.31:995][684]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.08-15.49.31:997][684]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.08-15.49.32:012][684]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.08-15.49.32:013][684]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.08-15.49.32:013][684]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.08-15.49.32:013][684]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.08-15.49.32:013][684]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.04.08-15.49.32:014][684]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.04.08-15.49.32:015][684]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.04.08-15.49.32:015][684]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.04.08-15.49.32:015][684]LogInit: FAudioDevice initialized with ID 13.
+[2025.04.08-15.49.32:015][684]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonMap'.
+[2025.04.08-15.49.32:016][684]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.04.08-15.49.32:018][684]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.08-15.49.32:020][684]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.08-16.49.32
+[2025.04.08-15.49.32:020][684]LogWorld: Bringing up level for play took: 0.002035
+[2025.04.08-15.49.32:022][684]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2025.04.08-15.49.32:025][684]PIE: Server logged in
+[2025.04.08-15.49.32:026][684]PIE: Play in editor total start time 0,059 seconds.
+[2025.04.08-15.49.51:960][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.08-15.49.51:960][878]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.08-15.49.51:960][878]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.08-15.49.51:961][878]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-15.49.51:961][878]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.08-15.49.51:965][878]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.08-15.49.51:969][878]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-15.49.51:983][878]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.08-15.49.51:983][878]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.04.08-15.49.51:983][878]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.04.08-15.49.51:984][878]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.04.08-15.49.51:990][878]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.04.08-15.49.52:048][879]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2025.04.08-15.49.55:737][ 47]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.08-15.49.55:822][ 47]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_PlatformTeleport
+[2025.04.08-15.49.55:823][ 47]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_PlatformTeleport9815736C457DA7CD7BA559A8E5166549.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_PlatformTeleport.uasset'
+[2025.04.08-15.49.55:848][ 47]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 4.49 sec)
+[2025.04.08-15.49.55:851][ 47]AssetCheck: New page: Asset Save: BP_PlatformTeleport
+[2025.04.08-15.49.55:851][ 47]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport
+[2025.04.08-15.49.56:366][ 80]BlueprintLog: New page: Compile BP_PlatformTeleport
+[2025.04.08-15.49.56:396][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.08-15.49.58:049][159]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.08-15.49.58:056][159]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.08-15.49.58:056][159]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.08-15.49.58:057][159]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 20 ms)
+[2025.04.08-15.49.58:057][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.08-15.49.58:057][159]PIE: New page: PIE session: ThirdPersonMap (8 kwi 2025, 17:49:58)
+[2025.04.08-15.49.58:057][159]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.08-15.49.58:060][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003431s)
+[2025.04.08-15.49.58:060][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003457s)
+[2025.04.08-15.49.58:080][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.04.08-15.49.58:083][159]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.08-15.49.58:083][159]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.08-15.49.58:083][159]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.08-15.49.58:083][159]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.08-15.49.58:084][159]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.08-15.49.58:084][159]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.08-15.49.58:084][159]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.08-15.49.58:085][159]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.08-15.49.58:085][159]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 74 ms)
+[2025.04.08-15.49.58:085][159]LogPlayLevel: PIE: World Init took: (0.002149s)
+[2025.04.08-15.49.58:085][159]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.04.08-15.49.58:085][159]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.08-15.49.58:085][159]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.08-15.49.58:085][159]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.08-15.49.58:085][159]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.08-15.49.58:085][159]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.08-15.49.58:085][159]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.08-15.49.58:085][159]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.08-15.49.58:085][159]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.08-15.49.58:085][159]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.08-15.49.58:085][159]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.08-15.49.58:085][159]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.08-15.49.58:087][159]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.08-15.49.58:102][159]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.08-15.49.58:102][159]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.08-15.49.58:102][159]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.08-15.49.58:102][159]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.08-15.49.58:102][159]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.04.08-15.49.58:102][159]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.04.08-15.49.58:104][159]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.04.08-15.49.58:104][159]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.04.08-15.49.58:105][159]LogInit: FAudioDevice initialized with ID 14.
+[2025.04.08-15.49.58:105][159]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonMap'.
+[2025.04.08-15.49.58:105][159]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.04.08-15.49.58:107][159]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.08-15.49.58:108][159]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.08-16.49.58
+[2025.04.08-15.49.58:108][159]LogWorld: Bringing up level for play took: 0.001662
+[2025.04.08-15.49.58:110][159]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2025.04.08-15.49.58:114][159]PIE: Server logged in
+[2025.04.08-15.49.58:114][159]PIE: Play in editor total start time 0,059 seconds.
+[2025.04.08-15.50.44:934][969]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F65C02_1812333943] Hello
+[2025.04.08-15.50.49:056][216]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F65C02_1812333943] Hello
+[2025.04.08-15.51.00:218][886]LogBlueprintUserMessages: [BP_SpawnPos_C_UAID_74563C6C81B0F65C02_1812333943] Hello
+[2025.04.08-15.51.17:270][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.08-15.51.17:270][907]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.08-15.51.17:270][907]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.08-15.51.17:270][907]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-15.51.17:270][907]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.08-15.51.17:274][907]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.08-15.51.17:279][907]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-15.51.17:293][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.08-15.51.17:293][907]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.04.08-15.51.17:293][907]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.04.08-15.51.17:295][907]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.04.08-15.51.17:301][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.04.08-15.51.17:357][908]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2025.04.08-15.51.19:950][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.08-15.51.20:018][ 53]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/KP/Q6D0I5453L3Z7Y7DSJH398
+[2025.04.08-15.51.20:018][ 53]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Q6D0I5453L3Z7Y7DSJH39805CF86604DB76B87153B90B51A2F4D69.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/KP/Q6D0I5453L3Z7Y7DSJH398.uasset'
+[2025.04.08-15.51.20:022][ 53]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/9Y/L1YGUQQC177ELQ7SZGCI8L
+[2025.04.08-15.51.20:022][ 53]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/L1YGUQQC177ELQ7SZGCI8L013AB3214AD57491EFABEDB0F6712C5B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/9Y/L1YGUQQC177ELQ7SZGCI8L.uasset'
+[2025.04.08-15.51.20:266][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave took 316 ms (total: 4.81 sec)
+[2025.04.08-15.51.20:268][ 53]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.08-15.51.20:268][ 53]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/BP_PlatformTeleport.BP_PlatformTeleport_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PlatformTeleport_C_UAID_74563C6C81B0F95C02_1572586473
+[2025.04.08-15.51.20:268][ 53]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0F95C02_1595459474
+[2025.04.08-15.51.20:760][ 84]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.08-15.51.20:766][ 84]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.08-15.51.20:766][ 84]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.08-15.51.20:768][ 84]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 22 ms)
+[2025.04.08-15.51.20:768][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.08-15.51.20:768][ 84]PIE: New page: PIE session: ThirdPersonMap (8 kwi 2025, 17:51:20)
+[2025.04.08-15.51.20:768][ 84]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.08-15.51.20:772][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003912s)
+[2025.04.08-15.51.20:772][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003948s)
+[2025.04.08-15.51.20:787][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.08-15.51.20:790][ 84]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.08-15.51.20:790][ 84]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.08-15.51.20:790][ 84]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.08-15.51.20:791][ 84]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.08-15.51.20:791][ 84]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.08-15.51.20:791][ 84]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.08-15.51.20:791][ 84]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.08-15.51.20:792][ 84]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.08-15.51.20:792][ 84]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 75 ms)
+[2025.04.08-15.51.20:792][ 84]LogPlayLevel: PIE: World Init took: (0.002271s)
+[2025.04.08-15.51.20:792][ 84]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.04.08-15.51.20:792][ 84]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.08-15.51.20:792][ 84]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.08-15.51.20:792][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.08-15.51.20:792][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.08-15.51.20:792][ 84]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.08-15.51.20:792][ 84]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.08-15.51.20:792][ 84]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.08-15.51.20:792][ 84]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.08-15.51.20:792][ 84]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.08-15.51.20:792][ 84]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.08-15.51.20:792][ 84]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.08-15.51.20:795][ 84]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.08-15.51.20:810][ 84]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.08-15.51.20:810][ 84]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.08-15.51.20:810][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.08-15.51.20:810][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.08-15.51.20:811][ 84]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.04.08-15.51.20:811][ 84]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.04.08-15.51.20:813][ 84]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.04.08-15.51.20:813][ 84]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.04.08-15.51.20:813][ 84]LogInit: FAudioDevice initialized with ID 15.
+[2025.04.08-15.51.20:813][ 84]LogAudio: Display: Audio Device (ID: 15) registered with world 'ThirdPersonMap'.
+[2025.04.08-15.51.20:813][ 84]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.04.08-15.51.20:816][ 84]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.08-15.51.20:818][ 84]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.08-16.51.20
+[2025.04.08-15.51.20:818][ 84]LogWorld: Bringing up level for play took: 0.001725
+[2025.04.08-15.51.20:820][ 84]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2025.04.08-15.51.20:825][ 84]PIE: Server logged in
+[2025.04.08-15.51.20:826][ 84]PIE: Play in editor total start time 0,06 seconds.
+[2025.04.08-15.51.32:290][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.08-15.51.32:290][770]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.08-15.51.32:290][770]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.08-15.51.32:290][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-15.51.32:291][770]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.08-15.51.32:295][770]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.08-15.51.32:299][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-15.51.32:313][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.08-15.51.32:313][770]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.04.08-15.51.32:313][770]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.04.08-15.51.32:315][770]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.04.08-15.51.32:320][770]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.04.08-15.51.32:378][771]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.04.08-15.51.36:084][993]Cmd: DUPLICATE
+[2025.04.08-15.51.36:084][993]Cmd: ACTOR DUPLICATE
+[2025.04.08-15.52.12:234][121]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.08-15.52.12:241][121]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.08-15.52.12:241][121]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.08-15.52.12:242][121]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 23 ms)
+[2025.04.08-15.52.12:243][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.08-15.52.12:243][121]PIE: New page: PIE session: ThirdPersonMap (8 kwi 2025, 17:52:12)
+[2025.04.08-15.52.12:243][121]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.08-15.52.12:246][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003823s)
+[2025.04.08-15.52.12:246][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003852s)
+[2025.04.08-15.52.12:264][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.08-15.52.12:269][121]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.08-15.52.12:269][121]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.08-15.52.12:270][121]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.08-15.52.12:270][121]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.08-15.52.12:270][121]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.08-15.52.12:270][121]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.08-15.52.12:270][121]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.08-15.52.12:271][121]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.08-15.52.12:271][121]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 76 ms)
+[2025.04.08-15.52.12:271][121]LogPlayLevel: PIE: World Init took: (0.002243s)
+[2025.04.08-15.52.12:272][121]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.04.08-15.52.12:272][121]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.08-15.52.12:272][121]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.08-15.52.12:272][121]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.08-15.52.12:272][121]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.08-15.52.12:272][121]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.08-15.52.12:272][121]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.08-15.52.12:272][121]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.08-15.52.12:272][121]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.08-15.52.12:272][121]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.08-15.52.12:272][121]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.08-15.52.12:272][121]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.08-15.52.12:274][121]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.08-15.52.12:291][121]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.08-15.52.12:291][121]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.08-15.52.12:291][121]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.08-15.52.12:291][121]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.08-15.52.12:292][121]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.04.08-15.52.12:292][121]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.04.08-15.52.12:294][121]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.04.08-15.52.12:294][121]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.04.08-15.52.12:294][121]LogInit: FAudioDevice initialized with ID 16.
+[2025.04.08-15.52.12:294][121]LogAudio: Display: Audio Device (ID: 16) registered with world 'ThirdPersonMap'.
+[2025.04.08-15.52.12:294][121]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.04.08-15.52.12:296][121]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.08-15.52.12:298][121]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.08-16.52.12
+[2025.04.08-15.52.12:299][121]LogWorld: Bringing up level for play took: 0.001824
+[2025.04.08-15.52.12:301][121]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2025.04.08-15.52.12:304][121]PIE: Server logged in
+[2025.04.08-15.52.12:305][121]PIE: Play in editor total start time 0,064 seconds.
+[2025.04.08-15.52.21:890][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.08-15.52.21:890][692]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.08-15.52.21:890][692]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.08-15.52.21:890][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-15.52.21:891][692]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.08-15.52.21:895][692]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.08-15.52.21:899][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.08-15.52.21:911][692]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.08-15.52.21:911][692]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.04.08-15.52.21:911][692]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.04.08-15.52.21:913][692]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.04.08-15.52.21:917][692]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.08-15.52.21:920][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.04.08-15.52.21:959][693]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.04.08-15.52.25:950][935]Cmd: DELETE
+[2025.04.08-15.52.25:950][935]Cmd: ACTOR DELETE
+[2025.04.08-15.52.25:952][935]LogEditorActor: Deleted Actor: BP_PlatformTeleport_C
+[2025.04.08-15.52.25:971][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.04.08-15.52.25:975][935]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2025.04.08-15.52.40:269][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:269][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.40:270][646]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer'
+[2025.04.08-15.52.49:094][646]LogSlate: Window 'Submit Files' being destroyed
+[2025.04.08-15.52.53:017][770]SourceControl: Revision control is disabled
+[2025.04.08-15.52.53:017][770]LogSlate: Window 'Revision Control Login' being destroyed
