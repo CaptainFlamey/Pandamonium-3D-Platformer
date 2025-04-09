@@ -4512,3 +4512,17 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.04.09-13.26.21:315][468]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
 [2025.04.09-13.26.21:321][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
 [2025.04.09-13.26.21:379][469]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2025.04.09-13.28.22:733][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.04.09-13.28.22:744][491]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/RB/K5EUS4Q597IALVLT2U5H8C_Auto5
+[2025.04.09-13.28.22:744][491]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/K5EUS4Q597IALVLT2U5H8C_Auto506EA06DD47A752C1D85AA1A9F76CFD7D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/RB/K5EUS4Q597IALVLT2U5H8C_Auto5.uasset'
+[2025.04.09-13.28.22:744][491]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.028
+[2025.04.09-13.28.22:744][491]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.028
+[2025.04.09-13.28.55:761][652]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.09-13.28.55:871][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.04.09-13.28.55:888][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.04.09-13.28.55:904][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.04.09-13.28.55:911][652]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/RB/K5EUS4Q597IALVLT2U5H8C
+[2025.04.09-13.28.55:913][652]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/K5EUS4Q597IALVLT2U5H8C99A7F59240860F1E2B14398932D1637E.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/RB/K5EUS4Q597IALVLT2U5H8C.uasset'
+[2025.04.09-13.28.55:935][652]LogFileHelpers: InternalPromptForCheckoutAndSave took 174 ms (total: 9.53 sec)
+[2025.04.09-13.28.55:937][652]AssetCheck: New page: Asset Save: BP_Spline_C_UAID_74563C6C81B0415D02_1429793148
+[2025.04.09-13.28.55:937][652]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/BP_Spline.BP_Spline_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Spline_C_UAID_74563C6C81B0415D02_1429793148
