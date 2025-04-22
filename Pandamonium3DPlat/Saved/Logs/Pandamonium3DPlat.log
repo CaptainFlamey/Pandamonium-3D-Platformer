@@ -1630,3 +1630,71 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.04.22-11.30.35:878][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
 [2025.04.22-11.30.35:882][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
 [2025.04.22-11.30.35:885][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2025.04.22-11.31.32:996][643]LogSlate: Window 'Interchange Pipeline Configuration (Import Content)' being destroyed
+[2025.04.22-11.31.33:010][643]LogInterchangeEngine: [Pending] Importing
+[2025.04.22-11.31.33:010][643]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/okacp/Docum...nt/Models/Characters/red_Panda.obj]
+[2025.04.22-11.31.33:038][644]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.04.22-11.31.33:046][644]LogInterchangeEngine: [Pending] Importing
+[2025.04.22-11.31.33:090][645]LogTexture: Display: Building textures: /Game/Models/Characters/TEX_redPanda.TEX_redPanda (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 2.645795 MB), EncodeSpeed: Fast
+[2025.04.22-11.31.33:122][645]LogStaticMesh: Display: Building static mesh red_Panda...
+[2025.04.22-11.31.33:129][645]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Characters/red_Panda.red_Panda
+[2025.04.22-11.31.33:136][645]LogInterchangeEngine: [Success] Import Done
+[2025.04.22-11.31.33:210][646]LogInterchangeEngine: [Success] Import Done
+[2025.04.22-11.31.33:320][647]LogShaderCompilers: Display: ================================================
+[2025.04.22-11.31.33:320][647]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.22-11.31.33:320][647]LogShaderCompilers: Display: Total job queries 52, among them cache hits 46 (88.46%)
+[2025.04.22-11.31.33:320][647]LogShaderCompilers: Display: Tracking 6 distinct input hashes that result in 6 distinct outputs (100.00%)
+[2025.04.22-11.31.33:320][647]LogShaderCompilers: Display: RAM used: 124,08 KiB of 1,60 GiB budget. Usage: 0.01%
+[2025.04.22-11.31.33:320][647]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.22-11.31.33:320][647]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.04.22-11.31.33:320][647]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.04.22-11.31.33:320][647]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.04.22-11.31.33:320][647]LogShaderCompilers: Display: ================================================
+[2025.04.22-11.31.36:535][898]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Models/Characters/TEX_redPanda.TEX_redPanda
+[2025.04.22-11.31.36:683][898]LogViewport: Scene viewport resized to 919x529, mode Windowed.
+[2025.04.22-11.31.44:316][593]LogViewport: Scene viewport resized to 916x552, mode Windowed.
+[2025.04.22-11.31.44:379][595]LogViewport: Scene viewport resized to 1424x890, mode Windowed.
+[2025.04.22-11.31.44:623][623]LogSlate: Window 'TEX_redPanda' being destroyed
+[2025.04.22-11.32.37:270][570]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Models/Characters/m_26050228-4f82-95ea-d543-42db66698193.m_26050228-4f82-95ea-d543-42db66698193
+[2025.04.22-11.32.37:275][570]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-11.32.37:275][570]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-11.32.37:370][570]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-11.32.37:370][570]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-11.32.37:372][570]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-11.32.37:372][570]MaterialEditorStats: Shader Count: 0
+[2025.04.22-11.32.37:376][570]LogViewport: Scene viewport resized to 376x444, mode Windowed.
+[2025.04.22-11.32.37:433][572]MaterialEditorStats: Base pass shader: 194 instructions
+[2025.04.22-11.32.37:433][572]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2025.04.22-11.32.37:433][572]MaterialEditorStats: Texture samplers: 3/16
+[2025.04.22-11.32.37:433][572]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-11.32.37:433][572]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-11.32.37:433][572]MaterialEditorStats: Shader Count: 4
+[2025.04.22-11.33.32:480][137]LogTexture: Display: Building textures: /Game/Models/Characters/TEX_redPanda.TEX_redPanda (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 0.54166 MB), EncodeSpeed: Final
+[2025.04.22-11.33.40:497][982]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Characters/red_Panda.red_Panda
+[2025.04.22-11.33.40:497][982]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Characters/red_Panda.red_Panda
+[2025.04.22-11.33.40:497][982]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Characters/red_Panda.red_Panda as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_27
+[2025.04.22-11.33.41:056][ 28]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Characters/red_Panda.red_Panda
+[2025.04.22-11.33.41:056][ 28]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/Characters/red_Panda.red_Panda
+[2025.04.22-11.33.41:058][ 28]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/Characters/red_Panda.red_Panda as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0516102_1876381186
+[2025.04.22-11.35.39:477][675]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-11.35.40:697][793]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.04.22-11.35.40:698][793]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-11.35.40:698][793]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-11.35.40:709][793]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2025.04.22-11.35.42:616][795]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-11.35.44:408][991]LogViewport: Scene viewport resized to 1121x685, mode Windowed.
+[2025.04.22-11.35.49:397][530]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-11.35.49:430][531]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-11.36.15:645][455]LogEditorTransaction: Undo Set Rotation
+[2025.04.22-11.38.05:901][842]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Program Files/Epic Games/UE_5.3/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h'.
+[2025.04.22-11.38.06:341][842]LogVSAccessor: Warning: Couldn't goto column number '1' of line '1' in 'C:/Program Files/Epic Games/UE_5.3/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h'.
+[2025.04.22-11.38.11:613][352]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2025.04.22-11.38.11:689][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.04.22-11.38.11:699][352]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter'!
+[2025.04.22-11.38.11:699][352]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Engine/Transient.World_7:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2025.04.22-11.38.14:631][680]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-11.38.14:705][680]LogSavePackage: Moving output files for package: /Game/Models/Characters/TEX_redPanda
+[2025.04.22-11.38.14:705][680]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/TEX_redPanda8FC18E904C3F86FA1F2F1485D48A8BB5.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/TEX_redPanda.uasset'
+[2025.04.22-11.38.14:714][680]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 341 ms)
+[2025.04.22-11.38.14:715][680]AssetCheck: New page: Asset Save: TEX_redPanda
+[2025.04.22-11.38.14:715][680]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Characters/TEX_redPanda.TEX_redPanda
