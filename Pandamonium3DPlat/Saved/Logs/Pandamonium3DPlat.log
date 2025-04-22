@@ -1292,3 +1292,434 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.04.22-12.49.07:340][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
 [2025.04.22-12.49.07:363][749]LogPlayLevel: Display: Destroying online subsystem :Context_5
 [2025.04.22-12.49.09:267][904]LogViewport: Scene viewport resized to 1121x685, mode Windowed.
+[2025.04.22-12.50.01:541][694]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\Characters\redPanda.fbx)
+[2025.04.22-12.50.01:548][694]LogFbx: Loading FBX Scene from C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\Characters\redPanda.fbx
+[2025.04.22-12.50.01:550][694]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.22-12.50.01:550][694]FBXImport: Warning: Can't detect import type. No mesh is found or animation track. 
+[2025.04.22-12.50.02:776][694]LogSlate: Window 'Message' being destroyed
+[2025.04.22-12.50.02:783][694]Message dialog closed, result: Ok, title: Message, text: Failed to import 'C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\Characters\redPanda.fbx'. Failed to create asset '/Game/Models/Characters/redPanda'.
+Please see Output Log for details.
+[2025.04.22-12.50.02:783][694]LogAssetTools: Warning: Failed to import 'C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\Characters\redPanda.fbx'. Failed to create asset '/Game/Models/Characters/redPanda'.
+Please see Output Log for details.
+[2025.04.22-12.50.30:011][548]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\Characters\redPanda.fbx)
+[2025.04.22-12.50.30:016][548]LogFbx: Loading FBX Scene from C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\Characters\redPanda.fbx
+[2025.04.22-12.50.30:019][548]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.22-12.50.30:019][548]FBXImport: Warning: Can't detect import type. No mesh is found or animation track. 
+[2025.04.22-12.50.35:979][548]LogSlate: Window 'Message' being destroyed
+[2025.04.22-12.50.35:984][548]Message dialog closed, result: Ok, title: Message, text: Failed to import 'C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\Characters\redPanda.fbx'. Failed to create asset '/Game/Models/Characters/redPanda'.
+Please see Output Log for details.
+[2025.04.22-12.50.35:984][548]LogAssetTools: Warning: Failed to import 'C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\Characters\redPanda.fbx'. Failed to create asset '/Game/Models/Characters/redPanda'.
+Please see Output Log for details.
+[2025.04.22-12.50.38:385][831]AssetReimport: New page: Outstanding source content changes 14:50:38
+[2025.04.22-12.50.38:390][831]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.04.22-12.50.38:427][832]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/redPanda.obj)
+[2025.04.22-12.50.38:431][832]LogFbx: Loading FBX Scene from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/redPanda.obj
+[2025.04.22-12.50.38:435][832]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.22-12.50.41:685][832]LogSlate: Window 'FBX Import Options' being destroyed
+[2025.04.22-12.50.41:752][832]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Characters/redPanda.redPanda
+[2025.04.22-12.50.41:771][833]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/redPanda.fbx)
+[2025.04.22-12.50.41:773][833]LogEditorFactories: Performing atomic reimport of [C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/redPanda.fbx]
+[2025.04.22-12.50.41:777][833]LogFbx: Loading FBX Scene from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/redPanda.fbx
+[2025.04.22-12.50.41:779][833]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.22-12.50.41:801][833]LogStaticMesh: Display: Building static mesh StaticMesh_0...
+[2025.04.22-12.50.41:809][833]LogStaticMesh: Built static mesh [0.01s] /Engine/Transient.StaticMesh_0
+[2025.04.22-12.50.41:831][834]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-12.50.42:093][834]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.50.42:145][834]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.007595 seconds
+[2025.04.22-12.50.42:147][834]LogSavePackage: Moving output files for package: /Game/Models/Characters/redPanda
+[2025.04.22-12.50.42:147][834]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/redPanda3A63ACFE424AB1650032C484114C383B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/redPanda.uasset'
+[2025.04.22-12.50.42:150][834]LogSavePackage: Moving output files for package: /Game/Models/Characters/redPanda
+[2025.04.22-12.50.42:151][834]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/redPandaAB05B2D0442526B1A51EFC8BEB1D0B35.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/redPanda.uasset'
+[2025.04.22-12.50.42:280][834]LogFileHelpers: InternalPromptForCheckoutAndSave took 448 ms
+[2025.04.22-12.50.42:364][835]AssetCheck: New page: Asset Save: redPanda
+[2025.04.22-12.50.42:364][835]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Characters/redPanda.redPanda
+[2025.04.22-12.50.45:287][135]AssetReimport: Importing new asset /Game/Models/Characters/redPanda.
+[2025.04.22-12.50.45:287][135]AssetReimport: Importing new asset /Game/Models/Characters/redPanda.
+[2025.04.22-12.50.45:720][177]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.101 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 923 files in 1664 folders with total size 38 MiB.
+[2025.04.22-12.51.15:401][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.04.22-12.51.16:448][143]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.22-12.51.16:470][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.04.22-12.51.16:484][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.04.22-12.51.16:497][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.04.22-12.51.17:528][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.04.22-12.51.18:731][223]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.22-12.51.18:753][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.04.22-12.51.18:766][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.04.22-12.51.18:779][223]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.04.22-12.53.14:468][731]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.53.14:504][733]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.53.52:868][683]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\Characters\redPanda.fbx)
+[2025.04.22-12.53.52:872][683]LogFbx: Loading FBX Scene from C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\Characters\redPanda.fbx
+[2025.04.22-12.53.52:878][683]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.22-12.53.56:848][683]LogSlate: Window 'FBX Import Options' being destroyed
+[2025.04.22-12.53.56:867][683]LogFbx: Valid bind pose for Pose (Mesh_0.001) - Mesh_0.001
+[2025.04.22-12.53.56:869][683]LogMaterial: Display: Material /Game/Models/Characters/Material_0_001.Material_0_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.04.22-12.53.56:884][683]LogFbxMaterialImport: Display: Unable to find Texture file C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\Characters
+[2025.04.22-12.53.56:891][683]LogFbx: Bones digested - 18  Depth of hierarchy - 5
+[2025.04.22-12.53.56:962][683]LogSkeletalMesh: Section 0: Material=0, 132 triangles
+[2025.04.22-12.53.56:972][683]LogSkeletalMesh: Building Skeletal Mesh redPanda...
+[2025.04.22-12.53.56:974][683]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Models/Characters/redPanda.redPanda
+[2025.04.22-12.53.57:123][683]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.53.57:123][683]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-12.53.57:128][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_7:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2025.04.22-12.53.57:128][683]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-12.53.57:128][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-12.53.57:209][683]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.53.57:209][683]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-12.53.57:213][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2025.04.22-12.53.57:213][683]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-12.53.57:213][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-12.53.57:241][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.04.22-12.53.57:261][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.04.22-12.53.57:274][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.04.22-12.53.57:286][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.04.22-12.53.57:289][683]FBXImport: FBX File Loading: Found name clash, node 'RedPanda' was renamed to 'RedPanda1' 
+[2025.04.22-12.53.57:289][683]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2025.04.22-12.53.57:289][683]FBXImport: Warning: The following bones are missing from the bind pose:
+EarL_end  
+EarR_end  
+Tail_end  
+FrontPawL_end  
+BackPawL_end  
+FrontPawR_end  
+BackPawR_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2025.04.22-12.53.57:289][683]FBXImport: Warning: The bone size is too small to create Physics Asset 'redPanda_PhysicsAsset' from Skeletal Mesh 'redPanda'. You will have to create physics asset manually. 
+[2025.04.22-12.53.57:400][684]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.53.57:437][685]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.53.57:437][685]LogShaderCompilers: Display: ================================================
+[2025.04.22-12.53.57:438][685]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.22-12.53.57:438][685]LogShaderCompilers: Display: Total job queries 36, among them cache hits 0 (0.00%)
+[2025.04.22-12.53.57:438][685]LogShaderCompilers: Display: Tracking 6 distinct input hashes that result in 5 distinct outputs (83.33%)
+[2025.04.22-12.53.57:438][685]LogShaderCompilers: Display: RAM used: 125,26 KiB of 1,60 GiB budget. Usage: 0.01%
+[2025.04.22-12.53.57:438][685]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.22-12.53.57:438][685]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.04.22-12.53.57:438][685]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.04.22-12.53.57:438][685]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.04.22-12.53.57:438][685]LogShaderCompilers: Display: ================================================
+[2025.04.22-12.53.59:866][971]LogSlate: Window 'Content Browser' being destroyed
+[2025.04.22-12.53.59:871][971]LogSlate: Window 'Content Browser' being destroyed
+[2025.04.22-12.54.12:708][347]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Models/Characters/redPanda_Skeleton.redPanda_Skeleton
+[2025.04.22-12.54.12:728][347]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.54.12:728][347]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-12.54.12:761][347]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.54.13:083][347]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.54.13:083][347]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-12.54.13:171][347]LogViewport: Scene viewport resized to 738x497, mode Windowed.
+[2025.04.22-12.54.15:877][532]LogViewport: Scene viewport resized to 1141x858, mode Windowed.
+[2025.04.22-12.54.16:278][577]LogSlate: Window 'redPanda_Skeleton' being destroyed
+[2025.04.22-12.54.24:156][422]Cmd: TRANSACTION UNDO
+[2025.04.22-12.54.24:156][422]LogEditorTransaction: Undo Translate Bone
+[2025.04.22-12.54.24:283][422]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.54.26:969][663]Cmd: TRANSACTION UNDO
+[2025.04.22-12.54.26:969][663]LogEditorTransaction: Undo Translate Bone
+[2025.04.22-12.54.27:097][663]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.54.30:823][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-12.54.30:883][ 74]LogSavePackage: Moving output files for package: /Game/Models/Characters/redPanda_Skeleton
+[2025.04.22-12.54.30:883][ 74]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/redPanda_Skeleton0E9A233D4F043BD86BC290B8822DB6B1.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/redPanda_Skeleton.uasset'
+[2025.04.22-12.54.30:896][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 520 ms)
+[2025.04.22-12.54.30:896][ 74]AssetCheck: New page: Asset Save: redPanda_Skeleton
+[2025.04.22-12.54.30:896][ 74]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/Models/Characters/redPanda_Skeleton.redPanda_Skeleton
+[2025.04.22-12.54.31:549][146]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-12.54.31:549][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-12.54.31:585][146]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-12.54.31:585][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-12.54.36:092][585]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Models/Characters/redPanda.redPanda
+[2025.04.22-12.54.36:095][585]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.54.36:095][585]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-12.54.36:102][585]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.54.36:354][585]LogViewport: Scene viewport resized to 1430x858, mode Windowed.
+[2025.04.22-12.54.47:556][706]LogContentBrowser: Deferred new asset file creation: TEX_redPanda_Mat
+[2025.04.22-12.54.47:571][706]LogContentBrowser: Creating deferred item: TEX_redPanda_Mat
+[2025.04.22-12.54.47:608][707]LogContentBrowser: Renaming the item being created (Deferred Item: TEX_redPanda_Mat).
+[2025.04.22-12.54.53:730][371]LogContentBrowser: Attempting asset rename: TEX_redPanda_Mat -> RedPanda_Texture
+[2025.04.22-12.54.53:741][371]LogContentBrowser: End creating deferred item TEX_redPanda_Mat
+[2025.04.22-12.54.55:120][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.04.22-12.54.56:348][480]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.22-12.54.56:441][480]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-12.54.56:441][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-12.54.56:453][480]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Models/Characters/Material_0_001.Material_0_001
+	Asset Type: Material
+[2025.04.22-12.54.56:698][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.04.22-12.54.56:717][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.04.22-12.54.56:730][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.04.22-12.55.00:584][827]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Models/Characters/redPanda.redPanda
+[2025.04.22-12.55.00:585][827]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.55.00:585][827]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-12.55.00:596][827]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.55.00:788][827]LogToolMenus: Warning: Menu already registered : SkeletalMeshEditor.MeshContextMenu
+[2025.04.22-12.55.00:842][827]LogViewport: Scene viewport resized to 1430x858, mode Windowed.
+[2025.04.22-12.55.05:473][301]LogMaterial: Display: Material /Game/Models/Characters/RedPanda_Texture.RedPanda_Texture needed to have new flag set bUsedWithSkeletalMesh !
+[2025.04.22-12.55.07:957][566]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-12.55.08:034][566]LogSavePackage: Moving output files for package: /Game/Models/Characters/redPanda
+[2025.04.22-12.55.08:034][566]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/redPandaE4825CD34D7E2D8BCADEEC9C05559783.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/redPanda.uasset'
+[2025.04.22-12.55.08:046][566]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 609 ms)
+[2025.04.22-12.55.08:046][566]AssetCheck: New page: Asset Save: redPanda
+[2025.04.22-12.55.08:046][566]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Models/Characters/redPanda.redPanda
+[2025.04.22-12.55.12:617][ 16]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Models/Characters/redPanda.redPanda
+[2025.04.22-12.55.12:617][ 16]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Models/Characters/redPanda.redPanda
+[2025.04.22-12.55.12:617][ 16]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Models/Characters/redPanda.redPanda as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_0
+[2025.04.22-12.55.12:617][ 16]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Models/Characters/redPanda.redPanda as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_0
+[2025.04.22-12.55.13:353][ 84]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Models/Characters/redPanda.redPanda
+[2025.04.22-12.55.13:354][ 84]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Models/Characters/redPanda.redPanda
+[2025.04.22-12.55.13:356][ 84]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Models/Characters/redPanda.redPanda as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_74563C6C81B0566102_1399970063
+[2025.04.22-12.55.13:356][ 84]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Models/Characters/redPanda.redPanda as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_74563C6C81B0566102_1399970063
+[2025.04.22-12.56.11:442][977]LogEditorTransaction: Undo Modify Component Scale
+[2025.04.22-12.56.11:641][977]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.56.18:670][683]LogEditorTransaction: Undo Set Scale
+[2025.04.22-12.56.18:791][683]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.56.48:958][780]LogContentBrowser: Deferred new asset file creation: BP_ThirdPersonCharacter1
+[2025.04.22-12.56.48:971][780]LogContentBrowser: Creating deferred item: BP_ThirdPersonCharacter1
+[2025.04.22-12.56.48:990][781]LogContentBrowser: Renaming the item being created (Deferred Item: BP_ThirdPersonCharacter1).
+[2025.04.22-12.56.54:401][354]LogContentBrowser: Attempting asset rename: BP_ThirdPersonCharacter1 -> BP_RedPanda
+[2025.04.22-12.56.54:454][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.04.22-12.56.54:463][354]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/ThirdPerson/Blueprints/BP_RedPanda does not exist, will not scan.
+[2025.04.22-12.56.54:486][354]LogContentBrowser: End creating deferred item BP_ThirdPersonCharacter1
+[2025.04.22-12.56.54:488][354]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.56.56:455][515]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_RedPanda.BP_RedPanda
+[2025.04.22-12.56.56:455][515]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.56.56:455][515]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-12.56.58:414][600]LogSlate: Window 'BP_RedPanda' being destroyed
+[2025.04.22-12.57.06:661][152]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPerson/Blueprints/BP_RedPanda.BP_RedPanda_C:ExecuteUbergraph_BP_RedPanda'!
+[2025.04.22-12.57.06:661][152]LogScript: Warning: Script Msg called by: BP_RedPanda_C /Engine/Transient.World_16:PersistentLevel.BP_RedPanda_C_0
+[2025.04.22-12.57.06:664][152]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-12.57.06:664][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-12.57.10:224][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.04.22-12.57.11:283][468]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.22-12.57.11:365][468]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter'!
+[2025.04.22-12.57.11:365][468]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Engine/Transient.World_1:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2025.04.22-12.57.11:369][468]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.04.22-12.57.11:369][468]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-12.57.11:369][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-12.57.11:401][468]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/ThirdPerson/Blueprints/BP_RedPanda.BP_RedPanda
+	Asset Type: Blueprint
+[2025.04.22-12.57.11:401][468]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPerson/Blueprints/BP_RedPanda.BP_RedPanda_C:ExecuteUbergraph_BP_RedPanda'!
+[2025.04.22-12.57.11:401][468]LogScript: Warning: Script Msg called by: BP_RedPanda_C /Engine/Transient.World_15:PersistentLevel.BP_RedPanda_C_0
+[2025.04.22-12.57.11:760][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.04.22-12.57.11:809][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.04.22-12.57.11:823][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.04.22-12.57.11:835][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.04.22-12.57.17:863][865]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.04.22-12.57.17:872][865]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.04.22-12.57.17:883][865]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.04.22-12.57.17:896][866]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.04.22-12.57.26:257][749]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_RedPanda
+[2025.04.22-12.57.26:263][749]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.04.22-12.57.27:139][839]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_RedPanda.BP_RedPanda
+[2025.04.22-12.57.27:139][839]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.57.27:139][839]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-12.57.27:309][839]LogViewport: Scene viewport resized to 725x396, mode Windowed.
+[2025.04.22-12.57.28:868][950]LogViewport: Scene viewport resized to 723x414, mode Windowed.
+[2025.04.22-12.57.28:883][951]LogViewport: Scene viewport resized to 1121x685, mode Windowed.
+[2025.04.22-12.57.29:086][965]LogViewport: Scene viewport resized to 1119x703, mode Windowed.
+[2025.04.22-12.57.29:220][967]LogViewport: Scene viewport resized to 459x222, mode Windowed.
+[2025.04.22-12.57.29:328][968]LogSlate: Window 'BP_RedPanda' being destroyed
+[2025.04.22-12.57.29:346][968]LogViewport: Scene viewport resized to 461x230, mode Windowed.
+[2025.04.22-12.57.30:111][ 27]LogViewport: Scene viewport resized to 1121x685, mode Windowed.
+[2025.04.22-12.57.30:498][ 71]LogSlate: Window 'BP_RedPanda' being destroyed
+[2025.04.22-12.57.35:769][659]LogEditorTransaction: Undo Modify Component Scale
+[2025.04.22-12.57.35:911][659]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.57.50:629][291]LogEditorTransaction: Undo Edit Capsule Half Height
+[2025.04.22-12.57.50:733][291]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.57.58:455][ 74]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.04.22-12.57.58:456][ 74]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.57.58:456][ 74]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-12.58.03:026][485]LogViewport: Scene viewport resized to 1121x685, mode Windowed.
+[2025.04.22-12.58.24:420][197]LogEditorTransaction: Undo Modify Component Scale
+[2025.04.22-12.58.24:792][197]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.58.25:397][232]LogEditorTransaction: Undo Edit Capsule Radius
+[2025.04.22-12.58.25:575][232]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.58.26:138][289]LogEditorTransaction: Undo Edit Capsule Radius
+[2025.04.22-12.58.26:388][289]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.58.27:027][356]LogEditorTransaction: Undo Edit Capsule Radius
+[2025.04.22-12.58.27:186][356]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.58.27:881][428]LogEditorTransaction: Undo Edit Capsule Radius
+[2025.04.22-12.58.28:013][428]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.58.28:552][483]LogEditorTransaction: Undo Edit Capsule Radius
+[2025.04.22-12.58.28:710][483]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.58.29:253][499]LogEditorTransaction: Undo Edit Capsule Radius
+[2025.04.22-12.58.29:432][499]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.58.29:929][550]LogEditorTransaction: Undo Edit Capsule Half Height
+[2025.04.22-12.58.30:090][550]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.58.30:649][608]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-12.58.30:722][608]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-12.58.30:777][608]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.04.22-12.58.30:778][608]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ThirdPersonCharacterA85046D74818280FA95CB5BF498B6329.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.04.22-12.58.30:791][608]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 751 ms)
+[2025.04.22-12.58.30:792][608]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.04.22-12.58.30:792][608]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.04.22-12.58.31:615][699]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2025.04.22-12.58.31:867][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.04.22-12.58.31:882][699]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter'!
+[2025.04.22-12.58.31:882][699]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Engine/Transient.World_0:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2025.04.22-12.58.47:417][495]LogEditorTransaction: Undo Modify Component Scale
+[2025.04.22-12.58.47:559][495]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.59.32:547][358]LogEditorTransaction: Undo Modify Component(s)
+[2025.04.22-12.59.32:681][358]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-12.59.35:160][587]LogEditorTransaction: Undo Modify Component(s)
+[2025.04.22-12.59.35:272][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-13.00.20:321][530]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-13.00.20:420][530]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.04.22-13.00.20:421][530]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ThirdPersonCharacterAD82883E413ABF53FDD2E99189C75BEE.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.04.22-13.00.20:434][530]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 865 ms)
+[2025.04.22-13.00.20:436][530]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.04.22-13.00.20:436][530]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.04.22-13.00.45:411][381]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-13.00.45:501][381]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.04.22-13.00.45:502][381]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ThirdPersonCharacter39F1B5FB4FAFBA1EA152C190A65206E4.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.04.22-13.00.45:511][381]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 963 ms)
+[2025.04.22-13.00.45:513][381]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.04.22-13.00.45:513][381]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.04.22-13.00.46:101][446]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2025.04.22-13.00.46:245][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.04.22-13.00.46:271][446]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter'!
+[2025.04.22-13.00.46:271][446]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Engine/Transient.World_0:PersistentLevel.BP_ThirdPersonCharacter_C_1
+[2025.04.22-13.00.47:738][585]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.22-13.00.47:744][585]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.22-13.00.47:744][585]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.22-13.00.47:746][585]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 3 ms)
+[2025.04.22-13.00.47:746][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.22-13.00.47:746][585]PIE: New page: PIE session: ThirdPersonMap (22 kwi 2025, 15:00:47)
+[2025.04.22-13.00.47:746][585]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.22-13.00.47:754][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007326s)
+[2025.04.22-13.00.47:754][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007353s)
+[2025.04.22-13.00.47:767][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.04.22-13.00.47:772][585]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-13.00.47:773][585]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-13.00.47:773][585]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.22-13.00.47:774][585]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.22-13.00.47:774][585]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.22-13.00.47:774][585]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.22-13.00.47:774][585]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.22-13.00.47:776][585]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.22-13.00.47:776][585]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 501 ms)
+[2025.04.22-13.00.47:776][585]LogPlayLevel: PIE: World Init took: (0.002777s)
+[2025.04.22-13.00.47:776][585]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.04.22-13.00.47:776][585]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.22-13.00.47:776][585]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.22-13.00.47:776][585]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.22-13.00.47:776][585]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.22-13.00.47:776][585]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.22-13.00.47:776][585]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.22-13.00.47:776][585]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.22-13.00.47:776][585]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.22-13.00.47:776][585]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.22-13.00.47:776][585]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.22-13.00.47:776][585]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.22-13.00.47:778][585]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.22-13.00.47:793][585]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.22-13.00.47:794][585]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.22-13.00.47:794][585]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.22-13.00.47:794][585]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.22-13.00.47:795][585]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.04.22-13.00.47:795][585]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.04.22-13.00.47:797][585]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.04.22-13.00.47:797][585]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.04.22-13.00.47:797][585]LogInit: FAudioDevice initialized with ID 3.
+[2025.04.22-13.00.47:797][585]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonMap'.
+[2025.04.22-13.00.47:797][585]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.04.22-13.00.47:799][585]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.22-13.00.47:806][585]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.22-14.00.47
+[2025.04.22-13.00.47:807][585]LogWorld: Bringing up level for play took: 0.007450
+[2025.04.22-13.00.47:809][585]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.04.22-13.00.47:811][585]PIE: Server logged in
+[2025.04.22-13.00.47:812][585]PIE: Play in editor total start time 0,067 seconds.
+[2025.04.22-13.00.47:813][585]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B0905D02_1785895050] Can't attack... Roaming
+[2025.04.22-13.01.28:084][895]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B0905D02_1785895050] Can Attack
+[2025.04.22-13.01.31:460][258]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_1] 2.0
+[2025.04.22-13.01.31:460][258]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B0905D02_1785895050] Hit
+[2025.04.22-13.01.39:948][182]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_1] 1.0
+[2025.04.22-13.01.39:948][182]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B0905D02_1785895050] Hit
+[2025.04.22-13.01.47:089][978]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B0905D02_1785895050] Hit
+[2025.04.22-13.02.03:231][716]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B03B5D02_1180271087] BOING
+[2025.04.22-13.02.05:311][941]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_2] true
+[2025.04.22-13.02.09:230][363]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B03B5D02_1180271087] BOING
+[2025.04.22-13.02.23:694][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.22-13.02.23:694][900]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.22-13.02.23:694][900]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-13.02.23:695][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-13.02.23:695][900]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.22-13.02.23:698][900]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.22-13.02.23:702][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-13.02.23:713][900]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.22-13.02.23:715][900]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.04.22-13.02.23:715][900]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.04.22-13.02.23:716][900]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.04.22-13.02.23:719][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.22-13.02.23:722][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.04.22-13.02.23:782][901]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.04.22-13.02.26:322][174]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-13.02.26:322][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-13.02.32:742][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.04.22-13.02.33:959][793]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.22-13.02.33:975][793]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-13.02.33:975][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-13.02.33:994][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.04.22-13.02.34:009][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.04.22-13.02.34:024][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.04.22-13.02.40:604][505]Cmd: MODE GRID=0
+[2025.04.22-13.02.43:420][824]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-13.02.43:523][824]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.04.22-13.02.43:524][824]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ThirdPersonCharacterAB41773A481C5C2539C94DAE12DA8EE7.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.04.22-13.02.43:541][824]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 1.08 sec)
+[2025.04.22-13.02.43:544][824]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.04.22-13.02.43:544][824]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.04.22-13.02.43:876][860]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2025.04.22-13.02.43:943][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.04.22-13.02.43:952][860]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter'!
+[2025.04.22-13.02.43:952][860]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Engine/Transient.World_0:PersistentLevel.BP_ThirdPersonCharacter_C_2
+[2025.04.22-13.02.45:022][951]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.22-13.02.45:029][951]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.22-13.02.45:029][951]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.22-13.02.45:032][951]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 3 ms (total: 6 ms)
+[2025.04.22-13.02.45:032][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.22-13.02.45:032][951]PIE: New page: PIE session: ThirdPersonMap (22 kwi 2025, 15:02:45)
+[2025.04.22-13.02.45:054][951]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.22-13.02.45:061][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006390s)
+[2025.04.22-13.02.45:061][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006428s)
+[2025.04.22-13.02.45:073][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.04.22-13.02.45:079][951]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-13.02.45:079][951]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-13.02.45:079][951]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.22-13.02.45:080][951]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.22-13.02.45:080][951]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.22-13.02.45:080][951]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.22-13.02.45:080][951]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.22-13.02.45:081][951]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.22-13.02.45:081][951]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 502 ms)
+[2025.04.22-13.02.45:081][951]LogPlayLevel: PIE: World Init took: (0.002827s)
+[2025.04.22-13.02.45:081][951]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.04.22-13.02.45:081][951]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.22-13.02.45:081][951]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.22-13.02.45:081][951]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.22-13.02.45:081][951]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.22-13.02.45:081][951]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.22-13.02.45:081][951]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.22-13.02.45:081][951]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.22-13.02.45:081][951]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.22-13.02.45:082][951]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.22-13.02.45:082][951]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.22-13.02.45:082][951]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.22-13.02.45:084][951]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.22-13.02.45:099][951]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.22-13.02.45:099][951]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.22-13.02.45:099][951]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.22-13.02.45:099][951]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.22-13.02.45:099][951]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.04.22-13.02.45:099][951]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.04.22-13.02.45:102][951]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.04.22-13.02.45:102][951]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.04.22-13.02.45:102][951]LogInit: FAudioDevice initialized with ID 4.
+[2025.04.22-13.02.45:102][951]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2025.04.22-13.02.45:102][951]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.04.22-13.02.45:104][951]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.22-13.02.45:110][951]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.22-14.02.45
+[2025.04.22-13.02.45:111][951]LogWorld: Bringing up level for play took: 0.007207
+[2025.04.22-13.02.45:114][951]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.04.22-13.02.45:116][951]PIE: Server logged in
+[2025.04.22-13.02.45:116][951]PIE: Play in editor total start time 0,087 seconds.
+[2025.04.22-13.02.45:117][951]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B0905D02_1785895050] Can't attack... Roaming
