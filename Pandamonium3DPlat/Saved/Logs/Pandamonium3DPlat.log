@@ -6900,3 +6900,543 @@ UnknownFunction []
 [2025.04.22-14.45.15:267][816]Cmd: ACTOR DUPLICATE
 [2025.04.22-14.45.40:820][884]Cmd: EDIT COPY
 [2025.04.22-14.45.41:056][910]Cmd: EDIT PASTE
+[2025.04.22-14.48.14:334][353]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.22-14.48.14:340][353]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.22-14.48.14:340][353]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.22-14.48.14:344][353]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 4 ms (total: 87 ms)
+[2025.04.22-14.48.14:344][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.22-14.48.14:344][353]PIE: New page: PIE session: Level_0 (22 kwi 2025, 16:48:14)
+[2025.04.22-14.48.14:346][353]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.22-14.48.14:363][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017559s)
+[2025.04.22-14.48.14:363][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.017594s)
+[2025.04.22-14.48.14:582][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2025.04.22-14.48.14:628][353]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-14.48.14:628][353]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-14.48.14:628][353]LogAIModule: Creating AISystem for world Level_0
+[2025.04.22-14.48.14:629][353]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.22-14.48.14:629][353]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.22-14.48.14:629][353]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.22-14.48.14:629][353]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.22-14.48.14:633][353]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.22-14.48.14:633][353]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 720 ms)
+[2025.04.22-14.48.14:633][353]LogPlayLevel: PIE: World Init took: (0.005139s)
+[2025.04.22-14.48.14:633][353]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2025.04.22-14.48.14:633][353]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.22-14.48.14:633][353]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.22-14.48.14:633][353]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.22-14.48.14:633][353]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.22-14.48.14:633][353]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.22-14.48.14:633][353]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.22-14.48.14:633][353]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.22-14.48.14:633][353]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.22-14.48.14:633][353]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.22-14.48.14:633][353]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.22-14.48.14:633][353]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.22-14.48.14:635][353]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.22-14.48.14:650][353]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.22-14.48.14:652][353]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.22-14.48.14:652][353]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.22-14.48.14:652][353]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.22-14.48.14:653][353]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2025.04.22-14.48.14:653][353]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2025.04.22-14.48.14:655][353]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2025.04.22-14.48.14:655][353]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2025.04.22-14.48.14:655][353]LogInit: FAudioDevice initialized with ID 33.
+[2025.04.22-14.48.14:655][353]LogAudio: Display: Audio Device (ID: 33) registered with world 'Level_0'.
+[2025.04.22-14.48.14:655][353]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2025.04.22-14.48.14:658][353]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.22-14.48.14:671][353]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.22-15.48.14
+[2025.04.22-14.48.14:674][353]LogWorld: Bringing up level for play took: 0.015974
+[2025.04.22-14.48.14:675][353]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2025.04.22-14.48.14:679][353]PIE: Server logged in
+[2025.04.22-14.48.14:680][353]PIE: Play in editor total start time 0,339 seconds.
+[2025.04.22-14.48.14:682][353]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.22-14.48.14:682][353]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.22-14.48.33:077][362]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.22-14.48.36:004][712]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.22-14.48.44:941][781]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can Attack
+[2025.04.22-14.48.50:474][440]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can Attack
+[2025.04.22-14.48.57:598][290]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 2.0
+[2025.04.22-14.48.57:598][290]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Hit
+[2025.04.22-14.48.57:880][324]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.22-14.49.07:571][479]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.22-14.49.08:608][598]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.22-14.49.08:608][598]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.22-14.49.08:609][598]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-14.49.08:609][598]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-14.49.08:609][598]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.22-14.49.08:614][598]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.22-14.49.08:620][598]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-14.49.08:638][598]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.22-14.49.08:640][598]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2025.04.22-14.49.08:640][598]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2025.04.22-14.49.08:642][598]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2025.04.22-14.49.08:645][598]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.22-14.49.08:651][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.04.22-14.49.08:717][599]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2025.04.22-14.49.18:394][207]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.22-14.49.18:401][207]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.22-14.49.18:401][207]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.22-14.49.18:406][207]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 5 ms (total: 92 ms)
+[2025.04.22-14.49.18:406][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.22-14.49.18:406][207]PIE: New page: PIE session: Level_0 (22 kwi 2025, 16:49:18)
+[2025.04.22-14.49.18:406][207]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.22-14.49.18:423][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015762s)
+[2025.04.22-14.49.18:423][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.015801s)
+[2025.04.22-14.49.18:436][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.04.22-14.49.18:439][207]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-14.49.18:439][207]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-14.49.18:439][207]LogAIModule: Creating AISystem for world Level_0
+[2025.04.22-14.49.18:440][207]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.22-14.49.18:440][207]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.22-14.49.18:440][207]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.22-14.49.18:440][207]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.22-14.49.18:444][207]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.22-14.49.18:444][207]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 725 ms)
+[2025.04.22-14.49.18:444][207]LogPlayLevel: PIE: World Init took: (0.005294s)
+[2025.04.22-14.49.18:444][207]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2025.04.22-14.49.18:444][207]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.22-14.49.18:444][207]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.22-14.49.18:444][207]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.22-14.49.18:444][207]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.22-14.49.18:444][207]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.22-14.49.18:444][207]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.22-14.49.18:444][207]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.22-14.49.18:444][207]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.22-14.49.18:444][207]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.22-14.49.18:445][207]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.22-14.49.18:445][207]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.22-14.49.18:447][207]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.22-14.49.18:462][207]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.22-14.49.18:462][207]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.22-14.49.18:462][207]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.22-14.49.18:462][207]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.22-14.49.18:463][207]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2025.04.22-14.49.18:463][207]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2025.04.22-14.49.18:465][207]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2025.04.22-14.49.18:465][207]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2025.04.22-14.49.18:465][207]LogInit: FAudioDevice initialized with ID 34.
+[2025.04.22-14.49.18:465][207]LogAudio: Display: Audio Device (ID: 34) registered with world 'Level_0'.
+[2025.04.22-14.49.18:465][207]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2025.04.22-14.49.18:467][207]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.22-14.49.18:480][207]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.22-15.49.18
+[2025.04.22-14.49.18:483][207]LogWorld: Bringing up level for play took: 0.014978
+[2025.04.22-14.49.18:486][207]LogOnline: OSS: Created online subsystem instance for: :Context_73
+[2025.04.22-14.49.18:488][207]PIE: Server logged in
+[2025.04.22-14.49.18:489][207]PIE: Play in editor total start time 0,088 seconds.
+[2025.04.22-14.49.18:491][207]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.22-14.49.18:491][207]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.22-14.49.24:114][849]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.22-14.49.27:061][200]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.22-14.49.31:407][720]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can Attack
+[2025.04.22-14.49.34:335][ 69]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can Attack
+[2025.04.22-14.49.50:039][926]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.22-14.49.56:587][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.22-14.49.56:587][705]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.22-14.49.56:589][705]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-14.49.56:590][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-14.49.56:590][705]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.22-14.49.56:594][705]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.22-14.49.56:599][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-14.49.56:618][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.22-14.49.56:619][705]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2025.04.22-14.49.56:619][705]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2025.04.22-14.49.56:621][705]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2025.04.22-14.49.56:629][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.04.22-14.49.56:694][706]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2025.04.22-14.50.40:068][901]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_PowerUpRemove.BP_PowerUpRemove_C
+[2025.04.22-14.50.40:068][901]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_PowerUpRemove.BP_PowerUpRemove_C
+[2025.04.22-14.50.40:069][901]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_PowerUpRemove.BP_PowerUpRemove as actor: BP_PowerUpRemove_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_PowerUpRemove_C_1
+[2025.04.22-14.50.40:070][901]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_PowerUpRemove.BP_PowerUpRemove as actor: BP_PowerUpRemove_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_PowerUpRemove_C_1
+[2025.04.22-14.50.40:865][975]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_PowerUpRemove.BP_PowerUpRemove_C
+[2025.04.22-14.50.40:865][975]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_PowerUpRemove.BP_PowerUpRemove_C
+[2025.04.22-14.50.40:869][975]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_PowerUpRemove.BP_PowerUpRemove as actor: BP_PowerUpRemove_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238
+[2025.04.22-14.50.40:869][975]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_PowerUpRemove.BP_PowerUpRemove as actor: BP_PowerUpRemove_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238
+[2025.04.22-14.50.46:720][530]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.100 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 966 files in 1738 folders with total size 40 MiB.
+[2025.04.22-14.50.59:569][778]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-14.50.59:674][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.04.22-14.50.59:704][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.04.22-14.50.59:723][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.04.22-14.50.59:727][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/Y1/4OLG4YK41USPQHJIKSQVPK
+[2025.04.22-14.50.59:727][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/4OLG4YK41USPQHJIKSQVPK5D6635BE46CE61F63811069AB74D6FA9.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/8/Y1/4OLG4YK41USPQHJIKSQVPK.uasset'
+[2025.04.22-14.50.59:730][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/6/R4/HSAIC3C9X426C395GWJOV4
+[2025.04.22-14.50.59:731][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/HSAIC3C9X426C395GWJOV496A4ACAE404037179C4614B48BEBBF76.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/6/R4/HSAIC3C9X426C395GWJOV4.uasset'
+[2025.04.22-14.50.59:734][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/B/TH/V8G8XWUVSWMDNIV8D0PW8H
+[2025.04.22-14.50.59:734][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/V8G8XWUVSWMDNIV8D0PW8HD806E06F42D21683751115864723A4AE.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/B/TH/V8G8XWUVSWMDNIV8D0PW8H.uasset'
+[2025.04.22-14.50.59:737][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/E/FT/HGLNFTZW45IEJHC6GJSL9N
+[2025.04.22-14.50.59:737][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/HGLNFTZW45IEJHC6GJSL9NF9961A314D28B9232D43B697A71402C5.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/E/FT/HGLNFTZW45IEJHC6GJSL9N.uasset'
+[2025.04.22-14.50.59:741][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/D/YB/097P78MA04W8B8LLLS76WD
+[2025.04.22-14.50.59:741][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/097P78MA04W8B8LLLS76WD92AD0A3C471084C3402908BC0E8616C3.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/D/YB/097P78MA04W8B8LLLS76WD.uasset'
+[2025.04.22-14.50.59:745][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/3/5D/4P0OVXICKW21MK2JQHO4J2
+[2025.04.22-14.50.59:746][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/4P0OVXICKW21MK2JQHO4J2100E928249104FE4E2A409AE94752920.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/3/5D/4P0OVXICKW21MK2JQHO4J2.uasset'
+[2025.04.22-14.50.59:748][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/9/7J/BECLIWYXRKP1NT45YGSZ57
+[2025.04.22-14.50.59:749][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BECLIWYXRKP1NT45YGSZ5758E993924BE7D100617626AB9FD10550.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/9/7J/BECLIWYXRKP1NT45YGSZ57.uasset'
+[2025.04.22-14.50.59:753][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/2/PN/T9AA2CQFV56B46MYK8KBK1
+[2025.04.22-14.50.59:754][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/T9AA2CQFV56B46MYK8KBK15F33F5D640D8DA6927E1FD971F1E9350.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/2/PN/T9AA2CQFV56B46MYK8KBK1.uasset'
+[2025.04.22-14.50.59:756][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/D/EM/9L8APGFO1AY3LJ3LVYEJR0
+[2025.04.22-14.50.59:757][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/9L8APGFO1AY3LJ3LVYEJR0C6DD6F8E46FE73C795265FB58F8A3268.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/D/EM/9L8APGFO1AY3LJ3LVYEJR0.uasset'
+[2025.04.22-14.50.59:760][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/0/DP/1KYDLUNRAXN2EYJJ1JSQS5
+[2025.04.22-14.50.59:761][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/1KYDLUNRAXN2EYJJ1JSQS5E1D3487448288CD70A78F1A3DF6F2905.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/0/DP/1KYDLUNRAXN2EYJJ1JSQS5.uasset'
+[2025.04.22-14.50.59:766][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/2/TD/VMFPUCWMZ2TF3QDZCYEM6V
+[2025.04.22-14.50.59:766][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/VMFPUCWMZ2TF3QDZCYEM6V4891A1D5484D5DDAF6EBFFBAC09C7509.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/2/TD/VMFPUCWMZ2TF3QDZCYEM6V.uasset'
+[2025.04.22-14.50.59:771][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/1/X3/UJOBJQ2YT3KL7ATWDEHI2D
+[2025.04.22-14.50.59:771][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/UJOBJQ2YT3KL7ATWDEHI2D059DB2CA453E89A788B526A44375B43B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/1/X3/UJOBJQ2YT3KL7ATWDEHI2D.uasset'
+[2025.04.22-14.50.59:775][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/CD/7YF80HH3GH3JROIJYUPQ9D
+[2025.04.22-14.50.59:775][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/7YF80HH3GH3JROIJYUPQ9DEF461A274A30570FC65F428002F58926.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/8/CD/7YF80HH3GH3JROIJYUPQ9D.uasset'
+[2025.04.22-14.50.59:779][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/0/0B/1YI00M05O76EQWMQ8PN8YT
+[2025.04.22-14.50.59:779][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/1YI00M05O76EQWMQ8PN8YT49BE1C294CC07D9054B2F5AA1AC82E00.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/0/0B/1YI00M05O76EQWMQ8PN8YT.uasset'
+[2025.04.22-14.50.59:782][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/9/F6/7PC8N71ANCOBS58UKIGCGP
+[2025.04.22-14.50.59:782][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/7PC8N71ANCOBS58UKIGCGP85CFCC874C1C18BE93D3CB81BCC903F4.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/9/F6/7PC8N71ANCOBS58UKIGCGP.uasset'
+[2025.04.22-14.50.59:784][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/E/ZM/ERBE39LBR3BRGGQTI0NBGN
+[2025.04.22-14.50.59:784][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/ERBE39LBR3BRGGQTI0NBGNA01B507C40210BACA0DE53A9A2057FDB.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/E/ZM/ERBE39LBR3BRGGQTI0NBGN.uasset'
+[2025.04.22-14.50.59:788][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/0/H6/PIXIS3ECFKJRAW7EBO5YW1
+[2025.04.22-14.50.59:788][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/PIXIS3ECFKJRAW7EBO5YW14B331A0E40D55AA944E2C3AE2F9556CC.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/0/H6/PIXIS3ECFKJRAW7EBO5YW1.uasset'
+[2025.04.22-14.50.59:792][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/5/TQ/CVZ0Z0T9QZVDSDU32UEQOU
+[2025.04.22-14.50.59:792][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/CVZ0Z0T9QZVDSDU32UEQOU9B40A440439E758B6E52D29E6DD71517.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/5/TQ/CVZ0Z0T9QZVDSDU32UEQOU.uasset'
+[2025.04.22-14.50.59:795][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/2/SX/QM6V3XR8V8V84G8O2MY9O4
+[2025.04.22-14.50.59:795][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/QM6V3XR8V8V84G8O2MY9O43FA2D5344E2C17E1A34FD99C36700E31.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/2/SX/QM6V3XR8V8V84G8O2MY9O4.uasset'
+[2025.04.22-14.50.59:799][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/6/VS/2JN2XPGGVAWO6AYNS1VWJS
+[2025.04.22-14.50.59:799][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/2JN2XPGGVAWO6AYNS1VWJS445E61E6487D27814B91A9881BC0D52A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/6/VS/2JN2XPGGVAWO6AYNS1VWJS.uasset'
+[2025.04.22-14.50.59:802][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/6/ZH/8I4EJU2HIWUX37CF73D4SW
+[2025.04.22-14.50.59:803][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/8I4EJU2HIWUX37CF73D4SW80E7B7214CBD253602EEAEAE8F3BDB05.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/6/ZH/8I4EJU2HIWUX37CF73D4SW.uasset'
+[2025.04.22-14.50.59:805][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/B/RD/PUDV6CF9OO7JS97O08Z2E5
+[2025.04.22-14.50.59:805][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/PUDV6CF9OO7JS97O08Z2E51C2967A04D0AF08EFB4566A64845C7E6.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/B/RD/PUDV6CF9OO7JS97O08Z2E5.uasset'
+[2025.04.22-14.50.59:808][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/3/O3/TG2IGD11VI2VFAMN1WGX3W
+[2025.04.22-14.50.59:808][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/TG2IGD11VI2VFAMN1WGX3WDE00311B4B0D9D7E5278E8AC56218DCC.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/3/O3/TG2IGD11VI2VFAMN1WGX3W.uasset'
+[2025.04.22-14.50.59:810][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/F/1Y/D628Q1H77ECPYLLP9LEW9P
+[2025.04.22-14.50.59:810][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/D628Q1H77ECPYLLP9LEW9P27E93FC743AE1FDF6273A8BF0AFAE528.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/F/1Y/D628Q1H77ECPYLLP9LEW9P.uasset'
+[2025.04.22-14.50.59:813][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/4/K8/ZYND2AT2ELN8ZL2YXAJM2W
+[2025.04.22-14.50.59:813][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/ZYND2AT2ELN8ZL2YXAJM2WABC98F9D497AD18D7BDD4881DA996962.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/4/K8/ZYND2AT2ELN8ZL2YXAJM2W.uasset'
+[2025.04.22-14.50.59:816][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/D/EV/0JMXT2WNF95GNFPY6OFAEG
+[2025.04.22-14.50.59:816][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/0JMXT2WNF95GNFPY6OFAEG7A1866F6445E02055CB836A45A55DB51.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/D/EV/0JMXT2WNF95GNFPY6OFAEG.uasset'
+[2025.04.22-14.50.59:820][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/9/ZA/DO2ZZDSNJRASJ1GX7PZ1HM
+[2025.04.22-14.50.59:820][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/DO2ZZDSNJRASJ1GX7PZ1HMEB6C53AB435A7BCA222D88863F63EC93.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/9/ZA/DO2ZZDSNJRASJ1GX7PZ1HM.uasset'
+[2025.04.22-14.50.59:822][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/5/NN/YG2GV5F10CRFCNZT19ED90
+[2025.04.22-14.50.59:822][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/YG2GV5F10CRFCNZT19ED90DA713B1443AF8360CCCDA2BDC56057F0.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/5/NN/YG2GV5F10CRFCNZT19ED90.uasset'
+[2025.04.22-14.50.59:825][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/4/GU/NRJV1MB6J3HN4ONDUYGMAQ
+[2025.04.22-14.50.59:826][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NRJV1MB6J3HN4ONDUYGMAQ24D178E644FE96325C9CDD93598C0006.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/4/GU/NRJV1MB6J3HN4ONDUYGMAQ.uasset'
+[2025.04.22-14.50.59:830][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/3/PQ/2E0CGQB21Z99JF05S2G12T
+[2025.04.22-14.50.59:830][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/2E0CGQB21Z99JF05S2G12T578DBADE4DF0B880ACE2209F8017BBA5.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/3/PQ/2E0CGQB21Z99JF05S2G12T.uasset'
+[2025.04.22-14.50.59:832][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/6H/WKNZ5H5KCOM8PIL2PB4CH4
+[2025.04.22-14.50.59:832][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/WKNZ5H5KCOM8PIL2PB4CH47DA840BF4D36F5C426609DA23F73F798.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/8/6H/WKNZ5H5KCOM8PIL2PB4CH4.uasset'
+[2025.04.22-14.50.59:835][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/9/O9/9VG2REINZ5G5PJYADV2LOK
+[2025.04.22-14.50.59:835][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/9VG2REINZ5G5PJYADV2LOK6CDB17ED4F45ADB71CC4B080A0F1FAB1.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/9/O9/9VG2REINZ5G5PJYADV2LOK.uasset'
+[2025.04.22-14.50.59:839][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/A/NP/CRE1N2NOFE06NHTXYW0IHU
+[2025.04.22-14.50.59:839][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/CRE1N2NOFE06NHTXYW0IHU52FF71CF4865549489A7F49B805FF506.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/A/NP/CRE1N2NOFE06NHTXYW0IHU.uasset'
+[2025.04.22-14.50.59:841][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/1/4R/ASES5JJ5RVQG3MKLADCDH5
+[2025.04.22-14.50.59:841][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/ASES5JJ5RVQG3MKLADCDH533B92BA245B4B5DF0CBBA5949BBA3605.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/1/4R/ASES5JJ5RVQG3MKLADCDH5.uasset'
+[2025.04.22-14.50.59:844][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/3/2S/Y2EHRFA7X6ZMUPYQATSWLN
+[2025.04.22-14.50.59:844][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Y2EHRFA7X6ZMUPYQATSWLNAD57530A48CE1F0554939883398E6D18.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/3/2S/Y2EHRFA7X6ZMUPYQATSWLN.uasset'
+[2025.04.22-14.50.59:846][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/C/RG/Z4COT6WFEF0L2A0RVTXZM0
+[2025.04.22-14.50.59:846][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Z4COT6WFEF0L2A0RVTXZM042321BB6487F3627616B249E146CE90B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/C/RG/Z4COT6WFEF0L2A0RVTXZM0.uasset'
+[2025.04.22-14.50.59:847][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/E/VE/1IEYZHF4191UI4O5JXIKNQ
+[2025.04.22-14.50.59:847][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/1IEYZHF4191UI4O5JXIKNQ4247F0594CBF338C770CB784E802289C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/E/VE/1IEYZHF4191UI4O5JXIKNQ.uasset'
+[2025.04.22-14.50.59:851][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/GH/HMIFRFEZ1DBC7781ZEMK7N
+[2025.04.22-14.50.59:851][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/HMIFRFEZ1DBC7781ZEMK7NC74FBBDB4CCD5FFC8D3D53974FE1A201.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/8/GH/HMIFRFEZ1DBC7781ZEMK7N.uasset'
+[2025.04.22-14.50.59:854][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/C/2R/ADYOKLM1F4LL6OKCMU3D0G
+[2025.04.22-14.50.59:854][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/ADYOKLM1F4LL6OKCMU3D0G742A5CD04F566CD5DC2BB99395C1F1A7.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/C/2R/ADYOKLM1F4LL6OKCMU3D0G.uasset'
+[2025.04.22-14.50.59:857][778]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/B/IO/YVPR9JRPRHYUWTRGH3TNLZ
+[2025.04.22-14.50.59:857][778]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/YVPR9JRPRHYUWTRGH3TNLZ1F0D39AA4C7A27E65F06EB8AB1B3A482.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/B/IO/YVPR9JRPRHYUWTRGH3TNLZ.uasset'
+[2025.04.22-14.50.59:865][778]LogFileHelpers: InternalPromptForCheckoutAndSave took 296 ms (total: 24.8 sec)
+[2025.04.22-14.50.59:874][778]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05B6102_1753536008
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B05B6102_1767558009
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1971164020
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1971166021
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1998451024
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1998454025
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1998455026
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_2018525027
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_2018528028
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_2018530029
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_Spline.BP_Spline_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_Spline_C_UAID_74563C6C81B05B6102_2110642034
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_ProjectileEnemy_C_UAID_74563C6C81B05B6102_2096234033
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_ProjectileEnemy_C_UAID_74563C6C81B05B6102_2055047030
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05B6102_2067062031
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_ProjectileEnemy_C_UAID_74563C6C81B05B6102_2094083032
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05C6102_1585221237
+[2025.04.22-14.50.59:874][778]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05C6102_1559432236
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1432466214
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1432469215
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1447775216
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1447777217
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1451645218
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1451647219
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1451648220
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1451649221
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1460689222
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1460691223
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1460692224
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1460693225
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05C6102_1485073226
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05C6102_1552570235
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_EnemyPatrol.BP_EnemyPatrol_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_EnemyPatrol_C_UAID_74563C6C81B05C6102_1507770227
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_EnemyPatrol.BP_EnemyPatrol_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_EnemyPatrol_C_UAID_74563C6C81B05C6102_1511960228
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05C6102_1538086234
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B05C6102_1523434229
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05C6102_1538081230
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05C6102_1538082231
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05C6102_1538084232
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_BouncePad_C_UAID_74563C6C81B05C6102_1538084233
+[2025.04.22-14.50.59:875][778]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_PowerUpRemove.BP_PowerUpRemove_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238
+[2025.04.22-14.51.02:648][971]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.22-14.51.02:656][971]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.22-14.51.02:656][971]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.22-14.51.02:662][971]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 5 ms (total: 98 ms)
+[2025.04.22-14.51.02:662][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.22-14.51.02:662][971]PIE: New page: PIE session: Level_0 (22 kwi 2025, 16:51:02)
+[2025.04.22-14.51.02:662][971]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.22-14.51.02:680][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017029s)
+[2025.04.22-14.51.02:680][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.017068s)
+[2025.04.22-14.51.02:693][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.22-14.51.02:695][971]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-14.51.02:695][971]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-14.51.02:696][971]LogAIModule: Creating AISystem for world Level_0
+[2025.04.22-14.51.02:696][971]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.22-14.51.02:696][971]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.22-14.51.02:696][971]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.22-14.51.02:696][971]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.22-14.51.02:700][971]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.22-14.51.02:700][971]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 729 ms)
+[2025.04.22-14.51.02:700][971]LogPlayLevel: PIE: World Init took: (0.005229s)
+[2025.04.22-14.51.02:700][971]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2025.04.22-14.51.02:700][971]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.22-14.51.02:700][971]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.22-14.51.02:700][971]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.22-14.51.02:700][971]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.22-14.51.02:700][971]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.22-14.51.02:700][971]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.22-14.51.02:700][971]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.22-14.51.02:700][971]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.22-14.51.02:701][971]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.22-14.51.02:701][971]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.22-14.51.02:701][971]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.22-14.51.02:703][971]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.22-14.51.02:719][971]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.22-14.51.02:719][971]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.22-14.51.02:719][971]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.22-14.51.02:719][971]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.22-14.51.02:719][971]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2025.04.22-14.51.02:719][971]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2025.04.22-14.51.02:722][971]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2025.04.22-14.51.02:722][971]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2025.04.22-14.51.02:722][971]LogInit: FAudioDevice initialized with ID 35.
+[2025.04.22-14.51.02:722][971]LogAudio: Display: Audio Device (ID: 35) registered with world 'Level_0'.
+[2025.04.22-14.51.02:722][971]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2025.04.22-14.51.02:724][971]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.22-14.51.02:737][971]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.22-15.51.02
+[2025.04.22-14.51.02:741][971]LogWorld: Bringing up level for play took: 0.015747
+[2025.04.22-14.51.02:743][971]LogOnline: OSS: Created online subsystem instance for: :Context_74
+[2025.04.22-14.51.02:745][971]PIE: Server logged in
+[2025.04.22-14.51.02:746][971]PIE: Play in editor total start time 0,09 seconds.
+[2025.04.22-14.51.02:747][971]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.22-14.51.02:747][971]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.22-14.51.10:095][832]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.22-14.51.13:354][220]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.22-14.51.15:570][485]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can Attack
+[2025.04.22-14.51.27:612][922]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can Attack
+[2025.04.22-14.51.31:291][360]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 2.0
+[2025.04.22-14.51.31:291][360]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Hit
+[2025.04.22-14.51.35:055][806]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.22-14.51.38:325][197]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 1.0
+[2025.04.22-14.51.38:325][197]LogBlueprintUserMessages: [BP_Projectile_C_0] 1.0
+[2025.04.22-14.51.41:580][587]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238] false
+[2025.04.22-14.51.44:359][919]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.22-14.51.45:628][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.22-14.51.45:628][ 66]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.22-14.51.45:628][ 66]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-14.51.45:629][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-14.51.45:629][ 66]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.22-14.51.45:633][ 66]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.22-14.51.45:639][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-14.51.45:657][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.22-14.51.45:659][ 66]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2025.04.22-14.51.45:659][ 66]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2025.04.22-14.51.45:660][ 66]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2025.04.22-14.51.45:668][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.04.22-14.51.45:710][ 67]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2025.04.22-14.51.48:487][160]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.22-14.51.48:493][160]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.22-14.51.48:493][160]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.22-14.51.48:497][160]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 3 ms (total: 101 ms)
+[2025.04.22-14.51.48:497][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.22-14.51.48:497][160]PIE: New page: PIE session: Level_0 (22 kwi 2025, 16:51:48)
+[2025.04.22-14.51.48:497][160]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.22-14.51.48:515][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016956s)
+[2025.04.22-14.51.48:515][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.016988s)
+[2025.04.22-14.51.48:529][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.22-14.51.48:533][160]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-14.51.48:533][160]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-14.51.48:533][160]LogAIModule: Creating AISystem for world Level_0
+[2025.04.22-14.51.48:534][160]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.22-14.51.48:534][160]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.22-14.51.48:534][160]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.22-14.51.48:534][160]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.22-14.51.48:537][160]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.22-14.51.48:537][160]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 733 ms)
+[2025.04.22-14.51.48:538][160]LogPlayLevel: PIE: World Init took: (0.005300s)
+[2025.04.22-14.51.48:538][160]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2025.04.22-14.51.48:538][160]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.22-14.51.48:538][160]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.22-14.51.48:538][160]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.22-14.51.48:538][160]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.22-14.51.48:538][160]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.22-14.51.48:538][160]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.22-14.51.48:538][160]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.22-14.51.48:538][160]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.22-14.51.48:538][160]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.22-14.51.48:538][160]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.22-14.51.48:538][160]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.22-14.51.48:540][160]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.22-14.51.48:555][160]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.22-14.51.48:555][160]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.22-14.51.48:555][160]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.22-14.51.48:555][160]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.22-14.51.48:556][160]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2025.04.22-14.51.48:556][160]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2025.04.22-14.51.48:558][160]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2025.04.22-14.51.48:558][160]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2025.04.22-14.51.48:558][160]LogInit: FAudioDevice initialized with ID 36.
+[2025.04.22-14.51.48:558][160]LogAudio: Display: Audio Device (ID: 36) registered with world 'Level_0'.
+[2025.04.22-14.51.48:558][160]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2025.04.22-14.51.48:560][160]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.22-14.51.48:573][160]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.22-15.51.48
+[2025.04.22-14.51.48:576][160]LogWorld: Bringing up level for play took: 0.015715
+[2025.04.22-14.51.48:579][160]LogOnline: OSS: Created online subsystem instance for: :Context_75
+[2025.04.22-14.51.48:581][160]PIE: Server logged in
+[2025.04.22-14.51.48:582][160]PIE: Play in editor total start time 0,088 seconds.
+[2025.04.22-14.51.48:585][160]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.22-14.51.48:585][160]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.22-14.51.53:479][720]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.22-14.51.56:265][ 50]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.22-14.51.57:761][229]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can Attack
+[2025.04.22-14.52.09:066][581]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can Attack
+[2025.04.22-14.52.11:701][895]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 2.0
+[2025.04.22-14.52.11:701][895]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Hit
+[2025.04.22-14.52.18:413][697]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.22-14.52.24:287][397]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238] false
+[2025.04.22-14.52.25:205][506]LogBlueprintUserMessages: [BP_Projectile_C_3] Failed
+[2025.04.22-14.52.25:802][577]LogBlueprintUserMessages: [BP_Projectile_C_4] Failed
+[2025.04.22-14.52.25:894][588]LogBlueprintUserMessages: [BP_Projectile_C_4] Failed
+[2025.04.22-14.52.27:840][820]LogBlueprintUserMessages: [BP_Projectile_C_5] Failed
+[2025.04.22-14.52.28:150][857]LogBlueprintUserMessages: [BP_Projectile_C_6] Failed
+[2025.04.22-14.52.28:251][869]LogBlueprintUserMessages: [BP_Projectile_C_6] Failed
+[2025.04.22-14.52.28:981][956]LogBlueprintUserMessages: [BP_Projectile_C_7] Failed
+[2025.04.22-14.52.31:333][235]LogBlueprintUserMessages: [BP_Projectile_C_8] Failed
+[2025.04.22-14.52.34:121][569]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1686990619] BOING
+[2025.04.22-14.52.34:121][569]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1686990619] BOING
+[2025.04.22-14.52.35:740][763]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1686990619] BOING
+[2025.04.22-14.52.37:378][955]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1686990619] BOING
+[2025.04.22-14.52.39:005][150]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1686990619] BOING
+[2025.04.22-14.52.40:637][345]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B03B5D02_1180271087] BOING
+[2025.04.22-14.52.42:272][540]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B03B5D02_1180271087] BOING
+[2025.04.22-14.52.43:906][736]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1686990619] BOING
+[2025.04.22-14.52.45:534][931]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1689787624] BOING
+[2025.04.22-14.52.47:168][124]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1689787624] BOING
+[2025.04.22-14.52.48:812][321]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1689787624] BOING
+[2025.04.22-14.52.50:438][516]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1689787624] BOING
+[2025.04.22-14.53.01:684][856]LogBlueprintUserMessages: [BP_Spline_C_UAID_74563C6C81B0415D02_1429793148] Owie
+[2025.04.22-14.53.01:684][856]LogScript: Warning: Attempted to access Spline via property Spline, but Spline is not valid (pending kill or garbage)
+	BP_Spline_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_Spline_C_UAID_74563C6C81B0415D02_1429793148
+	Function /Game/ThirdPerson/Blueprints/Enemy/BP_Spline.BP_Spline_C:ExecuteUbergraph_BP_Spline:0383
+[2025.04.22-14.53.01:687][856]PIE: Error: Blueprint Runtime Error: "Attempted to access Spline via property Spline, but Spline is not valid (pending kill or garbage)". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP Spline Blueprint:  BP_Spline
+[2025.04.22-14.53.02:710][979]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B05C6102_1538084233] BOING
+[2025.04.22-14.53.04:344][175]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B05C6102_1538084233] BOING
+[2025.04.22-14.53.13:708][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.22-14.53.13:708][291]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.22-14.53.13:709][291]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-14.53.13:709][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-14.53.13:709][291]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.22-14.53.13:713][291]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.22-14.53.13:719][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-14.53.13:736][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.22-14.53.13:737][291]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2025.04.22-14.53.13:737][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2025.04.22-14.53.13:738][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2025.04.22-14.53.13:745][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.04.22-14.53.13:834][292]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2025.04.22-14.53.51:532][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.04.22-14.53.51:537][433]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/Level_0' took 0.027
+[2025.04.22-14.53.51:540][433]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/LevelProps/none] ([4] browsable assets)...
+[2025.04.22-14.53.51:540][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/LevelProps/none]
+[2025.04.22-14.53.51:544][433]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/LevelProps/none_Auto6
+[2025.04.22-14.53.51:544][433]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/none_Auto6911F08D6424FC5EA3D54F2A6E3EB331D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/Models/LevelProps/none_Auto6.uasset'
+[2025.04.22-14.53.51:545][433]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/LevelProps/LogPlatforms/none] ([4] browsable assets)...
+[2025.04.22-14.53.51:545][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/LevelProps/LogPlatforms/none]
+[2025.04.22-14.53.51:547][433]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/LevelProps/LogPlatforms/none_Auto6
+[2025.04.22-14.53.51:547][433]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/none_Auto6F9EA462F44AD9B4E26477682DD774C3C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/Models/LevelProps/LogPlatforms/none_Auto6.uasset'
+[2025.04.22-14.53.51:549][433]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/LevelProps/LogPlatforms/log_walkway_tall] ([1] browsable assets)...
+[2025.04.22-14.53.51:549][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/LevelProps/LogPlatforms/log_walkway_tall]
+[2025.04.22-14.53.51:553][433]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/LevelProps/LogPlatforms/log_walkway_tall_Auto6
+[2025.04.22-14.53.51:553][433]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/log_walkway_tall_Auto65B8E24B647ACC3BA6FDFABA94DEF588F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/Models/LevelProps/LogPlatforms/log_walkway_tall_Auto6.uasset'
+[2025.04.22-14.53.51:555][433]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/LevelProps/fence] ([1] browsable assets)...
+[2025.04.22-14.53.51:555][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/LevelProps/fence]
+[2025.04.22-14.53.51:558][433]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/LevelProps/fence_Auto6
+[2025.04.22-14.53.51:558][433]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/fence_Auto6AB5D28214DF7DB897A9819BD0E2521B8.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/Models/LevelProps/fence_Auto6.uasset'
+[2025.04.22-14.53.51:559][433]LogFileHelpers: Auto-saving content packages took 0.021
+[2025.04.22-14.55.14:316][549]Cmd: TRANSACTION UNDO
+[2025.04.22-14.55.14:317][549]LogEditorTransaction: Undo Move Elements
+[2025.04.22-14.55.15:089][549]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.22-14.55.17:710][730]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-14.55.17:839][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.04.22-14.55.17:881][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.04.22-14.55.17:898][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.04.22-14.55.17:902][730]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/D/IJ/HEY4NP6QZD0H9N158H1GN1
+[2025.04.22-14.55.17:903][730]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/HEY4NP6QZD0H9N158H1GN1D3A77A66448E8007165A939EB286DA1B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/D/IJ/HEY4NP6QZD0H9N158H1GN1.uasset'
+[2025.04.22-14.55.17:906][730]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/5/TQ/CVZ0Z0T9QZVDSDU32UEQOU
+[2025.04.22-14.55.17:907][730]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/CVZ0Z0T9QZVDSDU32UEQOU195ECBEF4D22A9113C2C7AB2392D40CA.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/5/TQ/CVZ0Z0T9QZVDSDU32UEQOU.uasset'
+[2025.04.22-14.55.17:910][730]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/2/SX/QM6V3XR8V8V84G8O2MY9O4
+[2025.04.22-14.55.17:910][730]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/QM6V3XR8V8V84G8O2MY9O4789F12CE4A31475C15D10E88F5EF2439.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/2/SX/QM6V3XR8V8V84G8O2MY9O4.uasset'
+[2025.04.22-14.55.17:914][730]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/6/VS/2JN2XPGGVAWO6AYNS1VWJS
+[2025.04.22-14.55.17:914][730]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/2JN2XPGGVAWO6AYNS1VWJSED9C573242FDF9D08371D58515E55F21.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/6/VS/2JN2XPGGVAWO6AYNS1VWJS.uasset'
+[2025.04.22-14.55.17:920][730]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/6/ZH/8I4EJU2HIWUX37CF73D4SW
+[2025.04.22-14.55.17:921][730]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/8I4EJU2HIWUX37CF73D4SWF308520743BEE854D47FC1B7528D327D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/6/ZH/8I4EJU2HIWUX37CF73D4SW.uasset'
+[2025.04.22-14.55.17:924][730]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/B/RD/PUDV6CF9OO7JS97O08Z2E5
+[2025.04.22-14.55.17:925][730]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/PUDV6CF9OO7JS97O08Z2E5F0A0604547678AB7417511B3C21B3357.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/B/RD/PUDV6CF9OO7JS97O08Z2E5.uasset'
+[2025.04.22-14.55.17:928][730]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/3/O3/TG2IGD11VI2VFAMN1WGX3W
+[2025.04.22-14.55.17:929][730]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/TG2IGD11VI2VFAMN1WGX3WFCCE5CD64825C596E997CA85B112C26C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/3/O3/TG2IGD11VI2VFAMN1WGX3W.uasset'
+[2025.04.22-14.55.17:932][730]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/F/1Y/D628Q1H77ECPYLLP9LEW9P
+[2025.04.22-14.55.17:932][730]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/D628Q1H77ECPYLLP9LEW9PFAA8348B4FCB1AB4740ADBAE035315A7.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/F/1Y/D628Q1H77ECPYLLP9LEW9P.uasset'
+[2025.04.22-14.55.17:936][730]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/4/K8/ZYND2AT2ELN8ZL2YXAJM2W
+[2025.04.22-14.55.17:936][730]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/ZYND2AT2ELN8ZL2YXAJM2W203684854261B78718BEE8B7DF1B2600.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/4/K8/ZYND2AT2ELN8ZL2YXAJM2W.uasset'
+[2025.04.22-14.55.17:938][730]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/D/EV/0JMXT2WNF95GNFPY6OFAEG
+[2025.04.22-14.55.17:939][730]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/0JMXT2WNF95GNFPY6OFAEG8FB3EC7C458BF6BD65A9C7AF83D5F061.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/D/EV/0JMXT2WNF95GNFPY6OFAEG.uasset'
+[2025.04.22-14.55.17:941][730]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/9/ZA/DO2ZZDSNJRASJ1GX7PZ1HM
+[2025.04.22-14.55.17:942][730]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/DO2ZZDSNJRASJ1GX7PZ1HM95AFEF304BB3FE90781C3D9F16651383.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/9/ZA/DO2ZZDSNJRASJ1GX7PZ1HM.uasset'
+[2025.04.22-14.55.17:944][730]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/5/NN/YG2GV5F10CRFCNZT19ED90
+[2025.04.22-14.55.17:945][730]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/YG2GV5F10CRFCNZT19ED90D2B105F34CEB6077A452AF97FAE7D108.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/5/NN/YG2GV5F10CRFCNZT19ED90.uasset'
+[2025.04.22-14.55.17:949][730]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/4/GU/NRJV1MB6J3HN4ONDUYGMAQ
+[2025.04.22-14.55.17:949][730]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NRJV1MB6J3HN4ONDUYGMAQ3EE6895F4869F6467D6E31B643752E39.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/4/GU/NRJV1MB6J3HN4ONDUYGMAQ.uasset'
+[2025.04.22-14.55.17:967][730]LogFileHelpers: InternalPromptForCheckoutAndSave took 257 ms (total: 25.1 sec)
+[2025.04.22-14.55.17:973][730]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.22-14.55.17:973][730]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423
+[2025.04.22-14.55.17:973][730]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1432466214
+[2025.04.22-14.55.17:973][730]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1432469215
+[2025.04.22-14.55.17:974][730]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1447775216
+[2025.04.22-14.55.17:974][730]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1447777217
+[2025.04.22-14.55.17:974][730]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1451645218
+[2025.04.22-14.55.17:974][730]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1451647219
+[2025.04.22-14.55.17:974][730]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1451648220
+[2025.04.22-14.55.17:974][730]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1451649221
+[2025.04.22-14.55.17:974][730]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1460689222
+[2025.04.22-14.55.17:974][730]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1460691223
+[2025.04.22-14.55.17:974][730]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1460692224
+[2025.04.22-14.55.17:974][730]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05C6102_1460693225
+[2025.04.22-14.55.22:775][184]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-14.55.22:775][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-14.55.24:197][324]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-14.55.24:197][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-14.55.25:710][484]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-14.55.25:710][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-14.55.27:368][666]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-14.55.27:368][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-14.55.28:583][796]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-14.55.28:583][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-14.55.33:644][283]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy
+[2025.04.22-14.55.33:645][283]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-14.55.33:645][283]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-14.56.10:930][389]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-14.56.11:026][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.04.22-14.56.11:074][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.04.22-14.56.11:090][389]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.04.22-14.56.11:106][389]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 25.2 sec)
