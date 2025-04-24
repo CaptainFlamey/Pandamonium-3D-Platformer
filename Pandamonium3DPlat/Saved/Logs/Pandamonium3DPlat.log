@@ -3711,3 +3711,597 @@ UnknownFunction []
 [2025.04.24-12.38.00:754][636]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Models/Characters/RedPandaCharacter/redPanda.redPanda
 [2025.04.24-12.38.00:754][636]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Characters/Materials/RedPanda_Texture.RedPanda_Texture
 [2025.04.24-12.38.00:754][636]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Characters/Materials/TEX_redPanda.TEX_redPanda
+[2025.04.24-12.38.42:011][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.24-12.38.48:762][523]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.04.24-12.38.48:764][523]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/Level_0' took 0.019
+[2025.04.24-12.38.48:765][523]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable] ([2] browsable assets)...
+[2025.04.24-12.38.48:765][523]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-12.38.48:853][523]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable]
+[2025.04.24-12.38.48:853][523]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable]
+[2025.04.24-12.38.48:871][523]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable_Auto3
+[2025.04.24-12.38.48:871][523]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_NewCollectable_Auto3B856648944EAC22BE66574BF41077B56.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable_Auto3.uasset'
+[2025.04.24-12.38.48:873][523]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Models/LevelProps/none] ([1] browsable assets)...
+[2025.04.24-12.38.48:873][523]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/LevelProps/none]
+[2025.04.24-12.38.48:876][523]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/LevelProps/none_Auto3
+[2025.04.24-12.38.48:877][523]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/none_Auto3DFE1B32C4DA7CFB5AFD200B9F2255B6E.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/Models/LevelProps/none_Auto3.uasset'
+[2025.04.24-12.38.48:880][523]LogFileHelpers: Auto-saving content packages took 0.115
+[2025.04.24-12.39.43:351][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.04.24-12.40.44:462][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.04.24-12.41.45:569][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.04.24-12.42.21:532][384]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.24-12.42.21:540][384]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.24-12.42.21:540][384]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.24-12.42.21:545][384]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 4 ms (total: 54 ms)
+[2025.04.24-12.42.21:545][384]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.04.24-12.42.21:549][384]LogPlayLevel: [PlayLevel] Compiling RedPandaAnimBlueprint before play...
+[2025.04.24-12.42.21:556][384]LogPlayLevel: [PlayLevel]   Compiling BP_ThirdPersonCharacter as a dependent...
+[2025.04.24-12.42.21:703][384]LogPlayLevel: [PlayLevel] Compiling BP_NewCollectable before play...
+[2025.04.24-12.42.21:894][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.04.24-12.42.21:896][384]LogPlayLevel: PlayLevel: Blueprint regeneration took 350 ms (3 blueprints)
+[2025.04.24-12.42.21:896][384]PIE: New page: PIE session: Level_0 (24 kwi 2025, 14:42:21)
+[2025.04.24-12.42.21:896][384]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.24-12.42.21:915][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018657s)
+[2025.04.24-12.42.21:915][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.018689s)
+[2025.04.24-12.42.21:927][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.04.24-12.42.21:929][384]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-12.42.21:929][384]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-12.42.21:929][384]LogAIModule: Creating AISystem for world Level_0
+[2025.04.24-12.42.21:930][384]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.24-12.42.21:930][384]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.24-12.42.21:930][384]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.24-12.42.21:930][384]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.24-12.42.21:935][384]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.24-12.42.21:935][384]LogWorldPartition: Display: WorldPartition initialize took 5 ms (total: 2.49 sec)
+[2025.04.24-12.42.21:935][384]LogPlayLevel: PIE: World Init took: (0.006449s)
+[2025.04.24-12.42.21:935][384]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.04.24-12.42.21:935][384]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.24-12.42.21:935][384]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.24-12.42.21:935][384]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.24-12.42.21:935][384]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.24-12.42.21:935][384]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.24-12.42.21:935][384]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.24-12.42.21:935][384]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.24-12.42.21:935][384]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.24-12.42.21:936][384]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.24-12.42.21:936][384]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.24-12.42.21:936][384]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.24-12.42.21:937][384]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.24-12.42.21:954][384]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.24-12.42.21:954][384]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.24-12.42.21:954][384]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.24-12.42.21:954][384]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.24-12.42.21:956][384]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.04.24-12.42.21:956][384]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.04.24-12.42.21:957][384]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.04.24-12.42.21:957][384]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.04.24-12.42.21:957][384]LogInit: FAudioDevice initialized with ID 13.
+[2025.04.24-12.42.21:957][384]LogAudio: Display: Audio Device (ID: 13) registered with world 'Level_0'.
+[2025.04.24-12.42.21:957][384]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.04.24-12.42.21:962][384]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.24-12.42.21:977][384]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.24-13.42.21
+[2025.04.24-12.42.21:980][384]LogWorld: Bringing up level for play took: 0.017773
+[2025.04.24-12.42.21:982][384]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2025.04.24-12.42.21:985][384]PIE: Server logged in
+[2025.04.24-12.42.21:986][384]PIE: Play in editor total start time 0,445 seconds.
+[2025.04.24-12.42.21:988][384]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.24-12.42.21:988][384]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.24-12.42.27:945][ 69]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.24-12.42.30:742][404]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.24-12.42.39:956][505]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can Attack
+[2025.04.24-12.42.41:018][630]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can Attack
+[2025.04.24-12.42.50:905][805]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.24-12.42.56:733][500]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-12.42.56:733][500]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.24-12.42.56:733][500]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-12.42.56:734][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-12.42.56:734][500]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.24-12.42.56:737][500]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.24-12.42.56:741][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-12.42.56:755][500]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-12.42.56:756][500]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.04.24-12.42.56:756][500]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.04.24-12.42.56:758][500]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.04.24-12.42.56:767][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.04.24-12.42.56:817][501]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2025.04.24-12.43.47:997][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.04.24-12.44.03:067][553]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter'!
+[2025.04.24-12.44.03:067][553]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Engine/Transient.World_8:PersistentLevel.BP_ThirdPersonCharacter_C_0
+[2025.04.24-12.44.03:789][600]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.04.24-12.44.03:789][600]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-12.44.03:790][600]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-12.44.04:288][602]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-12.44.49:157][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.04.24-12.45.06:618][580]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-12.45.06:719][580]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.04.24-12.45.06:720][580]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ThirdPersonCharacter7D5B536740C6A319CBCA5AB8AC857B83.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.04.24-12.45.06:731][580]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 2.90 sec)
+[2025.04.24-12.45.06:735][580]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.04.24-12.45.06:735][580]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.04.24-12.45.06:993][597]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2025.04.24-12.45.07:100][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.04.24-12.45.07:158][597]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter'!
+[2025.04.24-12.45.07:158][597]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Engine/Transient.World_8:PersistentLevel.BP_ThirdPersonCharacter_C_1
+[2025.04.24-12.45.08:226][671]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.24-12.45.08:234][671]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.24-12.45.08:234][671]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.24-12.45.08:239][671]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 4 ms (total: 58 ms)
+[2025.04.24-12.45.08:239][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.24-12.45.08:239][671]PIE: New page: PIE session: Level_0 (24 kwi 2025, 14:45:08)
+[2025.04.24-12.45.08:262][671]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.24-12.45.08:281][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019084s)
+[2025.04.24-12.45.08:281][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.019132s)
+[2025.04.24-12.45.08:297][671]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.04.24-12.45.08:299][671]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-12.45.08:299][671]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-12.45.08:300][671]LogAIModule: Creating AISystem for world Level_0
+[2025.04.24-12.45.08:300][671]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.24-12.45.08:300][671]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.24-12.45.08:300][671]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.24-12.45.08:300][671]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.24-12.45.08:305][671]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.24-12.45.08:305][671]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 2.49 sec)
+[2025.04.24-12.45.08:305][671]LogPlayLevel: PIE: World Init took: (0.005857s)
+[2025.04.24-12.45.08:305][671]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.04.24-12.45.08:305][671]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.24-12.45.08:305][671]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.24-12.45.08:305][671]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.24-12.45.08:305][671]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.24-12.45.08:305][671]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.24-12.45.08:305][671]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.24-12.45.08:305][671]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.24-12.45.08:305][671]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.24-12.45.08:305][671]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.24-12.45.08:305][671]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.24-12.45.08:305][671]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.24-12.45.08:307][671]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.24-12.45.08:323][671]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.24-12.45.08:323][671]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.24-12.45.08:323][671]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.24-12.45.08:323][671]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.24-12.45.08:323][671]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.04.24-12.45.08:323][671]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.04.24-12.45.08:325][671]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.04.24-12.45.08:325][671]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.04.24-12.45.08:325][671]LogInit: FAudioDevice initialized with ID 14.
+[2025.04.24-12.45.08:325][671]LogAudio: Display: Audio Device (ID: 14) registered with world 'Level_0'.
+[2025.04.24-12.45.08:325][671]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.04.24-12.45.08:328][671]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.24-12.45.08:342][671]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.24-13.45.08
+[2025.04.24-12.45.08:345][671]LogWorld: Bringing up level for play took: 0.016520
+[2025.04.24-12.45.08:347][671]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2025.04.24-12.45.08:350][671]PIE: Server logged in
+[2025.04.24-12.45.08:351][671]PIE: Play in editor total start time 0,117 seconds.
+[2025.04.24-12.45.08:353][671]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.24-12.45.08:353][671]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.24-12.45.12:975][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.12:975][216]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.45.12:975][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.12:983][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.12:983][217]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.45.12:983][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.12:991][218]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.12:991][218]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.45.12:991][218]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:000][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:000][219]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.45.13:000][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:010][220]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:010][220]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:018][221]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:018][221]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:026][222]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:026][222]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:034][223]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:035][223]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:042][224]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:050][225]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:059][226]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:068][227]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:076][228]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:084][229]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:093][230]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:100][231]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:108][232]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:118][233]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:126][234]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:134][235]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.13:142][236]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.16:753][667]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.16:754][667]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.16:761][668]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.16:763][668]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.16:770][669]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.16:778][670]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.16:787][671]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.45.18:929][926]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B05C6102_1538084233] BOING
+[2025.04.24-12.45.20:048][ 60]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 2.0
+[2025.04.24-12.45.20:048][ 60]LogBlueprintUserMessages: [BP_EnemyPatrol_C_UAID_74563C6C81B05C6102_1511960228] Hello
+[2025.04.24-12.45.20:083][ 64]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 1.0
+[2025.04.24-12.45.20:083][ 64]LogBlueprintUserMessages: [BP_EnemyPatrol_C_UAID_74563C6C81B05C6102_1511960228] Hello
+[2025.04.24-12.45.20:083][ 64]LogBlueprintUserMessages: [BP_EnemyPatrol_C_UAID_74563C6C81B05C6102_1511960228] Hello
+[2025.04.24-12.45.38:837][304]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_1] true
+[2025.04.24-12.45.42:248][713]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.24-12.45.44:514][983]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can Attack
+[2025.04.24-12.45.45:133][ 56]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can Attack
+[2025.04.24-12.45.56:536][416]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_1] true
+[2025.04.24-12.45.58:996][710]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238] false
+[2025.04.24-12.45.59:593][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-12.45.59:593][778]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.24-12.45.59:593][778]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-12.45.59:594][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-12.45.59:595][778]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.24-12.45.59:598][778]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.24-12.45.59:601][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-12.45.59:615][778]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.24-12.45.59:616][778]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.04.24-12.45.59:616][778]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.04.24-12.45.59:617][778]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.04.24-12.45.59:621][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-12.45.59:626][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.04.24-12.45.59:760][779]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2025.04.24-12.46.06:223][393]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-12.46.06:306][393]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable
+[2025.04.24-12.46.06:307][393]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_NewCollectableCB17C0014098DD17B201CDA6446B20EB.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.uasset'
+[2025.04.24-12.46.06:319][393]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 2.99 sec)
+[2025.04.24-12.46.06:320][393]AssetCheck: New page: Asset Save: BP_NewCollectable
+[2025.04.24-12.46.06:320][393]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable
+[2025.04.24-12.46.08:710][551]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-12.46.08:824][551]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.04.24-12.46.08:824][551]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ThirdPersonCharacterA1D0657040A4F578B834F5A9191E27CF.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.04.24-12.46.08:838][551]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 3.12 sec)
+[2025.04.24-12.46.08:840][551]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.04.24-12.46.08:840][551]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.04.24-12.46.09:679][597]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2025.04.24-12.46.09:785][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.04.24-12.46.09:843][597]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter'!
+[2025.04.24-12.46.09:843][597]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Engine/Transient.World_8:PersistentLevel.BP_ThirdPersonCharacter_C_2
+[2025.04.24-12.46.51:373][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.04.24-12.47.52:466][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.04.24-12.48.53:570][101]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.04.24-12.49.54:669][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.04.24-12.50.21:883][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.04.24-12.50.21:885][921]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/Level_0' took 0.018
+[2025.04.24-12.50.21:886][921]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.04.24-12.50.21:946][921]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.04.24-12.50.21:947][921]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.04.24-12.50.21:973][921]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto4
+[2025.04.24-12.50.21:973][921]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ThirdPersonCharacter_Auto45F7F3B3D43E62EF10E4E75A113ED3FE0.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto4.uasset'
+[2025.04.24-12.50.21:974][921]LogFileHelpers: Auto-saving content packages took 0.088
+[2025.04.24-12.50.55:803][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.04.24-12.51.57:123][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.04.24-12.52.58:466][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.04.24-12.53.17:369][182]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-12.53.17:450][182]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.04.24-12.53.17:451][182]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ThirdPersonCharacterEA14726C486068FDD7E94F9A6D09E086.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.04.24-12.53.17:464][182]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 3.21 sec)
+[2025.04.24-12.53.17:467][182]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.04.24-12.53.17:467][182]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.04.24-12.53.18:052][230]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2025.04.24-12.53.18:165][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.04.24-12.53.18:227][230]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter'!
+[2025.04.24-12.53.18:227][230]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Engine/Transient.World_8:PersistentLevel.BP_ThirdPersonCharacter_C_3
+[2025.04.24-12.53.19:369][320]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.24-12.53.19:377][320]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.24-12.53.19:377][320]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.24-12.53.19:382][320]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 5 ms (total: 64 ms)
+[2025.04.24-12.53.19:382][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.24-12.53.19:382][320]PIE: New page: PIE session: Level_0 (24 kwi 2025, 14:53:19)
+[2025.04.24-12.53.19:382][320]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.24-12.53.19:401][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018410s)
+[2025.04.24-12.53.19:401][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.018442s)
+[2025.04.24-12.53.19:417][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.24-12.53.19:430][320]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-12.53.19:431][320]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-12.53.19:431][320]LogAIModule: Creating AISystem for world Level_0
+[2025.04.24-12.53.19:431][320]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.24-12.53.19:431][320]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.24-12.53.19:431][320]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.24-12.53.19:431][320]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.24-12.53.19:437][320]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.24-12.53.19:437][320]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 2.50 sec)
+[2025.04.24-12.53.19:437][320]LogPlayLevel: PIE: World Init took: (0.005966s)
+[2025.04.24-12.53.19:437][320]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.04.24-12.53.19:437][320]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.24-12.53.19:437][320]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.24-12.53.19:437][320]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.24-12.53.19:437][320]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.24-12.53.19:437][320]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.24-12.53.19:437][320]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.24-12.53.19:437][320]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.24-12.53.19:437][320]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.24-12.53.19:437][320]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.24-12.53.19:437][320]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.24-12.53.19:437][320]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.24-12.53.19:440][320]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.24-12.53.19:457][320]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.24-12.53.19:457][320]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.24-12.53.19:457][320]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.24-12.53.19:457][320]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.24-12.53.19:458][320]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.04.24-12.53.19:458][320]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.04.24-12.53.19:460][320]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.04.24-12.53.19:460][320]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.04.24-12.53.19:460][320]LogInit: FAudioDevice initialized with ID 15.
+[2025.04.24-12.53.19:460][320]LogAudio: Display: Audio Device (ID: 15) registered with world 'Level_0'.
+[2025.04.24-12.53.19:460][320]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.04.24-12.53.19:463][320]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.24-12.53.19:477][320]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.24-13.53.19
+[2025.04.24-12.53.19:479][320]LogWorld: Bringing up level for play took: 0.016459
+[2025.04.24-12.53.19:481][320]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2025.04.24-12.53.19:484][320]PIE: Server logged in
+[2025.04.24-12.53.19:485][320]PIE: Play in editor total start time 0,108 seconds.
+[2025.04.24-12.53.19:487][320]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.24-12.53.19:487][320]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.24-12.53.30:552][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-12.53.30:552][626]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.24-12.53.30:553][626]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-12.53.30:555][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-12.53.30:555][626]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.24-12.53.30:558][626]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.24-12.53.30:565][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-12.53.30:582][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-12.53.30:582][626]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.04.24-12.53.30:582][626]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.04.24-12.53.30:584][626]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.04.24-12.53.30:596][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.04.24-12.53.30:673][627]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2025.04.24-12.53.39:330][375]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-12.53.39:432][375]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.04.24-12.53.39:433][375]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ThirdPersonCharacterB6D5C6CE4383838C45BB0C9FF196116B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.04.24-12.53.39:452][375]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 3.34 sec)
+[2025.04.24-12.53.39:452][375]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.04.24-12.53.39:452][375]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.04.24-12.53.40:353][446]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2025.04.24-12.53.40:462][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.04.24-12.53.40:527][446]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter'!
+[2025.04.24-12.53.40:527][446]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Engine/Transient.World_8:PersistentLevel.BP_ThirdPersonCharacter_C_4
+[2025.04.24-12.53.41:680][518]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.24-12.53.41:687][518]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.24-12.53.41:687][518]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.24-12.53.41:693][518]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 5 ms (total: 69 ms)
+[2025.04.24-12.53.41:693][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.24-12.53.41:693][518]PIE: New page: PIE session: Level_0 (24 kwi 2025, 14:53:41)
+[2025.04.24-12.53.41:731][518]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.24-12.53.41:751][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019347s)
+[2025.04.24-12.53.41:751][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.019395s)
+[2025.04.24-12.53.41:767][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.04.24-12.53.41:777][518]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-12.53.41:777][518]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-12.53.41:778][518]LogAIModule: Creating AISystem for world Level_0
+[2025.04.24-12.53.41:778][518]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.24-12.53.41:778][518]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.24-12.53.41:778][518]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.24-12.53.41:778][518]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.24-12.53.41:783][518]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.24-12.53.41:783][518]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 2.50 sec)
+[2025.04.24-12.53.41:783][518]LogPlayLevel: PIE: World Init took: (0.005873s)
+[2025.04.24-12.53.41:783][518]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.04.24-12.53.41:783][518]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.24-12.53.41:783][518]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.24-12.53.41:783][518]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.24-12.53.41:783][518]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.24-12.53.41:783][518]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.24-12.53.41:783][518]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.24-12.53.41:783][518]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.24-12.53.41:783][518]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.24-12.53.41:783][518]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.24-12.53.41:783][518]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.24-12.53.41:783][518]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.24-12.53.41:785][518]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.24-12.53.41:800][518]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.24-12.53.41:801][518]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.24-12.53.41:801][518]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.24-12.53.41:801][518]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.24-12.53.41:801][518]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.04.24-12.53.41:801][518]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.04.24-12.53.41:803][518]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.04.24-12.53.41:804][518]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.04.24-12.53.41:804][518]LogInit: FAudioDevice initialized with ID 16.
+[2025.04.24-12.53.41:804][518]LogAudio: Display: Audio Device (ID: 16) registered with world 'Level_0'.
+[2025.04.24-12.53.41:804][518]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.04.24-12.53.41:806][518]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.24-12.53.41:820][518]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.24-13.53.41
+[2025.04.24-12.53.41:824][518]LogWorld: Bringing up level for play took: 0.016807
+[2025.04.24-12.53.41:826][518]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2025.04.24-12.53.41:829][518]PIE: Server logged in
+[2025.04.24-12.53.41:829][518]PIE: Play in editor total start time 0,143 seconds.
+[2025.04.24-12.53.41:831][518]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.24-12.53.41:831][518]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.24-12.53.47:918][236]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.47:925][237]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.47:934][238]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.47:943][239]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.47:950][240]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.47:960][241]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.47:968][242]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.47:976][243]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.47:985][244]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.47:993][245]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:001][246]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:010][247]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:018][248]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:026][249]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:034][250]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:043][251]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:051][252]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:060][253]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:068][254]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:076][255]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:084][256]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:093][257]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:101][258]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:110][259]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:118][260]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:127][261]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:135][262]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:144][263]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:151][264]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:160][265]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:169][266]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:177][267]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:185][268]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:194][269]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:202][270]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:210][271]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:218][272]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:227][273]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:235][274]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:244][275]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:251][276]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:260][277]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:268][278]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:277][279]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:285][280]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:294][281]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:301][282]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.48:310][283]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:453][420]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:453][420]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:463][421]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:463][421]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:470][422]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:470][422]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:479][423]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:479][423]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:486][424]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:486][424]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:496][425]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:496][425]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:503][426]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:504][426]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:512][427]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:512][427]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:520][428]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:520][428]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:529][429]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:529][429]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:538][430]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:538][430]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:545][431]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:545][431]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:553][432]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:553][432]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:563][433]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:564][433]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:570][434]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:570][434]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:579][435]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1432906061
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.24-12.53.49:579][435]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:587][436]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:596][437]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:603][438]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:612][439]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:619][440]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:629][441]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:637][442]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:646][443]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:654][444]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:663][445]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:670][446]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:678][447]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:687][448]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:696][449]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:703][450]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:712][451]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:719][452]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:729][453]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:736][454]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:745][455]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.49:753][456]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:170][506]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:170][506]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:179][507]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:179][507]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:187][508]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:188][508]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:196][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:197][509]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:204][510]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:204][510]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:213][511]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:213][511]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:220][512]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:229][513]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:238][514]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:246][515]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:254][516]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:262][517]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:270][518]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:279][519]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:286][520]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:296][521]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:304][522]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:311][523]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:319][524]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:329][525]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:337][526]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:345][527]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:354][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:362][529]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:371][530]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:379][531]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:387][532]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:397][533]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:404][534]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:412][535]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:420][536]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.50:429][537]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.24-12.53.56:540][267]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.24-12.53.58:941][555]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.24-12.54.00:405][729]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can Attack
+[2025.04.24-12.54.03:202][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-12.54.03:202][ 59]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.24-12.54.03:203][ 59]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-12.54.03:204][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-12.54.03:204][ 59]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.24-12.54.03:207][ 59]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.24-12.54.03:211][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-12.54.03:227][ 59]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.24-12.54.03:227][ 59]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.04.24-12.54.03:227][ 59]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.04.24-12.54.03:229][ 59]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.04.24-12.54.03:232][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-12.54.03:237][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.04.24-12.54.03:376][ 60]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2025.04.24-12.55.00:802][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.04.24-12.56.02:141][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
