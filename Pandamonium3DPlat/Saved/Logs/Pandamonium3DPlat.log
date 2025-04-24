@@ -2165,3 +2165,85 @@ LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, or LPT9.
 [2025.04.24-13.52.22:166][570]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
 [2025.04.24-13.52.22:175][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
 [2025.04.24-13.52.22:224][571]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.04.24-13.54.01:717][598]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.24-13.54.01:725][598]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.24-13.54.01:725][598]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.24-13.54.01:730][598]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 4 ms (total: 41 ms)
+[2025.04.24-13.54.01:730][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.24-13.54.01:730][598]PIE: New page: PIE session: Level_0 (24 kwi 2025, 15:54:01)
+[2025.04.24-13.54.01:730][598]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.24-13.54.01:751][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020959s)
+[2025.04.24-13.54.01:751][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.020994s)
+[2025.04.24-13.54.01:765][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.04.24-13.54.01:768][598]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-13.54.01:768][598]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-13.54.01:768][598]LogAIModule: Creating AISystem for world Level_0
+[2025.04.24-13.54.01:769][598]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.24-13.54.01:769][598]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.24-13.54.01:769][598]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.24-13.54.01:769][598]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.24-13.54.01:774][598]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.24-13.54.01:775][598]LogWorldPartition: Display: WorldPartition initialize took 5 ms (total: 888 ms)
+[2025.04.24-13.54.01:775][598]LogPlayLevel: PIE: World Init took: (0.007016s)
+[2025.04.24-13.54.01:775][598]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.04.24-13.54.01:775][598]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.24-13.54.01:775][598]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.24-13.54.01:775][598]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.24-13.54.01:775][598]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.24-13.54.01:775][598]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.24-13.54.01:775][598]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.24-13.54.01:775][598]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.24-13.54.01:775][598]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.24-13.54.01:775][598]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.24-13.54.01:775][598]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.24-13.54.01:775][598]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.24-13.54.01:777][598]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.24-13.54.01:793][598]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.24-13.54.01:794][598]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.24-13.54.01:794][598]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.24-13.54.01:794][598]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.24-13.54.01:794][598]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.04.24-13.54.01:794][598]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.04.24-13.54.01:796][598]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.04.24-13.54.01:796][598]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.04.24-13.54.01:796][598]LogInit: FAudioDevice initialized with ID 9.
+[2025.04.24-13.54.01:796][598]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level_0'.
+[2025.04.24-13.54.01:796][598]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.04.24-13.54.01:799][598]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.24-13.54.01:814][598]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.24-14.54.01
+[2025.04.24-13.54.01:817][598]LogWorld: Bringing up level for play took: 0.017728
+[2025.04.24-13.54.01:819][598]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.04.24-13.54.01:822][598]PIE: Server logged in
+[2025.04.24-13.54.01:823][598]PIE: Play in editor total start time 0,097 seconds.
+[2025.04.24-13.54.01:826][598]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.24-13.54.01:826][598]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.24-13.54.08:301][362]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.24-13.54.14:455][ 98]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.24-13.54.15:932][271]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can Attack
+[2025.04.24-13.54.16:900][387]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can Attack
+[2025.04.24-13.54.20:131][774]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.24-13.54.22:556][ 64]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238] false
+[2025.04.24-13.54.23:843][218]LogBlueprintUserMessages: [BP_Projectile_C_0] Failed
+[2025.04.24-13.54.23:879][222]LogBlueprintUserMessages: [BP_Projectile_C_1] Failed
+[2025.04.24-13.54.23:930][228]LogBlueprintUserMessages: [BP_Projectile_C_0] Failed
+[2025.04.24-13.54.24:248][266]LogBlueprintUserMessages: [BP_Projectile_C_2] Failed
+[2025.04.24-13.54.24:351][278]LogBlueprintUserMessages: [BP_Projectile_C_2] Failed
+[2025.04.24-13.54.27:867][698]LogBlueprintUserMessages: [BP_Spline_C_UAID_74563C6C81B05B6102_2110642034] Owie
+[2025.04.24-13.54.29:034][838]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1689787624] BOING
+[2025.04.24-13.54.31:444][127]LogBlueprintUserMessages: [BP_HealthUp_C_UAID_74563C6C81B0A36102_1827775641] Health Full
+[2025.04.24-13.54.31:444][127]LogBlueprintUserMessages: [BP_HealthUp_C_UAID_74563C6C81B0A36102_1827775641] Health Full
+[2025.04.24-13.54.31:461][129]LogBlueprintUserMessages: [BP_HealthUp_C_UAID_74563C6C81B0A36102_1827775641] Health Full
+[2025.04.24-13.54.31:477][131]LogBlueprintUserMessages: [BP_HealthUp_C_UAID_74563C6C81B0A36102_1827775641] Health Full
+[2025.04.24-13.54.35:070][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-13.54.35:070][557]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.24-13.54.35:071][557]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-13.54.35:073][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-13.54.35:073][557]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.24-13.54.35:076][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.24-13.54.35:081][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-13.54.35:096][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-13.54.35:097][557]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.04.24-13.54.35:097][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.04.24-13.54.35:100][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.04.24-13.54.35:109][557]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.04.24-13.54.35:161][558]LogPlayLevel: Display: Destroying online subsystem :Context_23
