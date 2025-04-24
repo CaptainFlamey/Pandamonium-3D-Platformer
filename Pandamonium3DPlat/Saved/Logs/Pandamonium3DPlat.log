@@ -2223,3 +2223,282 @@ BackPawR_end
 [2025.04.24-11.10.48:783][302]AssetCheck: New page: Asset Save: multiple assets
 [2025.04.24-11.10.48:783][302]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ChaseEnemy.BP_ChaseEnemy_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817
 [2025.04.24-11.10.48:783][302]LogContentValidation: Display: Validating /Script/NavigationSystem.NavMeshBoundsVolume /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.NavMeshBoundsVolume_UAID_74563C6C81B05A6102_1585744820
+[2025.04.24-11.24.12:752][161]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.062 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1007 files in 1803 folders with total size 42 MiB.
+[2025.04.24-12.08.49:069][287]AssetReimport: New page: Outstanding source content changes 14:08:49
+[2025.04.24-12.08.49:114][288]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/tree1_Texture.png)
+[2025.04.24-12.08.49:115][288]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.04.24-12.08.49:131][288]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-12.08.49:366][288]LogSavePackage: Moving output files for package: /Game/Models/Textures/tree1_Texture
+[2025.04.24-12.08.49:366][288]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/tree1_Texture125CFD1F414ABC17093B7BA1AFA441EF.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/tree1_Texture.uasset'
+[2025.04.24-12.08.49:501][288]LogFileHelpers: InternalPromptForCheckoutAndSave took 369 ms (total: 1.10 sec)
+[2025.04.24-12.08.49:568][289]AssetCheck: New page: Asset Save: tree1_Texture
+[2025.04.24-12.08.49:568][289]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Textures/tree1_Texture.tree1_Texture
+[2025.04.24-12.08.52:504][478]AssetReimport: Importing new asset /Game/Models/Textures/tree1_Texture.
+[2025.04.24-12.09.03:384][350]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.09.03:395][350]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-12.09.03:395][350]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-12.09.03:847][350]LogViewport: Scene viewport resized to 1405x894, mode Windowed.
+[2025.04.24-12.09.17:253][584]LogTexture: Display: Building textures: /Game/Models/Textures/tree1_Texture.tree1_Texture (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 0.54166 MB), EncodeSpeed: Fast
+[2025.04.24-12.09.18:981][708]LogContentBrowser: Deferred new asset file creation: tree1_Texture_Mat
+[2025.04.24-12.09.18:997][708]LogContentBrowser: Creating deferred item: tree1_Texture_Mat
+[2025.04.24-12.09.19:008][709]LogContentBrowser: Renaming the item being created (Deferred Item: tree1_Texture_Mat).
+[2025.04.24-12.09.23:823][128]LogContentBrowser: Attempting asset rename: tree1_Texture_Mat -> tree1_Texture_Mat
+[2025.04.24-12.09.23:841][128]LogContentBrowser: End creating deferred item tree1_Texture_Mat
+[2025.04.24-12.09.23:876][128]LogShaderCompilers: Display: ================================================
+[2025.04.24-12.09.23:876][128]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.24-12.09.23:876][128]LogShaderCompilers: Display: Total job queries 2, among them cache hits 0 (0.00%)
+[2025.04.24-12.09.23:876][128]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2025.04.24-12.09.23:877][128]LogShaderCompilers: Display: RAM used: 43,75 KiB of 1,60 GiB budget. Usage: 0.00%
+[2025.04.24-12.09.23:877][128]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.24-12.09.23:877][128]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.04.24-12.09.23:877][128]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.04.24-12.09.23:877][128]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.04.24-12.09.23:877][128]LogShaderCompilers: Display: ================================================
+[2025.04.24-12.09.25:686][267]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-12.09.25:847][267]LogSavePackage: Moving output files for package: /Game/Models/Textures/tree1_Texture_Mat
+[2025.04.24-12.09.25:847][267]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/tree1_Texture_MatCE973FB146D19597A3B6DCB92EF1A96D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/tree1_Texture_Mat.uasset'
+[2025.04.24-12.09.25:858][267]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 1.27 sec)
+[2025.04.24-12.09.25:859][267]AssetCheck: New page: Asset Save: tree1_Texture_Mat
+[2025.04.24-12.09.25:859][267]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Textures/tree1_Texture_Mat.tree1_Texture_Mat
+[2025.04.24-12.09.27:529][400]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-12.09.27:601][400]LogSavePackage: Moving output files for package: /Game/Models/Textures/tree1_Texture
+[2025.04.24-12.09.27:601][400]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/tree1_TextureB84E26A748834219A7470C9AF154AB7A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/tree1_Texture.uasset'
+[2025.04.24-12.09.27:613][400]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 1.36 sec)
+[2025.04.24-12.09.27:614][400]AssetCheck: New page: Asset Save: tree1_Texture
+[2025.04.24-12.09.27:614][400]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Textures/tree1_Texture.tree1_Texture
+[2025.04.24-12.09.57:970][700]LogViewport: Scene viewport resized to 1403x894, mode Windowed.
+[2025.04.24-12.09.57:987][701]LogViewport: Scene viewport resized to 1398x894, mode Windowed.
+[2025.04.24-12.09.58:011][702]LogViewport: Scene viewport resized to 1385x894, mode Windowed.
+[2025.04.24-12.09.58:034][703]LogViewport: Scene viewport resized to 1360x894, mode Windowed.
+[2025.04.24-12.09.58:058][704]LogViewport: Scene viewport resized to 1327x894, mode Windowed.
+[2025.04.24-12.09.58:080][705]LogViewport: Scene viewport resized to 1293x894, mode Windowed.
+[2025.04.24-12.09.58:107][706]LogViewport: Scene viewport resized to 1261x894, mode Windowed.
+[2025.04.24-12.09.58:154][707]LogViewport: Scene viewport resized to 1217x894, mode Windowed.
+[2025.04.24-12.09.58:185][708]LogViewport: Scene viewport resized to 1187x894, mode Windowed.
+[2025.04.24-12.09.58:213][709]LogViewport: Scene viewport resized to 1151x894, mode Windowed.
+[2025.04.24-12.09.58:236][710]LogViewport: Scene viewport resized to 1117x894, mode Windowed.
+[2025.04.24-12.09.58:260][711]LogViewport: Scene viewport resized to 1095x894, mode Windowed.
+[2025.04.24-12.09.58:286][712]LogViewport: Scene viewport resized to 1073x894, mode Windowed.
+[2025.04.24-12.09.58:309][713]LogViewport: Scene viewport resized to 1045x894, mode Windowed.
+[2025.04.24-12.09.58:334][714]LogViewport: Scene viewport resized to 1021x894, mode Windowed.
+[2025.04.24-12.09.58:370][715]LogViewport: Scene viewport resized to 1011x894, mode Windowed.
+[2025.04.24-12.09.58:444][722]LogViewport: Scene viewport resized to 1009x894, mode Windowed.
+[2025.04.24-12.10.00:526][825]LogSlate: Window 'Message' being destroyed
+[2025.04.24-12.10.00:535][825]Message dialog closed, result: Ok, title: Message, text: WARNING - Deleting a material slot can break the game play blueprint or the game play code. All indexes after the delete slot will change
+[2025.04.24-12.10.00:536][825]LogStaticMesh: Display: Building static mesh tree_1...
+[2025.04.24-12.10.00:549][825]LogStaticMesh: Built static mesh [0.01s] /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.10.55:758][518]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Models/Textures/tree1_Texture_Mat.tree1_Texture_Mat
+[2025.04.24-12.10.55:778][518]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-12.10.55:778][518]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-12.10.55:956][518]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.24-12.10.55:956][518]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.24-12.10.55:956][518]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.24-12.10.55:956][518]MaterialEditorStats: Shader Count: 0
+[2025.04.24-12.10.55:968][518]LogViewport: Scene viewport resized to 242x264, mode Windowed.
+[2025.04.24-12.10.56:054][520]MaterialEditorStats: Base pass shader: 194 instructions
+[2025.04.24-12.10.56:054][520]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2025.04.24-12.10.56:054][520]MaterialEditorStats: Texture samplers: 3/16
+[2025.04.24-12.10.56:054][520]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.24-12.10.56:054][520]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.24-12.10.56:054][520]MaterialEditorStats: Shader Count: 4
+[2025.04.24-12.11.14:237][815]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-12.11.14:288][816]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-12.11.14:329][817]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-12.11.16:973][ 10]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2025.04.24-12.11.58:501][749]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Models/Textures/tree1_Texture.tree1_Texture
+[2025.04.24-12.11.58:625][749]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.24-12.11.58:625][749]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.24-12.11.58:625][749]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.24-12.11.58:625][749]MaterialEditorStats: Shader Count: 0
+[2025.04.24-12.11.58:665][749]LogViewport: Scene viewport resized to 919x529, mode Windowed.
+[2025.04.24-12.11.58:752][750]MaterialEditorStats: Base pass shader: 194 instructions
+[2025.04.24-12.11.58:752][750]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2025.04.24-12.11.58:752][750]MaterialEditorStats: Texture samplers: 3/16
+[2025.04.24-12.11.58:752][750]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.24-12.11.58:752][750]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.24-12.11.58:752][750]MaterialEditorStats: Shader Count: 4
+[2025.04.24-12.12.03:578][132]LogSlate: Window 'tree1_Texture' being destroyed
+[2025.04.24-12.12.03:585][132]LogSlate: Window 'tree1_Texture' being destroyed
+[2025.04.24-12.12.03:624][132]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-12.12.03:624][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-12.12.15:923][300]LogSlate: Window 'Message' being destroyed
+[2025.04.24-12.12.15:931][300]Message dialog closed, result: Ok, title: Message, text: WARNING - Deleting a material slot can break the game play blueprint or the game play code. All indexes after the delete slot will change
+[2025.04.24-12.12.45:417][619]AssetReimport: New page: Outstanding source content changes 14:12:45
+[2025.04.24-12.12.45:479][620]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Level Props/tree_1.fbx)
+[2025.04.24-12.12.45:483][620]LogFbx: Loading FBX Scene from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Level Props/tree_1.fbx
+[2025.04.24-12.12.45:511][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.04.24-12.12.45:530][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.04.24-12.12.45:580][621]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Level Props/tree1_Texture.png)
+[2025.04.24-12.12.45:580][621]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.04.24-12.12.45:583][621]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-12.12.45:830][621]LogSavePackage: Moving output files for package: /Game/Models/Level_Props/tree1_Texture
+[2025.04.24-12.12.45:830][621]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/tree1_TextureEB1B9CC04A16505D291D62BAD6B456A7.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Level_Props/tree1_Texture.uasset'
+[2025.04.24-12.12.45:973][621]LogFileHelpers: InternalPromptForCheckoutAndSave took 389 ms (total: 1.75 sec)
+[2025.04.24-12.12.45:996][622]AssetCheck: New page: Asset Save: tree1_Texture
+[2025.04.24-12.12.45:996][622]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Level_Props/tree1_Texture.tree1_Texture
+[2025.04.24-12.12.47:800][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.04.24-12.12.47:803][827]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/0/H6/PIXIS3ECFKJRAW7EBO5YW1_Auto1
+[2025.04.24-12.12.47:803][827]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/PIXIS3ECFKJRAW7EBO5YW1_Auto191EBD49C4C7EF3D528E5B0B0C0AA3486.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/0/H6/PIXIS3ECFKJRAW7EBO5YW1_Auto1.uasset'
+[2025.04.24-12.12.47:807][827]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/3/NO/J2UN08ZB0I1TAY1VFWTCYO_Auto1
+[2025.04.24-12.12.47:807][827]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/J2UN08ZB0I1TAY1VFWTCYO_Auto1BB0BE26E45465394D58ACA98705E15AD.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/3/NO/J2UN08ZB0I1TAY1VFWTCYO_Auto1.uasset'
+[2025.04.24-12.12.47:809][827]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/6H/WKNZ5H5KCOM8PIL2PB4CH4_Auto1
+[2025.04.24-12.12.47:809][827]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/WKNZ5H5KCOM8PIL2PB4CH4_Auto14D1F5DCB4857C71F5ADFDE91DE4F9E8A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/6H/WKNZ5H5KCOM8PIL2PB4CH4_Auto1.uasset'
+[2025.04.24-12.12.47:811][827]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/L0/MMFPNRN400YEQZRUSD7D3E_Auto1
+[2025.04.24-12.12.47:811][827]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MMFPNRN400YEQZRUSD7D3E_Auto10F299E404E2EC0A88984D8A8E9B8EC5B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/L0/MMFPNRN400YEQZRUSD7D3E_Auto1.uasset'
+[2025.04.24-12.12.47:813][827]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/E/VS/4BYK2PW4WW2LVSQ2FK94I7_Auto1
+[2025.04.24-12.12.47:813][827]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/4BYK2PW4WW2LVSQ2FK94I7_Auto118B32B2B43E0ACFF9E4CB5A50A243919.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/E/VS/4BYK2PW4WW2LVSQ2FK94I7_Auto1.uasset'
+[2025.04.24-12.12.47:814][827]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/Level_0' took 0.030
+[2025.04.24-12.12.47:814][827]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.030
+[2025.04.24-12.12.47:815][827]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/LevelProps/tree_1] ([1] browsable assets)...
+[2025.04.24-12.12.47:828][827]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/LevelProps/tree_1.tree_1]
+[2025.04.24-12.12.47:828][827]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/LevelProps/tree_1]
+[2025.04.24-12.12.47:831][827]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/LevelProps/tree_1_Auto1
+[2025.04.24-12.12.47:831][827]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/tree_1_Auto16172784F4FC07D584A035988FCF4097C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/Models/LevelProps/tree_1_Auto1.uasset'
+[2025.04.24-12.12.47:832][827]LogFileHelpers: Auto-saving content packages took 0.018
+[2025.04.24-12.12.48:981][963]AssetReimport: Importing new asset /Game/Models/Level_Props/tree_1.
+[2025.04.24-12.12.48:981][963]AssetReimport: Failed to import file C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Level Props/tree_1.fbx.
+[2025.04.24-12.12.48:981][963]AssetReimport: Importing new asset /Game/Models/Level_Props/tree1_Texture.
+[2025.04.24-12.13.54:471][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.04.24-12.13.55:601][736]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.24-12.13.55:633][736]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Models/Textures/tree1_Texture.tree1_Texture
+	Asset Type: Texture2D
+	Asset Name: /Game/Models/Textures/tree1_Texture_Mat.tree1_Texture_Mat
+	Asset Type: Material
+[2025.04.24-12.13.55:849][736]LogMaterial: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\Textures\tree1_Texture_Mat.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.04.24-12.13.55:849][736]LogMaterial: Warning: tree1_Texture_Mat: Requesting an invalid TextureIndex! (0 / 0)
+[2025.04.24-12.13.55:850][736]LogMaterial: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\Textures\tree1_Texture_Mat.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.04.24-12.13.55:900][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.04.24-12.13.55:915][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.04.24-12.13.55:928][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.04.24-12.14.05:825][237]LogInterchangeEngine: [Pending] Importing
+[2025.04.24-12.14.05:825][237]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/okacp/Docum...tent/Models/Textures/tree1_Texture.png]
+[2025.04.24-12.14.05:843][238]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.04.24-12.14.05:850][238]LogInterchangeEngine: [Pending] Importing
+[2025.04.24-12.14.06:163][238]LogTexture: Display: Building textures: /Game/Models/Textures/tree1_Texture.tree1_Texture (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 2.645795 MB), EncodeSpeed: Fast
+[2025.04.24-12.14.06:173][238]LogInterchangeEngine: [Success] Import Done
+[2025.04.24-12.14.06:196][239]LogInterchangeEngine: [Success] Import Done
+[2025.04.24-12.14.12:724][397]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.04.24-12.14.13:434][434]LogShaderCompilers: Display: ================================================
+[2025.04.24-12.14.13:434][434]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.24-12.14.13:434][434]LogShaderCompilers: Display: Total job queries 67, among them cache hits 16 (23.88%)
+[2025.04.24-12.14.13:434][434]LogShaderCompilers: Display: Tracking 51 distinct input hashes that result in 42 distinct outputs (82.35%)
+[2025.04.24-12.14.13:434][434]LogShaderCompilers: Display: RAM used: 1,20 MiB of 1,60 GiB budget. Usage: 0.07%
+[2025.04.24-12.14.13:434][434]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.24-12.14.13:434][434]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.04.24-12.14.13:434][434]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.04.24-12.14.13:434][434]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.04.24-12.14.13:434][434]LogShaderCompilers: Display: ================================================
+[2025.04.24-12.14.54:331][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.04.24-12.14.55:358][520]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.24-12.14.55:390][520]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Models/Textures/tree1_Texture.tree1_Texture
+	Asset Type: Texture2D
+	Asset Name: /Game/Models/Textures/tree1_Texture_Mat.tree1_Texture_Mat
+	Asset Type: Material
+[2025.04.24-12.14.55:590][520]LogMaterial: Warning: [AssetLog] /Game/Models/Textures/tree1_Texture_Mat.tree1_Texture_Mat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.04.24-12.14.55:591][520]LogMaterial: Warning: [AssetLog] /Game/Models/Textures/tree1_Texture_Mat.tree1_Texture_Mat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.04.24-12.14.55:631][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.04.24-12.14.55:645][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.04.24-12.14.55:658][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.04.24-12.15.09:901][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.04.24-12.15.11:963][148]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.24-12.15.12:026][148]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-12.15.12:026][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-12.15.12:040][148]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Models/LevelProps/tree_1.tree_1
+	Asset Type: StaticMesh
+[2025.04.24-12.15.12:279][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.04.24-12.15.12:299][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.04.24-12.15.12:312][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.04.24-12.15.36:101][ 34]LogSlate: Window 'Interchange Pipeline Configuration (Import Content)' being destroyed
+[2025.04.24-12.15.36:114][ 34]LogInterchangeEngine: [Pending] Importing
+[2025.04.24-12.15.36:114][ 34]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/okacp/Docum...nt/Models/LevelProps/tree_1.obj]
+[2025.04.24-12.15.36:142][ 35]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.04.24-12.15.36:150][ 35]LogInterchangeEngine: [Pending] Importing
+[2025.04.24-12.15.36:196][ 36]LogTexture: Display: Building textures: /Game/Models/LevelProps/TEX_tree1_Texture.TEX_tree1_Texture (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 2.645795 MB), EncodeSpeed: Fast
+[2025.04.24-12.15.36:213][ 36]LogStaticMesh: Display: Building static mesh tree_1...
+[2025.04.24-12.15.36:230][ 36]LogStaticMesh: Built static mesh [0.02s] /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.15.36:245][ 36]LogInterchangeEngine: [Success] Import Done
+[2025.04.24-12.15.36:324][ 37]LogInterchangeEngine: [Success] Import Done
+[2025.04.24-12.15.38:848][177]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.15.38:849][177]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.15.38:849][177]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/tree_1.tree_1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_2
+[2025.04.24-12.15.39:117][178]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.15.39:117][178]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.15.39:117][178]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/tree_1.tree_1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_5
+[2025.04.24-12.15.40:233][236]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.15.40:233][236]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.15.40:235][236]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/tree_1.tree_1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0F56102_1101899047
+[2025.04.24-12.15.44:056][451]Cmd: TRANSACTION UNDO
+[2025.04.24-12.15.44:056][451]LogEditorTransaction: Undo Move Elements
+[2025.04.24-12.15.44:323][451]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.24-12.15.44:325][451]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.24-12.15.45:204][488]Cmd: TRANSACTION UNDO
+[2025.04.24-12.15.45:204][488]LogEditorTransaction: Undo Create Actors
+[2025.04.24-12.15.45:562][488]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.24-12.15.45:563][488]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.24-12.15.55:084][190]LogTexture: Display: Building textures: /Game/Models/LevelProps/TEX_tree1_Texture.TEX_tree1_Texture (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 0.54166 MB), EncodeSpeed: Fast
+[2025.04.24-12.15.56:848][329]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.15.56:848][329]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.15.56:849][329]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/tree_1.tree_1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_10
+[2025.04.24-12.15.57:483][369]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.15.57:483][369]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.15.57:486][369]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/tree_1.tree_1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0F56102_1119149048
+[2025.04.24-12.16.40:132][134]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.16.40:132][134]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.16.40:133][134]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/tree_1.tree_1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_11
+[2025.04.24-12.16.41:705][267]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.16.41:705][267]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.16.41:708][267]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/tree_1.tree_1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0F56102_1163371049
+[2025.04.24-12.17.09:595][757]Cmd: DUPLICATE
+[2025.04.24-12.17.09:595][757]Cmd: ACTOR DUPLICATE
+[2025.04.24-12.17.47:539][864]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.17.47:539][864]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.17.47:540][864]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/tree_1.tree_1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_12
+[2025.04.24-12.17.48:451][926]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.17.48:451][926]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/tree_1.tree_1
+[2025.04.24-12.17.48:453][926]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/tree_1.tree_1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0F56102_1230117051
+[2025.04.24-12.17.57:498][714]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-12.17.57:589][714]LogWorldPartition: Actor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0F56102_1101899047 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/1/VZ/FE7UUCLL8AJ75QGA87672V.PackageMetaData in its package
+[2025.04.24-12.17.57:591][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.04.24-12.17.57:611][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.04.24-12.17.57:627][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.04.24-12.17.57:630][714]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/0/H6/PIXIS3ECFKJRAW7EBO5YW1
+[2025.04.24-12.17.57:631][714]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/PIXIS3ECFKJRAW7EBO5YW11D8B9E324DE52AD131385D9FFD37CC4F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/0/H6/PIXIS3ECFKJRAW7EBO5YW1.uasset'
+[2025.04.24-12.17.57:633][714]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/3/NO/J2UN08ZB0I1TAY1VFWTCYO
+[2025.04.24-12.17.57:633][714]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/J2UN08ZB0I1TAY1VFWTCYOF2C2449E45ED1DC3FF24CEB40F07B12B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/3/NO/J2UN08ZB0I1TAY1VFWTCYO.uasset'
+[2025.04.24-12.17.57:637][714]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/6H/WKNZ5H5KCOM8PIL2PB4CH4
+[2025.04.24-12.17.57:637][714]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/WKNZ5H5KCOM8PIL2PB4CH4290046F3466545354E40EDB9D5A444ED.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/8/6H/WKNZ5H5KCOM8PIL2PB4CH4.uasset'
+[2025.04.24-12.17.57:640][714]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/L0/MMFPNRN400YEQZRUSD7D3E
+[2025.04.24-12.17.57:641][714]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MMFPNRN400YEQZRUSD7D3E6B49E54A4ED0061EFE7FCAB7E132B911.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/8/L0/MMFPNRN400YEQZRUSD7D3E.uasset'
+[2025.04.24-12.17.57:643][714]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/E/VS/4BYK2PW4WW2LVSQ2FK94I7
+[2025.04.24-12.17.57:645][714]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/4BYK2PW4WW2LVSQ2FK94I7280466BB4F15DCBA5E7D8BA615558C4D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/E/VS/4BYK2PW4WW2LVSQ2FK94I7.uasset'
+[2025.04.24-12.17.57:647][714]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/B/N1/YAYPEB3V9KPG3BP2LJJS6L
+[2025.04.24-12.17.57:647][714]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/YAYPEB3V9KPG3BP2LJJS6LD01BD2114A18B847E491549706199B95.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/B/N1/YAYPEB3V9KPG3BP2LJJS6L.uasset'
+[2025.04.24-12.17.57:649][714]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/B/G6/UUPINKJPBT75WGXH8TCQFP
+[2025.04.24-12.17.57:649][714]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/UUPINKJPBT75WGXH8TCQFP105CA39F475726E76DFBC682FBF44CD2.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/B/G6/UUPINKJPBT75WGXH8TCQFP.uasset'
+[2025.04.24-12.17.57:651][714]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/D/EV/ZT887K6TDPKFH68FFOJS93
+[2025.04.24-12.17.57:651][714]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/ZT887K6TDPKFH68FFOJS931D7CFA40427119F3BA076889D7DE9B5A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/D/EV/ZT887K6TDPKFH68FFOJS93.uasset'
+[2025.04.24-12.17.57:654][714]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/C/PD/9S2F8Y7BQ9E7OE1P0QPQ1T
+[2025.04.24-12.17.57:654][714]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/9S2F8Y7BQ9E7OE1P0QPQ1T6DF735544F81A2927ECF35A5AB322E9F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/C/PD/9S2F8Y7BQ9E7OE1P0QPQ1T.uasset'
+[2025.04.24-12.17.57:666][714]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 1.91 sec)
+[2025.04.24-12.17.57:670][714]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.24-12.17.57:670][714]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05C6102_1559432236
+[2025.04.24-12.17.57:670][714]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0586102_1831674420
+[2025.04.24-12.17.57:670][714]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05C6102_1552570235
+[2025.04.24-12.17.57:670][714]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05A6102_1952138826
+[2025.04.24-12.17.57:670][714]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05A6102_1903721825
+[2025.04.24-12.17.57:670][714]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0F56102_1119149048
+[2025.04.24-12.17.57:670][714]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0F56102_1163371049
+[2025.04.24-12.17.57:670][714]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0F56102_1191263050
+[2025.04.24-12.17.57:670][714]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0F56102_1230117051
+[2025.04.24-12.17.57:685][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
