@@ -5509,3 +5509,786 @@ BackPawR_end
 [2025.04.26-13.06.28:429][ 39]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
 [2025.04.26-13.06.28:434][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
 [2025.04.26-13.06.28:496][ 40]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2025.04.26-13.07.42:609][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.04.26-13.07.42:725][780]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-13.07.42:732][780]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.04.26-13.07.42:732][780]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-13.07.42:732][780]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-13.07.42:751][780]LogLinker: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\LevelProps\tree_2.uasset: Failed to load '/Game/Models/LevelProps/none': Can't find file.
+[2025.04.26-13.07.42:751][780]LogLinker: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\LevelProps\tree_2.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Models/LevelProps/none'
+[2025.04.26-13.07.42:895][780]LogLinker: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\LevelProps\LogPlatforms\log_suspension_walkway.uasset: Failed to load '/Game/Models/LevelProps/LogPlatforms/none': Can't find file.
+[2025.04.26-13.07.42:896][780]LogLinker: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\LevelProps\LogPlatforms\log_suspension_walkway.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Models/LevelProps/LogPlatforms/none'
+[2025.04.26-13.07.43:822][780]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.26-13.07.43:822][780]LogWorldPartition: Display: WorldPartition initialize took 1.09 sec (total: 2.28 sec)
+[2025.04.26-13.07.43:884][780]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/Level_0.Level_0
+[2025.04.26-13.07.43:884][780]Cmd: MAP LOAD FILE="../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/Level_0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.04.26-13.07.43:884][780]LightingResults: New page: Lighting Build
+[2025.04.26-13.07.43:885][780]LoadErrors: New page: Loading map: Level_0.umap
+[2025.04.26-13.07.43:946][780]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-13.07.43:947][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-13.07.43:950][780]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.26-13.07.43:950][780]MapCheck: New page: Map Check
+[2025.04.26-13.07.43:950][780]LightingResults: New page: Lighting Build
+[2025.04.26-13.07.43:968][780]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.26-13.07.43:977][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.04.26-13.07.43:981][780]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-13.07.43:982][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-13.07.43:982][780]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.26-13.07.44:006][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.04.26-13.07.44:022][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.04.26-13.07.44:033][780]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level_0'.
+[2025.04.26-13.07.44:033][780]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-13.07.44:033][780]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.26-13.07.44:033][780]LogAIModule: Creating AISystem for world Level_0
+[2025.04.26-13.07.44:034][780]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.04.26-13.07.44:034][780]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-13.07.44:034][780]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-13.07.44:180][780]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.26-13.07.44:180][780]LogWorldPartition: Display: WorldPartition initialize took 146 ms (total: 2.43 sec)
+[2025.04.26-13.07.44:289][780]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.04.26-13.07.44:289][780]LogNavigation: Warning: Recreating dtNavMesh instance due mismatch in number of bytes required to store serialized maxTiles (168, 8 bits) vs calculated maxtiles (120, 7 bits)
+[2025.04.26-13.07.44:312][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.04.26-13.07.44:318][780]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.04.26-13.07.44:319][780]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,56ms to complete.
+[2025.04.26-13.07.45:694][844]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.26-13.07.45:702][844]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.26-13.07.45:702][844]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.26-13.07.45:708][844]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 4 ms (total: 25 ms)
+[2025.04.26-13.07.45:708][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.26-13.07.45:708][844]PIE: New page: PIE session: Level_0 (26 kwi 2025, 15:07:45)
+[2025.04.26-13.07.45:708][844]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.26-13.07.45:728][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020214s)
+[2025.04.26-13.07.45:728][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.020279s)
+[2025.04.26-13.07.45:743][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.04.26-13.07.45:748][844]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-13.07.45:748][844]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.26-13.07.45:749][844]LogAIModule: Creating AISystem for world Level_0
+[2025.04.26-13.07.45:749][844]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.26-13.07.45:749][844]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-13.07.45:749][844]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-13.07.45:749][844]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.26-13.07.45:754][844]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.26-13.07.45:754][844]LogWorldPartition: Display: WorldPartition initialize took 5 ms (total: 2.43 sec)
+[2025.04.26-13.07.45:754][844]LogPlayLevel: PIE: World Init took: (0.006369s)
+[2025.04.26-13.07.45:754][844]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.04.26-13.07.45:754][844]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.26-13.07.45:754][844]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.26-13.07.45:754][844]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.26-13.07.45:754][844]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.26-13.07.45:754][844]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.26-13.07.45:754][844]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.26-13.07.45:754][844]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.26-13.07.45:754][844]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.26-13.07.45:754][844]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.26-13.07.45:754][844]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.26-13.07.45:754][844]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.26-13.07.45:758][844]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.26-13.07.45:773][844]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.26-13.07.45:773][844]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.26-13.07.45:773][844]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.26-13.07.45:773][844]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.26-13.07.45:773][844]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.04.26-13.07.45:773][844]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.04.26-13.07.45:775][844]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.04.26-13.07.45:775][844]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.04.26-13.07.45:775][844]LogInit: FAudioDevice initialized with ID 11.
+[2025.04.26-13.07.45:775][844]LogAudio: Display: Audio Device (ID: 11) registered with world 'Level_0'.
+[2025.04.26-13.07.45:775][844]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.04.26-13.07.45:778][844]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.26-13.07.45:793][844]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.26-14.07.45
+[2025.04.26-13.07.45:796][844]LogWorld: Bringing up level for play took: 0.017714
+[2025.04.26-13.07.45:798][844]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2025.04.26-13.07.45:801][844]PIE: Server logged in
+[2025.04.26-13.07.45:802][844]PIE: Play in editor total start time 0,1 seconds.
+[2025.04.26-13.07.45:804][844]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.26-13.07.45:804][844]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.26-13.07.52:959][526]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.26-13.07.58:252][ 46]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.26-13.08.26:177][802]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can Attack
+[2025.04.26-13.08.34:837][656]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.26-13.08.37:203][888]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238] false
+[2025.04.26-13.08.38:460][  7]LogBlueprintUserMessages: [BP_Projectile_C_0] Failed
+[2025.04.26-13.08.39:500][111]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.26-13.08.41:333][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-13.08.41:333][288]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.26-13.08.41:333][288]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-13.08.41:334][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-13.08.41:334][288]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.26-13.08.41:337][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.26-13.08.41:341][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-13.08.41:358][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-13.08.41:360][288]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.04.26-13.08.41:360][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.04.26-13.08.41:362][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.04.26-13.08.41:370][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.04.26-13.08.41:399][289]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2025.04.26-13.49.05:176][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.04.26-13.49.05:259][252]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-13.49.05:260][252]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.04.26-13.49.05:260][252]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-13.49.05:260][252]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-13.49.05:312][252]LogLinker: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\__ExternalActors__\ThirdPerson\Maps\ThirdPersonMap\C\Q5\GG10NC2O7ZAB48U8H3SL6X.uasset: Failed to load '/Game/Models/Characters/red_Panda': Can't find file.
+[2025.04.26-13.49.05:312][252]LogLinker: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\__ExternalActors__\ThirdPerson\Maps\ThirdPersonMap\C\Q5\GG10NC2O7ZAB48U8H3SL6X.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Models/Characters/red_Panda'
+[2025.04.26-13.49.05:319][252]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.26-13.49.05:319][252]LogWorldPartition: Display: WorldPartition initialize took 59 ms (total: 2.49 sec)
+[2025.04.26-13.49.05:339][252]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.04.26-13.49.05:339][252]Cmd: MAP LOAD FILE="../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.04.26-13.49.05:339][252]LightingResults: New page: Lighting Build
+[2025.04.26-13.49.05:339][252]LoadErrors: New page: Loading map: ThirdPersonMap.umap
+[2025.04.26-13.49.05:363][252]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-13.49.05:363][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-13.49.05:365][252]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.26-13.49.05:365][252]MapCheck: New page: Map Check
+[2025.04.26-13.49.05:366][252]LightingResults: New page: Lighting Build
+[2025.04.26-13.49.05:385][252]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.26-13.49.05:396][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.04.26-13.49.05:401][252]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-13.49.05:401][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-13.49.05:403][252]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.26-13.49.05:423][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.04.26-13.49.05:439][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.04.26-13.49.05:451][252]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2025.04.26-13.49.05:451][252]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-13.49.05:451][252]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.26-13.49.05:452][252]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.26-13.49.05:452][252]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.04.26-13.49.05:452][252]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-13.49.05:452][252]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-13.49.05:506][252]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.26-13.49.05:507][252]LogWorldPartition: Display: WorldPartition initialize took 54 ms (total: 2.54 sec)
+[2025.04.26-13.49.05:558][252]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.04.26-13.49.05:578][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.04.26-13.49.05:584][252]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.04.26-13.49.05:584][252]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,275ms to complete.
+[2025.04.26-13.49.07:314][390]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.26-13.49.07:321][390]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.26-13.49.07:321][390]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.26-13.49.07:324][390]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 27 ms)
+[2025.04.26-13.49.07:324][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.26-13.49.07:324][390]PIE: New page: PIE session: ThirdPersonMap (26 kwi 2025, 15:49:07)
+[2025.04.26-13.49.07:361][390]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.26-13.49.07:368][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007112s)
+[2025.04.26-13.49.07:368][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007153s)
+[2025.04.26-13.49.07:384][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.04.26-13.49.07:388][390]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-13.49.07:388][390]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.26-13.49.07:388][390]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.26-13.49.07:389][390]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.26-13.49.07:389][390]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-13.49.07:389][390]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-13.49.07:389][390]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.26-13.49.07:390][390]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.26-13.49.07:390][390]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.55 sec)
+[2025.04.26-13.49.07:390][390]LogPlayLevel: PIE: World Init took: (0.002848s)
+[2025.04.26-13.49.07:390][390]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.04.26-13.49.07:390][390]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.26-13.49.07:390][390]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.26-13.49.07:390][390]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.26-13.49.07:390][390]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.26-13.49.07:390][390]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.26-13.49.07:390][390]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.26-13.49.07:390][390]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.26-13.49.07:390][390]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.26-13.49.07:390][390]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.26-13.49.07:390][390]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.26-13.49.07:390][390]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.26-13.49.07:393][390]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.26-13.49.07:410][390]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.26-13.49.07:411][390]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.26-13.49.07:411][390]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.26-13.49.07:411][390]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.26-13.49.07:411][390]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.04.26-13.49.07:411][390]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.04.26-13.49.07:413][390]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.04.26-13.49.07:413][390]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.04.26-13.49.07:413][390]LogInit: FAudioDevice initialized with ID 12.
+[2025.04.26-13.49.07:413][390]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonMap'.
+[2025.04.26-13.49.07:413][390]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.04.26-13.49.07:416][390]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.26-13.49.07:421][390]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.26-14.49.07
+[2025.04.26-13.49.07:424][390]LogWorld: Bringing up level for play took: 0.007320
+[2025.04.26-13.49.07:426][390]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2025.04.26-13.49.07:428][390]PIE: Server logged in
+[2025.04.26-13.49.07:429][390]PIE: Play in editor total start time 0,107 seconds.
+[2025.04.26-13.49.07:430][390]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B0905D02_1785895050] Can't attack... Roaming
+[2025.04.26-13.49.09:512][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-13.49.09:512][586]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.26-13.49.09:512][586]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-13.49.09:512][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-13.49.09:512][586]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.26-13.49.09:515][586]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.26-13.49.09:519][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-13.49.09:531][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-13.49.09:531][586]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.04.26-13.49.09:531][586]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.04.26-13.49.09:533][586]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.04.26-13.49.09:540][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.04.26-13.49.09:595][588]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.04.26-13.49.13:696][795]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.26-13.49.13:703][795]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.26-13.49.13:703][795]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.26-13.49.13:705][795]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 29 ms)
+[2025.04.26-13.49.13:706][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.26-13.49.13:706][795]PIE: New page: PIE session: ThirdPersonMap (26 kwi 2025, 15:49:13)
+[2025.04.26-13.49.13:742][795]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.26-13.49.13:749][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007165s)
+[2025.04.26-13.49.13:749][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007210s)
+[2025.04.26-13.49.13:764][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.04.26-13.49.13:768][795]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-13.49.13:768][795]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.26-13.49.13:768][795]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.26-13.49.13:769][795]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.26-13.49.13:769][795]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-13.49.13:769][795]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-13.49.13:769][795]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.26-13.49.13:771][795]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.26-13.49.13:771][795]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.55 sec)
+[2025.04.26-13.49.13:771][795]LogPlayLevel: PIE: World Init took: (0.002939s)
+[2025.04.26-13.49.13:771][795]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.04.26-13.49.13:771][795]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.26-13.49.13:771][795]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.26-13.49.13:771][795]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.26-13.49.13:771][795]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.26-13.49.13:771][795]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.26-13.49.13:771][795]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.26-13.49.13:771][795]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.26-13.49.13:771][795]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.26-13.49.13:771][795]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.26-13.49.13:771][795]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.26-13.49.13:771][795]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.26-13.49.13:773][795]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.26-13.49.13:790][795]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.26-13.49.13:790][795]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.26-13.49.13:790][795]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.26-13.49.13:790][795]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.26-13.49.13:790][795]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.04.26-13.49.13:790][795]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.04.26-13.49.13:792][795]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.04.26-13.49.13:792][795]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.04.26-13.49.13:792][795]LogInit: FAudioDevice initialized with ID 13.
+[2025.04.26-13.49.13:792][795]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonMap'.
+[2025.04.26-13.49.13:793][795]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.04.26-13.49.13:795][795]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.26-13.49.13:802][795]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.26-14.49.13
+[2025.04.26-13.49.13:803][795]LogWorld: Bringing up level for play took: 0.007738
+[2025.04.26-13.49.13:806][795]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2025.04.26-13.49.13:808][795]PIE: Server logged in
+[2025.04.26-13.49.13:809][795]PIE: Play in editor total start time 0,105 seconds.
+[2025.04.26-13.49.13:810][795]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B0905D02_1785895050] Can't attack... Roaming
+[2025.04.26-13.49.46:162][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-13.49.46:162][943]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.26-13.49.46:162][943]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-13.49.46:162][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-13.49.46:162][943]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.26-13.49.46:165][943]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.26-13.49.46:170][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-13.49.46:184][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-13.49.46:185][943]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.04.26-13.49.46:185][943]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.04.26-13.49.46:187][943]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.04.26-13.49.46:194][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.04.26-13.49.46:259][944]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.04.26-13.57.38:483][413]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.083 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1065 files in 1896 folders with total size 45 MiB.
+[2025.04.26-14.57.38:475][211]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.074 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1065 files in 1896 folders with total size 45 MiB.
+[2025.04.26-14.57.54:708][914]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2025.04.26-14.57.54:708][914]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2025.04.26-14.58.04:564][321]LogEditorFactories: Performing atomic reimport of [C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/RedPandaCharacter/redPanda_Jump.fbx]
+[2025.04.26-14.58.04:569][321]LogFbx: Loading FBX Scene from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/RedPandaCharacter/redPanda_Jump.fbx
+[2025.04.26-14.58.04:580][321]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.26-14.58.04:581][321]LogFbx: Parsing AnimStack RedPanda|RedPanda|Scene
+[2025.04.26-14.58.04:822][321]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Models/Characters/RedPandaCharacter/redPanda_Jump.redPanda_Jump
+[2025.04.26-14.58.04:823][321]LogAnimationCompression: Display: Storing compressed animation data for /Game/Models/Characters/RedPandaCharacter/redPanda_Jump.redPanda_Jump, at AnimationSequence/1e0cbc384a0e0fed295bc5502a943ea4ec79e981
+[2025.04.26-14.58.04:834][321]LogEditorFactories: -- imported successfully
+[2025.04.26-14.58.04:834][321]FBXImport: FBX File Loading: Found name clash, node 'RedPanda' was renamed to 'RedPanda1' 
+[2025.04.26-14.58.04:834][321]FBXImport: Warning: The following bones exist in the imported animation, but not in the Skeleton asset redPanda_Skeleton.  Any animation on these bones will not be imported: 
+
+ EarL_end  
+EarL_end_end  
+EarR_end  
+EarR_end_end  
+Tail_end  
+Tail_end_end  
+FrontPawL_end  
+FrontPawL_end_end  
+BackPawL_end  
+BackPawL_end_end  
+FrontPawR_end  
+FrontPawR_end_end  
+BackPawR_end  
+BackPawR_end_end  
+ 
+[2025.04.26-14.58.13:842][760]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.26-14.58.13:849][760]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.26-14.58.13:849][760]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.26-14.58.13:851][760]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 31 ms)
+[2025.04.26-14.58.13:852][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.26-14.58.13:852][760]PIE: New page: PIE session: ThirdPersonMap (26 kwi 2025, 16:58:13)
+[2025.04.26-14.58.13:852][760]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.26-14.58.13:862][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010376s)
+[2025.04.26-14.58.13:862][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.010418s)
+[2025.04.26-14.58.13:881][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.04.26-14.58.13:884][760]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-14.58.13:884][760]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.26-14.58.13:885][760]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.26-14.58.13:885][760]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.26-14.58.13:885][760]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-14.58.13:885][760]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-14.58.13:885][760]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.26-14.58.13:886][760]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.26-14.58.13:886][760]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.55 sec)
+[2025.04.26-14.58.13:886][760]LogPlayLevel: PIE: World Init took: (0.002945s)
+[2025.04.26-14.58.13:886][760]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.04.26-14.58.13:886][760]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.26-14.58.13:886][760]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.26-14.58.13:886][760]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.26-14.58.13:886][760]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.26-14.58.13:886][760]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.26-14.58.13:886][760]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.26-14.58.13:886][760]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.26-14.58.13:886][760]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.26-14.58.13:888][760]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.26-14.58.13:888][760]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.26-14.58.13:888][760]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.26-14.58.13:890][760]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.26-14.58.13:909][760]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.26-14.58.13:909][760]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.26-14.58.13:909][760]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.26-14.58.13:909][760]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.26-14.58.13:910][760]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.04.26-14.58.13:910][760]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.04.26-14.58.13:911][760]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.04.26-14.58.13:911][760]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.04.26-14.58.13:911][760]LogInit: FAudioDevice initialized with ID 14.
+[2025.04.26-14.58.13:911][760]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonMap'.
+[2025.04.26-14.58.13:911][760]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.04.26-14.58.13:914][760]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.26-14.58.13:920][760]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.26-15.58.13
+[2025.04.26-14.58.13:922][760]LogWorld: Bringing up level for play took: 0.007865
+[2025.04.26-14.58.13:924][760]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2025.04.26-14.58.13:927][760]PIE: Server logged in
+[2025.04.26-14.58.13:927][760]PIE: Play in editor total start time 0,079 seconds.
+[2025.04.26-14.58.13:930][760]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B0905D02_1785895050] Can't attack... Roaming
+[2025.04.26-15.00.08:582][335]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.26-15.00.16:220][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-15.00.16:220][ 37]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.26-15.00.16:220][ 37]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-15.00.16:221][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-15.00.16:221][ 37]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.26-15.00.16:224][ 37]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.26-15.00.16:229][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-15.00.16:246][ 37]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.26-15.00.16:247][ 37]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.04.26-15.00.16:247][ 37]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.04.26-15.00.16:249][ 37]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.04.26-15.00.16:252][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-15.00.16:256][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.04.26-15.00.16:324][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.04.26-15.00.48:687][243]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.26-15.00.48:694][243]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.26-15.00.48:694][243]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.26-15.00.48:697][243]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 33 ms)
+[2025.04.26-15.00.48:697][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.26-15.00.48:697][243]PIE: New page: PIE session: ThirdPersonMap (26 kwi 2025, 17:00:48)
+[2025.04.26-15.00.48:697][243]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.26-15.00.48:707][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009197s)
+[2025.04.26-15.00.48:707][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.009235s)
+[2025.04.26-15.00.48:722][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.04.26-15.00.48:725][243]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-15.00.48:725][243]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.26-15.00.48:725][243]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.26-15.00.48:726][243]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.26-15.00.48:726][243]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-15.00.48:726][243]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-15.00.48:726][243]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.26-15.00.48:728][243]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.26-15.00.48:728][243]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 2.55 sec)
+[2025.04.26-15.00.48:728][243]LogPlayLevel: PIE: World Init took: (0.003246s)
+[2025.04.26-15.00.48:728][243]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.04.26-15.00.48:728][243]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.26-15.00.48:728][243]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.26-15.00.48:728][243]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.26-15.00.48:728][243]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.26-15.00.48:728][243]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.26-15.00.48:728][243]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.26-15.00.48:728][243]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.26-15.00.48:728][243]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.26-15.00.48:728][243]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.26-15.00.48:728][243]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.26-15.00.48:728][243]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.26-15.00.48:730][243]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.26-15.00.48:745][243]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.26-15.00.48:745][243]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.26-15.00.48:745][243]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.26-15.00.48:745][243]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.26-15.00.48:746][243]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.04.26-15.00.48:746][243]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.04.26-15.00.48:749][243]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.04.26-15.00.48:749][243]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.04.26-15.00.48:749][243]LogInit: FAudioDevice initialized with ID 15.
+[2025.04.26-15.00.48:749][243]LogAudio: Display: Audio Device (ID: 15) registered with world 'ThirdPersonMap'.
+[2025.04.26-15.00.48:749][243]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.04.26-15.00.48:751][243]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.26-15.00.48:759][243]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.26-16.00.48
+[2025.04.26-15.00.48:760][243]LogWorld: Bringing up level for play took: 0.008826
+[2025.04.26-15.00.48:762][243]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2025.04.26-15.00.48:765][243]PIE: Server logged in
+[2025.04.26-15.00.48:765][243]PIE: Play in editor total start time 0,071 seconds.
+[2025.04.26-15.00.48:767][243]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B0905D02_1785895050] Can't attack... Roaming
+[2025.04.26-15.02.09:999][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-15.02.09:999][648]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.26-15.02.10:000][648]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-15.02.10:000][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-15.02.10:000][648]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.26-15.02.10:003][648]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.26-15.02.10:007][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-15.02.10:023][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-15.02.10:023][648]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.04.26-15.02.10:023][648]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.04.26-15.02.10:025][648]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.04.26-15.02.10:032][648]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.04.26-15.02.10:098][649]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.04.26-15.02.49:385][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.04.26-15.02.49:389][ 72]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.022
+[2025.04.26-15.02.49:390][ 72]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Characters/RedPandaCharacter/redPanda_Jump] ([1] browsable assets)...
+[2025.04.26-15.02.49:445][ 72]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Models/Characters/RedPandaCharacter/redPanda_Jump.redPanda_Jump]
+[2025.04.26-15.02.49:445][ 72]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Characters/RedPandaCharacter/redPanda_Jump]
+[2025.04.26-15.02.49:449][ 72]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Characters/RedPandaCharacter/redPanda_Jump_Auto3
+[2025.04.26-15.02.49:449][ 72]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/redPanda_Jump_Auto36D3F377D491FDA56DAC8DCA3DBDBF030.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/Models/Characters/RedPandaCharacter/redPanda_Jump_Auto3.uasset'
+[2025.04.26-15.02.49:449][ 72]LogFileHelpers: Auto-saving content packages took 0.060
+[2025.04.26-15.11.14:492][358]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.26-15.11.14:567][358]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_452
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0038
+[2025.04.26-15.11.14:567][358]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_452
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0077
+[2025.04.26-15.11.14:567][358]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_452
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00F3
+[2025.04.26-15.11.14:567][358]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_452
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0121
+[2025.04.26-15.11.14:567][358]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_452
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0038
+[2025.04.26-15.11.14:567][358]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_452
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0077
+[2025.04.26-15.11.14:567][358]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_452
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00F3
+[2025.04.26-15.11.14:567][358]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_452
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0121
+[2025.04.26-15.11.14:594][358]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint
+[2025.04.26-15.11.14:595][358]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/RedPandaAnimBlueprintB62160834C53B008E6097BBAF7814DD3.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.uasset'
+[2025.04.26-15.11.14:606][358]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 4.15 sec)
+[2025.04.26-15.11.14:608][358]AssetCheck: New page: Asset Save: RedPandaAnimBlueprint
+[2025.04.26-15.11.14:608][358]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint
+[2025.04.26-15.11.15:683][483]BlueprintLog: New page: Compile RedPandaAnimBlueprint
+[2025.04.26-15.11.15:718][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.04.26-15.11.16:949][620]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.26-15.11.17:017][620]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_453
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0038
+[2025.04.26-15.11.17:017][620]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_453
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0077
+[2025.04.26-15.11.17:017][620]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_453
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00F3
+[2025.04.26-15.11.17:017][620]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_453
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0121
+[2025.04.26-15.11.17:046][620]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint
+[2025.04.26-15.11.17:046][620]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/RedPandaAnimBlueprint7F34ABCC4A794E07C4B6449812AC7D9B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.uasset'
+[2025.04.26-15.11.17:065][620]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 4.26 sec)
+[2025.04.26-15.11.17:067][620]AssetCheck: New page: Asset Save: RedPandaAnimBlueprint
+[2025.04.26-15.11.17:067][620]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint
+[2025.04.26-15.11.18:130][714]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.26-15.11.18:137][714]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.26-15.11.18:137][714]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.26-15.11.18:140][714]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 36 ms)
+[2025.04.26-15.11.18:140][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.26-15.11.18:140][714]PIE: New page: PIE session: ThirdPersonMap (26 kwi 2025, 17:11:18)
+[2025.04.26-15.11.18:140][714]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.26-15.11.18:148][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007793s)
+[2025.04.26-15.11.18:148][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007824s)
+[2025.04.26-15.11.18:164][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.04.26-15.11.18:166][714]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-15.11.18:167][714]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.26-15.11.18:167][714]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.26-15.11.18:167][714]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.26-15.11.18:167][714]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-15.11.18:167][714]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-15.11.18:167][714]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.26-15.11.18:169][714]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.26-15.11.18:169][714]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.55 sec)
+[2025.04.26-15.11.18:169][714]LogPlayLevel: PIE: World Init took: (0.002882s)
+[2025.04.26-15.11.18:169][714]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.04.26-15.11.18:169][714]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.26-15.11.18:169][714]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.26-15.11.18:169][714]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.26-15.11.18:169][714]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.26-15.11.18:169][714]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.26-15.11.18:169][714]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.26-15.11.18:169][714]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.26-15.11.18:169][714]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.26-15.11.18:170][714]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.26-15.11.18:170][714]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.26-15.11.18:170][714]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.26-15.11.18:171][714]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.26-15.11.18:186][714]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.26-15.11.18:187][714]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.26-15.11.18:187][714]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.26-15.11.18:187][714]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.26-15.11.18:187][714]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.04.26-15.11.18:187][714]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.04.26-15.11.18:189][714]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.04.26-15.11.18:189][714]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.04.26-15.11.18:190][714]LogInit: FAudioDevice initialized with ID 16.
+[2025.04.26-15.11.18:190][714]LogAudio: Display: Audio Device (ID: 16) registered with world 'ThirdPersonMap'.
+[2025.04.26-15.11.18:190][714]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.04.26-15.11.18:192][714]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.26-15.11.18:199][714]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.26-16.11.18
+[2025.04.26-15.11.18:201][714]LogWorld: Bringing up level for play took: 0.008401
+[2025.04.26-15.11.18:203][714]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.04.26-15.11.18:205][714]PIE: Server logged in
+[2025.04.26-15.11.18:206][714]PIE: Play in editor total start time 0,069 seconds.
+[2025.04.26-15.11.18:207][714]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B0905D02_1785895050] Can't attack... Roaming
+[2025.04.26-15.11.26:259][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-15.11.26:259][528]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.26-15.11.26:259][528]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-15.11.26:260][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-15.11.26:260][528]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.26-15.11.26:263][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.26-15.11.26:267][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-15.11.26:283][528]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.26-15.11.26:283][528]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.04.26-15.11.26:283][528]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.04.26-15.11.26:285][528]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.04.26-15.11.26:287][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-15.11.26:290][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.04.26-15.11.26:353][529]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.04.26-15.11.33:859][339]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.26-15.11.33:956][339]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint
+[2025.04.26-15.11.33:957][339]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/RedPandaAnimBlueprintE6594294476544AA07E06197D581FF32.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.uasset'
+[2025.04.26-15.11.33:968][339]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 4.37 sec)
+[2025.04.26-15.11.33:970][339]AssetCheck: New page: Asset Save: RedPandaAnimBlueprint
+[2025.04.26-15.11.33:970][339]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint
+[2025.04.26-15.11.35:090][472]Cmd: TRANSACTION UNDO
+[2025.04.26-15.11.35:090][472]LogEditorTransaction: Undo Delete current selection
+[2025.04.26-15.11.35:097][472]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.26-15.11.35:374][472]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.26-15.11.35:404][472]Cmd: TRANSACTION UNDO
+[2025.04.26-15.11.35:404][472]LogEditorTransaction: Undo Importing Animation
+[2025.04.26-15.11.35:405][472]LogScript: Error: Script Msg: /Game/Models/Characters/RedPandaCharacter/redPanda_Jump : Missing track key data, expected uniform data: number of positional keys 0, number of rotational keys 0, number of scaling keys 0
+[2025.04.26-15.11.35:405][472]LogScript: Error: Script Msg: /Game/Models/Characters/RedPandaCharacter/redPanda_Jump : Missing track key data, expected uniform data: number of positional keys 0, number of rotational keys 0, number of scaling keys 0
+[2025.04.26-15.11.35:405][472]LogScript: Error: Script Msg: /Game/Models/Characters/RedPandaCharacter/redPanda_Jump : Missing track key data, expected uniform data: number of positional keys 0, number of rotational keys 0, number of scaling keys 0
+[2025.04.26-15.11.35:405][472]LogScript: Error: Script Msg: /Game/Models/Characters/RedPandaCharacter/redPanda_Jump : Missing track key data, expected uniform data: number of positional keys 0, number of rotational keys 0, number of scaling keys 0
+[2025.04.26-15.11.35:406][472]LogScript: Error: Script Msg: /Game/Models/Characters/RedPandaCharacter/redPanda_Jump : Missing track key data, expected uniform data: number of positional keys 0, number of rotational keys 0, number of scaling keys 0
+[2025.04.26-15.11.35:406][472]LogScript: Error: Script Msg: /Game/Models/Characters/RedPandaCharacter/redPanda_Jump : Missing track key data, expected uniform data: number of positional keys 0, number of rotational keys 0, number of scaling keys 0
+[2025.04.26-15.11.35:406][472]LogScript: Error: Script Msg: /Game/Models/Characters/RedPandaCharacter/redPanda_Jump : Missing track key data, expected uniform data: number of positional keys 0, number of rotational keys 0, number of scaling keys 0
+[2025.04.26-15.11.35:406][472]LogScript: Error: Script Msg: /Game/Models/Characters/RedPandaCharacter/redPanda_Jump : Missing track key data, expected uniform data: number of positional keys 0, number of rotational keys 0, number of scaling keys 0
+[2025.04.26-15.11.35:406][472]LogScript: Error: Script Msg: /Game/Models/Characters/RedPandaCharacter/redPanda_Jump : Missing track key data, expected uniform data: number of positional keys 0, number of rotational keys 0, number of scaling keys 0
+[2025.04.26-15.11.35:406][472]LogScript: Error: Script Msg: /Game/Models/Characters/RedPandaCharacter/redPanda_Jump : Missing track key data, expected uniform data: number of positional keys 0, number of rotational keys 0, number of scaling keys 0
+[2025.04.26-15.11.35:406][472]LogScript: Error: Script Msg: /Game/Models/Characters/RedPandaCharacter/redPanda_Jump : Missing track key data, expected uniform data: number of positional keys 0, number of rotational keys 0, number of scaling keys 0
+[2025.04.26-15.11.35:409][472]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Models/Characters/RedPandaCharacter/redPanda_Jump.redPanda_Jump
+[2025.04.26-15.11.35:409][472]LogAnimationCompression: Display: Storing compressed animation data for /Game/Models/Characters/RedPandaCharacter/redPanda_Jump.redPanda_Jump, at AnimationSequence/ee56c8d55d18facb970907a683a20901b2c9b09c
+[2025.04.26-15.11.35:409][472]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.26-15.11.35:681][472]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.26-15.11.36:705][560]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.26-15.11.36:768][560]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_454
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0038
+[2025.04.26-15.11.36:768][560]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_454
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0077
+[2025.04.26-15.11.36:768][560]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_454
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00F3
+[2025.04.26-15.11.36:768][560]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_454
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0121
+[2025.04.26-15.11.36:768][560]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_454
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0038
+[2025.04.26-15.11.36:768][560]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_454
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0077
+[2025.04.26-15.11.36:768][560]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_454
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00F3
+[2025.04.26-15.11.36:768][560]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_454
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0121
+[2025.04.26-15.11.36:792][560]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint
+[2025.04.26-15.11.36:793][560]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/RedPandaAnimBlueprint600D4A7249C655305762D9BFB424D9DA.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.uasset'
+[2025.04.26-15.11.36:805][560]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 4.47 sec)
+[2025.04.26-15.11.36:807][560]AssetCheck: New page: Asset Save: RedPandaAnimBlueprint
+[2025.04.26-15.11.36:807][560]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint
+[2025.04.26-15.11.37:667][655]BlueprintLog: New page: Compile RedPandaAnimBlueprint
+[2025.04.26-15.11.37:702][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.04.26-15.11.39:077][771]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.26-15.11.39:086][771]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.26-15.11.39:086][771]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.26-15.11.39:089][771]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 39 ms)
+[2025.04.26-15.11.39:089][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.26-15.11.39:089][771]PIE: New page: PIE session: ThirdPersonMap (26 kwi 2025, 17:11:39)
+[2025.04.26-15.11.39:089][771]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.26-15.11.39:097][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009430s)
+[2025.04.26-15.11.39:097][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.009466s)
+[2025.04.26-15.11.39:114][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.04.26-15.11.39:117][771]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-15.11.39:117][771]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.26-15.11.39:118][771]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.26-15.11.39:118][771]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.26-15.11.39:118][771]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-15.11.39:118][771]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-15.11.39:118][771]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.26-15.11.39:120][771]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.26-15.11.39:120][771]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.56 sec)
+[2025.04.26-15.11.39:120][771]LogPlayLevel: PIE: World Init took: (0.002907s)
+[2025.04.26-15.11.39:120][771]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2025.04.26-15.11.39:120][771]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.26-15.11.39:120][771]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.26-15.11.39:120][771]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.26-15.11.39:120][771]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.26-15.11.39:120][771]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.26-15.11.39:120][771]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.26-15.11.39:120][771]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.26-15.11.39:120][771]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.26-15.11.39:120][771]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.26-15.11.39:120][771]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.26-15.11.39:120][771]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.26-15.11.39:122][771]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.26-15.11.39:137][771]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.26-15.11.39:138][771]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.26-15.11.39:138][771]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.26-15.11.39:138][771]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.26-15.11.39:138][771]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2025.04.26-15.11.39:138][771]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2025.04.26-15.11.39:140][771]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2025.04.26-15.11.39:140][771]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2025.04.26-15.11.39:140][771]LogInit: FAudioDevice initialized with ID 17.
+[2025.04.26-15.11.39:140][771]LogAudio: Display: Audio Device (ID: 17) registered with world 'ThirdPersonMap'.
+[2025.04.26-15.11.39:140][771]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2025.04.26-15.11.39:142][771]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.26-15.11.39:150][771]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.26-16.11.39
+[2025.04.26-15.11.39:151][771]LogWorld: Bringing up level for play took: 0.008288
+[2025.04.26-15.11.39:153][771]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.04.26-15.11.39:156][771]PIE: Server logged in
+[2025.04.26-15.11.39:156][771]PIE: Play in editor total start time 0,071 seconds.
+[2025.04.26-15.11.39:157][771]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B0905D02_1785895050] Can't attack... Roaming
+[2025.04.26-15.12.05:680][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-15.12.05:680][461]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.26-15.12.05:680][461]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-15.12.05:680][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-15.12.05:681][461]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.26-15.12.05:684][461]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.26-15.12.05:689][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-15.12.05:702][461]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.26-15.12.05:703][461]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2025.04.26-15.12.05:703][461]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2025.04.26-15.12.05:704][461]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2025.04.26-15.12.05:707][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-15.12.05:711][461]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.04.26-15.12.05:781][462]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.04.26-15.13.03:585][815]AssetReimport: New page: Detailed File System Changes from 16:13:03
+[2025.04.26-15.13.03:587][815]AssetReimport: 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/RedPandaCharacter/redPanda_Fall.fbx' has been created.
+[2025.04.26-15.13.03:587][815]AssetReimport: 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/RedPandaCharacter/redPanda_Jump.fbx' has been modified.
+[2025.04.26-15.13.10:103][584]AssetReimport: New page: Outstanding source content changes 17:13:10
+[2025.04.26-15.13.10:129][585]LogEditorFactories: Performing atomic reimport of [C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/RedPandaCharacter/redPanda_Jump.fbx]
+[2025.04.26-15.13.10:135][585]LogFbx: Loading FBX Scene from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/RedPandaCharacter/redPanda_Jump.fbx
+[2025.04.26-15.13.10:147][585]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.26-15.13.10:148][585]LogFbx: Parsing AnimStack RedPanda|RedPanda|Scene
+[2025.04.26-15.13.10:165][585]LogEditorFactories: -- imported successfully
+[2025.04.26-15.13.10:166][585]FBXImport: FBX File Loading: Found name clash, node 'RedPanda' was renamed to 'RedPanda1' 
+[2025.04.26-15.13.10:218][586]LogEditorFactories: Performing atomic reimport of [C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/RedPandaCharacter/redPanda_Fall.fbx]
+[2025.04.26-15.13.10:223][586]LogFbx: Loading FBX Scene from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/RedPandaCharacter/redPanda_Fall.fbx
+[2025.04.26-15.13.10:230][586]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.26-15.13.10:230][586]LogFbx: Parsing AnimStack Scene
+[2025.04.26-15.13.10:247][586]LogEditorFactories: -- imported successfully
+[2025.04.26-15.13.10:247][586]FBXImport: FBX File Loading: Found name clash, node 'RedPanda' was renamed to 'RedPanda1' 
+[2025.04.26-15.13.10:318][587]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.26-15.13.10:571][587]LogSavePackage: Moving output files for package: /Game/Models/Characters/RedPandaCharacter/redPanda_Jump
+[2025.04.26-15.13.10:571][587]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/redPanda_JumpE8E4D45E404B331CBFC1299C7183BC0D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/RedPandaCharacter/redPanda_Jump.uasset'
+[2025.04.26-15.13.10:581][587]LogSavePackage: Moving output files for package: /Game/Models/Characters/RedPandaCharacter/redPanda_Fall
+[2025.04.26-15.13.10:582][587]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/redPanda_Fall1FBD45A04655F5243511F299BC0C6BE1.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/RedPandaCharacter/redPanda_Fall.uasset'
+[2025.04.26-15.13.10:666][587]LogFileHelpers: InternalPromptForCheckoutAndSave took 347 ms (total: 4.82 sec)
+[2025.04.26-15.13.10:683][588]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.26-15.13.10:683][588]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Models/Characters/RedPandaCharacter/redPanda_Jump.redPanda_Jump
+[2025.04.26-15.13.10:683][588]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Models/Characters/RedPandaCharacter/redPanda_Fall.redPanda_Fall
+[2025.04.26-15.13.12:539][765]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.26-15.13.12:546][765]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.26-15.13.12:546][765]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.26-15.13.12:548][765]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 42 ms)
+[2025.04.26-15.13.12:548][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.26-15.13.12:548][765]PIE: New page: PIE session: ThirdPersonMap (26 kwi 2025, 17:13:12)
+[2025.04.26-15.13.12:548][765]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.26-15.13.12:557][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007865s)
+[2025.04.26-15.13.12:557][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.007912s)
+[2025.04.26-15.13.12:571][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.04.26-15.13.12:576][765]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-15.13.12:576][765]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.26-15.13.12:576][765]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2025.04.26-15.13.12:577][765]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.26-15.13.12:577][765]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-15.13.12:577][765]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-15.13.12:577][765]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.26-15.13.12:579][765]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.04.26-15.13.12:579][765]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.56 sec)
+[2025.04.26-15.13.12:579][765]LogPlayLevel: PIE: World Init took: (0.003084s)
+[2025.04.26-15.13.12:579][765]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.04.26-15.13.12:579][765]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.26-15.13.12:579][765]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.26-15.13.12:579][765]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.26-15.13.12:579][765]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.26-15.13.12:579][765]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.26-15.13.12:579][765]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.26-15.13.12:579][765]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.26-15.13.12:579][765]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.26-15.13.12:579][765]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.26-15.13.12:579][765]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.26-15.13.12:579][765]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.26-15.13.12:581][765]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.26-15.13.12:596][765]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.26-15.13.12:597][765]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.26-15.13.12:597][765]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.26-15.13.12:597][765]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.26-15.13.12:597][765]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.04.26-15.13.12:597][765]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.04.26-15.13.12:599][765]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.04.26-15.13.12:599][765]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.04.26-15.13.12:599][765]LogInit: FAudioDevice initialized with ID 18.
+[2025.04.26-15.13.12:599][765]LogAudio: Display: Audio Device (ID: 18) registered with world 'ThirdPersonMap'.
+[2025.04.26-15.13.12:600][765]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.04.26-15.13.12:602][765]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.26-15.13.12:608][765]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.26-16.13.12
+[2025.04.26-15.13.12:610][765]LogWorld: Bringing up level for play took: 0.007766
+[2025.04.26-15.13.12:611][765]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.04.26-15.13.12:614][765]PIE: Server logged in
+[2025.04.26-15.13.12:615][765]PIE: Play in editor total start time 0,07 seconds.
+[2025.04.26-15.13.12:617][765]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B0905D02_1785895050] Can't attack... Roaming
+[2025.04.26-15.13.13:673][861]AssetReimport: Reimported asset redPanda_Jump from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/RedPandaCharacter/redPanda_Jump.fbx.
+[2025.04.26-15.13.13:673][861]AssetReimport: Reimported asset redPanda_Fall from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/RedPandaCharacter/redPanda_Fall.fbx.
+[2025.04.26-15.14.06:762][181]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.26-15.14.10:206][594]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B03B5D02_1180271087] BOING
+[2025.04.26-15.14.42:156][420]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B03B5D02_1180271087] BOING
+[2025.04.26-15.14.49:927][351]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B03B5D02_1180271087] BOING
+[2025.04.26-15.14.53:361][762]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B03B5D02_1180271087] BOING
+[2025.04.26-15.15.03:639][995]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B03B5D02_1180271087] BOING
+[2025.04.26-15.15.29:650][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-15.15.29:650][110]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.26-15.15.29:650][110]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-15.15.29:650][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-15.15.29:650][110]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.04.26-15.15.29:653][110]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.26-15.15.29:657][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-15.15.29:673][110]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.26-15.15.29:673][110]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.04.26-15.15.29:673][110]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.04.26-15.15.29:674][110]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.04.26-15.15.29:677][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-15.15.29:681][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.04.26-15.15.29:738][111]LogPlayLevel: Display: Destroying online subsystem :Context_32
