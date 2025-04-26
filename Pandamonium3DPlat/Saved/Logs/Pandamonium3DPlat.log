@@ -3210,3 +3210,357 @@ BackPawR_end
 [2025.04.26-16.44.28:726][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
 [2025.04.26-16.44.28:734][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
 [2025.04.26-16.44.28:868][318]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2025.04.26-16.45.16:360][836]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.26-16.45.16:368][836]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.26-16.45.16:368][836]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.26-16.45.16:373][836]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 4 ms (total: 46 ms)
+[2025.04.26-16.45.16:373][836]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.26-16.45.16:373][836]PIE: New page: PIE session: Level_0 (26 kwi 2025, 18:45:16)
+[2025.04.26-16.45.16:407][836]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.26-16.45.16:427][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019395s)
+[2025.04.26-16.45.16:427][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.019439s)
+[2025.04.26-16.45.16:441][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.04.26-16.45.16:443][836]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-16.45.16:443][836]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.26-16.45.16:444][836]LogAIModule: Creating AISystem for world Level_0
+[2025.04.26-16.45.16:444][836]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.26-16.45.16:444][836]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-16.45.16:444][836]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-16.45.16:444][836]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.26-16.45.16:450][836]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.26-16.45.16:450][836]LogWorldPartition: Display: WorldPartition initialize took 5 ms (total: 835 ms)
+[2025.04.26-16.45.16:450][836]LogPlayLevel: PIE: World Init took: (0.006404s)
+[2025.04.26-16.45.16:450][836]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.04.26-16.45.16:450][836]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.26-16.45.16:450][836]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.26-16.45.16:450][836]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.26-16.45.16:450][836]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.26-16.45.16:450][836]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.26-16.45.16:450][836]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.26-16.45.16:450][836]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.26-16.45.16:450][836]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.26-16.45.16:450][836]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.26-16.45.16:450][836]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.26-16.45.16:450][836]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.26-16.45.16:452][836]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.26-16.45.16:468][836]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.26-16.45.16:468][836]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.26-16.45.16:468][836]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.26-16.45.16:468][836]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.26-16.45.16:469][836]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.04.26-16.45.16:469][836]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.04.26-16.45.16:471][836]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.04.26-16.45.16:471][836]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.04.26-16.45.16:471][836]LogInit: FAudioDevice initialized with ID 9.
+[2025.04.26-16.45.16:471][836]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level_0'.
+[2025.04.26-16.45.16:471][836]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.04.26-16.45.16:473][836]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.26-16.45.16:489][836]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.26-17.45.16
+[2025.04.26-16.45.16:492][836]LogWorld: Bringing up level for play took: 0.017466
+[2025.04.26-16.45.16:494][836]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2025.04.26-16.45.16:498][836]PIE: Server logged in
+[2025.04.26-16.45.16:499][836]PIE: Play in editor total start time 0,131 seconds.
+[2025.04.26-16.45.16:501][836]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.26-16.45.16:501][836]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.26-16.45.36:628][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-16.45.36:628][648]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.26-16.45.36:628][648]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-16.45.36:629][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-16.45.36:629][648]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.26-16.45.36:633][648]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.26-16.45.36:637][648]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-16.45.36:653][648]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-16.45.36:654][648]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.04.26-16.45.36:655][648]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.04.26-16.45.36:656][648]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.04.26-16.45.36:665][648]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.04.26-16.45.36:730][649]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2025.04.26-16.48.40:254][320]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.26-16.48.40:262][320]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.26-16.48.40:262][320]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.26-16.48.40:269][320]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 7 ms (total: 54 ms)
+[2025.04.26-16.48.40:269][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.26-16.48.40:270][320]PIE: New page: PIE session: Level_0 (26 kwi 2025, 18:48:40)
+[2025.04.26-16.48.40:297][320]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.26-16.48.40:317][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019420s)
+[2025.04.26-16.48.40:317][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.019468s)
+[2025.04.26-16.48.40:331][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.04.26-16.48.40:333][320]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-16.48.40:333][320]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.26-16.48.40:334][320]LogAIModule: Creating AISystem for world Level_0
+[2025.04.26-16.48.40:334][320]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.26-16.48.40:334][320]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-16.48.40:334][320]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-16.48.40:334][320]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.26-16.48.40:339][320]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.26-16.48.40:339][320]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 840 ms)
+[2025.04.26-16.48.40:339][320]LogPlayLevel: PIE: World Init took: (0.006123s)
+[2025.04.26-16.48.40:339][320]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.04.26-16.48.40:339][320]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.26-16.48.40:339][320]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.26-16.48.40:339][320]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.26-16.48.40:339][320]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.26-16.48.40:339][320]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.26-16.48.40:339][320]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.26-16.48.40:339][320]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.26-16.48.40:339][320]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.26-16.48.40:339][320]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.26-16.48.40:339][320]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.26-16.48.40:339][320]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.26-16.48.40:341][320]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.26-16.48.40:358][320]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.26-16.48.40:359][320]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.26-16.48.40:359][320]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.26-16.48.40:359][320]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.26-16.48.40:359][320]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.04.26-16.48.40:359][320]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.04.26-16.48.40:361][320]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.04.26-16.48.40:361][320]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.04.26-16.48.40:361][320]LogInit: FAudioDevice initialized with ID 10.
+[2025.04.26-16.48.40:361][320]LogAudio: Display: Audio Device (ID: 10) registered with world 'Level_0'.
+[2025.04.26-16.48.40:361][320]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.04.26-16.48.40:363][320]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.26-16.48.40:379][320]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.26-17.48.40
+[2025.04.26-16.48.40:382][320]LogWorld: Bringing up level for play took: 0.017759
+[2025.04.26-16.48.40:384][320]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.04.26-16.48.40:388][320]PIE: Server logged in
+[2025.04.26-16.48.40:389][320]PIE: Play in editor total start time 0,128 seconds.
+[2025.04.26-16.48.40:393][320]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.26-16.48.40:393][320]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.26-16.48.43:893][623]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.26-16.48.46:694][872]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.26-16.48.48:238][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-16.48.48:238][  8]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.26-16.48.48:238][  8]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-16.48.48:239][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-16.48.48:239][  8]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.26-16.48.48:242][  8]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.26-16.48.48:248][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-16.48.48:264][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-16.48.48:266][  8]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.04.26-16.48.48:266][  8]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.04.26-16.48.48:268][  8]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.04.26-16.48.48:276][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.04.26-16.48.48:345][  9]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.04.26-16.55.28:373][512]LogSlate: Window 'Interchange Pipeline Configuration (Import Content)' being destroyed
+[2025.04.26-16.55.28:389][512]LogInterchangeEngine: [Pending] Importing
+[2025.04.26-16.55.28:389][512]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/okacp/Docum...es/monkey_Turret.fbm/monkey_Turret.obj]
+[2025.04.26-16.55.28:424][513]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.04.26-16.55.28:440][513]LogTexture: Display: Building textures: /Game/Models/Characters/Enemies/TEX_monkeyEnemy.TEX_monkeyEnemy (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 2.645795 MB), EncodeSpeed: Fast
+[2025.04.26-16.55.28:460][513]LogStaticMesh: Display: Building static mesh monkey_Turret...
+[2025.04.26-16.55.28:472][513]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Characters/Enemies/monkey_Turret.monkey_Turret
+[2025.04.26-16.55.28:500][513]LogInterchangeEngine: [Success] Import Done
+[2025.04.26-16.55.28:510][513]LogInterchangeEngine: [Success] Import Done
+[2025.04.26-16.55.28:613][514]LogInterchangeEngine: [Success] Import Done
+[2025.04.26-16.55.28:739][515]LogShaderCompilers: Display: ================================================
+[2025.04.26-16.55.28:739][515]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.26-16.55.28:739][515]LogShaderCompilers: Display: Total job queries 22, among them cache hits 6 (27.27%)
+[2025.04.26-16.55.28:739][515]LogShaderCompilers: Display: Tracking 16 distinct input hashes that result in 13 distinct outputs (81.25%)
+[2025.04.26-16.55.28:739][515]LogShaderCompilers: Display: RAM used: 398,33 KiB of 1,60 GiB budget. Usage: 0.02%
+[2025.04.26-16.55.28:739][515]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.26-16.55.28:739][515]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.04.26-16.55.28:739][515]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.04.26-16.55.28:739][515]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.04.26-16.55.28:739][515]LogShaderCompilers: Display: ================================================
+[2025.04.26-16.55.35:829][923]LogTexture: Display: Building textures: /Game/Models/Characters/Enemies/TEX_monkeyEnemy.TEX_monkeyEnemy (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 0.54166 MB), EncodeSpeed: Fast
+[2025.04.26-16.55.41:800][280]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.26-16.55.41:892][280]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/m_7144d450-ad4c-247f-e784-ea2a16b09594
+[2025.04.26-16.55.41:892][280]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/m_7144d450-ad4c-247f-e784-ea2a161604FFEC4CB673249C859BB74D848240.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/m_7144d450-ad4c-247f-e784-ea2a16b09594.uasset'
+[2025.04.26-16.55.41:908][280]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 1.91 sec)
+[2025.04.26-16.55.41:909][280]AssetCheck: New page: Asset Save: m_7144d450-ad4c-247f-e784-ea2a16b09594
+[2025.04.26-16.55.41:909][280]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Characters/Enemies/m_7144d450-ad4c-247f-e784-ea2a16b09594.m_7144d450-ad4c-247f-e784-ea2a16b09594
+[2025.04.26-16.55.42:355][300]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.26-16.55.42:450][300]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/monkey_Turret
+[2025.04.26-16.55.42:450][300]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/monkey_Turret4D80FE8440F3A8859CB5ADADD80783C7.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/monkey_Turret.uasset'
+[2025.04.26-16.55.42:468][300]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 2.02 sec)
+[2025.04.26-16.55.42:469][300]AssetCheck: New page: Asset Save: monkey_Turret
+[2025.04.26-16.55.42:469][300]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Characters/Enemies/monkey_Turret.monkey_Turret
+[2025.04.26-16.55.42:793][315]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.26-16.55.42:873][315]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/TEX_monkeyEnemy
+[2025.04.26-16.55.42:873][315]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/TEX_monkeyEnemyDC3D0FDE447BED4A3473DDBE3D898DD8.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/TEX_monkeyEnemy.uasset'
+[2025.04.26-16.55.42:888][315]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 2.12 sec)
+[2025.04.26-16.55.42:889][315]AssetCheck: New page: Asset Save: TEX_monkeyEnemy
+[2025.04.26-16.55.42:889][315]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Characters/Enemies/TEX_monkeyEnemy.TEX_monkeyEnemy
+[2025.04.26-16.56.21:026][254]LogContentBrowser: Attempting asset rename: m_7144d450-ad4c-247f-e784-ea2a16b09594 -> MonkeyTurret_Material
+[2025.04.26-16.56.21:059][254]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.26-16.56.21:141][254]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/monkey_Turret
+[2025.04.26-16.56.21:142][254]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/monkey_Turret6C5530D74B0996BFE6E18B9C5EC12541.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/monkey_Turret.uasset'
+[2025.04.26-16.56.21:147][254]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/MonkeyTurret_Material
+[2025.04.26-16.56.21:147][254]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MonkeyTurret_Material0B31BC3E4874C974BF77B58E4C12B151.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/MonkeyTurret_Material.uasset'
+[2025.04.26-16.56.21:163][254]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 2.22 sec)
+[2025.04.26-16.56.21:189][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.04.26-16.56.21:211][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.04.26-16.56.21:226][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.04.26-16.56.21:230][254]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.26-16.56.21:230][254]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Characters/Enemies/monkey_Turret.monkey_Turret
+[2025.04.26-16.56.21:230][254]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Characters/Enemies/MonkeyTurret_Material.MonkeyTurret_Material
+[2025.04.26-16.56.24:890][495]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-16.56.24:928][496]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-16.56.24:966][497]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-16.56.25:000][498]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-16.56.25:040][499]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-16.56.26:837][610]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy
+[2025.04.26-16.56.26:837][610]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-16.56.26:837][610]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.26-16.56.28:275][722]LogViewport: Scene viewport resized to 1121x685, mode Windowed.
+[2025.04.26-16.56.33:307][223]AssetReimport: New page: Outstanding source content changes 18:56:33
+[2025.04.26-16.56.33:367][224]LogInterchangeEngine: [Pending] Importing
+[2025.04.26-16.56.33:367][224]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.04.26-16.56.33:381][224]LogInterchangeEngine: [Success] Import Done
+[2025.04.26-16.56.33:454][225]LogInterchangeEngine: [Success] Import Done
+[2025.04.26-16.56.39:386][225]LogSlate: Window 'Interchange Pipeline Configuration (Reimport Content)' being destroyed
+[2025.04.26-16.56.39:403][225]LogInterchangeEngine: [Pending] Importing
+[2025.04.26-16.56.39:403][225]LogInterchangeEngine: [Success] Import Canceled
+[2025.04.26-16.56.41:052][225]LogSlate: Window 'Interchange Pipeline Configuration (Reimport Content)' being destroyed
+[2025.04.26-16.56.41:065][225]LogInterchangeEngine: [Pending] Importing
+[2025.04.26-16.56.41:065][225]LogInterchangeEngine: [Success] Import Canceled
+[2025.04.26-16.56.42:642][225]LogSlate: Window 'Interchange Pipeline Configuration (Reimport Content)' being destroyed
+[2025.04.26-16.56.42:655][225]LogInterchangeEngine: [Pending] Importing
+[2025.04.26-16.56.42:655][225]LogInterchangeEngine: [Success] Import Canceled
+[2025.04.26-16.56.42:689][226]LogInterchangeEngine: [Success] Import Canceled
+[2025.04.26-16.56.42:717][226]LogInterchangeEngine: [Success] Import Canceled
+[2025.04.26-16.56.42:734][226]LogInterchangeEngine: [Success] Import Canceled
+[2025.04.26-16.56.42:738][226]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.26-16.56.43:443][226]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/TEX_monkeyEnemy
+[2025.04.26-16.56.43:444][226]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/TEX_monkeyEnemy42920C554802C36B98764D818844D770.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/TEX_monkeyEnemy.uasset'
+[2025.04.26-16.56.43:448][226]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/MonkeyTurret_Material
+[2025.04.26-16.56.43:449][226]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MonkeyTurret_Material3301EF4A429A656303ADC2805EA8D75A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/MonkeyTurret_Material.uasset'
+[2025.04.26-16.56.43:452][226]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/monkey_Turret
+[2025.04.26-16.56.43:453][226]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/monkey_Turret678F8CB14A647210D90B3D8E058B4E7C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/monkey_Turret.uasset'
+[2025.04.26-16.56.43:486][226]LogFileHelpers: InternalPromptForCheckoutAndSave took 748 ms (total: 2.97 sec)
+[2025.04.26-16.56.43:499][227]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.26-16.56.43:499][227]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Characters/Enemies/TEX_monkeyEnemy.TEX_monkeyEnemy
+[2025.04.26-16.56.43:499][227]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Characters/Enemies/MonkeyTurret_Material.MonkeyTurret_Material
+[2025.04.26-16.56.43:499][227]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Characters/Enemies/monkey_Turret.monkey_Turret
+[2025.04.26-16.56.46:487][501]AssetReimport: Reimported asset TEX_monkeyEnemy from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/monkey_Turret.fbm/monkeyEnemy.png.
+[2025.04.26-16.56.46:487][501]AssetReimport: Reimported asset Material_0 from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/monkey_Turret.fbm/monkey_Turret.obj.
+[2025.04.26-16.56.46:487][501]AssetReimport: Reimported asset MonkeyTurret_Material from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/monkey_Turret.fbm/monkey_Turret.obj.
+[2025.04.26-16.56.46:487][501]AssetReimport: Reimported asset monkey_Turret from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/monkey_Turret.fbm/monkey_Turret.obj.
+[2025.04.26-16.56.47:934][632]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-16.56.49:405][751]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-16.57.34:098][111]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.26-16.57.34:183][111]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy
+[2025.04.26-16.57.34:184][111]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ProjectileEnemy163805C74D15FEFF62FE6CB2443AA571.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.uasset'
+[2025.04.26-16.57.34:195][111]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 3.07 sec)
+[2025.04.26-16.57.34:197][111]AssetCheck: New page: Asset Save: BP_ProjectileEnemy
+[2025.04.26-16.57.34:197][111]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy
+[2025.04.26-16.57.34:757][162]BlueprintLog: New page: Compile BP_ProjectileEnemy
+[2025.04.26-16.57.34:825][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.04.26-16.57.37:622][366]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.26-16.57.37:631][366]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.26-16.57.37:631][366]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.26-16.57.37:639][366]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 7 ms (total: 61 ms)
+[2025.04.26-16.57.37:639][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.26-16.57.37:639][366]PIE: New page: PIE session: Level_0 (26 kwi 2025, 18:57:37)
+[2025.04.26-16.57.37:677][366]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.26-16.57.37:698][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020930s)
+[2025.04.26-16.57.37:698][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.020991s)
+[2025.04.26-16.57.37:713][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.04.26-16.57.37:716][366]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.26-16.57.37:716][366]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.26-16.57.37:716][366]LogAIModule: Creating AISystem for world Level_0
+[2025.04.26-16.57.37:717][366]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.26-16.57.37:717][366]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.26-16.57.37:717][366]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.26-16.57.37:717][366]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.26-16.57.37:722][366]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.26-16.57.37:722][366]LogWorldPartition: Display: WorldPartition initialize took 5 ms (total: 845 ms)
+[2025.04.26-16.57.37:722][366]LogPlayLevel: PIE: World Init took: (0.006408s)
+[2025.04.26-16.57.37:722][366]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.04.26-16.57.37:722][366]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.26-16.57.37:722][366]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.26-16.57.37:722][366]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.26-16.57.37:722][366]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.26-16.57.37:722][366]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.26-16.57.37:722][366]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.26-16.57.37:723][366]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.26-16.57.37:723][366]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.26-16.57.37:723][366]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.26-16.57.37:723][366]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.26-16.57.37:723][366]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.26-16.57.37:725][366]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.26-16.57.37:742][366]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.26-16.57.37:742][366]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.26-16.57.37:742][366]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.26-16.57.37:742][366]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.26-16.57.37:744][366]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.04.26-16.57.37:744][366]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.04.26-16.57.37:747][366]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.04.26-16.57.37:747][366]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.04.26-16.57.37:747][366]LogInit: FAudioDevice initialized with ID 11.
+[2025.04.26-16.57.37:747][366]LogAudio: Display: Audio Device (ID: 11) registered with world 'Level_0'.
+[2025.04.26-16.57.37:747][366]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.04.26-16.57.37:750][366]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.26-16.57.37:769][366]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.26-17.57.37
+[2025.04.26-16.57.37:773][366]LogWorld: Bringing up level for play took: 0.022859
+[2025.04.26-16.57.37:775][366]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.04.26-16.57.37:782][366]PIE: Server logged in
+[2025.04.26-16.57.37:783][366]PIE: Play in editor total start time 0,151 seconds.
+[2025.04.26-16.57.37:785][366]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.26-16.57.37:785][366]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.26-16.57.41:352][761]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.26-16.57.49:192][648]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.26-16.57.51:824][944]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 2.0
+[2025.04.26-16.57.51:824][944]LogBlueprintUserMessages: [BP_Projectile_C_0] 1.0
+[2025.04.26-16.57.54:848][294]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 1.0
+[2025.04.26-16.57.54:849][294]LogBlueprintUserMessages: [BP_Projectile_C_2] 1.0
+[2025.04.26-16.58.00:613][955]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238] false
+[2025.04.26-16.58.12:271][294]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.26-16.58.14:549][548]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can Attack
+[2025.04.26-16.58.17:994][934]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can Attack
+[2025.04.26-16.58.26:707][941]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B03B5D02_1180271087] BOING
+[2025.04.26-16.58.34:702][856]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238] false
+[2025.04.26-16.58.36:666][ 83]LogBlueprintUserMessages: [BP_Projectile_C_11] Failed
+[2025.04.26-16.58.38:336][281]LogBlueprintUserMessages: [BP_Projectile_C_12] Failed
+[2025.04.26-16.58.40:511][535]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1689787624] BOING
+[2025.04.26-16.58.48:727][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-16.58.48:727][490]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.26-16.58.48:728][490]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.26-16.58.48:729][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-16.58.48:729][490]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.26-16.58.48:733][490]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.26-16.58.48:738][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.26-16.58.48:754][490]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.26-16.58.48:754][490]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.04.26-16.58.48:756][490]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.04.26-16.58.48:757][490]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.04.26-16.58.48:761][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.26-16.58.48:767][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.04.26-16.58.48:818][491]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.04.26-16.59.38:302][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.04.26-16.59.38:309][693]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/1/X3/UJOBJQ2YT3KL7ATWDEHI2D_Auto2
+[2025.04.26-16.59.38:309][693]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/UJOBJQ2YT3KL7ATWDEHI2D_Auto298A55E034AAB86ED03B6FB884292A6AE.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/1/X3/UJOBJQ2YT3KL7ATWDEHI2D_Auto2.uasset'
+[2025.04.26-16.59.38:316][693]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/CD/7YF80HH3GH3JROIJYUPQ9D_Auto2
+[2025.04.26-16.59.38:316][693]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/7YF80HH3GH3JROIJYUPQ9D_Auto28A94D9F845399EDA0633069A3BE09D9B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/CD/7YF80HH3GH3JROIJYUPQ9D_Auto2.uasset'
+[2025.04.26-16.59.38:320][693]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/9/F6/7PC8N71ANCOBS58UKIGCGP_Auto2
+[2025.04.26-16.59.38:320][693]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/7PC8N71ANCOBS58UKIGCGP_Auto2C44DF1CF4F8CEBBD45740FA0A3F6C0D1.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/9/F6/7PC8N71ANCOBS58UKIGCGP_Auto2.uasset'
+[2025.04.26-16.59.38:322][693]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/Level_0' took 0.038
+[2025.04.26-16.59.38:322][693]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.038
+[2025.04.26-16.59.38:323][693]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Characters/Enemies/none] ([1] browsable assets)...
+[2025.04.26-16.59.38:433][693]LogShaderCompilers: Display: ================================================
+[2025.04.26-16.59.38:433][693]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.26-16.59.38:433][693]LogShaderCompilers: Display: Total job queries 50, among them cache hits 18 (36.00%)
+[2025.04.26-16.59.38:433][693]LogShaderCompilers: Display: Tracking 32 distinct input hashes that result in 25 distinct outputs (78.12%)
+[2025.04.26-16.59.38:433][693]LogShaderCompilers: Display: RAM used: 788,93 KiB of 1,60 GiB budget. Usage: 0.05%
+[2025.04.26-16.59.38:433][693]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.26-16.59.38:433][693]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.04.26-16.59.38:433][693]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.04.26-16.59.38:433][693]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.04.26-16.59.38:433][693]LogShaderCompilers: Display: ================================================
+[2025.04.26-16.59.38:461][693]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Characters/Enemies/none.Material_0]
+[2025.04.26-16.59.38:461][693]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Characters/Enemies/none]
+[2025.04.26-16.59.38:462][693]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Characters/Enemies/none_Auto2
+[2025.04.26-16.59.38:462][693]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/none_Auto2C9B58E4148C88D5D4FC10CA50C6463C7.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/Models/Characters/Enemies/none_Auto2.uasset'
+[2025.04.26-16.59.38:463][693]LogFileHelpers: Auto-saving content packages took 0.141
+[2025.04.26-17.01.15:379][ 39]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.26-17.01.15:447][ 39]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/1/X3/UJOBJQ2YT3KL7ATWDEHI2D
+[2025.04.26-17.01.15:447][ 39]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/UJOBJQ2YT3KL7ATWDEHI2DB9A005A743310A448AF8079B0A0F2C7F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/1/X3/UJOBJQ2YT3KL7ATWDEHI2D.uasset'
+[2025.04.26-17.01.15:450][ 39]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/CD/7YF80HH3GH3JROIJYUPQ9D
+[2025.04.26-17.01.15:451][ 39]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/7YF80HH3GH3JROIJYUPQ9D038DC29740499F91CED538AB79BD6780.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/8/CD/7YF80HH3GH3JROIJYUPQ9D.uasset'
+[2025.04.26-17.01.15:454][ 39]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/9/F6/7PC8N71ANCOBS58UKIGCGP
+[2025.04.26-17.01.15:455][ 39]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/7PC8N71ANCOBS58UKIGCGPE6CABBCA49B0D6DED1FB108C80ADAD34.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/9/F6/7PC8N71ANCOBS58UKIGCGP.uasset'
+[2025.04.26-17.01.15:468][ 39]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 3.16 sec)
+[2025.04.26-17.01.15:469][ 39]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.26-17.01.15:469][ 39]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_ProjectileEnemy_C_UAID_74563C6C81B05B6102_2096234033
+[2025.04.26-17.01.15:469][ 39]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_ProjectileEnemy_C_UAID_74563C6C81B05B6102_2055047030
+[2025.04.26-17.01.15:469][ 39]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_ProjectileEnemy_C_UAID_74563C6C81B05B6102_2094083032
