@@ -1666,3 +1666,1003 @@ LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, or LPT9.
 [2025.04.28-13.41.16:837][ 80]LogHttp: Warning: 00000B8E10FB2300: libcurl info message cache 16 (Failed to connect to datarouter.ol.epicgames.com port 443 after 60000 ms: Timeout was reached)
 [2025.04.28-13.41.16:837][ 80]LogHttp: Warning: 00000B8E10FB2300: libcurl info message cache 17 (Closing connection)
 [2025.04.28-13.41.16:837][ 80]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: 00000B8E1327E600: request failed, libcurl error: 28 (Timeout was reached)
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: 00000B8E1327E600: libcurl info message cache 0 (Found bundle for host: 0xb8da6950ba0 [serially])
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: 00000B8E1327E600: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: 00000B8E1327E600: libcurl info message cache 2 (  Trying 3.213.149.133:443...)
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: 00000B8E1327E600: libcurl info message cache 3 (connect to 3.213.149.133 port 443 failed: Timed out)
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: 00000B8E1327E600: libcurl info message cache 4 (  Trying 54.211.184.94:443...)
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: 00000B8E1327E600: libcurl info message cache 5 (ipv4 connect timeout after 19476ms, move on!)
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: 00000B8E1327E600: libcurl info message cache 6 (  Trying 52.6.26.138:443...)
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: 00000B8E1327E600: libcurl info message cache 7 (Connected to datarouter.ol.epicgames.com (52.6.26.138) port 443)
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: 00000B8E1327E600: libcurl info message cache 8 (ALPN: curl offers http/1.1)
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: 00000B8E1327E600: libcurl info message cache 9 (SSL reusing session ID)
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: 00000B8E1327E600: libcurl info message cache 10 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: 00000B8E1327E600: libcurl info message cache 11 (SSL connection timeout)
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: 00000B8E1327E600: libcurl info message cache 12 (Closing connection)
+[2025.04.28-13.43.16:626][173]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.44.16:639][353]LogHttp: Warning: 00000B8E13276E00: request failed, libcurl error: 28 (Timeout was reached)
+[2025.04.28-13.44.16:639][353]LogHttp: Warning: 00000B8E13276E00: libcurl info message cache 0 (Found bundle for host: 0xb8da6950ba0 [serially])
+[2025.04.28-13.44.16:639][353]LogHttp: Warning: 00000B8E13276E00: libcurl info message cache 1 (  Trying 54.147.145.94:443...)
+[2025.04.28-13.44.16:639][353]LogHttp: Warning: 00000B8E13276E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.147.145.94) port 443)
+[2025.04.28-13.44.16:639][353]LogHttp: Warning: 00000B8E13276E00: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.04.28-13.44.16:639][353]LogHttp: Warning: 00000B8E13276E00: libcurl info message cache 4 (SSL reusing session ID)
+[2025.04.28-13.44.16:639][353]LogHttp: Warning: 00000B8E13276E00: libcurl info message cache 5 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.28-13.44.16:639][353]LogHttp: Warning: 00000B8E13276E00: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.04.28-13.44.16:639][353]LogHttp: Warning: 00000B8E13276E00: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.04.28-13.44.16:639][353]LogHttp: Warning: 00000B8E13276E00: libcurl info message cache 8 (SSL connection timeout)
+[2025.04.28-13.44.16:639][353]LogHttp: Warning: 00000B8E13276E00: libcurl info message cache 9 (Closing connection)
+[2025.04.28-13.44.16:639][353]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.44.19:299][360]LogHttp: Warning: 00000B8E1231AA00: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.44.19:306][361]LogHttp: Warning: 00000B8E1231AA00: request failed, libcurl error: 0 (No error)
+[2025.04.28-13.44.19:306][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 0 (Found bundle for host: 0xb8da6950ba0 [serially])
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 2 (  Trying 34.234.131.233:443...)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.234.131.233) port 443)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 4 (ALPN: curl offers http/1.1)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 5 (SSL reusing session ID)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 9 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 10 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 11 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 12 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 13 (ALPN: server accepted http/1.1)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 14 (Server certificate:)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 15 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 16 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 17 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 18 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 19 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 20 ( SSL certificate verify ok.)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 21 (using HTTP/1.1)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 22 (We are completely uploaded and fine)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 23 (Closing connection)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: 00000B8E1231AA00: libcurl info message cache 24 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.04.28-13.44.19:307][361]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.45.16:650][533]LogHttp: Warning: 00000B8E1327F500: request failed, libcurl error: 28 (Timeout was reached)
+[2025.04.28-13.45.16:650][533]LogHttp: Warning: 00000B8E1327F500: libcurl info message cache 0 (Found bundle for host: 0xb8da6950ba0 [serially])
+[2025.04.28-13.45.16:650][533]LogHttp: Warning: 00000B8E1327F500: libcurl info message cache 1 (  Trying 3.219.129.65:443...)
+[2025.04.28-13.45.16:650][533]LogHttp: Warning: 00000B8E1327F500: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.219.129.65) port 443)
+[2025.04.28-13.45.16:650][533]LogHttp: Warning: 00000B8E1327F500: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.04.28-13.45.16:650][533]LogHttp: Warning: 00000B8E1327F500: libcurl info message cache 4 (SSL reusing session ID)
+[2025.04.28-13.45.16:650][533]LogHttp: Warning: 00000B8E1327F500: libcurl info message cache 5 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.28-13.45.16:650][533]LogHttp: Warning: 00000B8E1327F500: libcurl info message cache 6 (SSL connection timeout)
+[2025.04.28-13.45.16:650][533]LogHttp: Warning: 00000B8E1327F500: libcurl info message cache 7 (Closing connection)
+[2025.04.28-13.45.16:650][533]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.46.16:995][714]LogHttp: Warning: 00000B8E1327DC00: request failed, libcurl error: 28 (Timeout was reached)
+[2025.04.28-13.46.16:995][714]LogHttp: Warning: 00000B8E1327DC00: libcurl info message cache 0 (  Trying 54.147.145.94:443...)
+[2025.04.28-13.46.16:995][714]LogHttp: Warning: 00000B8E1327DC00: libcurl info message cache 1 (connect to 54.147.145.94 port 443 failed: Timed out)
+[2025.04.28-13.46.16:995][714]LogHttp: Warning: 00000B8E1327DC00: libcurl info message cache 2 (  Trying 44.196.156.109:443...)
+[2025.04.28-13.46.16:995][714]LogHttp: Warning: 00000B8E1327DC00: libcurl info message cache 3 (ipv4 connect timeout after 19469ms, move on!)
+[2025.04.28-13.46.16:995][714]LogHttp: Warning: 00000B8E1327DC00: libcurl info message cache 4 (  Trying 34.236.142.102:443...)
+[2025.04.28-13.46.16:995][714]LogHttp: Warning: 00000B8E1327DC00: libcurl info message cache 5 (Connected to datarouter.ol.epicgames.com (34.236.142.102) port 443)
+[2025.04.28-13.46.16:995][714]LogHttp: Warning: 00000B8E1327DC00: libcurl info message cache 6 (ALPN: curl offers http/1.1)
+[2025.04.28-13.46.16:995][714]LogHttp: Warning: 00000B8E1327DC00: libcurl info message cache 7 (SSL reusing session ID)
+[2025.04.28-13.46.16:995][714]LogHttp: Warning: 00000B8E1327DC00: libcurl info message cache 8 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.28-13.46.16:995][714]LogHttp: Warning: 00000B8E1327DC00: libcurl info message cache 9 (SSL connection timeout)
+[2025.04.28-13.46.16:995][714]LogHttp: Warning: 00000B8E1327DC00: libcurl info message cache 10 (Closing connection)
+[2025.04.28-13.46.16:995][714]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.47.16:669][893]LogHttp: Warning: 00000B8E1327C300: request failed, libcurl error: 28 (Timeout was reached)
+[2025.04.28-13.47.16:669][893]LogHttp: Warning: 00000B8E1327C300: libcurl info message cache 0 (Found bundle for host: 0xb8da69504e0 [serially])
+[2025.04.28-13.47.16:669][893]LogHttp: Warning: 00000B8E1327C300: libcurl info message cache 1 (Connection #10 isn't open enough, can't reuse)
+[2025.04.28-13.47.16:669][893]LogHttp: Warning: 00000B8E1327C300: libcurl info message cache 2 (Hostname in DNS cache was stale, zapped)
+[2025.04.28-13.47.16:669][893]LogHttp: Warning: 00000B8E1327C300: libcurl info message cache 3 (  Trying 98.85.88.201:443...)
+[2025.04.28-13.47.16:669][893]LogHttp: Warning: 00000B8E1327C300: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (98.85.88.201) port 443)
+[2025.04.28-13.47.16:669][893]LogHttp: Warning: 00000B8E1327C300: libcurl info message cache 5 (ALPN: curl offers http/1.1)
+[2025.04.28-13.47.16:669][893]LogHttp: Warning: 00000B8E1327C300: libcurl info message cache 6 (SSL reusing session ID)
+[2025.04.28-13.47.16:669][893]LogHttp: Warning: 00000B8E1327C300: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.28-13.47.16:669][893]LogHttp: Warning: 00000B8E1327C300: libcurl info message cache 8 (SSL connection timeout)
+[2025.04.28-13.47.16:669][893]LogHttp: Warning: 00000B8E1327C300: libcurl info message cache 9 (Closing connection)
+[2025.04.28-13.47.16:669][893]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.48.17:012][ 74]LogHttp: Warning: 00000B8E1327BE00: request failed, libcurl error: 28 (Timeout was reached)
+[2025.04.28-13.48.17:013][ 74]LogHttp: Warning: 00000B8E1327BE00: libcurl info message cache 0 (  Trying 50.16.17.124:443...)
+[2025.04.28-13.48.17:013][ 74]LogHttp: Warning: 00000B8E1327BE00: libcurl info message cache 1 (connect to 50.16.17.124 port 443 failed: Timed out)
+[2025.04.28-13.48.17:013][ 74]LogHttp: Warning: 00000B8E1327BE00: libcurl info message cache 2 (  Trying 54.227.203.197:443...)
+[2025.04.28-13.48.17:013][ 74]LogHttp: Warning: 00000B8E1327BE00: libcurl info message cache 3 (ipv4 connect timeout after 19476ms, move on!)
+[2025.04.28-13.48.17:013][ 74]LogHttp: Warning: 00000B8E1327BE00: libcurl info message cache 4 (  Trying 54.211.184.94:443...)
+[2025.04.28-13.48.17:013][ 74]LogHttp: Warning: 00000B8E1327BE00: libcurl info message cache 5 (Connected to datarouter.ol.epicgames.com (54.211.184.94) port 443)
+[2025.04.28-13.48.17:013][ 74]LogHttp: Warning: 00000B8E1327BE00: libcurl info message cache 6 (ALPN: curl offers http/1.1)
+[2025.04.28-13.48.17:013][ 74]LogHttp: Warning: 00000B8E1327BE00: libcurl info message cache 7 (SSL reusing session ID)
+[2025.04.28-13.48.17:013][ 74]LogHttp: Warning: 00000B8E1327BE00: libcurl info message cache 8 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.28-13.48.17:013][ 74]LogHttp: Warning: 00000B8E1327BE00: libcurl info message cache 9 (SSL connection timeout)
+[2025.04.28-13.48.17:013][ 74]LogHttp: Warning: 00000B8E1327BE00: libcurl info message cache 10 (Closing connection)
+[2025.04.28-13.48.17:013][ 74]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.49.16:690][253]LogHttp: Warning: 00000B8E1327D700: request failed, libcurl error: 28 (Timeout was reached)
+[2025.04.28-13.49.16:690][253]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 0 (Found bundle for host: 0xb8da69508a0 [serially])
+[2025.04.28-13.49.16:690][253]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 1 (Connection #12 isn't open enough, can't reuse)
+[2025.04.28-13.49.16:690][253]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 2 (Hostname in DNS cache was stale, zapped)
+[2025.04.28-13.49.16:690][253]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 3 (  Trying 35.168.246.231:443...)
+[2025.04.28-13.49.16:690][253]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (35.168.246.231) port 443)
+[2025.04.28-13.49.16:690][253]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 5 (ALPN: curl offers http/1.1)
+[2025.04.28-13.49.16:690][253]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 6 (SSL reusing session ID)
+[2025.04.28-13.49.16:690][253]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.28-13.49.16:690][253]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 8 (SSL connection timeout)
+[2025.04.28-13.49.16:690][253]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 9 (Closing connection)
+[2025.04.28-13.49.16:690][253]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: request failed, libcurl error: 28 (Timeout was reached)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 0 (  Trying 54.227.203.197:443...)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 1 (connect to 54.227.203.197 port 443 failed: Timed out)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 2 (  Trying 3.216.73.26:443...)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 3 (ipv4 connect timeout after 19474ms, move on!)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 4 (  Trying 54.211.184.94:443...)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 5 (ipv4 connect timeout after 9736ms, move on!)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 6 (  Trying 44.217.2.175:443...)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 7 (ipv4 connect timeout after 4867ms, move on!)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 8 (  Trying 52.6.26.138:443...)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 9 (ipv4 connect timeout after 2433ms, move on!)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 10 (  Trying 3.213.149.133:443...)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 11 (ipv4 connect timeout after 1217ms, move on!)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 12 (  Trying 44.205.93.207:443...)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 13 (ipv4 connect timeout after 606ms, move on!)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 14 (  Trying 34.232.204.162:443...)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 15 (ipv4 connect timeout after 606ms, move on!)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 16 (Failed to connect to datarouter.ol.epicgames.com port 443 after 60002 ms: Timeout was reached)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: 00000B8E1327D700: libcurl info message cache 17 (Closing connection)
+[2025.04.28-13.50.16:724][475]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.50.21:292][889]AssetReimport: New page: Outstanding source content changes 15:50:21
+[2025.04.28-13.50.21:355][890]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/log_suspension_walkway.obj)
+[2025.04.28-13.50.21:358][890]LogFbx: Loading FBX Scene from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/log_suspension_walkway.obj
+[2025.04.28-13.50.21:361][890]LogFbx: FBX Scene Loaded Succesfully
+[2025.04.28-13.50.30:811][890]LogSlate: Window 'FBX Import Options' being destroyed
+[2025.04.28-13.50.30:838][890]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.04.28-13.50.30:860][890]LogStaticMesh: Built static mesh [0.01s] /Game/Models/LevelProps/log_suspension_walkway.log_suspension_walkway
+[2025.04.28-13.50.30:880][891]LogEditorFactories: Performing atomic reimport of [C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/LogSuspensionBridge_Texture.png]
+[2025.04.28-13.50.30:880][891]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/LogSuspensionBridge_Texture.png)
+[2025.04.28-13.50.30:882][891]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.04.28-13.50.30:883][891]LogEditorFactories: -- imported successfully
+[2025.04.28-13.50.30:890][891]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.28-13.50.31:056][891]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/log_suspension_walkway
+[2025.04.28-13.50.31:056][891]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/log_suspension_walkwayF1EE55E8413179AC1C0F5185B7267814.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/log_suspension_walkway.uasset'
+[2025.04.28-13.50.31:067][891]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 2.86 sec)
+[2025.04.28-13.50.31:070][891]LogShaderCompilers: Display: ================================================
+[2025.04.28-13.50.31:070][891]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.28-13.50.31:070][891]LogShaderCompilers: Display: Total job queries 73, among them cache hits 8 (10.96%)
+[2025.04.28-13.50.31:070][891]LogShaderCompilers: Display: Tracking 65 distinct input hashes that result in 52 distinct outputs (80.00%)
+[2025.04.28-13.50.31:070][891]LogShaderCompilers: Display: RAM used: 1,54 MiB of 1,60 GiB budget. Usage: 0.09%
+[2025.04.28-13.50.31:070][891]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.28-13.50.31:070][891]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.04.28-13.50.31:070][891]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.04.28-13.50.31:070][891]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.04.28-13.50.31:070][891]LogShaderCompilers: Display: ================================================
+[2025.04.28-13.50.31:085][892]AssetCheck: New page: Asset Save: log_suspension_walkway
+[2025.04.28-13.50.31:086][892]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/log_suspension_walkway.log_suspension_walkway
+[2025.04.28-13.50.34:090][193]AssetReimport: Importing new asset /Game/Models/LevelProps/log_suspension_walkway.
+[2025.04.28-13.50.34:090][193]AssetReimport: Reimported asset LogSuspensionBridge_Texture from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/LogSuspensionBridge_Texture.png.
+[2025.04.28-13.51.06:481][310]LogTexture: Display: Building textures: /Game/Models/LevelProps/LogSuspensionBridge_Texture.LogSuspensionBridge_Texture (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 1.97916 MB), EncodeSpeed: Fast
+[2025.04.28-13.51.16:391][236]LogHttp: Warning: 00000B8E1327B400: request failed, libcurl error: 28 (Timeout was reached)
+[2025.04.28-13.51.16:391][236]LogHttp: Warning: 00000B8E1327B400: libcurl info message cache 0 (Found bundle for host: 0xb8da6950420 [serially])
+[2025.04.28-13.51.16:391][236]LogHttp: Warning: 00000B8E1327B400: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2025.04.28-13.51.16:391][236]LogHttp: Warning: 00000B8E1327B400: libcurl info message cache 2 (  Trying 44.212.199.235:443...)
+[2025.04.28-13.51.16:391][236]LogHttp: Warning: 00000B8E1327B400: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (44.212.199.235) port 443)
+[2025.04.28-13.51.16:391][236]LogHttp: Warning: 00000B8E1327B400: libcurl info message cache 4 (ALPN: curl offers http/1.1)
+[2025.04.28-13.51.16:391][236]LogHttp: Warning: 00000B8E1327B400: libcurl info message cache 5 (SSL reusing session ID)
+[2025.04.28-13.51.16:391][236]LogHttp: Warning: 00000B8E1327B400: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.28-13.51.16:391][236]LogHttp: Warning: 00000B8E1327B400: libcurl info message cache 7 (SSL connection timeout)
+[2025.04.28-13.51.16:391][236]LogHttp: Warning: 00000B8E1327B400: libcurl info message cache 8 (Closing connection)
+[2025.04.28-13.51.16:391][236]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.51.28:225][455]LogContentBrowser: Attempting asset rename: m_a0940620-ad71-acc9-9c7b-6b9f3bd4636a -> LogSuspensionBridge_Material
+[2025.04.28-13.51.28:253][455]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.28-13.51.28:305][455]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/log_suspension_walkway
+[2025.04.28-13.51.28:306][455]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/log_suspension_walkway3BE699334B5EF02D56C08588E1008A98.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/log_suspension_walkway.uasset'
+[2025.04.28-13.51.28:353][455]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/LogSuspensionBridge_Material
+[2025.04.28-13.51.28:353][455]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/LogSuspensionBridge_Material5EBC430149DD91750BF9C9A3AEDB2F19.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/LogSuspensionBridge_Material.uasset'
+[2025.04.28-13.51.28:362][455]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 2.97 sec)
+[2025.04.28-13.51.28:371][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.04.28-13.51.28:377][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.04.28-13.51.28:382][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.04.28-13.51.28:385][455]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.28-13.51.28:385][455]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/log_suspension_walkway.log_suspension_walkway
+[2025.04.28-13.51.28:385][455]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/LevelProps/LogSuspensionBridge_Material.LogSuspensionBridge_Material
+[2025.04.28-13.51.38:148][495]Cmd: DELETE
+[2025.04.28-13.51.38:148][495]Cmd: ACTOR DELETE
+[2025.04.28-13.51.38:152][495]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.04.28-13.51.38:157][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2025.04.28-13.51.38:160][495]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2025.04.28-13.51.40:840][743]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/log_suspension_walkway.log_suspension_walkway
+[2025.04.28-13.51.40:840][743]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/log_suspension_walkway.log_suspension_walkway
+[2025.04.28-13.51.40:841][743]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/log_suspension_walkway.log_suspension_walkway as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_2
+[2025.04.28-13.51.41:705][838]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/log_suspension_walkway.log_suspension_walkway
+[2025.04.28-13.51.41:705][838]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/log_suspension_walkway.log_suspension_walkway
+[2025.04.28-13.51.41:708][838]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/log_suspension_walkway.log_suspension_walkway as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B03C6302_1349794604
+[2025.04.28-13.52.16:425][893]LogHttp: Warning: 00000B8E160D0A00: request failed, libcurl error: 28 (Timeout was reached)
+[2025.04.28-13.52.16:425][893]LogHttp: Warning: 00000B8E160D0A00: libcurl info message cache 0 (Found bundle for host: 0xb8da6950420 [serially])
+[2025.04.28-13.52.16:425][893]LogHttp: Warning: 00000B8E160D0A00: libcurl info message cache 1 (Connection #15 isn't open enough, can't reuse)
+[2025.04.28-13.52.16:425][893]LogHttp: Warning: 00000B8E160D0A00: libcurl info message cache 2 (Hostname in DNS cache was stale, zapped)
+[2025.04.28-13.52.16:425][893]LogHttp: Warning: 00000B8E160D0A00: libcurl info message cache 3 (  Trying 52.87.30.59:443...)
+[2025.04.28-13.52.16:425][893]LogHttp: Warning: 00000B8E160D0A00: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (52.87.30.59) port 443)
+[2025.04.28-13.52.16:425][893]LogHttp: Warning: 00000B8E160D0A00: libcurl info message cache 5 (ALPN: curl offers http/1.1)
+[2025.04.28-13.52.16:425][893]LogHttp: Warning: 00000B8E160D0A00: libcurl info message cache 6 (SSL reusing session ID)
+[2025.04.28-13.52.16:425][893]LogHttp: Warning: 00000B8E160D0A00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.28-13.52.16:425][893]LogHttp: Warning: 00000B8E160D0A00: libcurl info message cache 8 (SSL connection timeout)
+[2025.04.28-13.52.16:425][893]LogHttp: Warning: 00000B8E160D0A00: libcurl info message cache 9 (Closing connection)
+[2025.04.28-13.52.16:425][893]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.52.30:781][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.04.28-13.52.30:787][620]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/0/MW/40O5DNCEOULT9GQ4FZHZ04_Auto2
+[2025.04.28-13.52.30:787][620]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/40O5DNCEOULT9GQ4FZHZ04_Auto245DF0C39464C30A52C44DF9E9709DCC1.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/0/MW/40O5DNCEOULT9GQ4FZHZ04_Auto2.uasset'
+[2025.04.28-13.52.30:788][620]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/Level_0' took 0.013
+[2025.04.28-13.52.30:788][620]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.013
+[2025.04.28-13.52.30:788][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/LevelProps/LogSuspensionBridge_Texture] ([1] browsable assets)...
+[2025.04.28-13.52.30:791][620]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/LevelProps/LogSuspensionBridge_Texture.LogSuspensionBridge_Texture]
+[2025.04.28-13.52.30:791][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/LevelProps/LogSuspensionBridge_Texture]
+[2025.04.28-13.52.30:792][620]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/LevelProps/LogSuspensionBridge_Texture_Auto2
+[2025.04.28-13.52.30:792][620]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/LogSuspensionBridge_Texture_Auto578AC4AC4601E4BE2A8506B4089F617C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/Models/LevelProps/LogSuspensionBridge_Texture_Auto2.uasset'
+[2025.04.28-13.52.30:793][620]LogFileHelpers: Auto-saving content packages took 0.005
+[2025.04.28-13.52.57:765][163]LogSlate: Window 'Failed Renames' being destroyed
+[2025.04.28-13.53.09:686][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.04.28-13.53.17:401][286]LogSlate: Window 'Replace References?' being destroyed
+[2025.04.28-13.53.17:406][286]Message dialog closed, result: Ok, title: Replace References?, text: This will replace any reference to the pending deleted assets with log_suspension_walkway; and then delete them.
+
+Are you sure?
+[2025.04.28-13.53.17:406][286]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.28-13.53.17:452][286]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.04.28-13.53.17:452][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.28-13.53.17:601][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.04.28-13.53.18:950][286]LogSlate: Window 'Save Content' being destroyed
+[2025.04.28-13.53.18:960][286]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.28-13.53.19:036][286]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/LogPlatforms/log_suspension_walkway
+[2025.04.28-13.53.19:036][286]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/log_suspension_walkway1091CAFE457396D0F810A185C26708EB.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/LogPlatforms/log_suspension_walkway.uasset'
+[2025.04.28-13.53.19:044][286]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 3.06 sec)
+[2025.04.28-13.53.19:047][286]AssetCheck: New page: Asset Save: log_suspension_walkway
+[2025.04.28-13.53.19:047][286]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Models/LevelProps/LogPlatforms/log_suspension_walkway.log_suspension_walkway
+[2025.04.28-13.53.19:055][287]LogHttp: Warning: 00000B8E12615000: request failed, libcurl error: 28 (Timeout was reached)
+[2025.04.28-13.53.19:055][287]LogHttp: Warning: 00000B8E12615000: libcurl info message cache 0 (  Trying 52.6.26.138:443...)
+[2025.04.28-13.53.19:055][287]LogHttp: Warning: 00000B8E12615000: libcurl info message cache 1 (connect to 52.6.26.138 port 443 failed: Timed out)
+[2025.04.28-13.53.19:055][287]LogHttp: Warning: 00000B8E12615000: libcurl info message cache 2 (  Trying 34.200.62.17:443...)
+[2025.04.28-13.53.19:055][287]LogHttp: Warning: 00000B8E12615000: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.200.62.17) port 443)
+[2025.04.28-13.53.19:055][287]LogHttp: Warning: 00000B8E12615000: libcurl info message cache 4 (ALPN: curl offers http/1.1)
+[2025.04.28-13.53.19:055][287]LogHttp: Warning: 00000B8E12615000: libcurl info message cache 5 (SSL reusing session ID)
+[2025.04.28-13.53.19:055][287]LogHttp: Warning: 00000B8E12615000: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.28-13.53.19:055][287]LogHttp: Warning: 00000B8E12615000: libcurl info message cache 7 (SSL connection timeout)
+[2025.04.28-13.53.19:055][287]LogHttp: Warning: 00000B8E12615000: libcurl info message cache 8 (Closing connection)
+[2025.04.28-13.53.19:055][287]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.53.24:656][781]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2025.04.28-13.53.24:706][781]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.049 s
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: === Handled ensure: ===
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: 
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: Ensure condition failed: Found  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\RedirectCollector.cpp] [Line: 269] 
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: Cannot remove redirection from /Game/Models/LevelProps/LogPlatforms/log_suspension_walkway.log_suspension_walkway, it was not registered
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: Stack: 
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff8699575c8 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff86318919a UnrealEditor-AssetRegistry.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff841f84607 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff841fae2c6 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff814606ffd UnrealEditor-AssetTools.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff8145a6e12 UnrealEditor-AssetTools.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff81462d234 UnrealEditor-AssetTools.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff8145eaa01 UnrealEditor-AssetTools.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x000001f7f47925b8 UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x000001f7f4792afe UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x000001f7f473a10e UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff80de868f2 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff80debaecc UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff80df35bcd UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff868b8aeb0 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff868da7db0 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff868dad690 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff868d7979a UnrealEditor-Slate.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff868e1a5fa UnrealEditor-Slate.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff868e1df65 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff868e3f3e8 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff868db00dc UnrealEditor-Slate.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff868b93b5a UnrealEditor-Slate.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff868bfe365 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff868beb562 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff868bde2fa UnrealEditor-Slate.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff86d177dc6 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff86d15b83f UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff86d17ab29 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff86d1532e3 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff90be48ed8 USER32.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff90be48791 USER32.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff86d17c226 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff759dc76f2 UnrealEditor.exe!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff759ded28c UnrealEditor.exe!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff759ded37a UnrealEditor.exe!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff759df0854 UnrealEditor.exe!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff759e06984 UnrealEditor.exe!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff759e09d7a UnrealEditor.exe!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff90cf6259d KERNEL32.DLL!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: [Callstack] 0x00007ff90e06af38 ntdll.dll!UnknownFunction []
+[2025.04.28-13.53.24:706][781]LogOutputDevice: Error: 
+[2025.04.28-13.53.24:710][781]LogStats:                SubmitErrorReport -  0.000 s
+[2025.04.28-13.53.25:961][781]LogStats:                    SendNewReport -  1.252 s
+[2025.04.28-13.53.25:961][781]LogStats:             FDebug::EnsureFailed -  1.305 s
+[2025.04.28-13.53.25:964][781]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.28-13.53.26:044][781]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/LogPlatforms/log_suspension_walkway
+[2025.04.28-13.53.26:045][781]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/log_suspension_walkwayEEEEB53E43898236B0F33A8A30CB0FCD.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/LogPlatforms/log_suspension_walkway.uasset'
+[2025.04.28-13.53.26:057][781]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 3.15 sec)
+[2025.04.28-13.53.26:068][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.04.28-13.53.26:074][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.04.28-13.53.26:079][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.04.28-13.53.26:105][781]AssetCheck: New page: Asset Save: log_suspension_walkway
+[2025.04.28-13.53.26:105][781]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/LogPlatforms/log_suspension_walkway.log_suspension_walkway
+[2025.04.28-13.53.28:388][953]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/LevelProps/LogPlatforms/log_suspension_walkway.log_suspension_walkway
+[2025.04.28-13.53.28:393][953]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.28-13.53.28:393][953]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.28-13.53.28:866][953]LogViewport: Scene viewport resized to 1009x894, mode Windowed.
+[2025.04.28-13.53.38:872][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.28-13.53.38:949][ 84]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/LogPlatforms/log_suspension_walkway
+[2025.04.28-13.53.38:950][ 84]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/log_suspension_walkway849331764FCD789FD45DC898712F7F97.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/LogPlatforms/log_suspension_walkway.uasset'
+[2025.04.28-13.53.38:958][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 3.23 sec)
+[2025.04.28-13.53.38:960][ 84]AssetCheck: New page: Asset Save: log_suspension_walkway
+[2025.04.28-13.53.38:960][ 84]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/LogPlatforms/log_suspension_walkway.log_suspension_walkway
+[2025.04.28-13.54.19:069][256]LogHttp: Warning: 00000B8E14159600: request failed, libcurl error: 28 (Timeout was reached)
+[2025.04.28-13.54.19:069][256]LogHttp: Warning: 00000B8E14159600: libcurl info message cache 0 (  Trying 34.225.153.34:443...)
+[2025.04.28-13.54.19:069][256]LogHttp: Warning: 00000B8E14159600: libcurl info message cache 1 (Connected to datarouter.ol.epicgames.com (34.225.153.34) port 443)
+[2025.04.28-13.54.19:069][256]LogHttp: Warning: 00000B8E14159600: libcurl info message cache 2 (ALPN: curl offers http/1.1)
+[2025.04.28-13.54.19:069][256]LogHttp: Warning: 00000B8E14159600: libcurl info message cache 3 (SSL reusing session ID)
+[2025.04.28-13.54.19:069][256]LogHttp: Warning: 00000B8E14159600: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.28-13.54.19:069][256]LogHttp: Warning: 00000B8E14159600: libcurl info message cache 5 (SSL connection timeout)
+[2025.04.28-13.54.19:069][256]LogHttp: Warning: 00000B8E14159600: libcurl info message cache 6 (Closing connection)
+[2025.04.28-13.54.19:069][256]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.54.33:959][506]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.28-13.54.34:059][506]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.04.28-13.54.34:066][506]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2025.04.28-13.54.34:070][506]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2025.04.28-13.54.34:072][506]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/6/E3/U3VTEFNPWZQJ52ENZA355F
+[2025.04.28-13.54.34:074][506]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/U3VTEFNPWZQJ52ENZA355F82BE9BC4417DC9D5B2D6FE8A299753BB.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/6/E3/U3VTEFNPWZQJ52ENZA355F.uasset'
+[2025.04.28-13.54.34:076][506]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/0/MW/40O5DNCEOULT9GQ4FZHZ04
+[2025.04.28-13.54.34:076][506]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/40O5DNCEOULT9GQ4FZHZ046B66FA7943BA1EA2CDBB8EBB01BD07FA.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/0/MW/40O5DNCEOULT9GQ4FZHZ04.uasset'
+[2025.04.28-13.54.34:089][506]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 3.36 sec)
+[2025.04.28-13.54.34:091][506]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.28-13.54.34:091][506]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05A6102_1989726827
+[2025.04.28-13.54.34:091][506]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B03C6302_1349794604
+[2025.04.28-13.54.47:879][935]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.28-13.54.47:955][935]LogWorldPartition: Actor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05A6102_1763028823 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/1/MY/H624BQOCXFXICNLJHOGQYE.PackageMetaData in its package
+[2025.04.28-13.54.47:956][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.04.28-13.54.47:967][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.04.28-13.54.47:973][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2025.04.28-13.54.47:975][935]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/1/X3/UJOBJQ2YT3KL7ATWDEHI2D
+[2025.04.28-13.54.47:976][935]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/UJOBJQ2YT3KL7ATWDEHI2D96F6556E467FB17C5FB87B93967C0553.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/1/X3/UJOBJQ2YT3KL7ATWDEHI2D.uasset'
+[2025.04.28-13.54.47:980][935]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/CD/7YF80HH3GH3JROIJYUPQ9D
+[2025.04.28-13.54.47:980][935]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/7YF80HH3GH3JROIJYUPQ9D51CAD95D4009BF97136F1BA6823BBDA0.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/8/CD/7YF80HH3GH3JROIJYUPQ9D.uasset'
+[2025.04.28-13.54.47:983][935]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/9/F6/7PC8N71ANCOBS58UKIGCGP
+[2025.04.28-13.54.47:983][935]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/7PC8N71ANCOBS58UKIGCGP2544A9E94FC7EC581466A6B8B8E2737E.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/9/F6/7PC8N71ANCOBS58UKIGCGP.uasset'
+[2025.04.28-13.54.47:999][935]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 3.48 sec)
+[2025.04.28-13.54.48:001][935]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.28-13.54.48:001][935]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_ProjectileEnemy_C_UAID_74563C6C81B05B6102_2096234033
+[2025.04.28-13.54.48:001][935]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_ProjectileEnemy_C_UAID_74563C6C81B05B6102_2055047030
+[2025.04.28-13.54.48:001][935]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_ProjectileEnemy_C_UAID_74563C6C81B05B6102_2094083032
+[2025.04.28-13.54.48:006][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: request failed, libcurl error: 28 (Timeout was reached)
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: libcurl info message cache 0 (Found bundle for host: 0xb8da6950b40 [serially])
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: libcurl info message cache 1 (Connection #18 isn't open enough, can't reuse)
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: libcurl info message cache 2 (Hostname datarouter.ol.epicgames.com was found in DNS cache)
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: libcurl info message cache 3 (  Trying 34.225.153.34:443...)
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: libcurl info message cache 4 (connect to 34.225.153.34 port 443 failed: Timed out)
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: libcurl info message cache 5 (  Trying 34.234.17.131:443...)
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: libcurl info message cache 6 (ipv4 connect timeout after 19469ms, move on!)
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: libcurl info message cache 7 (  Trying 54.205.170.155:443...)
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: libcurl info message cache 8 (Connected to datarouter.ol.epicgames.com (54.205.170.155) port 443)
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: libcurl info message cache 9 (ALPN: curl offers http/1.1)
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: libcurl info message cache 10 (SSL reusing session ID)
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: libcurl info message cache 11 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: libcurl info message cache 12 (SSL connection timeout)
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: 00000B8E15706E00: libcurl info message cache 13 (Closing connection)
+[2025.04.28-13.55.16:404][867]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.55.26:416][852]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.28-13.55.26:486][852]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/0/DP/1KYDLUNRAXN2EYJJ1JSQS5
+[2025.04.28-13.55.26:487][852]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/1KYDLUNRAXN2EYJJ1JSQS59BD819AD46DA44D413945DA6AE4DC162.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/0/DP/1KYDLUNRAXN2EYJJ1JSQS5.uasset'
+[2025.04.28-13.55.26:490][852]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/2/PN/T9AA2CQFV56B46MYK8KBK1
+[2025.04.28-13.55.26:491][852]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/T9AA2CQFV56B46MYK8KBK14A2BD86346FF4FE5FD34BB9063DE953A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/2/PN/T9AA2CQFV56B46MYK8KBK1.uasset'
+[2025.04.28-13.55.26:498][852]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/3/5D/4P0OVXICKW21MK2JQHO4J2
+[2025.04.28-13.55.26:499][852]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/4P0OVXICKW21MK2JQHO4J2F95ED1584EE2CB130517DC882193E74C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/3/5D/4P0OVXICKW21MK2JQHO4J2.uasset'
+[2025.04.28-13.55.26:503][852]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/6/R4/HSAIC3C9X426C395GWJOV4
+[2025.04.28-13.55.26:504][852]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/HSAIC3C9X426C395GWJOV4F1EF90E243B2D37C8762A983B2D33408.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/6/R4/HSAIC3C9X426C395GWJOV4.uasset'
+[2025.04.28-13.55.26:506][852]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/Y1/4OLG4YK41USPQHJIKSQVPK
+[2025.04.28-13.55.26:506][852]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/4OLG4YK41USPQHJIKSQVPK33DB365B4C0EB19E304920AE81DAF91C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/8/Y1/4OLG4YK41USPQHJIKSQVPK.uasset'
+[2025.04.28-13.55.26:509][852]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/9/7J/BECLIWYXRKP1NT45YGSZ57
+[2025.04.28-13.55.26:510][852]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BECLIWYXRKP1NT45YGSZ577D5C99C044209A25EAFD2189BED6119F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/9/7J/BECLIWYXRKP1NT45YGSZ57.uasset'
+[2025.04.28-13.55.26:514][852]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/B/IO/YVPR9JRPRHYUWTRGH3TNLZ
+[2025.04.28-13.55.26:514][852]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/YVPR9JRPRHYUWTRGH3TNLZ20316F7D4ECEEA379473D0821E173ECF.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/B/IO/YVPR9JRPRHYUWTRGH3TNLZ.uasset'
+[2025.04.28-13.55.26:517][852]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/B/TH/V8G8XWUVSWMDNIV8D0PW8H
+[2025.04.28-13.55.26:518][852]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/V8G8XWUVSWMDNIV8D0PW8H81E8DBC641B43DA8603843B72765DCBE.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/B/TH/V8G8XWUVSWMDNIV8D0PW8H.uasset'
+[2025.04.28-13.55.26:520][852]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/D/EM/9L8APGFO1AY3LJ3LVYEJR0
+[2025.04.28-13.55.26:521][852]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/9L8APGFO1AY3LJ3LVYEJR09388C5534FB5C1B467CA89A2D115C637.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/D/EM/9L8APGFO1AY3LJ3LVYEJR0.uasset'
+[2025.04.28-13.55.26:523][852]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/D/YB/097P78MA04W8B8LLLS76WD
+[2025.04.28-13.55.26:524][852]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/097P78MA04W8B8LLLS76WD3D3D75B24DD7F157059127A8067EC4F8.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/D/YB/097P78MA04W8B8LLLS76WD.uasset'
+[2025.04.28-13.55.26:528][852]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/E/FT/HGLNFTZW45IEJHC6GJSL9N
+[2025.04.28-13.55.26:529][852]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/HGLNFTZW45IEJHC6GJSL9NBB6C39244A11EE193EB8E99160681A7C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/E/FT/HGLNFTZW45IEJHC6GJSL9N.uasset'
+[2025.04.28-13.55.26:539][852]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 3.61 sec)
+[2025.04.28-13.55.26:543][852]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.28-13.55.26:543][852]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_2018530029
+[2025.04.28-13.55.26:543][852]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_2018525027
+[2025.04.28-13.55.26:543][852]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1998454025
+[2025.04.28-13.55.26:543][852]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B05B6102_1767558009
+[2025.04.28-13.55.26:543][852]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B05B6102_1753536008
+[2025.04.28-13.55.26:543][852]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1998455026
+[2025.04.28-13.55.26:543][852]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_PowerUpRemove.BP_PowerUpRemove_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238
+[2025.04.28-13.55.26:543][852]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1971164020
+[2025.04.28-13.55.26:543][852]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_2018528028
+[2025.04.28-13.55.26:543][852]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1998451024
+[2025.04.28-13.55.26:543][852]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1971166021
+[2025.04.28-13.55.30:450][225]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.28-13.55.30:518][225]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/B/IO/YVPR9JRPRHYUWTRGH3TNLZ
+[2025.04.28-13.55.30:518][225]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/YVPR9JRPRHYUWTRGH3TNLZB5FE6AAA42913EA4A7B977BC15A0CD59.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/B/IO/YVPR9JRPRHYUWTRGH3TNLZ.uasset'
+[2025.04.28-13.55.30:531][225]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 3.69 sec)
+[2025.04.28-13.55.30:534][225]AssetCheck: New page: Asset Save: BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238
+[2025.04.28-13.55.30:534][225]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_PowerUpRemove.BP_PowerUpRemove_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238
+[2025.04.28-13.56.16:477][414]LogHttp: Warning: 00000B8E16685000: request failed, libcurl error: 28 (Timeout was reached)
+[2025.04.28-13.56.16:477][414]LogHttp: Warning: 00000B8E16685000: libcurl info message cache 0 (  Trying 44.217.2.175:443...)
+[2025.04.28-13.56.16:477][414]LogHttp: Warning: 00000B8E16685000: libcurl info message cache 1 (Connected to datarouter.ol.epicgames.com (44.217.2.175) port 443)
+[2025.04.28-13.56.16:477][414]LogHttp: Warning: 00000B8E16685000: libcurl info message cache 2 (ALPN: curl offers http/1.1)
+[2025.04.28-13.56.16:477][414]LogHttp: Warning: 00000B8E16685000: libcurl info message cache 3 (SSL reusing session ID)
+[2025.04.28-13.56.16:477][414]LogHttp: Warning: 00000B8E16685000: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.28-13.56.16:477][414]LogHttp: Warning: 00000B8E16685000: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.04.28-13.56.16:477][414]LogHttp: Warning: 00000B8E16685000: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.04.28-13.56.16:477][414]LogHttp: Warning: 00000B8E16685000: libcurl info message cache 7 (SSL connection timeout)
+[2025.04.28-13.56.16:477][414]LogHttp: Warning: 00000B8E16685000: libcurl info message cache 8 (Closing connection)
+[2025.04.28-13.56.16:477][414]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B443F1F89-426D-CE54-1096-6584FAAC7475%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9faabc6947d8dc3bb1b4f9aaa9426fc7%7C29a434feeaee4509b7b922428ff6c988%7C429adc53-a3c7-4297-8520-a3e54b43675f&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2025.04.28-13.56.21:656][798]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.28-13.56.21:665][798]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.28-13.56.21:665][798]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.28-13.56.21:669][798]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 4 ms (total: 8 ms)
+[2025.04.28-13.56.21:669][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.28-13.56.21:670][798]PIE: New page: PIE session: Level_0 (28 kwi 2025, 15:56:21)
+[2025.04.28-13.56.21:670][798]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.28-13.56.21:690][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020580s)
+[2025.04.28-13.56.21:690][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.020610s)
+[2025.04.28-13.56.21:697][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.04.28-13.56.21:701][798]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.28-13.56.21:701][798]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.28-13.56.21:701][798]LogAIModule: Creating AISystem for world Level_0
+[2025.04.28-13.56.21:702][798]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.28-13.56.21:702][798]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.28-13.56.21:702][798]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.28-13.56.21:702][798]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.28-13.56.21:706][798]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.28-13.56.21:706][798]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 2.25 sec)
+[2025.04.28-13.56.21:706][798]LogPlayLevel: PIE: World Init took: (0.005757s)
+[2025.04.28-13.56.21:706][798]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.04.28-13.56.21:706][798]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.28-13.56.21:706][798]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.28-13.56.21:706][798]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.28-13.56.21:706][798]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.28-13.56.21:706][798]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.28-13.56.21:706][798]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.28-13.56.21:706][798]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.28-13.56.21:706][798]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.28-13.56.21:706][798]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.28-13.56.21:706][798]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.28-13.56.21:706][798]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.28-13.56.21:708][798]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.28-13.56.21:725][798]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.28-13.56.21:726][798]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.28-13.56.21:726][798]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.28-13.56.21:726][798]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.28-13.56.21:729][798]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.04.28-13.56.21:729][798]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.04.28-13.56.21:730][798]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.04.28-13.56.21:730][798]LogInit: FAudioDevice initialized with ID 3.
+[2025.04.28-13.56.21:730][798]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.04.28-13.56.21:730][798]LogAudio: Display: Audio Device (ID: 3) registered with world 'Level_0'.
+[2025.04.28-13.56.21:730][798]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.04.28-13.56.21:735][798]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.28-13.56.21:750][798]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.28-14.56.21
+[2025.04.28-13.56.21:754][798]LogWorld: Bringing up level for play took: 0.018501
+[2025.04.28-13.56.21:756][798]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2025.04.28-13.56.21:758][798]PIE: Server logged in
+[2025.04.28-13.56.21:759][798]PIE: Play in editor total start time 0,093 seconds.
+[2025.04.28-13.56.21:763][798]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.28-13.56.21:763][798]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.28-13.56.31:234][890]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.28-13.56.34:018][219]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.28-13.56.37:564][639]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.28-13.56.40:381][968]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can Attack
+[2025.04.28-13.56.40:398][970]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can Attack
+[2025.04.28-13.56.42:436][212]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.28-13.56.48:532][932]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 2.0
+[2025.04.28-13.56.48:532][932]LogBlueprintUserMessages: [BP_Projectile_C_2] 1.0
+[2025.04.28-13.56.49:020][990]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 1.0
+[2025.04.28-13.56.49:020][990]LogBlueprintUserMessages: [BP_Projectile_C_3] 1.0
+[2025.04.28-13.56.51:539][290]LogBlueprintUserMessages: [BP_Projectile_C_4] 1.0
+[2025.04.28-13.56.52:738][433]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.28-13.57.20:785][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.28-13.57.20:785][740]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.28-13.57.20:785][740]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.28-13.57.20:786][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.28-13.57.20:786][740]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.28-13.57.20:789][740]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.28-13.57.20:794][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.28-13.57.20:800][740]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.28-13.57.20:800][740]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.04.28-13.57.20:801][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.04.28-13.57.20:802][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.04.28-13.57.20:806][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.28-13.57.20:813][740]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.04.28-13.57.20:884][741]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2025.04.28-13.57.24:416][142]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.28-13.57.24:422][142]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.28-13.57.24:422][142]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.04.28-13.57.24:429][142]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 5 ms (total: 14 ms)
+[2025.04.28-13.57.24:429][142]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.28-13.57.24:429][142]PIE: New page: PIE session: Level_0 (28 kwi 2025, 15:57:24)
+[2025.04.28-13.57.24:454][142]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.28-13.57.24:474][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020153s)
+[2025.04.28-13.57.24:474][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.020199s)
+[2025.04.28-13.57.24:478][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.04.28-13.57.24:481][142]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.28-13.57.24:481][142]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.28-13.57.24:481][142]LogAIModule: Creating AISystem for world Level_0
+[2025.04.28-13.57.24:482][142]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.28-13.57.24:482][142]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.28-13.57.24:482][142]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.28-13.57.24:482][142]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.28-13.57.24:486][142]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.04.28-13.57.24:486][142]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 2.26 sec)
+[2025.04.28-13.57.24:486][142]LogPlayLevel: PIE: World Init took: (0.005710s)
+[2025.04.28-13.57.24:486][142]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.04.28-13.57.24:486][142]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.28-13.57.24:486][142]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.28-13.57.24:486][142]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.28-13.57.24:486][142]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.28-13.57.24:486][142]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.28-13.57.24:486][142]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.28-13.57.24:486][142]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.28-13.57.24:486][142]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.28-13.57.24:487][142]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.28-13.57.24:487][142]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.28-13.57.24:487][142]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.28-13.57.24:488][142]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.28-13.57.24:505][142]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.04.28-13.57.24:505][142]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.28-13.57.24:505][142]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.28-13.57.24:505][142]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.28-13.57.24:506][142]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.04.28-13.57.24:506][142]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.04.28-13.57.24:507][142]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.04.28-13.57.24:507][142]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.04.28-13.57.24:507][142]LogInit: FAudioDevice initialized with ID 4.
+[2025.04.28-13.57.24:507][142]LogAudio: Display: Audio Device (ID: 4) registered with world 'Level_0'.
+[2025.04.28-13.57.24:507][142]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.04.28-13.57.24:512][142]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.04.28-13.57.24:528][142]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.04.28-14.57.24
+[2025.04.28-13.57.24:532][142]LogWorld: Bringing up level for play took: 0.019408
+[2025.04.28-13.57.24:533][142]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2025.04.28-13.57.24:537][142]PIE: Server logged in
+[2025.04.28-13.57.24:538][142]PIE: Play in editor total start time 0,115 seconds.
+[2025.04.28-13.57.24:539][142]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.04.28-13.57.24:539][142]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.04.28-13.57.28:003][537]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.28-13.57.30:798][867]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.28-13.57.34:763][331]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can Attack
+[2025.04.28-13.57.37:849][698]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.04.28-13.57.40:114][967]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238] false
+[2025.04.28-13.57.41:648][148]LogBlueprintUserMessages: [BP_Projectile_C_1] Failed
+[2025.04.28-13.57.41:732][158]LogBlueprintUserMessages: [BP_Projectile_C_1] Failed
+[2025.04.28-13.57.41:862][173]LogBlueprintUserMessages: [BP_Projectile_C_2] Failed
+[2025.04.28-13.57.42:726][275]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238] false
+[2025.04.28-13.57.44:772][517]LogBlueprintUserMessages: [BP_Projectile_C_3] Failed
+[2025.04.28-13.57.44:864][528]LogBlueprintUserMessages: [BP_Projectile_C_3] Failed
+[2025.04.28-13.57.47:968][896]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.47:969][896]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.47:969][896]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0596102_1568509613
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.47:969][896]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.47:976][897]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.47:976][897]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.47:976][897]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0596102_1568509613
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.47:977][897]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.47:985][898]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.47:985][898]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.47:985][898]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0596102_1568509613
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.47:985][898]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.47:993][899]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.47:994][899]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.47:994][899]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0596102_1568509613
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.47:994][899]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:000][900]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.48:000][900]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:000][900]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0596102_1568509613
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.48:000][900]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:012][901]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.48:012][901]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:018][902]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.48:018][902]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:028][903]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.48:028][903]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:035][904]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.48:035][904]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:045][905]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.48:045][905]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:051][906]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.48:051][906]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:062][907]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.48:062][907]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:069][908]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.48:069][908]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:078][909]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.48:079][909]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:086][910]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.48:086][910]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:096][911]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B05B6102_1965408019
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.57.48:096][911]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:107][912]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:115][913]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:123][914]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:134][915]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:145][916]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:152][917]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:162][918]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:171][919]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.48:182][920]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.57.50:830][234]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1686990619] BOING
+[2025.04.28-13.57.52:238][403]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B03B5D02_1180271087] BOING
+[2025.04.28-13.57.53:871][597]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B03B5D02_1180271087] BOING
+[2025.04.28-13.57.55:680][812]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1686990619] BOING
+[2025.04.28-13.58.04:403][851]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413385054
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:403][851]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:412][852]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430517058
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:412][852]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:412][852]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413385054
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:412][852]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:420][853]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430517058
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:420][853]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:420][853]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413385054
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:420][853]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:430][854]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430517058
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:430][854]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:430][854]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413385054
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:430][854]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:436][855]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430517058
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:436][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:437][855]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413385054
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:437][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:446][856]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430517058
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:446][856]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:446][856]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413385054
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:446][856]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:454][857]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430517058
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:454][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:454][857]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413385054
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:454][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:462][858]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430517058
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:462][858]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:463][858]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413385054
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:463][858]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:470][859]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430517058
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:470][859]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:470][859]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413385054
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:470][859]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:479][860]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430517058
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:480][860]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:487][861]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430517058
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:487][861]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:496][862]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430517058
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:496][862]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.04:504][863]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430517058
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.04:504][863]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:195][945]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:195][945]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:202][946]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:202][946]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:212][947]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:212][947]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:219][948]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:219][948]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:228][949]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:228][949]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:235][950]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:235][950]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:247][951]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:247][951]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:253][952]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:253][952]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:262][953]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:262][953]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:270][954]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:270][954]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:278][955]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:278][955]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:286][956]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:286][956]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:295][957]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:295][957]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:303][958]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:303][958]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:312][959]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:312][959]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:320][960]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1427663056
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:320][960]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:330][961]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:340][962]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:348][963]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:356][964]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:364][965]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:372][966]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:381][967]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:389][968]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:902][ 29]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:903][ 29]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:903][ 29]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:903][ 29]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:914][ 30]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:914][ 30]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:914][ 30]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:914][ 30]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:919][ 31]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:919][ 31]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:919][ 31]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:919][ 31]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:929][ 32]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:929][ 32]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:929][ 32]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:930][ 32]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:936][ 33]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:936][ 33]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:936][ 33]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:936][ 33]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:945][ 34]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:945][ 34]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:945][ 34]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:945][ 34]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:953][ 35]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:953][ 35]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:953][ 35]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:953][ 35]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:962][ 36]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:962][ 36]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:962][ 36]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:962][ 36]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:970][ 37]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:970][ 37]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:970][ 37]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:970][ 37]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:979][ 38]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:979][ 38]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:979][ 38]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:979][ 38]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:986][ 39]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:987][ 39]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:987][ 39]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:987][ 39]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:996][ 40]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:997][ 40]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.05:997][ 40]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.05:997][ 40]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:003][ 41]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.06:003][ 41]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:003][ 41]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.06:003][ 41]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:013][ 42]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.06:013][ 42]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:013][ 42]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.06:013][ 42]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:020][ 43]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.06:020][ 43]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:020][ 43]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.06:020][ 43]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:029][ 44]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1430520059
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.06:030][ 44]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:030][ 44]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character
+	BP_NewCollectable_C /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0F56102_1413390055
+	Function /Game/ThirdPerson/Blueprints/PickUps/BP_NewCollectable.BP_NewCollectable_C:ExecuteUbergraph_BP_NewCollectable:0048
+[2025.04.28-13.58.06:030][ 44]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:039][ 45]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:039][ 45]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:048][ 46]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:048][ 46]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:056][ 47]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:056][ 47]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:065][ 48]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:072][ 49]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:081][ 50]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:088][ 51]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:098][ 52]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:105][ 53]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:115][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:122][ 55]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:130][ 56]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:138][ 57]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:148][ 58]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:155][ 59]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:164][ 60]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:172][ 61]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:181][ 62]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:189][ 63]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.06:198][ 64]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Third_Person_Character". Node:  Set World Location Graph:  EventGraph Function:  Execute Ubergraph BP New Collectable Blueprint:  BP_NewCollectable
+[2025.04.28-13.58.19:112][609]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.04.28-13.58.25:101][323]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238] false
+[2025.04.28-13.58.27:978][665]LogBlueprintUserMessages: [BP_Projectile_C_6] Failed
+[2025.04.28-13.58.27:994][667]LogBlueprintUserMessages: [BP_Projectile_C_5] Failed
+[2025.04.28-13.58.28:070][676]LogBlueprintUserMessages: [BP_Projectile_C_6] Failed
+[2025.04.28-13.58.28:078][677]LogBlueprintUserMessages: [BP_Projectile_C_5] Failed
+[2025.04.28-13.58.28:196][691]LogBlueprintUserMessages: [BP_Projectile_C_4] Failed
+[2025.04.28-13.58.29:389][834]LogBlueprintUserMessages: [BP_Spline_C_UAID_74563C6C81B05B6102_2110642034] Owie
+[2025.04.28-13.58.31:237][ 55]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B0596102_1689787624] BOING
+[2025.04.28-13.58.36:479][680]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B05C6102_1538084233] BOING
+[2025.04.28-13.58.41:113][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.28-13.58.41:113][230]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.04.28-13.58.41:115][230]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.28-13.58.41:116][230]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.28-13.58.41:116][230]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.04.28-13.58.41:119][230]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.28-13.58.41:121][230]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.28-13.58.41:124][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.28-13.58.41:126][230]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.04.28-13.58.41:126][230]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.04.28-13.58.41:128][230]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.04.28-13.58.41:135][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.04.28-13.58.41:272][231]LogPlayLevel: Display: Destroying online subsystem :Context_8
