@@ -5862,3 +5862,12 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.04.30-15.55.50:608][860]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2025.04.30-15.55.50:608][860]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
 [2025.04.30-15.55.50:608][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.30-15.59.09:310][236]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.04.30-15.59.09:313][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.30-15.59.09:334][236]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.04.30-15.59.09:334][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.30-15.59.09:379][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.04.30-16.00.01:935][697]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.04.30-16.00.01:935][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.30-16.00.01:972][697]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.04.30-16.00.01:972][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
