@@ -1642,3 +1642,550 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.05.09-10.42.04:017][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
 [2025.05.09-10.42.04:027][309]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter'!
 [2025.05.09-10.42.04:027][309]LogScript: Warning: Script Msg called by: BP_ThirdPersonCharacter_C /Engine/Transient.World_0:PersistentLevel.BP_ThirdPersonCharacter_C_1
+[2025.05.09-10.43.28:417][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.05.09-10.43.28:419][654]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/Level_0' took 0.022
+[2025.05.09-10.43.28:420][654]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/MapTemplates/Materials/BasicAsset02] ([1] browsable assets)...
+[2025.05.09-10.43.28:531][654]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/MapTemplates/Materials/BasicAsset02.BasicAsset02]
+[2025.05.09-10.43.28:531][654]OBJ SavePackage: Finished generating thumbnails for package [/Engine/MapTemplates/Materials/BasicAsset02]
+[2025.05.09-10.43.28:533][654]LogSavePackage: Moving output files for package: /Temp/Autosaves/Engine/MapTemplates/Materials/BasicAsset02_Auto1
+[2025.05.09-10.43.28:533][654]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BasicAsset02_Auto11464512C41E25927D06766817CEBDEF0.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Engine/MapTemplates/Materials/BasicAsset02_Auto1.uasset'
+[2025.05.09-10.43.28:534][654]LogFileHelpers: Auto-saving content packages took 0.114
+[2025.05.09-10.43.36:027][678]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1034.186035
+[2025.05.09-10.43.37:024][681]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-10.43.37:024][681]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1034.849487, Update Interval: 349.789734
+[2025.05.09-10.49.36:728][781]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1394.887085
+[2025.05.09-10.49.37:728][784]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-10.49.37:728][784]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1395.555298, Update Interval: 334.404724
+[2025.05.09-10.55.29:415][839]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1747.575073
+[2025.05.09-10.55.30:413][842]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-10.55.30:413][842]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1748.247070, Update Interval: 351.042206
+[2025.05.09-11.02.01:478][ 15]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2139.635986
+[2025.05.09-11.02.02:468][ 18]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-11.02.02:468][ 18]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2140.292480, Update Interval: 309.703064
+[2025.05.09-11.07.55:515][ 77]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2493.673828
+[2025.05.09-11.07.56:518][ 80]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-11.07.56:518][ 80]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2494.341309, Update Interval: 315.423431
+[2025.05.09-11.13.58:230][165]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2856.386719
+[2025.05.09-11.13.59:219][168]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-11.13.59:219][168]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2857.041992, Update Interval: 323.579224
+[2025.05.09-11.20.10:935][283]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3229.090820
+[2025.05.09-11.20.11:936][286]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-11.20.11:937][286]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3229.760010, Update Interval: 338.129211
+[2025.05.09-11.25.01:744][155]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.120 and deleted 0 files with total size 0 MiB and 2 empty folders. Scanned 839 files in 1431 folders with total size 76 MiB.
+[2025.05.09-11.26.48:987][477]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3627.147705
+[2025.05.09-11.26.49:980][480]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-11.26.49:980][480]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3627.813232, Update Interval: 340.070190
+[2025.05.09-11.33.11:358][624]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4009.523682
+[2025.05.09-11.33.12:360][627]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-11.33.12:360][627]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4010.189453, Update Interval: 341.428864
+[2025.05.09-11.39.38:733][786]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4396.900391
+[2025.05.09-11.39.39:733][789]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-11.39.39:733][789]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4397.568848, Update Interval: 312.916656
+[2025.05.09-11.45.29:771][839]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4747.936035
+[2025.05.09-11.45.30:758][842]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-11.45.30:758][842]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4748.593750, Update Interval: 328.343750
+[2025.05.09-11.51.54:471][993]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5132.640625
+[2025.05.09-11.51.55:475][996]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-11.51.55:475][996]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5133.319336, Update Interval: 323.498657
+[2025.05.09-11.58.13:200][129]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5511.367676
+[2025.05.09-11.58.14:189][132]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-11.58.14:189][132]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5512.023926, Update Interval: 319.074677
+[2025.05.09-12.04.29:242][257]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5887.410156
+[2025.05.09-12.04.30:239][260]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-12.04.30:239][260]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5888.084961, Update Interval: 323.729370
+[2025.05.09-12.10.27:629][332]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6245.796387
+[2025.05.09-12.10.28:630][335]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-12.10.28:630][335]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6246.460449, Update Interval: 332.073730
+[2025.05.09-12.16.43:670][460]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6621.837402
+[2025.05.09-12.16.44:670][463]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-12.16.44:670][463]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6622.500977, Update Interval: 340.791656
+[2025.05.09-12.23.17:709][642]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7015.879395
+[2025.05.09-12.23.18:708][645]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-12.23.18:708][645]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7016.544922, Update Interval: 321.665710
+[2025.05.09-12.25.00:846][951]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.221 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 839 files in 1429 folders with total size 76 MiB.
+[2025.05.09-12.29.22:738][737]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7380.905762
+[2025.05.09-12.29.23:737][740]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-12.29.23:737][740]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7381.570801, Update Interval: 350.584442
+[2025.05.09-12.36.12:457][966]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7790.630371
+[2025.05.09-12.36.13:447][969]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-12.36.13:447][969]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7791.286621, Update Interval: 314.035461
+[2025.05.09-12.42.00:826][ 11]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8139.001953
+[2025.05.09-12.42.01:817][ 14]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-12.42.01:817][ 14]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8139.668457, Update Interval: 316.751007
+[2025.05.09-12.47.51:517][ 63]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8489.673828
+[2025.05.09-12.47.52:511][ 66]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-12.47.52:511][ 66]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8490.336914, Update Interval: 353.517883
+[2025.05.09-12.54.26:892][249]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8885.021484
+[2025.05.09-12.54.27:890][252]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-12.54.27:890][252]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8885.685547, Update Interval: 322.171082
+[2025.05.09-13.00.33:617][349]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9251.742188
+[2025.05.09-13.00.34:612][352]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-13.00.34:612][352]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9252.409180, Update Interval: 321.011993
+[2025.05.09-13.06.31:322][422]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9609.429688
+[2025.05.09-13.06.32:332][425]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-13.06.32:332][425]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9610.101562, Update Interval: 329.788513
+[2025.05.09-13.12.42:366][535]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9980.464844
+[2025.05.09-13.12.43:366][538]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-13.12.43:366][538]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9981.131836, Update Interval: 316.443359
+[2025.05.09-13.18.55:079][653]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10353.168945
+[2025.05.09-13.18.56:079][656]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-13.18.56:079][656]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10353.835938, Update Interval: 339.654541
+[2025.05.09-13.25.01:782][753]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.157 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 839 files in 1429 folders with total size 76 MiB.
+[2025.05.09-13.25.10:448][779]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10728.515625
+[2025.05.09-13.25.11:451][782]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-13.25.11:451][782]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10729.181641, Update Interval: 347.096161
+[2025.05.09-13.28.28:724][ 82]LogLinker: Warning: [AssetLog] C:\Users\okacp\OneDrive\Pulpit\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\__ExternalActors__\ThirdPerson\Maps\ThirdPersonMap\C\Q5\GG10NC2O7ZAB48U8H3SL6X.uasset: Failed to load '/Game/Models/Characters/red_Panda': Can't find file.
+[2025.05.09-13.28.28:724][ 82]LogLinker: Warning: [AssetLog] C:\Users\okacp\OneDrive\Pulpit\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\__ExternalActors__\ThirdPerson\Maps\ThirdPersonMap\C\Q5\GG10NC2O7ZAB48U8H3SL6X.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Models/Characters/red_Panda'
+[2025.05.09-13.28.28:739][ 82]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.09-13.28.28:739][ 82]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.09-13.28.28:739][ 82]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.09-13.28.28:739][ 82]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.09-13.28.28:742][ 82]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2025.05.09-13.28.28:742][ 82]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.26 sec)
+[2025.05.09-13.28.28:785][ 82]LogContentBrowser: Deferred new asset file creation: ThirdPersonMap1
+[2025.05.09-13.28.28:811][ 82]LogContentBrowser: Creating deferred item: ThirdPersonMap1
+[2025.05.09-13.28.28:823][ 83]LogContentBrowser: Renaming the item being created (Deferred Item: ThirdPersonMap1).
+[2025.05.09-13.28.32:361][305]LogContentBrowser: Attempting asset rename: ThirdPersonMap1 -> MainMenu
+[2025.05.09-13.28.32:412][305]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2025.05.09-13.28.32:426][305]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.09-13.28.32:427][305]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.09-13.28.32:427][305]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.09-13.28.32:427][305]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.09-13.28.32:427][305]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.09-13.28.32:427][305]LogWorldPartition: Display: WorldPartition initialize took 287 us (total: 1.26 sec)
+[2025.05.09-13.28.32:454][305]LogContentBrowser: End creating deferred item ThirdPersonMap1
+[2025.05.09-13.28.33:789][388]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.09-13.28.33:847][388]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.09-13.28.33:882][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.05.09-13.28.33:887][388]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/MainMenu
+[2025.05.09-13.28.33:887][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MainMenuB48C101E4C130D2C66BC55B16DAB3A91.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/MainMenu.umap'
+[2025.05.09-13.28.33:906][388]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/KG/O3X35Q2P4OZ582SJFKDDC9
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/I3/QZKZEDOHJLGQMZENRRH1TF
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/A/X5/Y79V2MUAY5OXS2B6RR5TVI
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/9I/3120EDUOZFAYX6L23RCUWQ
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/C1/7TZE2AKPFBAWX5LX8IDQ7R
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/4/6C/M23JBIH6H1GC4E7FHK8KLJ
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/M1/GCNGCWSIKL5TN8KXBCM55H
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/XE/PHH8TWQOR1KH1BZC49WEZR
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/VV/TTO6D9FRZC07PI5J7XFHX0
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/OA/GI5861JA0VU9PESQES73S3
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/HS/EVBUHRHEU82KZIKNGICSM6
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/B/77/HLSHP23V16LVFC2NU4QPEF
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/ZB/J4LGU753FZ7W9RLS3JHZHH
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/TZ/WLBYDABC1YJDCJ7MI9CQPX
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/ER/SRI2JZ639LFI5Q81CE06AU
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/4T/IAHHKNRXUYQA3NMU7P2KQK
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/JM/IYP1ZIKJ6YB36XNCZZG53Z
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/1Y/H33R19N1ZDMTUU1C6T8DSD
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/G7/QMKKGX7AOQISNILHX6J1S1
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/2X/8D30K2CNJ1W0THGGMPJC6N
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/RK/ASMXBFTTL8P6GTLFB7CBNG
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/WH/FRCPMCKU2ABX9WC5BO28DF
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/NW/9IN2VCGUO629ZDGXXB43L9
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/7W/Z2QCMR43HK9TJZ103TTZAX
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/G1/BGT9SYDORKO0VVB7XKTYF0
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/0V/6SWE7O2YMTZYGIUGNSYX3G
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/D/JJ/39F1ZYO11S26MW7FRUFEMY
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/GH/LC6SZJI59ZZI8ZJGPUNSK0
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/VG/AP0UXEY7CJ66QWCC9LWXHK
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/KA/1S7L91BB6I95LYO3B88XZ1
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/IO/3QF0M9HZKIJX11F296YVYP
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/LP/ONVJKOY6594UJ2N54PM9V7
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/4D/8FA9M1WGU1WF1S8NOU1KB8
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/I7/52B2KNWGIU5WGBUNOS7KIZ
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/0N/R2CI1OXOTLH8CY1Q2ZFSBS
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/GZ/ISJC9N8SJQPY1LMEDEUYDN
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/6V/UWZHGIVL9Y83A660PT0OYR
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/B/OR/WUS9P6ZXCIX2JU93WGWXMI
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/ZA/61077G2OHT4M1OSUQTKII3
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/ZB/73KQXSR6V8R3L4S179I6NB
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/5D/134ZJ3XNS7KW9A4S5FUDJ7
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/7/DP/MCBJJSNYBIXI4SRTFCO1BC
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/R2/MX7MV85PHWJJTDVGIVPI6E
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/GR/NDTOXDW5Z9GYRK4341BPPR
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/06/YSOL3R0LZO160YQEN1P9Z3
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/MV/NY6N8LKECT4CQIO6P3VM2A
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/V5/AG9E7L0OPI48MBHOL7VWZE
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/IK/MAB2HZ355UAA2QZXMV2IEJ
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/D/X9/76OTGUGCU9A21CWWBW6U34
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/5W/WH3IVZ1VJQI5RYRBFX06MC
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/X1/B4RUOUO7JZZK994N2D4LSK
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/EN/G01IXS6Z95DUUHSIRRHC1L
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/7/Y5/75MR1CVTFYVQE1H3QP184Z
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/9Z/M53QA6N18993K0HZODIDX7
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/B/FJ/NZ0Z0H1ZFMA54U22HER9OL
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/SM/LM8ZCTXEG4KR8G4LFIB2DR
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/JH/047QTZI4S78OXN0ODK6P6E
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/AH/B3P4XS576PNWUVVWWN1T4D
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/2D/GJ3H5R45233YXPHO21TXR0
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/BA/USF0IS76618GI0BT7FIHXH
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/IV/DGCH093Z3QFA7J2K2DBLX4
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/4/KA/W61Q954BRMZOYGD4V12ZKC
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/SK/F8CQXXDIGFWALMNCLQLTPY
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/4/VO/7DGBC8FS2R09MO6PPZRJ8J
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/VE/SAYP215Y3HLMWAR76GEHXA
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/BV/V9SJ0IXK2L0VLIS34CTOX9
+/Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/D/BP/N05DVH42M4QFU7OKP7HRQF
+/Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/3/Q3/CX0A0T9AC1N6KN84L3D8P3
+/Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/0/0Q/APXW4WXE4HBD9H4KZX2021
+/Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/9/G7/2ARW3JVJVSI1X9W79FQMI0
+/Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/6/TM/T4OQQZ31Y8DKEIK5OFI289
+/Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/4/L8/K0CQCRN72MBMK3ZVD081YD
+[2025.05.09-13.28.33:907][388]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.09-13.28.33:908][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/KG/O3X35Q2P4OZ582SJFKDDC9
+[2025.05.09-13.28.33:908][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/O3X35Q2P4OZ582SJFKDDC965100FDA4BA05F291CE00EB11AB435BA.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/KG/O3X35Q2P4OZ582SJFKDDC9.uasset'
+[2025.05.09-13.28.33:911][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/I3/QZKZEDOHJLGQMZENRRH1TF
+[2025.05.09-13.28.33:911][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/QZKZEDOHJLGQMZENRRH1TF7ED7B9B445518EB35656968EAA882FFB.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/I3/QZKZEDOHJLGQMZENRRH1TF.uasset'
+[2025.05.09-13.28.33:915][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/A/X5/Y79V2MUAY5OXS2B6RR5TVI
+[2025.05.09-13.28.33:915][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Y79V2MUAY5OXS2B6RR5TVIDF54A72B40B10963C9F7A5991DD4A264.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/A/X5/Y79V2MUAY5OXS2B6RR5TVI.uasset'
+[2025.05.09-13.28.33:919][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/9I/3120EDUOZFAYX6L23RCUWQ
+[2025.05.09-13.28.33:919][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/3120EDUOZFAYX6L23RCUWQAE091D1443E1270EAAC72B995F42D526.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/9I/3120EDUOZFAYX6L23RCUWQ.uasset'
+[2025.05.09-13.28.33:922][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/C1/7TZE2AKPFBAWX5LX8IDQ7R
+[2025.05.09-13.28.33:922][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/7TZE2AKPFBAWX5LX8IDQ7RE52933C047F1C4CE2E84BFB96A7BF75F.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/C1/7TZE2AKPFBAWX5LX8IDQ7R.uasset'
+[2025.05.09-13.28.33:925][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/4/6C/M23JBIH6H1GC4E7FHK8KLJ
+[2025.05.09-13.28.33:925][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/M23JBIH6H1GC4E7FHK8KLJ4030669847CFC2B3A3C97B9B03499AC4.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/4/6C/M23JBIH6H1GC4E7FHK8KLJ.uasset'
+[2025.05.09-13.28.33:928][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/M1/GCNGCWSIKL5TN8KXBCM55H
+[2025.05.09-13.28.33:928][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/GCNGCWSIKL5TN8KXBCM55H7E5BF02E4B4DE9E28CA498BF476FFF86.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/M1/GCNGCWSIKL5TN8KXBCM55H.uasset'
+[2025.05.09-13.28.33:931][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/XE/PHH8TWQOR1KH1BZC49WEZR
+[2025.05.09-13.28.33:931][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/PHH8TWQOR1KH1BZC49WEZR4018C49243C9D16477F2A8BE6A29785C.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/XE/PHH8TWQOR1KH1BZC49WEZR.uasset'
+[2025.05.09-13.28.33:934][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/VV/TTO6D9FRZC07PI5J7XFHX0
+[2025.05.09-13.28.33:934][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/TTO6D9FRZC07PI5J7XFHX0F4771F0142D56694B0C3538A0C064135.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/VV/TTO6D9FRZC07PI5J7XFHX0.uasset'
+[2025.05.09-13.28.33:936][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/OA/GI5861JA0VU9PESQES73S3
+[2025.05.09-13.28.33:936][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/GI5861JA0VU9PESQES73S3754F71D44836B6458E53D0AD8D8B6EC5.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/OA/GI5861JA0VU9PESQES73S3.uasset'
+[2025.05.09-13.28.33:942][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/HS/EVBUHRHEU82KZIKNGICSM6
+[2025.05.09-13.28.33:942][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/EVBUHRHEU82KZIKNGICSM65FB8825945565E58D3A90CBA81998E46.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/HS/EVBUHRHEU82KZIKNGICSM6.uasset'
+[2025.05.09-13.28.33:946][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/B/77/HLSHP23V16LVFC2NU4QPEF
+[2025.05.09-13.28.33:946][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/HLSHP23V16LVFC2NU4QPEF2B470160431CB06ABDB28AA428FFCB2D.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/B/77/HLSHP23V16LVFC2NU4QPEF.uasset'
+[2025.05.09-13.28.33:949][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/ZB/J4LGU753FZ7W9RLS3JHZHH
+[2025.05.09-13.28.33:949][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/J4LGU753FZ7W9RLS3JHZHH38E9E7DA49A988367450DC8B5300DABC.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/ZB/J4LGU753FZ7W9RLS3JHZHH.uasset'
+[2025.05.09-13.28.33:953][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/TZ/WLBYDABC1YJDCJ7MI9CQPX
+[2025.05.09-13.28.33:953][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/WLBYDABC1YJDCJ7MI9CQPX34E80A914C895D776B4C83A04267AF01.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/TZ/WLBYDABC1YJDCJ7MI9CQPX.uasset'
+[2025.05.09-13.28.33:955][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/ER/SRI2JZ639LFI5Q81CE06AU
+[2025.05.09-13.28.33:955][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/SRI2JZ639LFI5Q81CE06AU4BCA5BA84ECD42D0AFF7398D67E375D4.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/ER/SRI2JZ639LFI5Q81CE06AU.uasset'
+[2025.05.09-13.28.33:959][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/4T/IAHHKNRXUYQA3NMU7P2KQK
+[2025.05.09-13.28.33:959][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/IAHHKNRXUYQA3NMU7P2KQK783EF82943E294EA8BAA95B613DFC17B.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/4T/IAHHKNRXUYQA3NMU7P2KQK.uasset'
+[2025.05.09-13.28.33:962][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/JM/IYP1ZIKJ6YB36XNCZZG53Z
+[2025.05.09-13.28.33:962][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/IYP1ZIKJ6YB36XNCZZG53Z5C7FDD7C4DB29C89ADC35BA861E5B105.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/JM/IYP1ZIKJ6YB36XNCZZG53Z.uasset'
+[2025.05.09-13.28.33:964][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/1Y/H33R19N1ZDMTUU1C6T8DSD
+[2025.05.09-13.28.33:964][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/H33R19N1ZDMTUU1C6T8DSDBF8210A74F55A174B6B4249903170951.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/1Y/H33R19N1ZDMTUU1C6T8DSD.uasset'
+[2025.05.09-13.28.33:967][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/G7/QMKKGX7AOQISNILHX6J1S1
+[2025.05.09-13.28.33:967][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/QMKKGX7AOQISNILHX6J1S1815705CB44D095CCCA0570AA1072DB4A.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/G7/QMKKGX7AOQISNILHX6J1S1.uasset'
+[2025.05.09-13.28.33:969][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/2X/8D30K2CNJ1W0THGGMPJC6N
+[2025.05.09-13.28.33:970][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/8D30K2CNJ1W0THGGMPJC6NA68E01724B5AB609022601A63E31A7D5.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/2X/8D30K2CNJ1W0THGGMPJC6N.uasset'
+[2025.05.09-13.28.33:973][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/RK/ASMXBFTTL8P6GTLFB7CBNG
+[2025.05.09-13.28.33:973][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/ASMXBFTTL8P6GTLFB7CBNGB538782A41283757DA79D38DDC46DAB9.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/RK/ASMXBFTTL8P6GTLFB7CBNG.uasset'
+[2025.05.09-13.28.33:976][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/WH/FRCPMCKU2ABX9WC5BO28DF
+[2025.05.09-13.28.33:976][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/FRCPMCKU2ABX9WC5BO28DF14F6609F424B820A787014BE707B65AB.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/WH/FRCPMCKU2ABX9WC5BO28DF.uasset'
+[2025.05.09-13.28.33:978][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/NW/9IN2VCGUO629ZDGXXB43L9
+[2025.05.09-13.28.33:978][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/9IN2VCGUO629ZDGXXB43L98A60B0854E48B57130293185AF341A47.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/NW/9IN2VCGUO629ZDGXXB43L9.uasset'
+[2025.05.09-13.28.33:981][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/7W/Z2QCMR43HK9TJZ103TTZAX
+[2025.05.09-13.28.33:981][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Z2QCMR43HK9TJZ103TTZAX1A37FDF84F7328C52AA706B107F63351.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/7W/Z2QCMR43HK9TJZ103TTZAX.uasset'
+[2025.05.09-13.28.33:984][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/G1/BGT9SYDORKO0VVB7XKTYF0
+[2025.05.09-13.28.33:984][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BGT9SYDORKO0VVB7XKTYF0F36A172B4893E6111B7F30924CD21861.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/G1/BGT9SYDORKO0VVB7XKTYF0.uasset'
+[2025.05.09-13.28.33:987][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/0V/6SWE7O2YMTZYGIUGNSYX3G
+[2025.05.09-13.28.33:987][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/6SWE7O2YMTZYGIUGNSYX3GF0CB647343BB9E963C8647A294DFB577.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/0V/6SWE7O2YMTZYGIUGNSYX3G.uasset'
+[2025.05.09-13.28.33:990][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/D/JJ/39F1ZYO11S26MW7FRUFEMY
+[2025.05.09-13.28.33:990][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/39F1ZYO11S26MW7FRUFEMYA9566F684C5E3CBE5FD3E3B451576450.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/D/JJ/39F1ZYO11S26MW7FRUFEMY.uasset'
+[2025.05.09-13.28.33:993][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/GH/LC6SZJI59ZZI8ZJGPUNSK0
+[2025.05.09-13.28.33:994][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/LC6SZJI59ZZI8ZJGPUNSK0CF01A71F4D034C10BEBBB39D9322B680.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/GH/LC6SZJI59ZZI8ZJGPUNSK0.uasset'
+[2025.05.09-13.28.33:996][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/VG/AP0UXEY7CJ66QWCC9LWXHK
+[2025.05.09-13.28.33:996][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/AP0UXEY7CJ66QWCC9LWXHKD75C241D4394BE5E3435DA8EDDE36EF7.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/VG/AP0UXEY7CJ66QWCC9LWXHK.uasset'
+[2025.05.09-13.28.33:999][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/KA/1S7L91BB6I95LYO3B88XZ1
+[2025.05.09-13.28.33:999][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/1S7L91BB6I95LYO3B88XZ1A91BAE744D564192B1E38DB00988780D.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/KA/1S7L91BB6I95LYO3B88XZ1.uasset'
+[2025.05.09-13.28.34:002][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/IO/3QF0M9HZKIJX11F296YVYP
+[2025.05.09-13.28.34:002][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/3QF0M9HZKIJX11F296YVYPBAC62A8B47C2ACC9F9ECA5AF8076288B.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/IO/3QF0M9HZKIJX11F296YVYP.uasset'
+[2025.05.09-13.28.34:005][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/LP/ONVJKOY6594UJ2N54PM9V7
+[2025.05.09-13.28.34:005][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/ONVJKOY6594UJ2N54PM9V7EC978FDF44E1FCE7C382D1B480D0D5D9.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/LP/ONVJKOY6594UJ2N54PM9V7.uasset'
+[2025.05.09-13.28.34:008][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/4D/8FA9M1WGU1WF1S8NOU1KB8
+[2025.05.09-13.28.34:008][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/8FA9M1WGU1WF1S8NOU1KB80B82ACB546643B5FA4A705B578BFE125.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/4D/8FA9M1WGU1WF1S8NOU1KB8.uasset'
+[2025.05.09-13.28.34:010][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/I7/52B2KNWGIU5WGBUNOS7KIZ
+[2025.05.09-13.28.34:010][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/52B2KNWGIU5WGBUNOS7KIZ2616C27645174A0D3DF54C8AFC17560F.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/I7/52B2KNWGIU5WGBUNOS7KIZ.uasset'
+[2025.05.09-13.28.34:013][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/0N/R2CI1OXOTLH8CY1Q2ZFSBS
+[2025.05.09-13.28.34:013][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/R2CI1OXOTLH8CY1Q2ZFSBS20CEB54A4BABAEA46B4BC39AE04B41C4.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/0N/R2CI1OXOTLH8CY1Q2ZFSBS.uasset'
+[2025.05.09-13.28.34:016][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/GZ/ISJC9N8SJQPY1LMEDEUYDN
+[2025.05.09-13.28.34:016][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/ISJC9N8SJQPY1LMEDEUYDNBC7757EF4E0B92F2C17DB9BE5119975E.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/GZ/ISJC9N8SJQPY1LMEDEUYDN.uasset'
+[2025.05.09-13.28.34:019][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/6V/UWZHGIVL9Y83A660PT0OYR
+[2025.05.09-13.28.34:019][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/UWZHGIVL9Y83A660PT0OYR48207EEA4CB5FA7634F1D3BC48315BA6.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/6V/UWZHGIVL9Y83A660PT0OYR.uasset'
+[2025.05.09-13.28.34:023][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/B/OR/WUS9P6ZXCIX2JU93WGWXMI
+[2025.05.09-13.28.34:023][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/WUS9P6ZXCIX2JU93WGWXMID290D6A9484A4DA2EC2B27843310452F.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/B/OR/WUS9P6ZXCIX2JU93WGWXMI.uasset'
+[2025.05.09-13.28.34:025][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/ZA/61077G2OHT4M1OSUQTKII3
+[2025.05.09-13.28.34:025][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/61077G2OHT4M1OSUQTKII3499EB58F436053D920A7EAB364CE1C2C.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/ZA/61077G2OHT4M1OSUQTKII3.uasset'
+[2025.05.09-13.28.34:029][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/ZB/73KQXSR6V8R3L4S179I6NB
+[2025.05.09-13.28.34:029][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/73KQXSR6V8R3L4S179I6NBFDD43C664F475861B02C499F157285EC.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/ZB/73KQXSR6V8R3L4S179I6NB.uasset'
+[2025.05.09-13.28.34:032][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/5D/134ZJ3XNS7KW9A4S5FUDJ7
+[2025.05.09-13.28.34:032][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/134ZJ3XNS7KW9A4S5FUDJ75EA4A9204137897A858A9CB948C6DC6F.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/5D/134ZJ3XNS7KW9A4S5FUDJ7.uasset'
+[2025.05.09-13.28.34:035][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/7/DP/MCBJJSNYBIXI4SRTFCO1BC
+[2025.05.09-13.28.34:035][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MCBJJSNYBIXI4SRTFCO1BC0A3F36744319D06148B781931B4E6FFC.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/7/DP/MCBJJSNYBIXI4SRTFCO1BC.uasset'
+[2025.05.09-13.28.34:037][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/R2/MX7MV85PHWJJTDVGIVPI6E
+[2025.05.09-13.28.34:037][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MX7MV85PHWJJTDVGIVPI6E806CDF0A4EA9AA8CABC15E8FF8897B97.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/R2/MX7MV85PHWJJTDVGIVPI6E.uasset'
+[2025.05.09-13.28.34:044][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/GR/NDTOXDW5Z9GYRK4341BPPR
+[2025.05.09-13.28.34:044][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NDTOXDW5Z9GYRK4341BPPR8130BA86411629A49CA9BC81B2C67593.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/GR/NDTOXDW5Z9GYRK4341BPPR.uasset'
+[2025.05.09-13.28.34:048][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/06/YSOL3R0LZO160YQEN1P9Z3
+[2025.05.09-13.28.34:048][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/YSOL3R0LZO160YQEN1P9Z3337371BF4ACDFA94C8EBA5A090E66C95.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/06/YSOL3R0LZO160YQEN1P9Z3.uasset'
+[2025.05.09-13.28.34:050][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/MV/NY6N8LKECT4CQIO6P3VM2A
+[2025.05.09-13.28.34:050][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NY6N8LKECT4CQIO6P3VM2A73A15E1647E24FF1267BDB8CED715AE0.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/MV/NY6N8LKECT4CQIO6P3VM2A.uasset'
+[2025.05.09-13.28.34:054][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/V5/AG9E7L0OPI48MBHOL7VWZE
+[2025.05.09-13.28.34:054][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/AG9E7L0OPI48MBHOL7VWZE096F215E4C03692B0A1CA1B6518DC12E.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/V5/AG9E7L0OPI48MBHOL7VWZE.uasset'
+[2025.05.09-13.28.34:057][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/IK/MAB2HZ355UAA2QZXMV2IEJ
+[2025.05.09-13.28.34:058][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MAB2HZ355UAA2QZXMV2IEJ1A1A509A4CBD1DB2D0173DB86CF87538.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/IK/MAB2HZ355UAA2QZXMV2IEJ.uasset'
+[2025.05.09-13.28.34:061][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/D/X9/76OTGUGCU9A21CWWBW6U34
+[2025.05.09-13.28.34:061][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/76OTGUGCU9A21CWWBW6U34BBD3B7C04253B58FBE80C3B72F9F3DF0.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/D/X9/76OTGUGCU9A21CWWBW6U34.uasset'
+[2025.05.09-13.28.34:065][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/5W/WH3IVZ1VJQI5RYRBFX06MC
+[2025.05.09-13.28.34:065][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/WH3IVZ1VJQI5RYRBFX06MC080ACA544C060A943174FEA66799253D.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/5W/WH3IVZ1VJQI5RYRBFX06MC.uasset'
+[2025.05.09-13.28.34:071][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/X1/B4RUOUO7JZZK994N2D4LSK
+[2025.05.09-13.28.34:072][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/B4RUOUO7JZZK994N2D4LSK8AC615604C2FF2C4CEA69AA9900B2E7E.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/X1/B4RUOUO7JZZK994N2D4LSK.uasset'
+[2025.05.09-13.28.34:074][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/EN/G01IXS6Z95DUUHSIRRHC1L
+[2025.05.09-13.28.34:074][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/G01IXS6Z95DUUHSIRRHC1L56307D304A9880A73A43329DD1B42743.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/EN/G01IXS6Z95DUUHSIRRHC1L.uasset'
+[2025.05.09-13.28.34:078][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/7/Y5/75MR1CVTFYVQE1H3QP184Z
+[2025.05.09-13.28.34:078][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/75MR1CVTFYVQE1H3QP184Z1A99E9084168026A275E409C0988E29D.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/7/Y5/75MR1CVTFYVQE1H3QP184Z.uasset'
+[2025.05.09-13.28.34:081][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/9Z/M53QA6N18993K0HZODIDX7
+[2025.05.09-13.28.34:081][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/M53QA6N18993K0HZODIDX7565E2252431C2D321828FCAA95941A33.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/9Z/M53QA6N18993K0HZODIDX7.uasset'
+[2025.05.09-13.28.34:084][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/B/FJ/NZ0Z0H1ZFMA54U22HER9OL
+[2025.05.09-13.28.34:084][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NZ0Z0H1ZFMA54U22HER9OL805D921E41824AEECD8B9F89754E4F8E.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/B/FJ/NZ0Z0H1ZFMA54U22HER9OL.uasset'
+[2025.05.09-13.28.34:086][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/SM/LM8ZCTXEG4KR8G4LFIB2DR
+[2025.05.09-13.28.34:086][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/LM8ZCTXEG4KR8G4LFIB2DR18FB32B84D944F5FED52838FE77B83BE.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/SM/LM8ZCTXEG4KR8G4LFIB2DR.uasset'
+[2025.05.09-13.28.34:089][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/JH/047QTZI4S78OXN0ODK6P6E
+[2025.05.09-13.28.34:089][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/047QTZI4S78OXN0ODK6P6EDF4604B740C2A2056540C4BEB0E35FBD.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/JH/047QTZI4S78OXN0ODK6P6E.uasset'
+[2025.05.09-13.28.34:092][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/AH/B3P4XS576PNWUVVWWN1T4D
+[2025.05.09-13.28.34:092][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/B3P4XS576PNWUVVWWN1T4DB7C5708C4EB6C361232E919A80BDB29F.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/AH/B3P4XS576PNWUVVWWN1T4D.uasset'
+[2025.05.09-13.28.34:095][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/2D/GJ3H5R45233YXPHO21TXR0
+[2025.05.09-13.28.34:095][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/GJ3H5R45233YXPHO21TXR0123978394AC3762DABB1A2A6FF3AA81B.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/2D/GJ3H5R45233YXPHO21TXR0.uasset'
+[2025.05.09-13.28.34:098][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/BA/USF0IS76618GI0BT7FIHXH
+[2025.05.09-13.28.34:098][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/USF0IS76618GI0BT7FIHXH0B27AA6D4704093B504E1DAB67F9EFF5.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/BA/USF0IS76618GI0BT7FIHXH.uasset'
+[2025.05.09-13.28.34:101][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/IV/DGCH093Z3QFA7J2K2DBLX4
+[2025.05.09-13.28.34:101][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/DGCH093Z3QFA7J2K2DBLX4BAD23A2D4B142496304A3DB4492A9531.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/IV/DGCH093Z3QFA7J2K2DBLX4.uasset'
+[2025.05.09-13.28.34:104][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/4/KA/W61Q954BRMZOYGD4V12ZKC
+[2025.05.09-13.28.34:104][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/W61Q954BRMZOYGD4V12ZKC2F1310F34A5942843A46D0BF72160E90.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/4/KA/W61Q954BRMZOYGD4V12ZKC.uasset'
+[2025.05.09-13.28.34:107][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/SK/F8CQXXDIGFWALMNCLQLTPY
+[2025.05.09-13.28.34:107][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/F8CQXXDIGFWALMNCLQLTPY298A7DE14682009EF2F791980694676F.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/SK/F8CQXXDIGFWALMNCLQLTPY.uasset'
+[2025.05.09-13.28.34:111][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/4/VO/7DGBC8FS2R09MO6PPZRJ8J
+[2025.05.09-13.28.34:111][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/7DGBC8FS2R09MO6PPZRJ8J9A4EA7DF4FE4093E8C266DA61C5F0477.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/4/VO/7DGBC8FS2R09MO6PPZRJ8J.uasset'
+[2025.05.09-13.28.34:113][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/VE/SAYP215Y3HLMWAR76GEHXA
+[2025.05.09-13.28.34:113][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/SAYP215Y3HLMWAR76GEHXA6FB21CEC41812CA13DB50D8535A767FF.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/VE/SAYP215Y3HLMWAR76GEHXA.uasset'
+[2025.05.09-13.28.34:117][388]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/BV/V9SJ0IXK2L0VLIS34CTOX9
+[2025.05.09-13.28.34:117][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/V9SJ0IXK2L0VLIS34CTOX97FDD7BDA4AE319527E61319EDCE32AC8.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/BV/V9SJ0IXK2L0VLIS34CTOX9.uasset'
+[2025.05.09-13.28.34:120][388]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/D/BP/N05DVH42M4QFU7OKP7HRQF
+[2025.05.09-13.28.34:120][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/N05DVH42M4QFU7OKP7HRQF3E0071B34C896FFB4474B7BA9EE62DC6.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalObjects__/ThirdPerson/Maps/MainMenu/D/BP/N05DVH42M4QFU7OKP7HRQF.uasset'
+[2025.05.09-13.28.34:124][388]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/3/Q3/CX0A0T9AC1N6KN84L3D8P3
+[2025.05.09-13.28.34:124][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/CX0A0T9AC1N6KN84L3D8P3AF32CD2B4155F35A07189586FECB40D6.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalObjects__/ThirdPerson/Maps/MainMenu/3/Q3/CX0A0T9AC1N6KN84L3D8P3.uasset'
+[2025.05.09-13.28.34:127][388]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/0/0Q/APXW4WXE4HBD9H4KZX2021
+[2025.05.09-13.28.34:127][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/APXW4WXE4HBD9H4KZX202132CCB17648B1ED87EC1CF89C5FD214E4.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalObjects__/ThirdPerson/Maps/MainMenu/0/0Q/APXW4WXE4HBD9H4KZX2021.uasset'
+[2025.05.09-13.28.34:129][388]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/9/G7/2ARW3JVJVSI1X9W79FQMI0
+[2025.05.09-13.28.34:129][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/2ARW3JVJVSI1X9W79FQMI081AE771B4A41A9EBA54D0B92D64BE582.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalObjects__/ThirdPerson/Maps/MainMenu/9/G7/2ARW3JVJVSI1X9W79FQMI0.uasset'
+[2025.05.09-13.28.34:133][388]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/6/TM/T4OQQZ31Y8DKEIK5OFI289
+[2025.05.09-13.28.34:133][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/T4OQQZ31Y8DKEIK5OFI289B776CAC0463DAAD404597E9A16DF8335.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalObjects__/ThirdPerson/Maps/MainMenu/6/TM/T4OQQZ31Y8DKEIK5OFI289.uasset'
+[2025.05.09-13.28.34:135][388]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/4/L8/K0CQCRN72MBMK3ZVD081YD
+[2025.05.09-13.28.34:135][388]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/K0CQCRN72MBMK3ZVD081YDB00FBD8C4245AEEDD78D87B59A4B6D2D.tmp' to '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalObjects__/ThirdPerson/Maps/MainMenu/4/L8/K0CQCRN72MBMK3ZVD081YD.uasset'
+[2025.05.09-13.28.34:139][388]LogFileHelpers: InternalPromptForCheckoutAndSave took 233 ms (total: 546 ms)
+[2025.05.09-13.28.34:145][388]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/KG/O3X35Q2P4OZ582SJFKDDC9
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/I3/QZKZEDOHJLGQMZENRRH1TF
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/A/X5/Y79V2MUAY5OXS2B6RR5TVI
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/9I/3120EDUOZFAYX6L23RCUWQ
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/C1/7TZE2AKPFBAWX5LX8IDQ7R
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/4/6C/M23JBIH6H1GC4E7FHK8KLJ
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/M1/GCNGCWSIKL5TN8KXBCM55H
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/XE/PHH8TWQOR1KH1BZC49WEZR
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/VV/TTO6D9FRZC07PI5J7XFHX0
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/OA/GI5861JA0VU9PESQES73S3
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/HS/EVBUHRHEU82KZIKNGICSM6
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/B/77/HLSHP23V16LVFC2NU4QPEF
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/ZB/J4LGU753FZ7W9RLS3JHZHH
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/TZ/WLBYDABC1YJDCJ7MI9CQPX
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/ER/SRI2JZ639LFI5Q81CE06AU
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/4T/IAHHKNRXUYQA3NMU7P2KQK
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/JM/IYP1ZIKJ6YB36XNCZZG53Z
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/1Y/H33R19N1ZDMTUU1C6T8DSD
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/G7/QMKKGX7AOQISNILHX6J1S1
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/2X/8D30K2CNJ1W0THGGMPJC6N
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/RK/ASMXBFTTL8P6GTLFB7CBNG
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/WH/FRCPMCKU2ABX9WC5BO28DF
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/NW/9IN2VCGUO629ZDGXXB43L9
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/7W/Z2QCMR43HK9TJZ103TTZAX
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/G1/BGT9SYDORKO0VVB7XKTYF0
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/0V/6SWE7O2YMTZYGIUGNSYX3G
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/D/JJ/39F1ZYO11S26MW7FRUFEMY
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/GH/LC6SZJI59ZZI8ZJGPUNSK0
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/VG/AP0UXEY7CJ66QWCC9LWXHK
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/KA/1S7L91BB6I95LYO3B88XZ1
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/IO/3QF0M9HZKIJX11F296YVYP
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/LP/ONVJKOY6594UJ2N54PM9V7
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/E/4D/8FA9M1WGU1WF1S8NOU1KB8
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/I7/52B2KNWGIU5WGBUNOS7KIZ
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/0N/R2CI1OXOTLH8CY1Q2ZFSBS
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/GZ/ISJC9N8SJQPY1LMEDEUYDN
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/6V/UWZHGIVL9Y83A660PT0OYR
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/B/OR/WUS9P6ZXCIX2JU93WGWXMI
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/ZA/61077G2OHT4M1OSUQTKII3
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/ZB/73KQXSR6V8R3L4S179I6NB
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/5D/134ZJ3XNS7KW9A4S5FUDJ7
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/7/DP/MCBJJSNYBIXI4SRTFCO1BC
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/R2/MX7MV85PHWJJTDVGIVPI6E
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/9/GR/NDTOXDW5Z9GYRK4341BPPR
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/06/YSOL3R0LZO160YQEN1P9Z3
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/MV/NY6N8LKECT4CQIO6P3VM2A
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/V5/AG9E7L0OPI48MBHOL7VWZE
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/IK/MAB2HZ355UAA2QZXMV2IEJ
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/D/X9/76OTGUGCU9A21CWWBW6U34
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/5W/WH3IVZ1VJQI5RYRBFX06MC
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/X1/B4RUOUO7JZZK994N2D4LSK
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/EN/G01IXS6Z95DUUHSIRRHC1L
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/7/Y5/75MR1CVTFYVQE1H3QP184Z
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/9Z/M53QA6N18993K0HZODIDX7
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/B/FJ/NZ0Z0H1ZFMA54U22HER9OL
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/SM/LM8ZCTXEG4KR8G4LFIB2DR
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/JH/047QTZI4S78OXN0ODK6P6E
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/AH/B3P4XS576PNWUVVWWN1T4D
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/5/2D/GJ3H5R45233YXPHO21TXR0
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/1/BA/USF0IS76618GI0BT7FIHXH
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/0/IV/DGCH093Z3QFA7J2K2DBLX4
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/4/KA/W61Q954BRMZOYGD4V12ZKC
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/3/SK/F8CQXXDIGFWALMNCLQLTPY
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/4/VO/7DGBC8FS2R09MO6PPZRJ8J
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/VE/SAYP215Y3HLMWAR76GEHXA
+/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/6/BV/V9SJ0IXK2L0VLIS34CTOX9
+/Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/D/BP/N05DVH42M4QFU7OKP7HRQF
+/Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/3/Q3/CX0A0T9AC1N6KN84L3D8P3
+/Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/0/0Q/APXW4WXE4HBD9H4KZX2021
+/Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/9/G7/2ARW3JVJVSI1X9W79FQMI0
+/Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/6/TM/T4OQQZ31Y8DKEIK5OFI289
+/Game/__ExternalObjects__/ThirdPerson/Maps/MainMenu/4/L8/K0CQCRN72MBMK3ZVD081YD
+[2025.05.09-13.28.34:161][388]LogFileHelpers: Saving map 'MainMenu' took 0.313
+[2025.05.09-13.28.34:173][388]LogFileHelpers: InternalPromptForCheckoutAndSave took 383 ms (total: 930 ms)
+[2025.05.09-13.28.34:199][388]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/MainMenu.MainMenu
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.WorldDataLayers /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.WorldDataLayers
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_18
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0E25D02_1320120483
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.PostProcessVolume /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.PostProcessVolume_0
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_BouncePad_C_UAID_74563C6C81B03B5D02_1180271087
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_10
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.TextRenderActor_1
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_UAID_74563C6C81B03F5D02_2144661794
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.SkeletalMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.SkeletalMeshActor_UAID_74563C6C81B0566102_1399970063
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0516102_1078539183
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0F75C02_1307353120
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_EnemyPatrol.BP_EnemyPatrol_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_EnemyPatrol_C_UAID_74563C6C81B03F5D02_1289557792
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.VolumetricCloud /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.VolumetricCloud_0
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_Glider.BP_Glider_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_Glider_C_UAID_74563C6C81B0EA5D02_1091617896
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_24
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_34
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0E25D02_1331809486
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_15
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0516102_1162784184
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.SkyAtmosphere /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.SkyAtmosphere_0
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_14
+[2025.05.09-13.28.34:199][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_11
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_4
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_19
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.DirectionalLight /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.DirectionalLight_0
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_22
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0E25D02_1312418482
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_33
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_3
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.ExponentialHeightFog /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.ExponentialHeightFog_0
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_35
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_25
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_1
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_9
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/NavigationSystem.NavMeshBoundsVolume /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.NavMeshBoundsVolume_UAID_74563C6C81B0905D02_2087205051
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0F95C02_1595459474
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0F65C02_1812333943
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/NavigationSystem.RecastNavMesh /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.RecastNavMesh_UAID_74563C6C81B0905D02-Default
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.SkyLight /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.SkyLight_1
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_12
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_8
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_23
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0E25D02_1324523485
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_16
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_32
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_13
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_21
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_PlatformTeleport.BP_PlatformTeleport_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_PlatformTeleport_C_UAID_74563C6C81B0F95C02_1572586473
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_NewCollectable_C_UAID_74563C6C81B0E25D02_1321499484
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_Spline.BP_Spline_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_Spline_C_UAID_74563C6C81B0415D02_1429793148
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0915D02_1105967229
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_PlatformTeleport.BP_PlatformTeleport_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_PlatformTeleport_C_UAID_74563C6C81B08B5D02_1785654168
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0516102_1468321185
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_20
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_6
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_7
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_UAID_74563C6C81B03F5D02_2116154793
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.PlayerStart /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.PlayerStart_0
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0586102_1239003416
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_2
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0896502_1301652263
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.WorldPartitionMiniMap /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.WorldPartitionMiniMap_0
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0995D02_1256580638
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_ProjectileEnemy_C_UAID_74563C6C81B08B5D02_2020565169
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ChaseEnemy.BP_ChaseEnemy_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_ChaseEnemy_C_UAID_74563C6C81B0905D02_1785895050
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.ActorFolder_UID_963EC3EB-4002CCE9-759E2EBA-541A873A
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.ActorFolder_UID_EBA23F82-48252949-750E4391-1A3A1CDD
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.ActorFolder_UID_C73F09FC-4215536B-1DCE2A9E-0A830C70
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.ActorFolder_UID_7D23E5AE-4C2A421F-86AF6986-D87E6D05
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.ActorFolder_UID_7B7009C3-45D3D6DD-94D3429E-1D79C034
+[2025.05.09-13.28.34:200][388]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.ActorFolder_UID_D075E5BA-49330D3E-C2503D81-A7CF88D1
+[2025.05.09-13.28.35:089][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.05.09-13.28.41:755][442]LogSlate: Window 'Save Content' being destroyed
+[2025.05.09-13.28.41:768][442]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.09-13.28.41:800][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/MapTemplates/Materials/BasicAsset02" FILE="../../../Engine/Content/MapTemplates/Materials/BasicAsset02.uasset" SILENT=true
+[2025.05.09-13.28.41:802][442]LogSavePackage: Moving output files for package: /Engine/MapTemplates/Materials/BasicAsset02
+[2025.05.09-13.28.41:803][442]LogSavePackage: Moving '../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BasicAsset02144987464E68ED6C404F2DB52E8CF77E.tmp' to '../../../Engine/Content/MapTemplates/Materials/BasicAsset02.uasset'
+[2025.05.09-13.28.41:815][442]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 978 ms)
+[2025.05.09-13.28.41:816][442]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/MainMenu.MainMenu
+[2025.05.09-13.28.41:816][442]Cmd: MAP LOAD FILE="../../../../../../Users/okacp/OneDrive/Pulpit/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.05.09-13.28.41:816][442]LightingResults: New page: Lighting Build
+[2025.05.09-13.28.41:816][442]LoadErrors: New page: Loading map: MainMenu.umap
+[2025.05.09-13.28.41:853][442]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.09-13.28.41:853][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.09-13.28.41:856][442]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.05.09-13.28.41:856][442]MapCheck: New page: Map Check
+[2025.05.09-13.28.41:856][442]LightingResults: New page: Lighting Build
+[2025.05.09-13.28.41:873][442]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.09-13.28.41:889][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.05.09-13.28.41:892][442]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.09-13.28.41:893][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.09-13.28.41:893][442]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.09-13.28.41:894][442]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.09-13.28.41:895][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.09-13.28.41:896][442]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2025.05.09-13.28.41:916][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.05.09-13.28.41:933][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.05.09-13.28.41:943][442]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2025.05.09-13.28.41:943][442]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.09-13.28.41:943][442]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.09-13.28.41:945][442]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.09-13.28.41:945][442]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.09-13.28.41:945][442]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.09-13.28.41:945][442]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.09-13.28.42:006][442]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.09-13.28.42:006][442]LogWorldPartition: Display: WorldPartition initialize took 62 ms (total: 1.32 sec)
+[2025.05.09-13.28.42:056][442]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.05.09-13.28.42:075][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.05.09-13.28.42:080][442]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.05.09-13.28.42:080][442]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.298ms to complete.
+[2025.05.09-13.28.42:086][442]AssetCheck: New page: Asset Save: BasicAsset02
+[2025.05.09-13.28.42:086][442]LogContentValidation: Display: Validating /Script/Engine.Material /Engine/MapTemplates/Materials/BasicAsset02.BasicAsset02
+[2025.05.09-13.31.29:438][216]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11107.449219
+[2025.05.09-13.31.30:438][219]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-13.31.30:439][219]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11108.106445, Update Interval: 308.029419
+[2025.05.09-13.37.15:460][254]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11453.444336
+[2025.05.09-13.37.16:795][258]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-13.37.16:795][258]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11454.450195, Update Interval: 307.361053
+[2025.05.09-13.43.20:111][801]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11816.568359
+[2025.05.09-13.43.20:294][814]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-13.43.20:294][814]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11816.737305, Update Interval: 323.029877
+[2025.05.09-13.49.41:536][759]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12196.949219
+[2025.05.09-13.49.41:692][770]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-13.49.41:692][770]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12197.090820, Update Interval: 342.483582
+[2025.05.09-13.55.58:954][192]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12574.022461
+[2025.05.09-13.55.59:947][195]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-13.55.59:947][195]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12574.683594, Update Interval: 353.763245
+[2025.05.09-14.02.39:663][394]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12974.679688
+[2025.05.09-14.02.40:662][397]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-14.02.40:662][397]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12975.346680, Update Interval: 333.165070
+[2025.05.09-14.09.10:050][565]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13365.036133
+[2025.05.09-14.09.11:065][568]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.05.09-14.09.11:066][568]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13365.715820, Update Interval: 357.874084
