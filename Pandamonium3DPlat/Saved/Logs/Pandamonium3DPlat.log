@@ -2599,3 +2599,150 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.05.13-09.09.09:719][252]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/SAYP215Y3HLMWAR76GEHXA_Auto17DC3D9C945D7F0AB8CB3928FF271D8EA.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/VE/SAYP215Y3HLMWAR76GEHXA_Auto1.uasset'
 [2025.05.13-09.09.09:721][252]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/MainMenu' took 0.025
 [2025.05.13-09.09.09:721][252]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.025
+[2025.05.13-09.27.06:187][103]AssetReimport: New page: Outstanding source content changes 11:27:06
+[2025.05.13-09.27.06:216][103]LogSlate: Took 0.006701 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.05.13-09.27.06:258][104]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/mertenEnemy.png)
+[2025.05.13-09.27.06:258][104]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.13-09.27.06:274][104]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-09.27.06:500][104]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/mertenEnemy
+[2025.05.13-09.27.06:500][104]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/mertenEnemy7939092141F133DCB7C8DEADAA77D256.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/mertenEnemy.uasset'
+[2025.05.13-09.27.06:636][104]LogFileHelpers: InternalPromptForCheckoutAndSave took 361 ms (total: 2.03 sec)
+[2025.05.13-09.27.06:702][105]AssetCheck: New page: Asset Save: mertenEnemy
+[2025.05.13-09.27.06:702][105]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Characters/Enemies/mertenEnemy.mertenEnemy
+[2025.05.13-09.27.09:643][345]AssetReimport: Importing new asset /Game/Models/Characters/Enemies/mertenEnemy.
+[2025.05.13-09.27.10:798][450]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_ChaseEnemy.BP_ChaseEnemy
+[2025.05.13-09.27.10:799][450]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-09.27.10:799][450]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-09.27.11:050][452]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-09.27.29:932][368]LogTexture: Display: Building textures: /Game/Models/Characters/Enemies/mertenEnemy.mertenEnemy (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.182285 MB), EncodeSpeed: Fast
+[2025.05.13-09.27.32:968][625]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-09.27.33:047][625]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/mertenEnemy
+[2025.05.13-09.27.33:048][625]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/mertenEnemy06DC70B44C21CD460C46C196E40E1C45.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/mertenEnemy.uasset'
+[2025.05.13-09.27.33:061][625]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 2.12 sec)
+[2025.05.13-09.27.33:063][625]AssetCheck: New page: Asset Save: mertenEnemy
+[2025.05.13-09.27.33:063][625]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Characters/Enemies/mertenEnemy.mertenEnemy
+[2025.05.13-09.27.38:570][176]AssetReimport: New page: Outstanding source content changes 11:27:38
+[2025.05.13-09.27.43:776][611]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Models/Characters/Enemies/mertenEnemy.mertenEnemy
+[2025.05.13-09.27.43:921][611]LogViewport: Scene viewport resized to 919x529, mode Windowed.
+[2025.05.13-09.27.48:840][101]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-09.27.48:924][101]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/mertenEnemy
+[2025.05.13-09.27.48:925][101]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/mertenEnemy054F096D4C181CFED960E491B8260BD2.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/mertenEnemy.uasset'
+[2025.05.13-09.27.48:942][101]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 2.22 sec)
+[2025.05.13-09.27.48:943][101]AssetCheck: New page: Asset Save: mertenEnemy
+[2025.05.13-09.27.48:943][101]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Characters/Enemies/mertenEnemy.mertenEnemy
+[2025.05.13-09.27.50:072][214]LogSlate: Window 'mertenEnemy' being destroyed
+[2025.05.13-09.27.50:086][214]LogSlate: Window 'mertenEnemy' being destroyed
+[2025.05.13-09.27.54:055][599]LogContentBrowser: Deferred new asset file creation: mertenEnemy_Mat
+[2025.05.13-09.27.54:079][599]LogContentBrowser: Creating deferred item: mertenEnemy_Mat
+[2025.05.13-09.27.54:090][600]LogContentBrowser: Renaming the item being created (Deferred Item: mertenEnemy_Mat).
+[2025.05.13-09.27.56:764][902]LogContentBrowser: Attempting asset rename: mertenEnemy_Mat -> mertenEnemy_Mat
+[2025.05.13-09.27.56:773][902]LogContentBrowser: End creating deferred item mertenEnemy_Mat
+[2025.05.13-09.27.56:778][902]LogShaderCompilers: Display: ================================================
+[2025.05.13-09.27.56:778][902]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.13-09.27.56:778][902]LogShaderCompilers: Display: Total job queries 18, among them cache hits 12 (66.67%)
+[2025.05.13-09.27.56:778][902]LogShaderCompilers: Display: Tracking 6 distinct input hashes that result in 6 distinct outputs (100.00%)
+[2025.05.13-09.27.56:778][902]LogShaderCompilers: Display: RAM used: 124,08 KiB of 1,60 GiB budget. Usage: 0.01%
+[2025.05.13-09.27.56:778][902]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.13-09.27.56:778][902]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.05.13-09.27.56:778][902]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.05.13-09.27.56:778][902]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.05.13-09.27.56:778][902]LogShaderCompilers: Display: ================================================
+[2025.05.13-09.27.58:393][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.05.13-09.28.04:470][ 42]LogSlate: Window 'Replace References?' being destroyed
+[2025.05.13-09.28.04:477][ 42]Message dialog closed, result: Ok, title: Replace References?, text: This will replace any reference to the pending deleted assets with mertenEnemy_Mat; and then delete them.
+
+Are you sure?
+[2025.05.13-09.28.04:477][ 42]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.13-09.28.04:525][ 42]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-09.28.04:525][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.28.04:533][ 42]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-09.28.04:533][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.28.04:574][ 42]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-09.28.04:574][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.28.04:634][ 42]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.13-09.28.04:634][ 42]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-09.28.04:634][ 42]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.28.04:948][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.05.13-09.28.06:059][ 42]LogSlate: Window 'Save Content' being destroyed
+[2025.05.13-09.28.06:070][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-09.28.06:138][ 42]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/defaultMat
+[2025.05.13-09.28.06:139][ 42]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/defaultMat11EE17B04CA033A4DC444FB2ADB7F8E3.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/defaultMat.uasset'
+[2025.05.13-09.28.06:156][ 42]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/martens_Enemy
+[2025.05.13-09.28.06:157][ 42]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/martens_EnemyC7826162476C6B12FE8A92A83C7B318C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/martens_Enemy.uasset'
+[2025.05.13-09.28.06:168][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 2.32 sec)
+[2025.05.13-09.28.06:172][ 42]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.13-09.28.06:172][ 42]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Models/Characters/Enemies/defaultMat.defaultMat
+[2025.05.13-09.28.06:172][ 42]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Characters/Enemies/martens_Enemy.martens_Enemy
+[2025.05.13-09.28.09:073][344]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/Characters/Enemies/martens_Enemy.martens_Enemy
+[2025.05.13-09.28.09:143][344]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-09.28.09:143][344]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-09.28.09:582][344]LogViewport: Scene viewport resized to 654x533, mode Windowed.
+[2025.05.13-09.28.16:812][926]LogSlate: Window 'martens_Enemy' being destroyed
+[2025.05.13-09.28.16:877][926]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-09.28.16:877][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.28.24:753][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.05.13-09.28.28:500][741]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.13-09.28.28:545][741]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Models/Characters/Enemies/martens_Enemy.martens_Enemy
+	Asset Type: StaticMesh
+[2025.05.13-09.28.28:804][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.05.13-09.28.28:820][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.05.13-09.28.28:832][741]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.05.13-09.28.30:941][959]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-09.28.31:091][959]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/mertenEnemy_Mat
+[2025.05.13-09.28.31:091][959]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/mertenEnemy_Mat2054BD82442C4E8F8CCED594140C9F1D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/mertenEnemy_Mat.uasset'
+[2025.05.13-09.28.31:101][959]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 2.48 sec)
+[2025.05.13-09.28.31:102][959]AssetCheck: New page: Asset Save: mertenEnemy_Mat
+[2025.05.13-09.28.31:102][959]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Characters/Enemies/mertenEnemy_Mat.mertenEnemy_Mat
+[2025.05.13-09.28.42:001][528]LogAssetTools: Warning: Failed to import 'C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\Characters\Enemies\martens_Enemy.bbmodel'. Unknown extension 'bbmodel'.
+[2025.05.13-09.28.55:290][643]LogSlate: Window 'Interchange Pipeline Configuration (Import Content)' being destroyed
+[2025.05.13-09.28.55:303][643]LogInterchangeEngine: [Pending] Importing
+[2025.05.13-09.28.55:303][643]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/okacp/Docum...s/Characters/Enemies/martens_Enemy.obj]
+[2025.05.13-09.28.55:317][643]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.13-09.28.55:355][644]LogInterchangeEngine: [Pending] Importing
+[2025.05.13-09.28.55:363][644]LogTexture: Display: Building textures: /Game/Models/Characters/Enemies/TEX_mertenEnemy.TEX_mertenEnemy (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 0.708295 MB), EncodeSpeed: Fast
+[2025.05.13-09.28.55:372][644]LogStaticMesh: Display: Building static mesh martens_Enemy...
+[2025.05.13-09.28.55:380][644]LogStaticMesh: Built static mesh [0.01s] /Game/Models/Characters/Enemies/martens_Enemy.martens_Enemy
+[2025.05.13-09.28.55:398][644]LogInterchangeEngine: [Success] Import Done
+[2025.05.13-09.28.55:474][645]LogInterchangeEngine: [Success] Import Done
+[2025.05.13-09.28.58:644][891]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/Characters/Enemies/martens_Enemy.martens_Enemy
+[2025.05.13-09.28.58:691][891]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-09.28.58:691][891]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-09.28.59:121][891]LogViewport: Scene viewport resized to 654x533, mode Windowed.
+[2025.05.13-09.29.23:453][899]LogSlate: Window 'martens_Enemy' being destroyed
+[2025.05.13-09.29.23:468][899]LogSlate: Window 'martens_Enemy' being destroyed
+[2025.05.13-09.29.23:501][899]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-09.29.23:501][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.29.31:291][637]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/Characters/Enemies/martens_Enemy.martens_Enemy
+[2025.05.13-09.29.31:360][637]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-09.29.31:360][637]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-09.29.31:778][637]LogViewport: Scene viewport resized to 654x533, mode Windowed.
+[2025.05.13-09.29.33:158][736]LogViewport: Scene viewport resized to 651x556, mode Windowed.
+[2025.05.13-09.29.33:172][737]LogViewport: Scene viewport resized to 1009x894, mode Windowed.
+[2025.05.13-09.29.33:385][752]LogSlate: Window 'martens_Enemy' being destroyed
+[2025.05.13-09.29.38:115][244]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-09.29.38:196][244]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/martens_Enemy
+[2025.05.13-09.29.38:196][244]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/martens_Enemy46449EDD4115E34C327BAA844224CB81.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/martens_Enemy.uasset'
+[2025.05.13-09.29.38:207][244]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 2.57 sec)
+[2025.05.13-09.29.38:207][244]AssetCheck: New page: Asset Save: martens_Enemy
+[2025.05.13-09.29.38:207][244]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Characters/Enemies/martens_Enemy.martens_Enemy
+[2025.05.13-09.29.38:851][316]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-09.29.38:851][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.29.41:330][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.05.13-09.29.42:266][555]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.13-09.29.42:288][555]LogWorldPartition: Actor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_EnemyPatrol_C_UAID_74563C6C81B03F5D02_1289557792 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/B/77/HLSHP23V16LVFC2NU4QPEF.PackageMetaData in its package
+[2025.05.13-09.29.42:295][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.05.13-09.29.42:312][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.05.13-09.29.42:326][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.05.13-09.29.42:344][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.05.13-09.29.44:248][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.05.13-09.29.45:132][756]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.13-09.29.45:156][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.05.13-09.29.45:173][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.05.13-09.29.45:185][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.05.13-09.29.47:772][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-09.29.47:850][ 41]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/VE/SAYP215Y3HLMWAR76GEHXA
+[2025.05.13-09.29.47:851][ 41]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/SAYP215Y3HLMWAR76GEHXA3CE2215642D5ED82CF87D4BD3D17D6CA.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/C/VE/SAYP215Y3HLMWAR76GEHXA.uasset'
+[2025.05.13-09.29.47:865][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 2.66 sec)
+[2025.05.13-09.29.47:866][ 41]AssetCheck: New page: Asset Save: BP_ProjectileEnemy_C_UAID_74563C6C81B08B5D02_2020565169
+[2025.05.13-09.29.47:866][ 41]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_ProjectileEnemy_C_UAID_74563C6C81B08B5D02_2020565169
