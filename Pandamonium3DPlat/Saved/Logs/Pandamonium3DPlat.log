@@ -2986,3 +2986,851 @@ LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, or LPT9.
 [2025.05.13-09.32.02:641][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.05.13-09.32.02:646][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
 [2025.05.13-09.32.02:744][212]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.05.13-09.41.01:222][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.05.13-09.41.01:231][930]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/0/XM/JDFTZOWM3VDE8RE1FW8AAB_Auto2
+[2025.05.13-09.41.01:231][930]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/JDFTZOWM3VDE8RE1FW8AAB_Auto2C79142704AFA9C48E6563FA1C01C3362.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/0/XM/JDFTZOWM3VDE8RE1FW8AAB_Auto2.uasset'
+[2025.05.13-09.41.01:234][930]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/T8/CFQE55LZCAOX2PXVWK3XSY_Auto2
+[2025.05.13-09.41.01:234][930]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/CFQE55LZCAOX2PXVWK3XSY_Auto29FAFAF994D681BCD7A017FA416AF5D63.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/T8/CFQE55LZCAOX2PXVWK3XSY_Auto2.uasset'
+[2025.05.13-09.41.01:236][930]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/Level_0' took 0.030
+[2025.05.13-09.41.01:236][930]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.030
+[2025.05.13-09.41.01:236][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Characters/Enemies/none] ([1] browsable assets)...
+[2025.05.13-09.41.01:310][930]LogShaderCompilers: Display: ================================================
+[2025.05.13-09.41.01:311][930]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.13-09.41.01:311][930]LogShaderCompilers: Display: Total job queries 54, among them cache hits 20 (37.04%)
+[2025.05.13-09.41.01:311][930]LogShaderCompilers: Display: Tracking 34 distinct input hashes that result in 27 distinct outputs (79.41%)
+[2025.05.13-09.41.01:311][930]LogShaderCompilers: Display: RAM used: 829,59 KiB of 1,60 GiB budget. Usage: 0.05%
+[2025.05.13-09.41.01:311][930]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.13-09.41.01:311][930]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.05.13-09.41.01:311][930]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.05.13-09.41.01:311][930]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.05.13-09.41.01:311][930]LogShaderCompilers: Display: ================================================
+[2025.05.13-09.41.01:325][930]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Characters/Enemies/none.Material_0]
+[2025.05.13-09.41.01:325][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Characters/Enemies/none]
+[2025.05.13-09.41.01:327][930]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Models/Characters/Enemies/none_Auto2
+[2025.05.13-09.41.01:327][930]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/none_Auto2D8B2D9ED41BB075C6549F9BF3106831E.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/Models/Characters/Enemies/none_Auto2.uasset'
+[2025.05.13-09.41.01:328][930]LogFileHelpers: Auto-saving content packages took 0.093
+[2025.05.13-09.54.19:153][324]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.106 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4902 files in 6032 folders with total size 82 MiB.
+[2025.05.13-10.24.23:184][ 63]AssetReimport: New page: Outstanding source content changes 12:24:23
+[2025.05.13-10.24.23:229][ 64]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/billBoard_Texture.png)
+[2025.05.13-10.24.23:229][ 64]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.13-10.24.23:244][ 64]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/billBoard_Texture.png)
+[2025.05.13-10.24.23:244][ 64]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.13-10.24.26:716][ 65]LogSlate: Window 'Interchange Pipeline Configuration (Reimport Content)' being destroyed
+[2025.05.13-10.24.26:730][ 65]LogInterchangeEngine: [Pending] Importing
+[2025.05.13-10.24.26:746][ 65]LogInterchangeEngine: [Success] Import Done
+[2025.05.13-10.24.26:752][ 65]LogStaticMesh: Built static mesh [0.01s] /Game/Models/LevelProps/bill_Board.bill_Board
+[2025.05.13-10.24.26:767][ 66]LogInterchangeEngine: [Success] Import Done
+[2025.05.13-10.24.26:770][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-10.24.26:928][ 66]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/billBoard_Texture
+[2025.05.13-10.24.26:928][ 66]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/billBoard_TextureD21D5C874FD8B24B55F095A39E43DA82.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/billBoard_Texture.uasset'
+[2025.05.13-10.24.26:932][ 66]LogSavePackage: Moving output files for package: /Game/Models/Textures/billBoard_Texture
+[2025.05.13-10.24.26:932][ 66]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/billBoard_TextureD078B78943BB4A0E2EAF63ACCC7FE94B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/billBoard_Texture.uasset'
+[2025.05.13-10.24.26:949][ 66]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/bill_Board
+[2025.05.13-10.24.26:950][ 66]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/bill_BoardA2997ED24F2D1BB513BA6FB3AF6185BF.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/bill_Board.uasset'
+[2025.05.13-10.24.27:069][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave took 298 ms (total: 5.50 sec)
+[2025.05.13-10.24.27:153][ 67]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.13-10.24.27:153][ 67]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/billBoard_Texture.billBoard_Texture
+[2025.05.13-10.24.27:153][ 67]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Textures/billBoard_Texture.billBoard_Texture
+[2025.05.13-10.24.27:153][ 67]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/bill_Board.bill_Board
+[2025.05.13-10.24.30:087][328]AssetReimport: Importing new asset /Game/Models/LevelProps/billBoard_Texture.
+[2025.05.13-10.24.30:087][328]AssetReimport: Importing new asset /Game/Models/Textures/billBoard_Texture.
+[2025.05.13-10.24.30:087][328]AssetReimport: Reimported asset bill_Board from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/bill_Board.obj.
+[2025.05.13-10.24.43:001][655]LogTexture: Display: Building textures: /Game/Models/Textures/billBoard_Texture.billBoard_Texture (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 0.54166 MB), EncodeSpeed: Fast
+[2025.05.13-10.24.43:710][724]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Models/Textures/billBoard_Texture.billBoard_Texture
+[2025.05.13-10.24.43:855][724]LogViewport: Scene viewport resized to 919x529, mode Windowed.
+[2025.05.13-10.24.48:716][223]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-10.24.48:797][223]LogSavePackage: Moving output files for package: /Game/Models/Textures/billBoard_Texture
+[2025.05.13-10.24.48:798][223]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/billBoard_Texture4E0CE45544461376395ED2B27E45215F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/billBoard_Texture.uasset'
+[2025.05.13-10.24.48:809][223]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 5.60 sec)
+[2025.05.13-10.24.48:812][223]AssetCheck: New page: Asset Save: billBoard_Texture
+[2025.05.13-10.24.48:812][223]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Textures/billBoard_Texture.billBoard_Texture
+[2025.05.13-10.24.50:160][368]LogSlate: Window 'billBoard_Texture' being destroyed
+[2025.05.13-10.24.50:171][368]LogSlate: Window 'billBoard_Texture' being destroyed
+[2025.05.13-10.24.56:001][ 11]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/LevelProps/bill_Board.bill_Board
+[2025.05.13-10.24.56:056][ 11]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-10.24.56:056][ 11]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-10.24.56:484][ 11]LogViewport: Scene viewport resized to 654x533, mode Windowed.
+[2025.05.13-10.24.58:358][162]LogViewport: Scene viewport resized to 651x556, mode Windowed.
+[2025.05.13-10.24.58:459][164]LogViewport: Scene viewport resized to 472x373, mode Windowed.
+[2025.05.13-10.24.58:495][165]LogViewport: Scene viewport resized to 1009x894, mode Windowed.
+[2025.05.13-10.24.58:802][198]LogSlate: Window 'bill_Board' being destroyed
+[2025.05.13-10.25.01:803][409]LogSlate: Window 'Message' being destroyed
+[2025.05.13-10.25.01:811][409]Message dialog closed, result: Ok, title: Message, text: WARNING - Deleting a material slot can break the game play blueprint or the game play code. All indexes after the delete slot will change
+[2025.05.13-10.25.19:837][432]LogContentBrowser: Deferred new asset file creation: billBoard_Texture_Mat
+[2025.05.13-10.25.19:860][432]LogContentBrowser: Creating deferred item: billBoard_Texture_Mat
+[2025.05.13-10.25.19:871][433]LogContentBrowser: Renaming the item being created (Deferred Item: billBoard_Texture_Mat).
+[2025.05.13-10.25.21:291][599]LogContentBrowser: Attempting asset rename: billBoard_Texture_Mat -> billBoard_Texture_Mat
+[2025.05.13-10.25.21:300][599]LogContentBrowser: End creating deferred item billBoard_Texture_Mat
+[2025.05.13-10.25.21:305][599]LogShaderCompilers: Display: ================================================
+[2025.05.13-10.25.21:305][599]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.13-10.25.21:305][599]LogShaderCompilers: Display: Total job queries 56, among them cache hits 22 (39.29%)
+[2025.05.13-10.25.21:305][599]LogShaderCompilers: Display: Tracking 34 distinct input hashes that result in 27 distinct outputs (79.41%)
+[2025.05.13-10.25.21:305][599]LogShaderCompilers: Display: RAM used: 829,59 KiB of 1,60 GiB budget. Usage: 0.05%
+[2025.05.13-10.25.21:305][599]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.13-10.25.21:305][599]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.05.13-10.25.21:305][599]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.05.13-10.25.21:305][599]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.05.13-10.25.21:305][599]LogShaderCompilers: Display: ================================================
+[2025.05.13-10.25.21:826][658]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-10.25.21:920][658]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/billBoard_Texture_Mat
+[2025.05.13-10.25.21:920][658]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/billBoard_Texture_Mat278BDC444FED17A9666176A7460C9DAC.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/billBoard_Texture_Mat.uasset'
+[2025.05.13-10.25.21:931][658]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 5.70 sec)
+[2025.05.13-10.25.21:933][658]AssetCheck: New page: Asset Save: billBoard_Texture_Mat
+[2025.05.13-10.25.21:933][658]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/LevelProps/billBoard_Texture_Mat.billBoard_Texture_Mat
+[2025.05.13-10.25.25:980][ 47]LogTexture: Display: Building textures: /Game/Models/LevelProps/billBoard_Texture.billBoard_Texture (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 0.54166 MB), EncodeSpeed: Fast
+[2025.05.13-10.25.27:615][220]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-10.25.27:680][220]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/billBoard_Texture
+[2025.05.13-10.25.27:681][220]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/billBoard_Texture2ACBE75045AEDD99F3A2E492D128A734.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/billBoard_Texture.uasset'
+[2025.05.13-10.25.27:692][220]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 5.78 sec)
+[2025.05.13-10.25.27:693][220]AssetCheck: New page: Asset Save: billBoard_Texture
+[2025.05.13-10.25.27:693][220]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/billBoard_Texture.billBoard_Texture
+[2025.05.13-10.25.36:662][211]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-10.25.36:739][211]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/bill_Board
+[2025.05.13-10.25.36:739][211]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/bill_BoardAC68755A4E5718FF2ACCEEBB6557C97D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/bill_Board.uasset'
+[2025.05.13-10.25.36:748][211]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 5.86 sec)
+[2025.05.13-10.25.36:749][211]AssetCheck: New page: Asset Save: bill_Board
+[2025.05.13-10.25.36:749][211]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/bill_Board.bill_Board
+[2025.05.13-10.25.51:053][815]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Models/LevelProps/billBoard_Texture.billBoard_Texture
+[2025.05.13-10.25.51:122][815]LogViewport: Scene viewport resized to 1424x890, mode Windowed.
+[2025.05.13-10.25.58:028][614]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-10.25.58:081][614]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/billBoard_Texture
+[2025.05.13-10.25.58:082][614]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/billBoard_Texture8680B1C149199CF9AFB5248BEB657372.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/billBoard_Texture.uasset'
+[2025.05.13-10.25.58:090][614]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 5.93 sec)
+[2025.05.13-10.25.58:092][614]AssetCheck: New page: Asset Save: billBoard_Texture
+[2025.05.13-10.25.58:092][614]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/billBoard_Texture.billBoard_Texture
+[2025.05.13-10.26.03:627][229]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-10.26.03:699][229]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/0/XM/JDFTZOWM3VDE8RE1FW8AAB
+[2025.05.13-10.26.03:700][229]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/JDFTZOWM3VDE8RE1FW8AAB4614D84A42530685CF4E77ABF91B9BFF.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/0/XM/JDFTZOWM3VDE8RE1FW8AAB.uasset'
+[2025.05.13-10.26.03:704][229]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/T8/CFQE55LZCAOX2PXVWK3XSY
+[2025.05.13-10.26.03:704][229]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/CFQE55LZCAOX2PXVWK3XSY6E2AED8B471E5FFE8359EEB4EF79743B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/8/T8/CFQE55LZCAOX2PXVWK3XSY.uasset'
+[2025.05.13-10.26.03:706][229]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/C/J7/6177748RY3X063YNFXJ4GW
+[2025.05.13-10.26.03:707][229]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/6177748RY3X063YNFXJ4GW867BB9B04A05C54FD409AC9B9AED70E0.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/C/J7/6177748RY3X063YNFXJ4GW.uasset'
+[2025.05.13-10.26.03:718][229]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 6.02 sec)
+[2025.05.13-10.26.03:720][229]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.13-10.26.03:720][229]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ChaseEnemy.BP_ChaseEnemy_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818
+[2025.05.13-10.26.03:720][229]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_ChaseEnemy.BP_ChaseEnemy_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817
+[2025.05.13-10.26.03:720][229]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0586102_1891873421
+[2025.05.13-10.33.58:235][482]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2025.05.13-10.35.10:423][789]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2025.05.13-10.35.10:455][789]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2025.05.13-10.35.10:462][789]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2025.05.13-10.35.10:471][790]LogContentBrowser: Renaming the item being created (Deferred Item: NewNiagaraSystem).
+[2025.05.13-10.35.23:410][323]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> NS_BambooPickUp
+[2025.05.13-10.35.23:429][323]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2025.05.13-10.35.24:158][389]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/ThirdPerson/Particles/NS_BambooPickUp.NS_BambooPickUp
+[2025.05.13-10.35.24:320][389]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-10.35.24:320][389]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-10.35.24:363][389]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-10.35.24:363][389]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: ================================================
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Total job queries 81, among them cache hits 46 (56.79%)
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Tracking 35 distinct input hashes that result in 28 distinct outputs (80.00%)
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: RAM used: 853,79 KiB of 1,60 GiB budget. Usage: 0.05%
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Shaders Compiled: 1
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Jobs assigned 1, completed 1 (100%)
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Time job spent in pending queue: average 0.11 s, longest 0.11 s
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Job execution time: average 0.71 s, max 0.71 s
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Job life time (pending + execution): average 0.82 s, max 0.82
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Shader code size: average 24,065 KiB, min 24,065 KiB, max 24,065 KiB
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.82 s
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Jobs were issued in 1 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Average processing rate: 1.22 jobs/sec
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Total thread time: 0,23 s
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Total thread preprocess time: 0 s
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Percentage time preprocessing: 0.00%
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Effective parallelization: 0.28 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2025.05.13-10.35.24:363][389]LogShaderCompilers: Display:                                               FNiagaraShader (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2025.05.13-10.35.24:364][389]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2025.05.13-10.35.24:364][389]LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2025.05.13-10.35.24:364][389]LogShaderCompilers: Display: ================================================
+[2025.05.13-10.35.24:464][389]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Particles/NS_BambooPickUp.NS_BambooPickUp took 1.038521 sec (time since issued), 1.007605 sec (combined shader worker time).
+[2025.05.13-10.35.24:471][389]LogViewport: Scene viewport resized to 378x419, mode Windowed.
+[2025.05.13-10.35.25:680][509]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Particles/NS_BambooPickUp.NS_BambooPickUp took 1.354044 sec (time since issued), 1.097126 sec (combined shader worker time).
+[2025.05.13-10.35.25:751][516]100587_NS_BambooPickUp_MessageLog: System successfully compiled.
+[2025.05.13-10.35.44:029][608]LogUMG: Warning: The requested size for SRetainerWidget is 0. W:314 H:0
+[2025.05.13-10.36.25:957][990]LogSlate: Window 'Color Picker' being destroyed
+[2025.05.13-10.37.05:071][360]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-10.37.05:071][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.37.05:088][360]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-10.37.05:089][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.37.05:139][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.05.13-10.37.05:850][438]LogNiagara: Compiling System NiagaraSystem /Game/ThirdPerson/Particles/NS_BambooPickUp.NS_BambooPickUp took 0.857858 sec (time since issued), 0.815986 sec (combined shader worker time).
+[2025.05.13-10.37.17:275][750]Cmd: DUPLICATE
+[2025.05.13-10.37.17:275][750]Cmd: ACTOR DUPLICATE
+[2025.05.13-10.37.51:367][441]Cmd: MODE GRID=0
+[2025.05.13-10.38.21:587][858]Cmd: DUPLICATE
+[2025.05.13-10.38.21:587][858]Cmd: ACTOR DUPLICATE
+[2025.05.13-10.38.52:358][968]Cmd: MODE GRID=1
+[2025.05.13-10.38.55:255][258]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-10.38.55:317][258]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/6/VE/0UE4H3TOFGJU8999XDWYHA
+[2025.05.13-10.38.55:317][258]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/0UE4H3TOFGJU8999XDWYHAE3FB6E82409A82B1BF51F89BAEF27B2B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/6/VE/0UE4H3TOFGJU8999XDWYHA.uasset'
+[2025.05.13-10.38.55:321][258]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/9/05/GBJG21TXJFO3FQ448JBC7Z
+[2025.05.13-10.38.55:321][258]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/GBJG21TXJFO3FQ448JBC7ZC2B515574B7C251F4F1BC3BA454CA283.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/9/05/GBJG21TXJFO3FQ448JBC7Z.uasset'
+[2025.05.13-10.38.55:336][258]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 6.10 sec)
+[2025.05.13-10.38.55:337][258]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.13-10.38.55:337][258]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0E86702_1490146095
+[2025.05.13-10.38.55:337][258]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0E86702_1554455096
+[2025.05.13-10.38.58:345][579]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.13-10.38.58:352][579]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.13-10.38.58:352][579]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.05.13-10.38.58:357][579]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 4 ms (total: 3.09 sec)
+[2025.05.13-10.38.58:357][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.13-10.38.58:357][579]PIE: New page: PIE session: Level_0 (13 maj 2025, 12:38:58)
+[2025.05.13-10.38.58:382][579]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.05.13-10.38.58:400][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017615s)
+[2025.05.13-10.38.58:400][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.017658s)
+[2025.05.13-10.38.58:415][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.05.13-10.38.58:419][579]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-10.38.58:419][579]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-10.38.58:421][579]LogAIModule: Creating AISystem for world Level_0
+[2025.05.13-10.38.58:421][579]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.13-10.38.58:421][579]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-10.38.58:421][579]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.13-10.38.58:421][579]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.13-10.38.58:425][579]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.05.13-10.38.58:425][579]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 5.12 sec)
+[2025.05.13-10.38.58:425][579]LogPlayLevel: PIE: World Init took: (0.005793s)
+[2025.05.13-10.38.58:425][579]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.05.13-10.38.58:425][579]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.13-10.38.58:425][579]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.13-10.38.58:425][579]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.13-10.38.58:425][579]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.13-10.38.58:425][579]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.13-10.38.58:425][579]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.13-10.38.58:425][579]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.13-10.38.58:425][579]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.13-10.38.58:426][579]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.13-10.38.58:426][579]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.13-10.38.58:426][579]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.13-10.38.58:428][579]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.13-10.38.58:445][579]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.13-10.38.58:445][579]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.13-10.38.58:445][579]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.13-10.38.58:445][579]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.13-10.38.58:446][579]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.05.13-10.38.58:446][579]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.05.13-10.38.58:449][579]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.05.13-10.38.58:449][579]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.05.13-10.38.58:449][579]LogInit: FAudioDevice initialized with ID 12.
+[2025.05.13-10.38.58:449][579]LogAudio: Display: Audio Device (ID: 12) registered with world 'Level_0'.
+[2025.05.13-10.38.58:449][579]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.05.13-10.38.58:451][579]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.13-10.38.58:466][579]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.05.13-11.38.58
+[2025.05.13-10.38.58:469][579]LogWorld: Bringing up level for play took: 0.017560
+[2025.05.13-10.38.58:471][579]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.05.13-10.38.58:474][579]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.05.13-10.38.58:474][579]PIE: Server logged in
+[2025.05.13-10.38.58:475][579]PIE: Play in editor total start time 0,123 seconds.
+[2025.05.13-10.38.58:477][579]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.05.13-10.38.58:477][579]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.05.13-10.39.09:243][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.13-10.39.09:243][855]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.05.13-10.39.09:243][855]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-10.39.09:244][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.39.09:245][855]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.05.13-10.39.09:249][855]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.13-10.39.09:254][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.39.09:268][855]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.13-10.39.09:269][855]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.05.13-10.39.09:269][855]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.05.13-10.39.09:271][855]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.05.13-10.39.09:274][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.13-10.39.09:279][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.05.13-10.39.09:344][856]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.05.13-10.42.45:992][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.05.13-10.42.47:449][178]LogSlate: Window 'Save Content' being destroyed
+[2025.05.13-10.42.47:458][178]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-10.42.48:661][178]LogSlate: Window 'Message' being destroyed
+[2025.05.13-10.42.48:667][178]Message dialog closed, result: Ok, title: Message, text: A file/folder may not match any of the following : 
+CON, PRN, AUX, CLOCK$, NUL, NONE, 
+COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, 
+LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, or LPT9.
+[2025.05.13-10.42.48:699][178]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Particles/NS_BambooPickUp
+[2025.05.13-10.42.48:699][178]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NS_BambooPickUpE418668B465F103080580E98322578F8.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Particles/NS_BambooPickUp.uasset'
+[2025.05.13-10.42.49:697][178]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2025.05.13-10.42.49:704][178]Message dialog closed, result: Ok, title: Packages Failed To Save, text: The following assets failed to save correctly:
+/Game/Models/Characters/Enemies/none
+[2025.05.13-10.42.49:704][178]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.24 sec (total: 8.34 sec)
+[2025.05.13-10.42.49:834][178]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-10.42.49:840][178]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.13-10.42.49:840][178]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-10.42.49:840][178]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.13-10.42.49:977][178]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.13-10.42.49:977][178]LogWorldPartition: Display: WorldPartition initialize took 137 ms (total: 5.26 sec)
+[2025.05.13-10.42.49:984][178]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/MainMenu.MainMenu
+[2025.05.13-10.42.49:984][178]Cmd: MAP LOAD FILE="../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.05.13-10.42.49:984][178]LightingResults: New page: Lighting Build
+[2025.05.13-10.42.49:984][178]LoadErrors: New page: Loading map: MainMenu.umap
+[2025.05.13-10.42.50:045][178]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-10.42.50:045][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.42.50:048][178]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.05.13-10.42.50:048][178]MapCheck: New page: Map Check
+[2025.05.13-10.42.50:048][178]LightingResults: New page: Lighting Build
+[2025.05.13-10.42.50:064][178]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.13-10.42.50:079][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.05.13-10.42.50:083][178]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-10.42.50:084][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.42.50:084][178]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.13-10.42.50:099][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.05.13-10.42.50:113][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.05.13-10.42.50:132][178]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2025.05.13-10.42.50:132][178]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-10.42.50:132][178]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-10.42.50:132][178]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.13-10.42.50:132][178]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.13-10.42.50:132][178]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-10.42.50:132][178]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.13-10.42.50:153][178]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.13-10.42.50:153][178]LogWorldPartition: Display: WorldPartition initialize took 20 ms (total: 5.28 sec)
+[2025.05.13-10.42.50:187][178]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.05.13-10.42.50:200][178]LogWorldPartition: Actor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.RecastNavMesh_UAID_74563C6C81B0905D02-Default is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/ZA/61077G2OHT4M1OSUQTKII3.PackageMetaData in its package
+[2025.05.13-10.42.50:202][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.05.13-10.42.50:207][178]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.05.13-10.42.50:208][178]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,296ms to complete.
+[2025.05.13-10.42.50:220][178]AssetCheck: New page: Asset Save: NS_BambooPickUp
+[2025.05.13-10.42.50:220][178]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/ThirdPerson/Particles/NS_BambooPickUp.NS_BambooPickUp
+[2025.05.13-10.42.50:244][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.05.13-10.42.59:662][293]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.13-10.42.59:670][293]LogContentBundle: [MainMenu(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.13-10.42.59:670][293]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' started...
+[2025.05.13-10.42.59:672][293]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' took 1 ms (total: 3.09 sec)
+[2025.05.13-10.42.59:672][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.13-10.42.59:672][293]PIE: New page: PIE session: MainMenu (13 maj 2025, 12:42:59)
+[2025.05.13-10.42.59:702][293]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.13-10.42.59:706][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003528s)
+[2025.05.13-10.42.59:706][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/MainMenu.MainMenu to /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.003574s)
+[2025.05.13-10.42.59:719][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.05.13-10.42.59:721][293]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-10.42.59:721][293]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-10.42.59:721][293]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.13-10.42.59:722][293]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.13-10.42.59:722][293]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-10.42.59:722][293]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.13-10.42.59:722][293]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.13-10.42.59:723][293]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.13-10.42.59:723][293]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 5.28 sec)
+[2025.05.13-10.42.59:723][293]LogPlayLevel: PIE: World Init took: (0.002336s)
+[2025.05.13-10.42.59:723][293]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.05.13-10.42.59:723][293]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.13-10.42.59:723][293]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.13-10.42.59:723][293]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.13-10.42.59:723][293]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.13-10.42.59:723][293]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.13-10.42.59:723][293]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.13-10.42.59:723][293]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.13-10.42.59:723][293]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.13-10.42.59:724][293]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.13-10.42.59:724][293]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.13-10.42.59:724][293]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.13-10.42.59:726][293]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.13-10.42.59:740][293]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.13-10.42.59:740][293]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.13-10.42.59:740][293]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.13-10.42.59:740][293]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.13-10.42.59:742][293]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.05.13-10.42.59:742][293]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.05.13-10.42.59:744][293]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.05.13-10.42.59:744][293]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.05.13-10.42.59:744][293]LogInit: FAudioDevice initialized with ID 13.
+[2025.05.13-10.42.59:744][293]LogAudio: Display: Audio Device (ID: 13) registered with world 'MainMenu'.
+[2025.05.13-10.42.59:744][293]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.05.13-10.42.59:746][293]LogLoad: Game class is 'MainMenuGamemode_C'
+[2025.05.13-10.42.59:747][293]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.05.13-11.42.59
+[2025.05.13-10.42.59:748][293]LogWorld: Bringing up level for play took: 0.001580
+[2025.05.13-10.42.59:749][293]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.05.13-10.42.59:751][293]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.13-10.42.59:751][293]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.05.13-10.42.59:751][293]PIE: Server logged in
+[2025.05.13-10.42.59:751][293]PIE: Play in editor total start time 0,08 seconds.
+[2025.05.13-10.43.07:049][163]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.UnrealEdEngine_0:GameInstance_11.Settings_Widget_C_0' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2025.05.13-10.43.12:732][845]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [Scalability]
+[2025.05.13-10.43.12:732][845]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.05.13-10.43.12:732][845]LogConfig: Set CVar [[r.ShadowQuality:3]]
+[2025.05.13-10.43.12:732][845]LogConfig: Set CVar [[r.Shadow.MaxResolution:1024]]
+[2025.05.13-10.43.12:732][845]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2025.05.13-10.43.12:732][845]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2025.05.13-10.43.12:732][845]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.7]]
+[2025.05.13-10.43.12:732][845]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2025.05.13-10.43.12:732][845]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2025.05.13-10.43.12:732][845]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.05.13-10.43.12:732][845]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:4]]
+[2025.05.13-10.43.12:732][845]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:4]]
+[2025.05.13-10.43.12:991][876]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [Scalability]
+[2025.05.13-10.43.12:991][876]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.05.13-10.43.12:991][876]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2025.05.13-10.43.12:991][876]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.05.13-10.43.12:991][876]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2025.05.13-10.43.12:991][876]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.85]]
+[2025.05.13-10.43.12:991][876]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2025.05.13-10.43.12:991][876]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.05.13-10.43.12:992][876]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.05.13-10.43.12:992][876]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2025.05.13-10.43.12:992][876]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2025.05.13-10.43.12:992][876]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.05.13-10.43.12:992][876]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:2048]]
+[2025.05.13-10.43.12:992][876]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-0.5]]
+[2025.05.13-10.43.12:992][876]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-0.5]]
+[2025.05.13-10.43.12:992][876]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.05.13-10.43.12:992][876]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.05.13-10.43.12:992][876]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.05.13-10.43.12:992][876]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.05.13-10.43.12:992][876]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.05.13-10.43.12:992][876]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.05.13-10.43.12:994][876]LogRenderer: Display: Recreating Shadow.Virtual.PhysicalPagePool due to size or flags change. This will also drop any cached pages.
+[2025.05.13-10.43.13:231][904]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2025.05.13-10.43.13:231][904]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.05.13-10.43.13:231][904]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2025.05.13-10.43.13:231][904]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.05.13-10.43.13:231][904]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.05.13-10.43.13:231][904]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.05.13-10.43.13:231][904]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.05.13-10.43.13:231][904]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.05.13-10.43.13:231][904]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.05.13-10.43.13:231][904]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2025.05.13-10.43.13:231][904]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2025.05.13-10.43.13:231][904]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2025.05.13-10.43.13:235][904]LogRenderer: Display: Recreating Shadow.Virtual.PhysicalPagePool due to size or flags change. This will also drop any cached pages.
+[2025.05.13-10.43.13:699][958]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [Scalability]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.LightFunctionQuality:0]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.ShadowQuality:0]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.MaxResolution:512]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:512]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.6]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.DistanceFieldShadowing:0]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.VolumetricFog:0]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:0]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.CapsuleShadows:0]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:512]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:0.0]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:0.0]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:1.0]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:2.0]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:0]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:2]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:0]]
+[2025.05.13-10.43.13:699][958]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:2]]
+[2025.05.13-10.43.14:424][ 45]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [Scalability]
+[2025.05.13-10.43.14:424][ 45]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.05.13-10.43.14:424][ 45]LogConfig: Set CVar [[r.ShadowQuality:3]]
+[2025.05.13-10.43.14:424][ 45]LogConfig: Set CVar [[r.Shadow.MaxResolution:1024]]
+[2025.05.13-10.43.14:424][ 45]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2025.05.13-10.43.14:424][ 45]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2025.05.13-10.43.14:424][ 45]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.7]]
+[2025.05.13-10.43.14:424][ 45]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2025.05.13-10.43.14:424][ 45]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2025.05.13-10.43.14:424][ 45]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.05.13-10.43.14:424][ 45]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:4]]
+[2025.05.13-10.43.14:424][ 45]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:4]]
+[2025.05.13-10.43.14:683][ 76]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [Scalability]
+[2025.05.13-10.43.14:683][ 76]LogConfig: Set CVar [[r.LightFunctionQuality:0]]
+[2025.05.13-10.43.14:683][ 76]LogConfig: Set CVar [[r.ShadowQuality:0]]
+[2025.05.13-10.43.14:683][ 76]LogConfig: Set CVar [[r.Shadow.MaxResolution:512]]
+[2025.05.13-10.43.14:683][ 76]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:512]]
+[2025.05.13-10.43.14:683][ 76]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2025.05.13-10.43.14:683][ 76]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.6]]
+[2025.05.13-10.43.14:683][ 76]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2025.05.13-10.43.14:683][ 76]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:0]]
+[2025.05.13-10.43.14:683][ 76]LogConfig: Set CVar [[r.CapsuleShadows:0]]
+[2025.05.13-10.43.14:683][ 76]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:0]]
+[2025.05.13-10.43.14:683][ 76]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:0]]
+[2025.05.13-10.43.16:600][306]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [Scalability]
+[2025.05.13-10.43.16:600][306]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.05.13-10.43.16:600][306]LogConfig: Set CVar [[r.ShadowQuality:3]]
+[2025.05.13-10.43.16:600][306]LogConfig: Set CVar [[r.Shadow.MaxResolution:1024]]
+[2025.05.13-10.43.16:600][306]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2025.05.13-10.43.16:600][306]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2025.05.13-10.43.16:600][306]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.7]]
+[2025.05.13-10.43.16:600][306]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2025.05.13-10.43.16:600][306]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2025.05.13-10.43.16:600][306]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.05.13-10.43.16:600][306]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:4]]
+[2025.05.13-10.43.16:600][306]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:4]]
+[2025.05.13-10.43.17:091][365]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [Scalability]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.85]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:2048]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-0.5]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-0.5]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.05.13-10.43.17:091][365]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.05.13-10.43.17:094][365]LogRenderer: Display: Recreating Shadow.Virtual.PhysicalPagePool due to size or flags change. This will also drop any cached pages.
+[2025.05.13-10.43.17:356][396]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2025.05.13-10.43.17:356][396]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.05.13-10.43.17:356][396]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2025.05.13-10.43.17:356][396]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.05.13-10.43.17:356][396]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.05.13-10.43.17:356][396]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.05.13-10.43.17:356][396]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.05.13-10.43.17:356][396]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.05.13-10.43.17:356][396]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.05.13-10.43.17:356][396]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2025.05.13-10.43.17:356][396]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2025.05.13-10.43.17:356][396]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2025.05.13-10.43.17:358][396]LogRenderer: Display: Recreating Shadow.Virtual.PhysicalPagePool due to size or flags change. This will also drop any cached pages.
+[2025.05.13-10.43.17:939][464]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [Scalability]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.LightFunctionQuality:0]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.ShadowQuality:0]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.MaxResolution:512]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:512]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.6]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.DistanceFieldShadowing:0]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.VolumetricFog:0]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:0]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.CapsuleShadows:0]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:512]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:0.0]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:0.0]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:1.0]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:2.0]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:0]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:2]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:0]]
+[2025.05.13-10.43.17:939][464]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:2]]
+[2025.05.13-10.43.18:231][499]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [Scalability]
+[2025.05.13-10.43.18:231][499]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.05.13-10.43.18:231][499]LogConfig: Set CVar [[r.ShadowQuality:3]]
+[2025.05.13-10.43.18:231][499]LogConfig: Set CVar [[r.Shadow.MaxResolution:1024]]
+[2025.05.13-10.43.18:231][499]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2025.05.13-10.43.18:231][499]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2025.05.13-10.43.18:231][499]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.7]]
+[2025.05.13-10.43.18:231][499]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2025.05.13-10.43.18:231][499]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2025.05.13-10.43.18:231][499]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.05.13-10.43.18:231][499]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:4]]
+[2025.05.13-10.43.18:231][499]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:4]]
+[2025.05.13-10.43.18:514][533]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [Scalability]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.85]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:2048]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-0.5]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-0.5]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.05.13-10.43.18:514][533]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.05.13-10.43.18:517][533]LogRenderer: Display: Recreating Shadow.Virtual.PhysicalPagePool due to size or flags change. This will also drop any cached pages.
+[2025.05.13-10.43.19:238][619]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [Scalability]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.LightFunctionQuality:0]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.ShadowQuality:0]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.MaxResolution:512]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:512]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.6]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.DistanceFieldShadowing:0]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.VolumetricFog:0]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:0]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.CapsuleShadows:0]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:512]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:0.0]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:0.0]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:1.0]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:2.0]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:0]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:2]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:0]]
+[2025.05.13-10.43.19:238][619]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:2]]
+[2025.05.13-10.43.32:432][202]LogNet: Browse: /Game/ThirdPerson/Maps/Level_0
+[2025.05.13-10.43.32:432][202]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Level_0
+[2025.05.13-10.43.32:432][202]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.13-10.43.32:433][202]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-10.43.32:433][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.43.32:433][202]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.13-10.43.32:486][202]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.13-10.43.32:489][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.05.13-10.43.32:528][202]LogAudio: Display: Audio Device (ID: 13) registered with world 'Level_0'.
+[2025.05.13-10.43.32:529][202]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-10.43.32:529][202]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-10.43.32:529][202]LogAIModule: Creating AISystem for world Level_0
+[2025.05.13-10.43.32:529][202]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.13-10.43.32:529][202]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-10.43.32:529][202]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2025.05.13-10.43.32:530][202]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.13-10.43.32:532][202]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.05.13-10.43.33:078][202]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 545 ms (total: 3.64 sec)
+[2025.05.13-10.43.33:082][202]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.05.13-10.43.33:082][202]LogWorldPartition: Display: WorldPartition initialize took 553 ms (total: 5.83 sec)
+[2025.05.13-10.43.33:082][202]LogPlayLevel: PIE: World Init took: (0.554037s)
+[2025.05.13-10.43.33:082][202]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.13-10.43.33:124][202]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.05.13-11.43.33
+[2025.05.13-10.43.33:127][202]LogWorld: Bringing up level for play took: 0.044679
+[2025.05.13-10.43.33:129][202]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.05.13-10.43.33:129][202]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.05.13-10.43.33:130][202]LogLoad: Took 0.698051 seconds to LoadMap(/Game/ThirdPerson/Maps/Level_0)
+[2025.05.13-10.43.33:130][202]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.05.13-10.43.33:130][202]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.05.13-10.43.35:008][426]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.13-10.43.35:008][426]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.05.13-10.43.35:008][426]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2025.05.13-10.43.37:148][683]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [Scalability]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.MaxResolution:1024]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.85]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:2048]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-0.5]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-0.5]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.05.13-10.43.37:148][683]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.05.13-10.43.38:730][872]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.05.13-10.43.38:730][872]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.05.13-10.43.56:996][ 63]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.05.13-10.44.02:417][712]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.05.13-10.44.04:018][904]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can Attack
+[2025.05.13-10.44.04:952][ 16]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can Attack
+[2025.05.13-10.44.22:113][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.13-10.44.22:113][ 71]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.05.13-10.44.22:113][ 71]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-10.44.22:114][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.44.22:115][ 71]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.05.13-10.44.22:118][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.13-10.44.22:124][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.44.22:138][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.13-10.44.22:139][ 71]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.05.13-10.44.22:139][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.05.13-10.44.22:141][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.05.13-10.44.22:153][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.05.13-10.44.22:181][ 72]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.05.13-10.44.26:819][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.05.13-10.44.27:889][609]LogSlate: Window 'Save Content' being destroyed
+[2025.05.13-10.44.27:902][609]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-10.44.29:786][609]LogSlate: Window 'Message' being destroyed
+[2025.05.13-10.44.29:792][609]Message dialog closed, result: Ok, title: Message, text: A file/folder may not match any of the following : 
+CON, PRN, AUX, CLOCK$, NUL, NONE, 
+COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, 
+LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, or LPT9.
+[2025.05.13-10.44.30:671][609]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2025.05.13-10.44.30:678][609]Message dialog closed, result: Ok, title: Packages Failed To Save, text: The following assets failed to save correctly:
+/Game/Models/Characters/Enemies/none
+[2025.05.13-10.44.30:678][609]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.77 sec (total: 11.1 sec)
+[2025.05.13-10.44.30:759][609]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-10.44.30:760][609]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.13-10.44.30:760][609]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-10.44.30:760][609]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.13-10.44.30:892][609]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.05.13-10.44.30:892][609]LogWorldPartition: Display: WorldPartition initialize took 132 ms (total: 5.96 sec)
+[2025.05.13-10.44.30:940][609]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/Level_0.Level_0
+[2025.05.13-10.44.30:940][609]Cmd: MAP LOAD FILE="../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/Level_0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.05.13-10.44.30:940][609]LightingResults: New page: Lighting Build
+[2025.05.13-10.44.30:940][609]LoadErrors: New page: Loading map: Level_0.umap
+[2025.05.13-10.44.30:961][609]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-10.44.30:961][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.44.30:962][609]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.13-10.44.30:962][609]MapCheck: New page: Map Check
+[2025.05.13-10.44.30:962][609]LightingResults: New page: Lighting Build
+[2025.05.13-10.44.30:977][609]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.13-10.44.30:982][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.05.13-10.44.30:984][609]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-10.44.30:985][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.44.30:986][609]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.05.13-10.44.31:006][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.05.13-10.44.31:022][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.05.13-10.44.31:038][609]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level_0'.
+[2025.05.13-10.44.31:038][609]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-10.44.31:038][609]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-10.44.31:038][609]LogAIModule: Creating AISystem for world Level_0
+[2025.05.13-10.44.31:039][609]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.13-10.44.31:039][609]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-10.44.31:039][609]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.13-10.44.31:179][609]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.05.13-10.44.31:179][609]LogWorldPartition: Display: WorldPartition initialize took 140 ms (total: 6.10 sec)
+[2025.05.13-10.44.31:272][609]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.05.13-10.44.31:272][609]LogNavigation: Warning: Recreating dtNavMesh instance due mismatch in number of bytes required to store serialized maxTiles (168, 8 bits) vs calculated maxtiles (120, 7 bits)
+[2025.05.13-10.44.31:294][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.05.13-10.44.31:299][609]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.05.13-10.44.31:299][609]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,456ms to complete.
+[2025.05.13-10.45.05:603][491]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-10.45.05:683][491]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/BP_ChaseEnemy
+[2025.05.13-10.45.05:684][491]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ChaseEnemy6102108C4F4043F3ADA4F2A66C4EF011.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/BP_ChaseEnemy.uasset'
+[2025.05.13-10.45.05:699][491]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 11.2 sec)
+[2025.05.13-10.45.05:700][491]AssetCheck: New page: Asset Save: BP_ChaseEnemy
+[2025.05.13-10.45.05:700][491]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_ChaseEnemy.BP_ChaseEnemy
+[2025.05.13-10.45.06:435][574]BlueprintLog: New page: Compile BP_ChaseEnemy
+[2025.05.13-10.45.06:558][574]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.05.13-10.45.08:999][813]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.13-10.45.09:006][813]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.13-10.45.09:006][813]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.05.13-10.45.09:010][813]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 4 ms (total: 3.65 sec)
+[2025.05.13-10.45.09:013][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.13-10.45.09:013][813]PIE: New page: PIE session: Level_0 (13 maj 2025, 12:45:09)
+[2025.05.13-10.45.09:013][813]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.05.13-10.45.09:030][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016676s)
+[2025.05.13-10.45.09:030][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.016707s)
+[2025.05.13-10.45.09:045][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.05.13-10.45.09:047][813]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-10.45.09:047][813]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-10.45.09:047][813]LogAIModule: Creating AISystem for world Level_0
+[2025.05.13-10.45.09:048][813]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.13-10.45.09:048][813]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-10.45.09:048][813]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.13-10.45.09:048][813]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.13-10.45.09:053][813]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.05.13-10.45.09:053][813]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 6.11 sec)
+[2025.05.13-10.45.09:053][813]LogPlayLevel: PIE: World Init took: (0.005516s)
+[2025.05.13-10.45.09:053][813]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.05.13-10.45.09:053][813]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.13-10.45.09:053][813]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.13-10.45.09:053][813]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.13-10.45.09:053][813]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.13-10.45.09:053][813]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.13-10.45.09:053][813]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.13-10.45.09:053][813]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.13-10.45.09:053][813]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.13-10.45.09:053][813]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.13-10.45.09:053][813]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.13-10.45.09:053][813]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.13-10.45.09:055][813]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.13-10.45.09:070][813]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.13-10.45.09:070][813]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.13-10.45.09:070][813]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.13-10.45.09:070][813]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.13-10.45.09:070][813]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.05.13-10.45.09:070][813]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.05.13-10.45.09:072][813]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.05.13-10.45.09:072][813]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.05.13-10.45.09:072][813]LogInit: FAudioDevice initialized with ID 14.
+[2025.05.13-10.45.09:072][813]LogAudio: Display: Audio Device (ID: 14) registered with world 'Level_0'.
+[2025.05.13-10.45.09:072][813]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.05.13-10.45.09:075][813]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.13-10.45.09:088][813]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.05.13-11.45.09
+[2025.05.13-10.45.09:090][813]LogWorld: Bringing up level for play took: 0.015384
+[2025.05.13-10.45.09:093][813]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2025.05.13-10.45.09:095][813]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.05.13-10.45.09:095][813]PIE: Server logged in
+[2025.05.13-10.45.09:096][813]PIE: Play in editor total start time 0,09 seconds.
+[2025.05.13-10.45.09:098][813]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.05.13-10.45.09:098][813]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.05.13-10.45.12:349][196]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.05.13-10.45.15:067][522]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.05.13-10.45.17:669][834]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can Attack
+[2025.05.13-10.45.17:811][851]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can Attack
+[2025.05.13-10.45.39:975][510]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.05.13-10.46.01:193][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.13-10.46.01:193][ 49]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.05.13-10.46.01:193][ 49]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-10.46.01:194][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.46.01:194][ 49]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.05.13-10.46.01:198][ 49]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.13-10.46.01:203][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.46.01:216][ 49]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.13-10.46.01:217][ 49]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.05.13-10.46.01:217][ 49]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.05.13-10.46.01:218][ 49]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.05.13-10.46.01:222][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.13-10.46.01:227][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.05.13-10.46.01:322][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2025.05.13-10.46.17:230][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.05.13-10.46.18:391][874]LogSlate: Window 'Save Content' being destroyed
+[2025.05.13-10.46.18:400][874]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-10.46.19:467][874]LogSlate: Window 'Message' being destroyed
+[2025.05.13-10.46.19:472][874]Message dialog closed, result: Ok, title: Message, text: A file/folder may not match any of the following : 
+CON, PRN, AUX, CLOCK$, NUL, NONE, 
+COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, 
+LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, or LPT9.
+[2025.05.13-10.46.20:319][874]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2025.05.13-10.46.20:325][874]Message dialog closed, result: Ok, title: Packages Failed To Save, text: The following assets failed to save correctly:
+/Game/Models/Characters/Enemies/none
+[2025.05.13-10.46.20:325][874]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.92 sec (total: 13.1 sec)
+[2025.05.13-10.47.32:304][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.05.13-10.47.34:649][528]LogSlate: Window 'Save Content' being destroyed
+[2025.05.13-10.47.34:658][528]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-10.47.38:017][528]LogSlate: Window 'Message' being destroyed
+[2025.05.13-10.47.38:023][528]Message dialog closed, result: Ok, title: Message, text: A file/folder may not match any of the following : 
+CON, PRN, AUX, CLOCK$, NUL, NONE, 
+COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, 
+LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, or LPT9.
+[2025.05.13-10.47.39:316][528]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2025.05.13-10.47.39:321][528]Message dialog closed, result: Ok, title: Packages Failed To Save, text: The following assets failed to save correctly:
+/Game/Models/Characters/Enemies/none
+[2025.05.13-10.47.39:321][528]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.66 sec (total: 17.8 sec)
+[2025.05.13-10.47.39:408][528]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-10.47.39:409][528]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.13-10.47.39:409][528]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-10.47.39:409][528]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.13-10.47.39:429][528]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.13-10.47.39:429][528]LogWorldPartition: Display: WorldPartition initialize took 20 ms (total: 6.13 sec)
+[2025.05.13-10.47.39:435][528]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/MainMenu.MainMenu
+[2025.05.13-10.47.39:435][528]Cmd: MAP LOAD FILE="../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.05.13-10.47.39:435][528]LightingResults: New page: Lighting Build
+[2025.05.13-10.47.39:435][528]LoadErrors: New page: Loading map: MainMenu.umap
+[2025.05.13-10.47.39:494][528]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-10.47.39:495][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.47.39:497][528]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.05.13-10.47.39:497][528]MapCheck: New page: Map Check
+[2025.05.13-10.47.39:497][528]LightingResults: New page: Lighting Build
+[2025.05.13-10.47.39:514][528]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.13-10.47.39:524][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.05.13-10.47.39:529][528]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-10.47.39:529][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-10.47.39:530][528]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.13-10.47.39:545][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.05.13-10.47.39:559][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.05.13-10.47.39:578][528]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2025.05.13-10.47.39:578][528]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-10.47.39:579][528]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-10.47.39:579][528]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.13-10.47.39:579][528]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.13-10.47.39:579][528]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-10.47.39:579][528]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.13-10.47.39:604][528]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.13-10.47.39:604][528]LogWorldPartition: Display: WorldPartition initialize took 24 ms (total: 6.15 sec)
+[2025.05.13-10.47.39:638][528]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.05.13-10.47.39:653][528]LogWorldPartition: Actor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.RecastNavMesh_UAID_74563C6C81B0905D02-Default is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/ZA/61077G2OHT4M1OSUQTKII3.PackageMetaData in its package
+[2025.05.13-10.47.39:655][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.05.13-10.47.39:660][528]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.05.13-10.47.39:660][528]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,306ms to complete.
+[2025.05.13-10.47.39:694][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.05.13-10.54.19:165][394]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.117 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4943 files in 6099 folders with total size 82 MiB.
+[2025.05.13-11.54.18:164][657]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.114 and deleted 5 files with total size 0 MiB and 5 empty folders. Scanned 4943 files in 6099 folders with total size 82 MiB.
+[2025.05.13-12.03.17:196][ 26]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-12.03.17:196][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-12.03.17:967][ 97]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-12.03.17:967][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
