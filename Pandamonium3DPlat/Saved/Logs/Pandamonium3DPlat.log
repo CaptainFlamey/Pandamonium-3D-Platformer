@@ -2036,3 +2036,439 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.05.13-09.02.40:881][ 18]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 1.30 sec)
 [2025.05.13-09.02.40:883][ 18]AssetCheck: New page: Asset Save: Graphics_Widget
 [2025.05.13-09.02.40:883][ 18]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Graphics_Widget.Graphics_Widget
+[2025.05.13-09.05.25:216][ 88]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.13-09.05.25:223][ 88]LogContentBundle: [MainMenu(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.13-09.05.25:223][ 88]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' started...
+[2025.05.13-09.05.25:224][ 88]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' took 1 ms (total: 2.63 sec)
+[2025.05.13-09.05.25:224][ 88]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.13-09.05.25:224][ 88]PIE: New page: PIE session: MainMenu (13 maj 2025, 11:05:25)
+[2025.05.13-09.05.25:251][ 88]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.13-09.05.25:254][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003432s)
+[2025.05.13-09.05.25:254][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/MainMenu.MainMenu to /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.003474s)
+[2025.05.13-09.05.25:268][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.05.13-09.05.25:274][ 88]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-09.05.25:274][ 88]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-09.05.25:275][ 88]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.13-09.05.25:275][ 88]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.13-09.05.25:275][ 88]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-09.05.25:275][ 88]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.13-09.05.25:275][ 88]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.13-09.05.25:276][ 88]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.13-09.05.25:276][ 88]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 4.32 sec)
+[2025.05.13-09.05.25:276][ 88]LogPlayLevel: PIE: World Init took: (0.002081s)
+[2025.05.13-09.05.25:276][ 88]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.05.13-09.05.25:276][ 88]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.13-09.05.25:276][ 88]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.13-09.05.25:276][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.13-09.05.25:276][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.13-09.05.25:276][ 88]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.13-09.05.25:276][ 88]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.13-09.05.25:276][ 88]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.13-09.05.25:276][ 88]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.13-09.05.25:277][ 88]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.13-09.05.25:277][ 88]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.13-09.05.25:277][ 88]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.13-09.05.25:279][ 88]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.13-09.05.25:294][ 88]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.13-09.05.25:295][ 88]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.13-09.05.25:295][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.13-09.05.25:295][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.13-09.05.25:295][ 88]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.05.13-09.05.25:295][ 88]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.05.13-09.05.25:297][ 88]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.05.13-09.05.25:297][ 88]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.05.13-09.05.25:297][ 88]LogInit: FAudioDevice initialized with ID 6.
+[2025.05.13-09.05.25:297][ 88]LogAudio: Display: Audio Device (ID: 6) registered with world 'MainMenu'.
+[2025.05.13-09.05.25:297][ 88]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.05.13-09.05.25:300][ 88]LogLoad: Game class is 'MainMenuGamemode_C'
+[2025.05.13-09.05.25:301][ 88]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.05.13-10.05.25
+[2025.05.13-09.05.25:302][ 88]LogWorld: Bringing up level for play took: 0.001691
+[2025.05.13-09.05.25:303][ 88]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2025.05.13-09.05.25:305][ 88]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.13-09.05.25:305][ 88]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.05.13-09.05.25:305][ 88]PIE: Server logged in
+[2025.05.13-09.05.25:306][ 88]PIE: Play in editor total start time 0,083 seconds.
+[2025.05.13-09.05.26:929][267]LogNet: Browse: /Game/ThirdPerson/Maps/Level_0
+[2025.05.13-09.05.26:929][267]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Level_0
+[2025.05.13-09.05.26:929][267]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.13-09.05.26:930][267]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-09.05.26:930][267]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.05.26:930][267]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.13-09.05.26:973][267]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.13-09.05.26:976][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.05.13-09.05.26:994][267]LogAudio: Display: Audio Device (ID: 6) registered with world 'Level_0'.
+[2025.05.13-09.05.26:994][267]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-09.05.26:994][267]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-09.05.26:995][267]LogAIModule: Creating AISystem for world Level_0
+[2025.05.13-09.05.26:995][267]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.13-09.05.26:995][267]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-09.05.26:995][267]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2025.05.13-09.05.26:995][267]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.13-09.05.26:998][267]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.05.13-09.05.27:086][267]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 88 ms (total: 2.71 sec)
+[2025.05.13-09.05.27:090][267]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.05.13-09.05.27:090][267]LogWorldPartition: Display: WorldPartition initialize took 95 ms (total: 4.41 sec)
+[2025.05.13-09.05.27:090][267]LogPlayLevel: PIE: World Init took: (0.095965s)
+[2025.05.13-09.05.27:090][267]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.13-09.05.27:135][267]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.05.13-10.05.27
+[2025.05.13-09.05.27:138][267]LogWorld: Bringing up level for play took: 0.046907
+[2025.05.13-09.05.27:139][267]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.05.13-09.05.27:140][267]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.05.13-09.05.27:140][267]LogLoad: Took 0.210159 seconds to LoadMap(/Game/ThirdPerson/Maps/Level_0)
+[2025.05.13-09.05.27:140][267]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.05.13-09.05.27:140][267]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.05.13-09.05.28:429][416]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.13-09.05.28:429][416]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.05.13-09.05.28:429][416]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2025.05.13-09.05.40:011][723]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.13-09.05.40:011][723]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.05.13-09.05.40:012][723]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-09.05.40:013][723]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.05.40:014][723]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.05.13-09.05.40:016][723]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.13-09.05.40:020][723]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.05.40:033][723]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.13-09.05.40:033][723]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.05.13-09.05.40:033][723]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.05.13-09.05.40:035][723]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.05.13-09.05.40:047][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.05.13-09.05.40:106][724]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.05.13-09.05.43:046][ 47]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:048][ 47]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:050][ 47]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:135][ 48]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:154][ 49]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:225][ 50]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:298][ 52]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:306][ 53]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:377][ 55]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:434][ 56]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:436][ 56]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:445][ 56]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:453][ 57]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:454][ 57]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:510][ 58]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:518][ 58]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:528][ 59]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:599][ 61]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:655][ 62]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:664][ 62]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:735][ 64]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:744][ 65]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:814][ 67]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:877][ 68]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.43:947][ 70]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.44:981][175]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.44:982][175]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.44:984][175]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:059][176]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:069][176]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:135][178]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:136][178]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:144][178]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:154][179]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:156][179]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:215][180]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:233][181]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:298][182]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:362][184]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:370][184]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:379][185]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:381][185]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:437][186]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:438][186]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:440][186]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:455][187]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:457][187]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:458][187]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:516][188]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:525][188]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:534][189]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:590][190]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:598][190]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:608][191]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:610][191]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:611][191]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:667][192]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:682][193]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:684][193]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:739][194]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:740][194]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:748][194]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:756][195]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:814][196]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:815][196]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:823][196]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:831][197]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:833][197]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:888][198]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:905][199]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:961][200]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.45:969][200]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:032][202]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:033][202]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:041][202]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:048][203]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:050][203]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:107][204]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:124][205]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:126][205]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:180][206]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:181][206]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:189][206]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:198][207]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:255][208]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:264][208]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:274][209]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:333][210]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:350][211]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:352][211]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:409][212]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:418][212]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:487][214]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:495][215]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:566][217]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:629][218]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:692][220]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:700][220]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:707][221]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:710][221]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:762][222]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:763][222]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:775][223]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:777][223]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:785][224]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:786][224]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:793][225]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:801][226]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:802][226]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:810][227]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:827][229]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:835][230]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:851][232]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:860][233]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:877][235]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.46:884][236]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.13-09.05.56:675][392]LogEditorTransaction: Undo Resize Widget
+[2025.05.13-09.05.57:235][400]LogEditorTransaction: Undo Resize Widget
+[2025.05.13-09.06.21:973][316]BlueprintLog: New page: Compile Graphics_Widget
+[2025.05.13-09.06.22:010][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.05.13-09.06.26:804][854]LogSlate: Window 'Color Picker' being destroyed
+[2025.05.13-09.06.27:582][941]BlueprintLog: New page: Compile Graphics_Widget
+[2025.05.13-09.06.27:616][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.05.13-09.06.28:014][971]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-09.06.28:125][971]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Graphics_Widget
+[2025.05.13-09.06.28:125][971]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Graphics_WidgetA08CA2A14A179B70FD76CDBC50F91D93.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Graphics_Widget.uasset'
+[2025.05.13-09.06.28:134][971]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 1.42 sec)
+[2025.05.13-09.06.28:135][971]AssetCheck: New page: Asset Save: Graphics_Widget
+[2025.05.13-09.06.28:135][971]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Graphics_Widget.Graphics_Widget
+[2025.05.13-09.06.29:281][100]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.13-09.06.29:287][100]LogContentBundle: [MainMenu(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.13-09.06.29:287][100]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' started...
+[2025.05.13-09.06.29:290][100]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' took 1 ms (total: 2.72 sec)
+[2025.05.13-09.06.29:290][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.13-09.06.29:290][100]PIE: New page: PIE session: MainMenu (13 maj 2025, 11:06:29)
+[2025.05.13-09.06.29:311][100]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.13-09.06.29:314][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003731s)
+[2025.05.13-09.06.29:314][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/MainMenu.MainMenu to /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.003770s)
+[2025.05.13-09.06.29:326][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.05.13-09.06.29:331][100]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-09.06.29:331][100]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-09.06.29:332][100]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.13-09.06.29:332][100]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.13-09.06.29:332][100]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-09.06.29:332][100]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.13-09.06.29:332][100]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.13-09.06.29:333][100]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.13-09.06.29:333][100]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 4.42 sec)
+[2025.05.13-09.06.29:333][100]LogPlayLevel: PIE: World Init took: (0.002010s)
+[2025.05.13-09.06.29:333][100]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.05.13-09.06.29:333][100]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.13-09.06.29:333][100]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.13-09.06.29:333][100]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.13-09.06.29:333][100]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.13-09.06.29:333][100]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.13-09.06.29:333][100]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.13-09.06.29:333][100]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.13-09.06.29:333][100]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.13-09.06.29:334][100]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.13-09.06.29:334][100]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.13-09.06.29:334][100]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.13-09.06.29:335][100]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.13-09.06.29:350][100]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.13-09.06.29:350][100]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.13-09.06.29:350][100]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.13-09.06.29:350][100]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.13-09.06.29:352][100]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.05.13-09.06.29:352][100]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.05.13-09.06.29:353][100]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.05.13-09.06.29:353][100]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.05.13-09.06.29:353][100]LogInit: FAudioDevice initialized with ID 7.
+[2025.05.13-09.06.29:353][100]LogAudio: Display: Audio Device (ID: 7) registered with world 'MainMenu'.
+[2025.05.13-09.06.29:353][100]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.05.13-09.06.29:355][100]LogLoad: Game class is 'MainMenuGamemode_C'
+[2025.05.13-09.06.29:356][100]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.05.13-10.06.29
+[2025.05.13-09.06.29:357][100]LogWorld: Bringing up level for play took: 0.001501
+[2025.05.13-09.06.29:358][100]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2025.05.13-09.06.29:360][100]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.13-09.06.29:360][100]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.05.13-09.06.29:360][100]PIE: Server logged in
+[2025.05.13-09.06.29:360][100]PIE: Play in editor total start time 0,073 seconds.
+[2025.05.13-09.06.30:240][200]LogNet: Browse: /Game/ThirdPerson/Maps/Level_0
+[2025.05.13-09.06.30:240][200]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Level_0
+[2025.05.13-09.06.30:240][200]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.13-09.06.30:240][200]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-09.06.30:240][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.06.30:240][200]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.13-09.06.30:284][200]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.13-09.06.30:286][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.05.13-09.06.30:306][200]LogAudio: Display: Audio Device (ID: 7) registered with world 'Level_0'.
+[2025.05.13-09.06.30:306][200]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-09.06.30:306][200]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-09.06.30:306][200]LogAIModule: Creating AISystem for world Level_0
+[2025.05.13-09.06.30:308][200]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.13-09.06.30:308][200]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-09.06.30:308][200]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2025.05.13-09.06.30:308][200]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.13-09.06.30:310][200]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.05.13-09.06.30:398][200]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 87 ms (total: 2.80 sec)
+[2025.05.13-09.06.30:403][200]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.05.13-09.06.30:403][200]LogWorldPartition: Display: WorldPartition initialize took 95 ms (total: 4.51 sec)
+[2025.05.13-09.06.30:403][200]LogPlayLevel: PIE: World Init took: (0.096260s)
+[2025.05.13-09.06.30:403][200]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.13-09.06.30:448][200]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.05.13-10.06.30
+[2025.05.13-09.06.30:451][200]LogWorld: Bringing up level for play took: 0.047914
+[2025.05.13-09.06.30:453][200]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.05.13-09.06.30:453][200]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.05.13-09.06.30:453][200]LogLoad: Took 0.213540 seconds to LoadMap(/Game/ThirdPerson/Maps/Level_0)
+[2025.05.13-09.06.30:454][200]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.05.13-09.06.30:454][200]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.05.13-09.06.31:066][271]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.13-09.06.31:067][271]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.05.13-09.06.31:067][271]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2025.05.13-09.06.32:941][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.13-09.06.32:941][493]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.05.13-09.06.32:941][493]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-09.06.32:943][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.06.32:944][493]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.05.13-09.06.32:947][493]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.13-09.06.32:950][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.06.32:966][493]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.13-09.06.32:966][493]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.05.13-09.06.32:966][493]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.05.13-09.06.32:968][493]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.05.13-09.06.32:980][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.05.13-09.06.33:035][494]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.05.13-09.06.40:358][316]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.13-09.06.40:465][316]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Graphics_Widget
+[2025.05.13-09.06.40:466][316]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Graphics_Widget113B9DE34B1B82257987F68A645552D3.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Graphics_Widget.uasset'
+[2025.05.13-09.06.40:479][316]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 1.54 sec)
+[2025.05.13-09.06.40:481][316]AssetCheck: New page: Asset Save: Graphics_Widget
+[2025.05.13-09.06.40:481][316]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Graphics_Widget.Graphics_Widget
+[2025.05.13-09.06.41:371][422]BlueprintLog: New page: Compile Graphics_Widget
+[2025.05.13-09.06.41:404][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.05.13-09.06.42:706][568]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.13-09.06.42:712][568]LogContentBundle: [MainMenu(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.13-09.06.42:712][568]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' started...
+[2025.05.13-09.06.42:714][568]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' took 1 ms (total: 2.81 sec)
+[2025.05.13-09.06.42:714][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.13-09.06.42:714][568]PIE: New page: PIE session: MainMenu (13 maj 2025, 11:06:42)
+[2025.05.13-09.06.42:714][568]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.13-09.06.42:717][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003479s)
+[2025.05.13-09.06.42:717][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/MainMenu.MainMenu to /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.003505s)
+[2025.05.13-09.06.42:730][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.05.13-09.06.42:732][568]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-09.06.42:732][568]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-09.06.42:733][568]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.13-09.06.42:733][568]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.13-09.06.42:733][568]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-09.06.42:733][568]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.13-09.06.42:733][568]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.13-09.06.42:734][568]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.13-09.06.42:734][568]LogWorldPartition: Display: WorldPartition initialize took 971 us (total: 4.51 sec)
+[2025.05.13-09.06.42:734][568]LogPlayLevel: PIE: World Init took: (0.002012s)
+[2025.05.13-09.06.42:734][568]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.05.13-09.06.42:734][568]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.13-09.06.42:734][568]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.13-09.06.42:734][568]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.13-09.06.42:734][568]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.13-09.06.42:734][568]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.13-09.06.42:734][568]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.13-09.06.42:734][568]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.13-09.06.42:734][568]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.13-09.06.42:734][568]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.13-09.06.42:734][568]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.13-09.06.42:734][568]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.13-09.06.42:736][568]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.13-09.06.42:751][568]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.13-09.06.42:751][568]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.13-09.06.42:751][568]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.13-09.06.42:751][568]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.13-09.06.42:752][568]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.05.13-09.06.42:752][568]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.05.13-09.06.42:753][568]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.05.13-09.06.42:754][568]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.05.13-09.06.42:754][568]LogInit: FAudioDevice initialized with ID 8.
+[2025.05.13-09.06.42:754][568]LogAudio: Display: Audio Device (ID: 8) registered with world 'MainMenu'.
+[2025.05.13-09.06.42:754][568]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.05.13-09.06.42:756][568]LogLoad: Game class is 'MainMenuGamemode_C'
+[2025.05.13-09.06.42:757][568]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.05.13-10.06.42
+[2025.05.13-09.06.42:758][568]LogWorld: Bringing up level for play took: 0.001544
+[2025.05.13-09.06.42:759][568]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2025.05.13-09.06.42:760][568]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.13-09.06.42:760][568]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.05.13-09.06.42:760][568]PIE: Server logged in
+[2025.05.13-09.06.42:761][568]PIE: Play in editor total start time 0,049 seconds.
+[2025.05.13-09.06.44:067][719]LogNet: Browse: /Game/ThirdPerson/Maps/Level_0
+[2025.05.13-09.06.44:067][719]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Level_0
+[2025.05.13-09.06.44:067][719]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.13-09.06.44:067][719]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-09.06.44:068][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.06.44:068][719]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.13-09.06.44:113][719]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.13-09.06.44:115][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.05.13-09.06.44:134][719]LogAudio: Display: Audio Device (ID: 8) registered with world 'Level_0'.
+[2025.05.13-09.06.44:134][719]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.13-09.06.44:134][719]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.13-09.06.44:134][719]LogAIModule: Creating AISystem for world Level_0
+[2025.05.13-09.06.44:135][719]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.13-09.06.44:135][719]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.13-09.06.44:135][719]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2025.05.13-09.06.44:135][719]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.13-09.06.44:137][719]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.05.13-09.06.44:226][719]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 88 ms (total: 2.89 sec)
+[2025.05.13-09.06.44:230][719]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.05.13-09.06.44:230][719]LogWorldPartition: Display: WorldPartition initialize took 95 ms (total: 4.61 sec)
+[2025.05.13-09.06.44:230][719]LogPlayLevel: PIE: World Init took: (0.096259s)
+[2025.05.13-09.06.44:230][719]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.13-09.06.44:273][719]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.05.13-10.06.44
+[2025.05.13-09.06.44:276][719]LogWorld: Bringing up level for play took: 0.046517
+[2025.05.13-09.06.44:279][719]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.05.13-09.06.44:279][719]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.05.13-09.06.44:279][719]LogLoad: Took 0.212494 seconds to LoadMap(/Game/ThirdPerson/Maps/Level_0)
+[2025.05.13-09.06.44:280][719]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can't attack... Roaming
+[2025.05.13-09.06.44:280][719]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817] Can't attack... Roaming
+[2025.05.13-09.06.44:803][779]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.13-09.06.44:803][779]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2025.05.13-09.06.44:803][779]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2025.05.13-09.06.52:960][758]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.05.13-09.06.52:960][758]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.05.13-09.07.06:406][329]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.05.13-09.07.09:192][662]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.05.13-09.07.10:872][862]LogBlueprintUserMessages: [BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818] Can Attack
+[2025.05.13-09.07.13:092][124]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.05.13-09.07.15:909][451]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05C6102_1885030238] false
+[2025.05.13-09.07.17:650][657]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.05.13-09.07.18:911][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.13-09.07.18:911][803]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.05.13-09.07.18:912][803]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.13-09.07.18:913][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.07.18:914][803]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.05.13-09.07.18:916][803]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.13-09.07.18:922][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.13-09.07.18:940][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.13-09.07.18:940][803]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.05.13-09.07.18:940][803]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.05.13-09.07.18:941][803]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.05.13-09.07.18:954][803]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.05.13-09.07.19:016][804]LogPlayLevel: Display: Destroying online subsystem :Context_15
