@@ -25,6 +25,8 @@ The aim of this project is to produce a polished game level of a 3D platformer. 
 - Bonus levels and Hub: My game idea revolves around the game consisting of several levels as well as a hub. I realise that this may be a lot to tackle, however if I have the time I would like to create several short, polished levels as well as a hub area for the player to walk around in and have it function as the level selection menu.
 - Controller Support: For the time being I would like to focus on having mouse and keyboard support, however this is very low priority and I will consider adding it if I have the time.
 
+### Controls
+![AD_4nXdlh392jeRvO_V41YtGMjDVUUdDzZSiiwZYYIoE2xJPwX](https://github.com/user-attachments/assets/419308bc-8163-4ac8-a9de-aa439d57e838)
 
 
 ## Link to the Jira:
