@@ -5117,3 +5117,12 @@ Script Stack (0 frames) :
 [2025.05.17-13.34.22:344][225]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 11.6 sec)
 [2025.05.17-13.34.22:347][225]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_74563C6C81B0976802_2143064996
 [2025.05.17-13.34.22:347][225]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0976802_2143064996
+[2025.05.17-13.36.53:884][176]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.17-13.36.53:967][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.05.17-13.36.53:989][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.17-13.36.54:002][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.17-13.36.54:007][176]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/8/0D/OXFVHU8PHJCL7Y5K1XGB0N
+[2025.05.17-13.36.54:007][176]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/OXFVHU8PHJCL7Y5K1XGB0N0378A5794356BA93270857B526C8409D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/8/0D/OXFVHU8PHJCL7Y5K1XGB0N.uasset'
+[2025.05.17-13.36.54:019][176]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 11.8 sec)
+[2025.05.17-13.36.54:022][176]AssetCheck: New page: Asset Save: BP_SpawnPos_C_UAID_74563C6C81B0E46802_1682425450
+[2025.05.17-13.36.54:022][176]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0E46802_1682425450
