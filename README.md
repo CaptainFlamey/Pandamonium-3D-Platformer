@@ -5,7 +5,7 @@ The project I will be working on is a 3D platformer called Pandamonium. Pandamon
 
 
 ## Aims 
-6.Aims (max. 100 words): A statement of the overall aims of the project.
+A statement of the overall aims of the project.
 The aim of this project is to produce a polished game level of a 3D platformer. The level will contain different gameplay mechanics, such as enemies, movement elements. This project aims to demonstrate gameplay and level design using Unreal Engine’s visual scripting. The final deliverable will serve as an introduction to what the full game would be. 
 
 ## Objectives
@@ -24,6 +24,27 @@ The aim of this project is to produce a polished game level of a 3D platformer. 
 - Animation: Animation is something I would like to include as I know for a fact that it would make the game feel more like a game. If I have the time I would like to make my own animations, however if that doesn’t seem feasible then I will use premade animations (Mixamo)
 - Bonus levels and Hub: My game idea revolves around the game consisting of several levels as well as a hub. I realise that this may be a lot to tackle, however if I have the time I would like to create several short, polished levels as well as a hub area for the player to walk around in and have it function as the level selection menu.
 - Controller Support: For the time being I would like to focus on having mouse and keyboard support, however this is very low priority and I will consider adding it if I have the time.
+
+## Built With
+- Unreal Engine
+- Blender
+- Blockbench
+
+# Getting Started
+
+## How To Open
+
+1. Download the .zip file
+2. Extract the .zip file in your file manager
+3. Locate the Pandamonium3DPlat.exe file
+4. Run this file
+
+## How To Play
+1. When you load up the game you should find yourself in the main menu
+2. Click on the 'Play' button
+3. You will be loaded into the level
+4. Pick up any collectables you see
+5. The level does not have an end, it is just a place to test out mechanics
 
 ### Controls
 ![AD_4nXdlh392jeRvO_V41YtGMjDVUUdDzZSiiwZYYIoE2xJPwX](https://github.com/user-attachments/assets/419308bc-8163-4ac8-a9de-aa439d57e838)
