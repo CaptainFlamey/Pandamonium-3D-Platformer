@@ -9098,3 +9098,783 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.05.18-14.33.15:478][349]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
 [2025.05.18-14.33.15:494][349]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
 [2025.05.18-14.33.15:510][349]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 7.59 sec)
+[2025.05.18-14.33.34:370][707]LogEditorViewport: Clicking Background
+[2025.05.18-14.33.52:311][756]Cmd: EDIT COPY
+[2025.05.18-14.33.52:486][765]Cmd: EDIT PASTE
+[2025.05.18-14.34.15:841][ 77]Cmd: TRANSACTION UNDO
+[2025.05.18-14.34.15:841][ 77]LogEditorTransaction: Undo Move Elements
+[2025.05.18-14.34.34:154][913]LogEditorViewport: Clicking Background
+[2025.05.18-14.34.34:468][948]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-14.34.34:558][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.05.18-14.34.34:579][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.18-14.34.34:594][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.05.18-14.34.34:598][948]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/0/SP/K32O6GQGVMXNHJGY6G57AQ
+[2025.05.18-14.34.34:598][948]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/K32O6GQGVMXNHJGY6G57AQFE23CF11404763B199D11D98AA81B408.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/0/SP/K32O6GQGVMXNHJGY6G57AQ.uasset'
+[2025.05.18-14.34.34:614][948]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 7.74 sec)
+[2025.05.18-14.34.34:616][948]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_74563C6C81B0876902_2082497675
+[2025.05.18-14.34.34:616][948]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0876902_2082497675
+[2025.05.18-14.34.47:374][ 42]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/tree_Stump.tree_Stump
+[2025.05.18-14.34.47:374][ 42]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/tree_Stump.tree_Stump
+[2025.05.18-14.34.47:376][ 42]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/OBJ_Files/tree_Stump.tree_Stump as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_23
+[2025.05.18-14.34.48:075][ 90]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/tree_Stump.tree_Stump
+[2025.05.18-14.34.48:075][ 90]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/tree_Stump.tree_Stump
+[2025.05.18-14.34.48:076][ 90]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/OBJ_Files/tree_Stump.tree_Stump as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_24
+[2025.05.18-14.34.48:298][111]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/tree_Stump.tree_Stump
+[2025.05.18-14.34.48:298][111]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/tree_Stump.tree_Stump
+[2025.05.18-14.34.48:301][111]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/OBJ_Files/tree_Stump.tree_Stump as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0876902_2138309676
+[2025.05.18-14.35.00:102][320]LogEditorViewport: Clicking Background
+[2025.05.18-14.35.00:322][342]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-14.35.00:410][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.05.18-14.35.00:433][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.05.18-14.35.00:456][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.05.18-14.35.00:459][342]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/9/DZ/IMW4Y2G9BSOLSUP4FDUDBA
+[2025.05.18-14.35.00:459][342]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/IMW4Y2G9BSOLSUP4FDUDBA900F52304CEEB3435ED1D09ECBC823CF.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/9/DZ/IMW4Y2G9BSOLSUP4FDUDBA.uasset'
+[2025.05.18-14.35.00:484][342]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 7.90 sec)
+[2025.05.18-14.35.00:487][342]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_74563C6C81B0876902_2138309676
+[2025.05.18-14.35.00:488][342]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0876902_2138309676
+[2025.05.18-14.35.05:838][928]Cmd: EDIT COPY
+[2025.05.18-14.35.06:027][942]Cmd: EDIT PASTE
+[2025.05.18-14.36.14:317][296]LogEditorViewport: Clicking Background
+[2025.05.18-14.36.14:654][332]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-14.36.14:741][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.05.18-14.36.14:763][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.05.18-14.36.14:781][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.05.18-14.36.14:784][332]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/C/M9/NIANR252TSULG84W5CNE0P
+[2025.05.18-14.36.14:785][332]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NIANR252TSULG84W5CNE0P4AF8205E4023F4E449A20394F59E861F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/C/M9/NIANR252TSULG84W5CNE0P.uasset'
+[2025.05.18-14.36.14:788][332]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/E/IC/3UE0PCH0RAK3GAFWZ1JB4D
+[2025.05.18-14.36.14:788][332]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/3UE0PCH0RAK3GAFWZ1JB4D7E7B1E914C884C89C0D745B4D0880F3A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/E/IC/3UE0PCH0RAK3GAFWZ1JB4D.uasset'
+[2025.05.18-14.36.14:807][332]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 8.05 sec)
+[2025.05.18-14.36.14:811][332]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.18-14.36.14:811][332]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0E06802_1469817964
+[2025.05.18-14.36.14:811][332]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1082297853
+[2025.05.18-14.36.23:100][183]LogEditorViewport: Clicking Background
+[2025.05.18-14.36.23:247][197]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-14.36.23:325][197]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.05.18-14.36.23:344][197]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.05.18-14.36.23:363][197]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.05.18-14.36.23:366][197]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/C/M9/NIANR252TSULG84W5CNE0P
+[2025.05.18-14.36.23:367][197]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NIANR252TSULG84W5CNE0PB23E84EA4B17AF2AA24D9BA3B85C8A54.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/C/M9/NIANR252TSULG84W5CNE0P.uasset'
+[2025.05.18-14.36.23:384][197]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 8.19 sec)
+[2025.05.18-14.36.23:388][197]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_74563C6C81B0E06802_1469817964
+[2025.05.18-14.36.23:388][197]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0E06802_1469817964
+[2025.05.18-14.37.26:129][355]Cmd: EDIT COPY
+[2025.05.18-14.37.26:329][372]Cmd: EDIT PASTE
+[2025.05.18-14.37.26:356][372]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0986802_1146682173" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.37.26:364][372]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0986802_1146682173" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.07:482][ 94]Cmd: EDIT COPY
+[2025.05.18-14.38.07:693][113]Cmd: EDIT PASTE
+[2025.05.18-14.38.07:707][113]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1222598854" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.07:714][113]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1222598854" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.24:275][710]Cmd: EDIT COPY
+[2025.05.18-14.38.24:456][730]Cmd: EDIT PASTE
+[2025.05.18-14.38.24:470][730]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1263963855" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.24:476][730]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1263963855" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.28:824][126]Cmd: EDIT COPY
+[2025.05.18-14.38.29:025][142]Cmd: EDIT PASTE
+[2025.05.18-14.38.29:037][142]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1280726856" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.29:045][142]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1280726856" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.31:216][358]Cmd: EDIT COPY
+[2025.05.18-14.38.31:447][384]Cmd: EDIT PASTE
+[2025.05.18-14.38.31:460][384]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1285295857" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.31:466][384]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1285295857" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.37:595][ 44]Cmd: EDIT COPY
+[2025.05.18-14.38.37:802][ 68]Cmd: EDIT PASTE
+[2025.05.18-14.38.37:820][ 68]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1263963855" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.37:825][ 68]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1263963855" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.37:837][ 68]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1280726856" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.37:842][ 68]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1280726856" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.37:852][ 68]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1285295857" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.37:858][ 68]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1285295857" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.37:868][ 68]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1287717858" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.38.37:874][ 68]LogClass: Warning: Short type name "BP_BambooCollectable_C_UAID_74563C6C81B0886902_1287717858" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2025.05.18-14.39.02:716][682]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/log_Fallen.log_Fallen
+[2025.05.18-14.39.02:716][682]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/log_Fallen.log_Fallen
+[2025.05.18-14.39.02:717][682]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/OBJ_Files/log_Fallen.log_Fallen as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_25
+[2025.05.18-14.39.03:264][720]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/log_Fallen.log_Fallen
+[2025.05.18-14.39.03:264][720]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/log_Fallen.log_Fallen
+[2025.05.18-14.39.03:267][720]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/OBJ_Files/log_Fallen.log_Fallen as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1319533863
+[2025.05.18-14.39.26:165][190]Cmd: EDIT COPY
+[2025.05.18-14.39.26:370][203]Cmd: EDIT PASTE
+[2025.05.18-14.39.43:105][ 13]LogEditorViewport: Clicking Background
+[2025.05.18-14.39.54:926][320]Cmd: EDIT COPY
+[2025.05.18-14.39.55:133][344]Cmd: EDIT PASTE
+[2025.05.18-14.40.31:898][ 22]Cmd: EDIT COPY
+[2025.05.18-14.40.32:130][ 47]Cmd: EDIT PASTE
+[2025.05.18-14.40.43:357][240]LogEditorViewport: Clicking Background
+[2025.05.18-14.40.49:911][994]Cmd: DELETE
+[2025.05.18-14.40.49:911][994]Cmd: ACTOR DELETE
+[2025.05.18-14.40.49:919][994]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.05.18-14.40.49:954][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.05.18-14.40.49:974][994]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2025.05.18-14.40.51:210][134]Cmd: EDIT COPY
+[2025.05.18-14.40.51:398][155]Cmd: EDIT PASTE
+[2025.05.18-14.41.00:147][ 42]LogEditorViewport: Clicking Background
+[2025.05.18-14.41.01:063][143]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-14.41.01:157][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.05.18-14.41.01:176][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.05.18-14.41.01:193][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.05.18-14.41.01:196][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/7/NW/BAEYSFJZXS758EV9OSY3ST
+[2025.05.18-14.41.01:196][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BAEYSFJZXS758EV9OSY3ST7EFD7693459C5B308DC04080CD429F7A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/7/NW/BAEYSFJZXS758EV9OSY3ST.uasset'
+[2025.05.18-14.41.01:201][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/6/QP/1NVL19FHA05DJIAYNHD00C
+[2025.05.18-14.41.01:201][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/1NVL19FHA05DJIAYNHD00CB8D46A8749A1E8883261BCB50BF8C0CD.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/6/QP/1NVL19FHA05DJIAYNHD00C.uasset'
+[2025.05.18-14.41.01:206][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/A/MA/8CJO75TV5UE7YSCP9RKCIB
+[2025.05.18-14.41.01:206][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/8CJO75TV5UE7YSCP9RKCIBD19AC49545C280BCEB727BBE98AEB266.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/A/MA/8CJO75TV5UE7YSCP9RKCIB.uasset'
+[2025.05.18-14.41.01:210][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/A/SZ/JWMI4X9OYDWJ3HX3NVAAL9
+[2025.05.18-14.41.01:210][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/JWMI4X9OYDWJ3HX3NVAAL97614CDC34890F18C7FDCE9B5E850A1ED.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/A/SZ/JWMI4X9OYDWJ3HX3NVAAL9.uasset'
+[2025.05.18-14.41.01:215][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/0/9N/J81F5U1FW8QIZE1T0TO3RI
+[2025.05.18-14.41.01:215][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/J81F5U1FW8QIZE1T0TO3RIBF3A895E46FAB5ECA8791A94325819F2.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/0/9N/J81F5U1FW8QIZE1T0TO3RI.uasset'
+[2025.05.18-14.41.01:219][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/6/V2/LS1IB0OY36AKYDCODWO40B
+[2025.05.18-14.41.01:219][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/LS1IB0OY36AKYDCODWO40B1DE2500B42A9C1AABE7099909C8A6D92.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/6/V2/LS1IB0OY36AKYDCODWO40B.uasset'
+[2025.05.18-14.41.01:223][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/4/5M/8WVG7JNSATS2LS0RR0DO0G
+[2025.05.18-14.41.01:223][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/8WVG7JNSATS2LS0RR0DO0G0043982647C87CE6BF0C4A9690EB15E4.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/4/5M/8WVG7JNSATS2LS0RR0DO0G.uasset'
+[2025.05.18-14.41.01:227][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/7/BI/RWNEG5U7IDXL6Y6PA7LZ6W
+[2025.05.18-14.41.01:227][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/RWNEG5U7IDXL6Y6PA7LZ6WACD6A6214061889C4553A3AAFDE55730.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/7/BI/RWNEG5U7IDXL6Y6PA7LZ6W.uasset'
+[2025.05.18-14.41.01:231][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/7/CY/RQ8BP6U0719B8Z6WFZ5MXE
+[2025.05.18-14.41.01:231][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/RQ8BP6U0719B8Z6WFZ5MXEC1992ED24F03C3A24F7A75A50BD3B77F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/7/CY/RQ8BP6U0719B8Z6WFZ5MXE.uasset'
+[2025.05.18-14.41.01:235][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/2/LE/1CDA6C3VTTEFAKRSSLC8V8
+[2025.05.18-14.41.01:235][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/1CDA6C3VTTEFAKRSSLC8V845D8B3D848375EEEB9285CA3E35EAE5E.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/2/LE/1CDA6C3VTTEFAKRSSLC8V8.uasset'
+[2025.05.18-14.41.01:239][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/A/VD/ZUT8FOI4NM2P86KU444F4V
+[2025.05.18-14.41.01:239][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/ZUT8FOI4NM2P86KU444F4VE5EAC36C466E6221995860B260AD2A63.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/A/VD/ZUT8FOI4NM2P86KU444F4V.uasset'
+[2025.05.18-14.41.01:241][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/0/NP/TZ506C0WODGZR3IE0ISRBH
+[2025.05.18-14.41.01:241][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/TZ506C0WODGZR3IE0ISRBH5F129AF64601037D03E61D82A1F08F7E.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/0/NP/TZ506C0WODGZR3IE0ISRBH.uasset'
+[2025.05.18-14.41.01:244][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/9/CS/I323GDC2Y6OQ01YI4AYHJE
+[2025.05.18-14.41.01:244][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/I323GDC2Y6OQ01YI4AYHJE9ACBA6C64BCE7D6CD86CCABB05A9EC66.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/9/CS/I323GDC2Y6OQ01YI4AYHJE.uasset'
+[2025.05.18-14.41.01:247][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/6/PS/PRYTKDRTRV918SPA9VODM8
+[2025.05.18-14.41.01:247][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/PRYTKDRTRV918SPA9VODM8C2780902445D7018FC5526874D1694C7.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/6/PS/PRYTKDRTRV918SPA9VODM8.uasset'
+[2025.05.18-14.41.01:249][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/0/O1/CQWXD1Y4C9XZ03V771BYJS
+[2025.05.18-14.41.01:249][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/CQWXD1Y4C9XZ03V771BYJS6EB717AB495DC66042BDB48A34697260.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/0/O1/CQWXD1Y4C9XZ03V771BYJS.uasset'
+[2025.05.18-14.41.01:252][143]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/7/E6/JA6OIQ9WW1CSJJJW09Q1JX
+[2025.05.18-14.41.01:252][143]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/JA6OIQ9WW1CSJJJW09Q1JX89DEBB0048611ADD38108784C0F6C7C0.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/7/E6/JA6OIQ9WW1CSJJJW09Q1JX.uasset'
+[2025.05.18-14.41.01:269][143]LogFileHelpers: InternalPromptForCheckoutAndSave took 204 ms (total: 8.40 sec)
+[2025.05.18-14.41.01:274][143]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.18-14.41.01:274][143]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0826902_1736029650
+[2025.05.18-14.41.01:274][143]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BambooCollectable_C_UAID_74563C6C81B0886902_1222598854
+[2025.05.18-14.41.01:274][143]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BambooCollectable_C_UAID_74563C6C81B0886902_1263963855
+[2025.05.18-14.41.01:274][143]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BambooCollectable_C_UAID_74563C6C81B0886902_1280726856
+[2025.05.18-14.41.01:274][143]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BambooCollectable_C_UAID_74563C6C81B0886902_1285295857
+[2025.05.18-14.41.01:274][143]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BambooCollectable_C_UAID_74563C6C81B0886902_1287717858
+[2025.05.18-14.41.01:274][143]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BambooCollectable_C_UAID_74563C6C81B0886902_1294072859
+[2025.05.18-14.41.01:274][143]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BambooCollectable_C_UAID_74563C6C81B0886902_1294076860
+[2025.05.18-14.41.01:274][143]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BambooCollectable_C_UAID_74563C6C81B0886902_1294077861
+[2025.05.18-14.41.01:274][143]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BambooCollectable_C_UAID_74563C6C81B0886902_1294079862
+[2025.05.18-14.41.01:274][143]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1408402868
+[2025.05.18-14.41.01:274][143]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1319533863
+[2025.05.18-14.41.01:275][143]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1371404865
+[2025.05.18-14.41.01:275][143]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1371406866
+[2025.05.18-14.41.01:275][143]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1408399867
+[2025.05.18-14.41.01:275][143]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1427669869
+[2025.05.18-14.41.16:726][788]Cmd: TRANSACTION UNDO
+[2025.05.18-14.41.16:726][788]LogEditorTransaction: Undo Scale Elements
+[2025.05.18-14.41.23:431][343]Cmd: DELETE
+[2025.05.18-14.41.23:431][343]Cmd: ACTOR DELETE
+[2025.05.18-14.41.23:438][343]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.05.18-14.41.23:454][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.05.18-14.41.23:458][343]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2025.05.18-14.41.24:705][483]Cmd: EDIT COPY
+[2025.05.18-14.41.24:896][506]Cmd: EDIT PASTE
+[2025.05.18-14.41.36:199][615]LogEditorViewport: Clicking Background
+[2025.05.18-14.41.37:642][762]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-14.41.37:707][762]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.05.18-14.41.37:726][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.05.18-14.41.37:744][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.05.18-14.41.37:747][762]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/9/CS/I323GDC2Y6OQ01YI4AYHJE
+[2025.05.18-14.41.37:748][762]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/I323GDC2Y6OQ01YI4AYHJEBDF0042B4DCD8E0E6D55A581CB2F0AC3.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/9/CS/I323GDC2Y6OQ01YI4AYHJE.uasset'
+[2025.05.18-14.41.37:751][762]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/F/4S/ABPR15FYJZDSU9UC7EG1A5
+[2025.05.18-14.41.37:751][762]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/ABPR15FYJZDSU9UC7EG1A5CE72EE494CD9F337092D748AD9CB0560.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/F/4S/ABPR15FYJZDSU9UC7EG1A5.uasset'
+[2025.05.18-14.41.37:769][762]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 8.52 sec)
+[2025.05.18-14.41.37:770][762]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.18-14.41.37:770][762]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1371404865
+[2025.05.18-14.41.37:770][762]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1461166870
+[2025.05.18-14.41.53:159][231]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2025.05.18-14.41.53:159][231]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2025.05.18-14.42.07:356][594]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Edit Light Color entirely.
+[2025.05.18-14.42.13:346][ 88]LogSlate: Window 'Color Picker' being destroyed
+[2025.05.18-14.42.21:627][905]Cmd: TRANSACTION UNDO
+[2025.05.18-14.42.21:627][905]LogEditorTransaction: Undo Edit Source Length
+[2025.05.18-14.42.46:925][387]Cmd: DELETE
+[2025.05.18-14.42.46:925][387]Cmd: ACTOR DELETE
+[2025.05.18-14.42.46:930][387]LogEditorActor: Deleted Actor: PointLight
+[2025.05.18-14.42.46:956][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.05.18-14.42.46:963][387]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2025.05.18-14.42.52:501][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-14.42.52:587][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.05.18-14.42.52:605][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.05.18-14.42.52:623][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.05.18-14.42.52:635][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 8.66 sec)
+[2025.05.18-14.42.52:945][ 55]LogEditorViewport: Clicking Background
+[2025.05.18-14.43.00:337][890]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [Scalability]
+[2025.05.18-14.43.00:337][890]LogConfig: Set CVar [[r.SkeletalMeshLODBias:2]]
+[2025.05.18-14.43.00:337][890]LogConfig: Set CVar [[r.ViewDistanceScale:0.4]]
+[2025.05.18-14.43.00:337][890]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [Scalability]
+[2025.05.18-14.43.00:337][890]LogConfig: Set CVar [[r.FXAA.Quality:0]]
+[2025.05.18-14.43.00:337][890]LogConfig: Set CVar [[r.TemporalAA.Quality:0]]
+[2025.05.18-14.43.00:337][890]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.TSR.ShadingRejection.TileOverscan:2]]
+[2025.05.18-14.43.00:338][890]LogConfig: CVar [[r.TSR.Velocity.Extrapolation:0]] deferred - dummy variable created
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [Scalability]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.LightFunctionQuality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.ShadowQuality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.MaxResolution:512]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:512]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.6]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.DistanceFieldShadowing:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.VolumetricFog:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.CapsuleShadows:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:512]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:0.0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:0.0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:1.0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:2.0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:2]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:2]]
+[2025.05.18-14.43.00:338][890]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@0] File [Scalability]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.DistanceFieldAO:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Applying CVar settings from Section [ReflectionQuality@0] File [Scalability]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.SSR.Quality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [Scalability]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.MotionBlurQuality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:1]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.AmbientOcclusionLevels:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.DepthOfFieldQuality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.RenderTargetPoolMin:300]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.LensFlareQuality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.SceneColorFringeQuality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.BloomQuality:4]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:25.000]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.FastBlurThreshold:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Upscale.Quality:1]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.LightShaftQuality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Filter.SizeScale:0.6]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Tonemapper.Quality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [Scalability]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Streaming.MipBias:16]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Streaming.Boost:0.3]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.MaxAnisotropy:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.VT.MaxAnisotropy:4]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.Streaming.PoolSize:400]]
+[2025.05.18-14.43.00:338][890]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [Scalability]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.RefractionQuality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.DetailMode:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.SSS.Scale:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.SSS.SampleSet:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.SSS.Quality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.SSGI.Quality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.125]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.ParticleLightQuality:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:1]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[fx.Niagara.QualityLevel:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [Scalability]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[foliage.DensityScale:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[grass.DensityScale:0]]
+[2025.05.18-14.43.00:338][890]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [Scalability]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:1]]
+[2025.05.18-14.43.00:338][890]LogConfig: Set CVar [[r.AnisotropicMaterials:0]]
+[2025.05.18-14.43.00:363][890]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.05.18-14.43.00:504][892]LogRenderer: Display: Recreating Shadow.Virtual.PhysicalPagePool due to size or flags change. This will also drop any cached pages.
+[2025.05.18-14.43.00:569][892]LogContentStreaming: Texture pool size now 400 MB
+[2025.05.18-14.43.04:833][394]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.18-14.43.04:841][394]LogContentBundle: [Level_1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.18-14.43.04:842][394]LogWorldPartition: Display: GenerateStreaming for 'Level_1' started...
+[2025.05.18-14.43.04:861][394]LogWorldPartition: Display: GenerateStreaming for 'Level_1' took 19 ms (total: 1.67 sec)
+[2025.05.18-14.43.04:861][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.18-14.43.04:861][394]PIE: New page: PIE session: Level_1 (18 maj 2025, 16:43:04)
+[2025.05.18-14.43.04:901][394]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.18-14.43.04:960][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059614s)
+[2025.05.18-14.43.04:960][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_1.Level_1 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 (0.059672s)
+[2025.05.18-14.43.04:976][394]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.05.18-14.43.04:978][394]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.18-14.43.04:979][394]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.18-14.43.04:979][394]LogAIModule: Creating AISystem for world Level_1
+[2025.05.18-14.43.04:979][394]LogWorldPartition: ULevel::OnLevelLoaded(Level_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.18-14.43.04:979][394]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.18-14.43.04:979][394]LogWorldPartition: UWorldPartition::Initialize : World = Level_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.18-14.43.04:979][394]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.18-14.43.04:995][394]LogContentBundle: [Level_1(Standalone)] Creating new contrainer.
+[2025.05.18-14.43.04:995][394]LogWorldPartition: Display: WorldPartition initialize took 15 ms (total: 15.3 sec)
+[2025.05.18-14.43.04:995][394]LogPlayLevel: PIE: World Init took: (0.016785s)
+[2025.05.18-14.43.04:995][394]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2025.05.18-14.43.04:995][394]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.18-14.43.04:995][394]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.18-14.43.04:995][394]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.18-14.43.04:995][394]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.18-14.43.04:995][394]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.18-14.43.04:995][394]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.18-14.43.04:995][394]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.18-14.43.04:995][394]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.18-14.43.04:995][394]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.18-14.43.04:995][394]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.18-14.43.04:995][394]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.18-14.43.04:998][394]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.18-14.43.05:016][394]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.18-14.43.05:016][394]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.18-14.43.05:016][394]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.18-14.43.05:016][394]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.18-14.43.05:017][394]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2025.05.18-14.43.05:017][394]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2025.05.18-14.43.05:019][394]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2025.05.18-14.43.05:019][394]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2025.05.18-14.43.05:019][394]LogInit: FAudioDevice initialized with ID 36.
+[2025.05.18-14.43.05:019][394]LogAudio: Display: Audio Device (ID: 36) registered with world 'Level_1'.
+[2025.05.18-14.43.05:019][394]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2025.05.18-14.43.05:023][394]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.18-14.43.05:065][394]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2025.05.18-15.43.05
+[2025.05.18-14.43.05:069][394]LogWorld: Bringing up level for play took: 0.046618
+[2025.05.18-14.43.05:072][394]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2025.05.18-14.43.05:075][394]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.05.18-14.43.05:075][394]PIE: Server logged in
+[2025.05.18-14.43.05:076][394]PIE: Play in editor total start time 0,235 seconds.
+[2025.05.18-14.43.09:672][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.18-14.43.09:672][934]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.18-14.43.09:672][934]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.18-14.43.09:676][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-14.43.09:677][934]LogContentBundle: [Level_1(Standalone)] Deleting container.
+[2025.05.18-14.43.09:679][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.18-14.43.09:686][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.18-14.43.09:704][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.18-14.43.09:709][934]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2025.05.18-14.43.09:709][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2025.05.18-14.43.09:711][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2025.05.18-14.43.09:726][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.05.18-14.43.09:772][935]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2025.05.18-14.43.10:422][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-14.43.10:507][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.05.18-14.43.10:523][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.18-14.43.10:542][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.05.18-14.43.10:564][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 8.80 sec)
+[2025.05.18-14.43.12:463][205]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [Scalability]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.ViewDistanceScale:0.8]]
+[2025.05.18-14.43.12:463][205]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [Scalability]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.FXAA.Quality:3]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.TemporalAA.Quality:1]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:2]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.TSR.ShadingRejection.TileOverscan:3]]
+[2025.05.18-14.43.12:463][205]LogConfig: CVar [[r.TSR.Velocity.Extrapolation:0]] deferred - dummy variable created
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:1]]
+[2025.05.18-14.43.12:463][205]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [Scalability]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.Shadow.MaxResolution:1024]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.85]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.05.18-14.43.12:463][205]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:2048]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-0.5]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-0.5]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.05.18-14.43.12:464][205]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@2] File [Scalability]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Applying CVar settings from Section [ReflectionQuality@2] File [Scalability]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.SSR.Quality:2]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [Scalability]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.MotionBlurQuality:3]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.FastBlurThreshold:3]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Upscale.Quality:2]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Filter.SizeScale:0.8]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2025.05.18-14.43.12:464][205]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [Scalability]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.MaxAnisotropy:4]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.Streaming.PoolSize:800]]
+[2025.05.18-14.43.12:464][205]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [Scalability]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.DetailMode:1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.SSS.SampleSet:1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.SSS.Quality:-1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.SSGI.Quality:2]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.5]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.ParticleLightQuality:1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:2]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:64.0]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:64.0]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[fx.Niagara.QualityLevel:2]]
+[2025.05.18-14.43.12:464][205]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [Scalability]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[foliage.DensityScale:0.8]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[grass.DensityScale:0.8]]
+[2025.05.18-14.43.12:464][205]LogConfig: Applying CVar settings from Section [ShadingQuality@2] File [Scalability]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.05.18-14.43.12:464][205]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2025.05.18-14.43.12:474][205]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.05.18-14.43.12:695][208]LogContentStreaming: Texture pool size now 800 MB
+[2025.05.18-14.43.13:626][292]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-14.43.13:705][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.05.18-14.43.13:724][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.05.18-14.43.13:743][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.05.18-14.43.13:761][292]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 8.93 sec)
+[2025.05.18-14.43.27:507][858]LogEditorViewport: Clicking Background
+[2025.05.18-14.44.59:227][882]LogEditorViewport: Clicking Background
+[2025.05.18-14.44.59:479][907]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-14.44.59:568][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.05.18-14.44.59:587][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.05.18-14.44.59:604][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.05.18-14.44.59:621][907]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 9.07 sec)
+[2025.05.18-14.45.00:976][ 19]Cmd: EDIT COPY
+[2025.05.18-14.45.01:162][ 29]Cmd: EDIT PASTE
+[2025.05.18-14.45.16:869][451]Cmd: EDIT COPY
+[2025.05.18-14.45.17:172][480]Cmd: EDIT PASTE
+[2025.05.18-14.45.25:338][238]Cmd: EDIT COPY
+[2025.05.18-14.45.25:567][263]Cmd: EDIT PASTE
+[2025.05.18-14.45.44:373][129]Cmd: DELETE
+[2025.05.18-14.45.44:373][129]Cmd: ACTOR DELETE
+[2025.05.18-14.45.44:379][129]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.05.18-14.45.44:394][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.05.18-14.45.44:401][129]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2025.05.18-14.46.05:811][398]Cmd: EDIT COPY
+[2025.05.18-14.46.05:981][418]Cmd: EDIT PASTE
+[2025.05.18-14.46.17:818][598]Cmd: EDIT COPY
+[2025.05.18-14.46.17:999][612]Cmd: EDIT PASTE
+[2025.05.18-14.46.37:363][619]Cmd: EDIT COPY
+[2025.05.18-14.46.37:581][645]Cmd: EDIT PASTE
+[2025.05.18-14.46.44:466][409]LogEditorViewport: Clicking Background
+[2025.05.18-14.46.48:383][779]LogEditorViewport: Clicking Background
+[2025.05.18-14.47.00:291][120]Cmd: EDIT COPY
+[2025.05.18-14.47.00:513][145]Cmd: EDIT PASTE
+[2025.05.18-14.47.02:664][381]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.184 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5815 files in 7201 folders with total size 100 MiB.
+[2025.05.18-14.47.05:465][668]LogEditorViewport: Clicking Background
+[2025.05.18-14.47.15:944][736]Cmd: EDIT PASTE
+[2025.05.18-14.47.17:665][930]Cmd: TRANSACTION UNDO
+[2025.05.18-14.47.17:665][930]LogEditorTransaction: Undo Paste
+[2025.05.18-14.47.18:695][979]Cmd: EDIT COPY
+[2025.05.18-14.47.18:934][  1]Cmd: EDIT PASTE
+[2025.05.18-14.47.31:866][251]Cmd: EDIT COPY
+[2025.05.18-14.47.32:099][266]Cmd: EDIT PASTE
+[2025.05.18-14.47.43:054][367]Cmd: EDIT COPY
+[2025.05.18-14.47.43:199][382]Cmd: EDIT PASTE
+[2025.05.18-14.47.52:150][364]Cmd: EDIT COPY
+[2025.05.18-14.47.52:439][397]Cmd: EDIT PASTE
+[2025.05.18-14.48.08:807][977]Cmd: EDIT COPY
+[2025.05.18-14.48.08:993][999]Cmd: EDIT PASTE
+[2025.05.18-14.48.46:079][934]LogEditorViewport: Clicking Background
+[2025.05.18-14.48.46:433][972]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-14.48.46:519][972]LogWorldPartition: Actor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1812214879 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/1/CQ/R47P9X57Z4O8VK91MBQMJ0.PackageMetaData in its package
+[2025.05.18-14.48.46:522][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.05.18-14.48.46:561][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.05.18-14.48.46:579][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.05.18-14.48.46:582][972]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/6/L9/EDQZ0RAKD04YTLFCRNRLQ9
+[2025.05.18-14.48.46:584][972]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/EDQZ0RAKD04YTLFCRNRLQ9AE6C591A4B90831976814F92A7DDB2CE.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/6/L9/EDQZ0RAKD04YTLFCRNRLQ9.uasset'
+[2025.05.18-14.48.46:587][972]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/3/BI/R4HLD6STFJFEV2HAVV2SQB
+[2025.05.18-14.48.46:587][972]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/R4HLD6STFJFEV2HAVV2SQB2265285147985A271CBB588055A7B4EB.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/3/BI/R4HLD6STFJFEV2HAVV2SQB.uasset'
+[2025.05.18-14.48.46:590][972]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/B/J0/4JX92KPP3WB4GA3JTIAMQS
+[2025.05.18-14.48.46:590][972]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/4JX92KPP3WB4GA3JTIAMQS1905DE61490D4E3FBC8F25BEB111908F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/B/J0/4JX92KPP3WB4GA3JTIAMQS.uasset'
+[2025.05.18-14.48.46:591][972]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/A/CX/1OU6DNK9XW4GRVEO770DJG
+[2025.05.18-14.48.46:591][972]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/1OU6DNK9XW4GRVEO770DJG906B388E47149A33BB45269AF18D228A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/A/CX/1OU6DNK9XW4GRVEO770DJG.uasset'
+[2025.05.18-14.48.46:594][972]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/8/DE/ME1930U08FG0KU7066BF8L
+[2025.05.18-14.48.46:594][972]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/ME1930U08FG0KU7066BF8LF3B2F55848C642383524D4AE63A68841.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/8/DE/ME1930U08FG0KU7066BF8L.uasset'
+[2025.05.18-14.48.46:597][972]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/9/TS/HCG5VIPDQQ8KUHS943V25V
+[2025.05.18-14.48.46:597][972]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/HCG5VIPDQQ8KUHS943V25V10E3CD7B4F3A06CAA25380BB320EF6A0.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/9/TS/HCG5VIPDQQ8KUHS943V25V.uasset'
+[2025.05.18-14.48.46:600][972]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/9/B4/GRHYCHYD2QJXDE4T91XCVR
+[2025.05.18-14.48.46:600][972]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/GRHYCHYD2QJXDE4T91XCVR95EAE099487769EB2F76D3AF2C5C5750.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/9/B4/GRHYCHYD2QJXDE4T91XCVR.uasset'
+[2025.05.18-14.48.46:601][972]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/B/78/VNYQPA86VQWDNSMZQV5JC9
+[2025.05.18-14.48.46:601][972]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/VNYQPA86VQWDNSMZQV5JC93F4CA2F54BE7E4AAD108E7B4AAFDDDE1.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/B/78/VNYQPA86VQWDNSMZQV5JC9.uasset'
+[2025.05.18-14.48.46:604][972]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/6/RK/OUS0XARBO26N04FV3YSQ7U
+[2025.05.18-14.48.46:604][972]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/OUS0XARBO26N04FV3YSQ7U1D0DA1D8437ED093291E8796B183F6E9.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/6/RK/OUS0XARBO26N04FV3YSQ7U.uasset'
+[2025.05.18-14.48.46:607][972]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/C/DE/MWPJUR7KFYQDMLJE9PDE80
+[2025.05.18-14.48.46:607][972]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MWPJUR7KFYQDMLJE9PDE80E113D6A44BD9055FB1E0F9911C563818.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/C/DE/MWPJUR7KFYQDMLJE9PDE80.uasset'
+[2025.05.18-14.48.46:609][972]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/3/OP/1J0JZJQHRXV6Y23IF4C888
+[2025.05.18-14.48.46:609][972]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/1J0JZJQHRXV6Y23IF4C8883CA364AC494829D6605F0280D2DC5652.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/3/OP/1J0JZJQHRXV6Y23IF4C888.uasset'
+[2025.05.18-14.48.46:613][972]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/6/KB/099NDX9WFZKCC08ISPQZ04
+[2025.05.18-14.48.46:613][972]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/099NDX9WFZKCC08ISPQZ0411808869410C996BED345F86EA98F9CF.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/6/KB/099NDX9WFZKCC08ISPQZ04.uasset'
+[2025.05.18-14.48.46:615][972]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/9/N5/F2K9QI9860IO7273MG0M6A
+[2025.05.18-14.48.46:615][972]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/F2K9QI9860IO7273MG0M6AC14B3E3E4673212391345D8E33A99672.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/9/N5/F2K9QI9860IO7273MG0M6A.uasset'
+[2025.05.18-14.48.46:632][972]LogFileHelpers: InternalPromptForCheckoutAndSave took 199 ms (total: 9.27 sec)
+[2025.05.18-14.48.46:638][972]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.18-14.48.46:638][972]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0856902_1528267238
+[2025.05.18-14.48.46:638][972]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1677432872
+[2025.05.18-14.48.46:638][972]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1693442873
+[2025.05.18-14.48.46:638][972]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1701837874
+[2025.05.18-14.48.46:638][972]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1742252875
+[2025.05.18-14.48.46:638][972]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1754269876
+[2025.05.18-14.48.46:638][972]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1773851877
+[2025.05.18-14.48.46:638][972]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1796784878
+[2025.05.18-14.48.46:638][972]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1815204880
+[2025.05.18-14.48.46:638][972]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1828370881
+[2025.05.18-14.48.46:638][972]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1839470882
+[2025.05.18-14.48.46:638][972]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1848709883
+[2025.05.18-14.48.46:638][972]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0886902_1865263884
+[2025.05.18-14.48.46:657][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.05.18-14.48.58:944][438]LogEditorViewport: Clicking Background
+[2025.05.18-14.48.59:736][531]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.18-14.48.59:817][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.18-14.48.59:834][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.05.18-14.48.59:855][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.05.18-14.48.59:865][531]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 9.40 sec)
