@@ -8477,3 +8477,194 @@ UnknownFunction []
 [2025.05.19-16.42.43:355][150]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 4.46 sec)
 [2025.05.19-16.42.43:358][150]AssetCheck: New page: Asset Save: NavMeshBoundsVolume_UAID_74563C6C81B0DF6902_1437115560
 [2025.05.19-16.42.43:358][150]LogContentValidation: Display: Validating /Script/NavigationSystem.NavMeshBoundsVolume /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.NavMeshBoundsVolume_UAID_74563C6C81B0DF6902_1437115560
+[2025.05.19-16.43.53:405][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.05.19-16.43.53:496][341]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.19-16.43.53:497][341]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.19-16.43.53:497][341]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.19-16.43.53:497][341]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.19-16.43.53:669][341]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.19-16.43.53:669][341]LogWorldPartition: Display: WorldPartition initialize took 172 ms (total: 10.8 sec)
+[2025.05.19-16.43.53:679][341]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/MainMenu.MainMenu
+[2025.05.19-16.43.53:679][341]Cmd: MAP LOAD FILE="../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.05.19-16.43.53:679][341]LightingResults: New page: Lighting Build
+[2025.05.19-16.43.53:679][341]LoadErrors: New page: Loading map: MainMenu.umap
+[2025.05.19-16.43.53:724][341]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-16.43.53:724][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-16.43.53:738][341]LogContentBundle: [Level_1(Standalone)] Deleting container.
+[2025.05.19-16.43.53:738][341]MapCheck: New page: Map Check
+[2025.05.19-16.43.53:738][341]LightingResults: New page: Lighting Build
+[2025.05.19-16.43.53:768][341]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.19-16.43.53:809][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.05.19-16.43.53:821][341]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-16.43.53:821][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-16.43.53:822][341]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.19-16.43.53:845][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.05.19-16.43.53:861][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.05.19-16.43.53:882][341]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2025.05.19-16.43.53:882][341]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.19-16.43.53:882][341]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.19-16.43.53:882][341]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.19-16.43.53:882][341]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.19-16.43.53:882][341]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.19-16.43.53:882][341]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.19-16.43.54:057][341]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.19-16.43.54:057][341]LogWorldPartition: Display: WorldPartition initialize took 173 ms (total: 11.0 sec)
+[2025.05.19-16.43.54:099][341]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.05.19-16.43.54:116][341]LogWorldPartition: Actor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.RecastNavMesh_UAID_74563C6C81B0905D02-Default is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/ZA/61077G2OHT4M1OSUQTKII3.PackageMetaData in its package
+[2025.05.19-16.43.54:119][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.05.19-16.43.54:126][341]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.05.19-16.43.54:127][341]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,604ms to complete.
+[2025.05.19-16.43.54:169][341]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.05.19-16.43.55:062][434]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.19-16.43.55:071][434]LogContentBundle: [MainMenu(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.19-16.43.55:071][434]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' started...
+[2025.05.19-16.43.55:077][434]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' took 6 ms (total: 1.88 sec)
+[2025.05.19-16.43.55:077][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.19-16.43.55:078][434]PIE: New page: PIE session: MainMenu (19 maj 2025, 18:43:55)
+[2025.05.19-16.43.55:078][434]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.19-16.43.55:093][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015863s)
+[2025.05.19-16.43.55:094][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/MainMenu.MainMenu to /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.015900s)
+[2025.05.19-16.43.55:106][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.05.19-16.43.55:108][434]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.19-16.43.55:108][434]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.19-16.43.55:108][434]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.19-16.43.55:109][434]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.19-16.43.55:109][434]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.19-16.43.55:109][434]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.19-16.43.55:109][434]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.19-16.43.55:112][434]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.19-16.43.55:112][434]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 11.0 sec)
+[2025.05.19-16.43.55:112][434]LogPlayLevel: PIE: World Init took: (0.004961s)
+[2025.05.19-16.43.55:112][434]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.05.19-16.43.55:112][434]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.19-16.43.55:112][434]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.19-16.43.55:112][434]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.19-16.43.55:112][434]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.19-16.43.55:112][434]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.19-16.43.55:112][434]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.19-16.43.55:112][434]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.19-16.43.55:112][434]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.19-16.43.55:114][434]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.19-16.43.55:114][434]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.19-16.43.55:114][434]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.19-16.43.55:115][434]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.19-16.43.55:131][434]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.19-16.43.55:132][434]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.19-16.43.55:132][434]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.19-16.43.55:132][434]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.19-16.43.55:132][434]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.05.19-16.43.55:132][434]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.05.19-16.43.55:135][434]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.05.19-16.43.55:135][434]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.05.19-16.43.55:135][434]LogInit: FAudioDevice initialized with ID 7.
+[2025.05.19-16.43.55:135][434]LogAudio: Display: Audio Device (ID: 7) registered with world 'MainMenu'.
+[2025.05.19-16.43.55:135][434]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.05.19-16.43.55:137][434]LogLoad: Game class is 'MainMenuGamemode_C'
+[2025.05.19-16.43.55:145][434]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.05.19-17.43.55
+[2025.05.19-16.43.55:146][434]LogWorld: Bringing up level for play took: 0.008395
+[2025.05.19-16.43.55:148][434]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.05.19-16.43.55:149][434]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.19-16.43.55:149][434]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.05.19-16.43.55:149][434]PIE: Server logged in
+[2025.05.19-16.43.55:150][434]PIE: Play in editor total start time 0,08 seconds.
+[2025.05.19-16.43.57:944][759]LogNet: Browse: /Game/ThirdPerson/Maps/Level_1
+[2025.05.19-16.43.57:944][759]LogLoad: LoadMap: /Game/ThirdPerson/Maps/Level_1
+[2025.05.19-16.43.57:944][759]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.19-16.43.57:944][759]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-16.43.57:946][759]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-16.43.57:946][759]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.19-16.43.57:992][759]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.19-16.43.57:996][759]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.05.19-16.43.58:013][759]LogAudio: Display: Audio Device (ID: 7) registered with world 'Level_1'.
+[2025.05.19-16.43.58:013][759]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.19-16.43.58:013][759]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.19-16.43.58:015][759]LogAIModule: Creating AISystem for world Level_1
+[2025.05.19-16.43.58:015][759]LogWorldPartition: ULevel::OnLevelLoaded(Level_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.19-16.43.58:015][759]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.19-16.43.58:015][759]LogWorldPartition: UWorldPartition::Initialize : World = Level_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2025.05.19-16.43.58:015][759]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.19-16.43.58:032][759]LogWorldPartition: Display: GenerateStreaming for 'Level_1' started...
+[2025.05.19-16.43.58:643][759]LogWorldPartition: Display: GenerateStreaming for 'Level_1' took 610 ms (total: 2.49 sec)
+[2025.05.19-16.43.58:667][759]LogContentBundle: [Level_1(Standalone)] Creating new contrainer.
+[2025.05.19-16.43.58:667][759]LogWorldPartition: Display: WorldPartition initialize took 651 ms (total: 11.6 sec)
+[2025.05.19-16.43.58:667][759]LogPlayLevel: PIE: World Init took: (0.653070s)
+[2025.05.19-16.43.58:668][759]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.19-16.43.58:859][759]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2025.05.19-17.43.58
+[2025.05.19-16.43.58:874][759]LogWorld: Bringing up level for play took: 0.205400
+[2025.05.19-16.43.58:874][759]LogNavigation: Warning: NavData RegistrationFailed_AgentAlreadySupported, specified agent type already has its navmesh implemented.
+[2025.05.19-16.43.58:888][759]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.05.19-16.43.58:888][759]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2025.05.19-16.43.58:888][759]LogLoad: Took 0.944376 seconds to LoadMap(/Game/ThirdPerson/Maps/Level_1)
+[2025.05.19-16.44.09:265][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.19-16.44.09:265][650]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.19-16.44.09:267][650]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-16.44.09:275][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-16.44.09:286][650]LogContentBundle: [Level_1(Standalone)] Deleting container.
+[2025.05.19-16.44.09:289][650]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.19-16.44.09:295][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-16.44.09:320][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.19-16.44.09:326][650]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.05.19-16.44.09:326][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.05.19-16.44.09:328][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.05.19-16.44.09:377][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2025.05.19-16.44.09:416][651]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.05.19-16.44.13:433][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.05.19-16.44.13:525][ 96]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.19-16.44.13:525][ 96]LogWorldPartition: ULevel::OnLevelLoaded(Level_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.19-16.44.13:525][ 96]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.19-16.44.13:525][ 96]LogWorldPartition: UWorldPartition::Initialize : World = Level_1, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.19-16.44.14:391][ 96]LogContentBundle: [Level_1(Standalone)] Creating new contrainer.
+[2025.05.19-16.44.14:391][ 96]LogWorldPartition: Display: WorldPartition initialize took 865 ms (total: 12.5 sec)
+[2025.05.19-16.44.14:577][ 96]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/Level_1.Level_1
+[2025.05.19-16.44.14:577][ 96]Cmd: MAP LOAD FILE="../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.05.19-16.44.14:577][ 96]LightingResults: New page: Lighting Build
+[2025.05.19-16.44.14:577][ 96]LoadErrors: New page: Loading map: Level_1.umap
+[2025.05.19-16.44.14:636][ 96]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-16.44.14:636][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-16.44.14:638][ 96]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.19-16.44.14:639][ 96]MapCheck: New page: Map Check
+[2025.05.19-16.44.14:639][ 96]LightingResults: New page: Lighting Build
+[2025.05.19-16.44.14:667][ 96]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.19-16.44.14:680][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.05.19-16.44.14:686][ 96]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.19-16.44.14:692][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.19-16.44.14:702][ 96]LogContentBundle: [Level_1(Standalone)] Deleting container.
+[2025.05.19-16.44.14:757][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.05.19-16.44.14:777][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.05.19-16.44.14:797][ 96]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level_1'.
+[2025.05.19-16.44.14:797][ 96]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.19-16.44.14:797][ 96]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.19-16.44.14:797][ 96]LogAIModule: Creating AISystem for world Level_1
+[2025.05.19-16.44.14:797][ 96]LogWorldPartition: ULevel::OnLevelLoaded(Level_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.19-16.44.14:797][ 96]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.19-16.44.14:797][ 96]LogWorldPartition: UWorldPartition::Initialize : World = Level_1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.19-16.44.15:677][ 96]LogContentBundle: [Level_1(Standalone)] Creating new contrainer.
+[2025.05.19-16.44.15:677][ 96]LogWorldPartition: Display: WorldPartition initialize took 880 ms (total: 13.4 sec)
+[2025.05.19-16.44.15:974][ 96]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.05.19-16.44.15:974][ 96]LogNavigation: Warning: NavData RegistrationFailed_AgentAlreadySupported, specified agent type already has its navmesh implemented.
+[2025.05.19-16.44.16:008][ 96]LogWorldPartition: Actor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.RecastNavMesh_UAID_74563C6C81B0836902-Default is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/5/GO/NAUTUHUCGDWTJ41NSU609W.PackageMetaData in its package
+[2025.05.19-16.44.16:018][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.05.19-16.44.16:026][ 96]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.05.19-16.44.16:029][ 96]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3,026ms to complete.
+[2025.05.19-16.44.16:105][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.05.19-16.44.19:783][452]Cmd: DELETE
+[2025.05.19-16.44.19:783][452]Cmd: ACTOR DELETE
+[2025.05.19-16.44.19:792][452]LogEditorActor: Deleted Actor: BP_ChaseEnemy_C
+[2025.05.19-16.44.19:810][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.05.19-16.44.19:815][452]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2025.05.19-16.44.20:780][555]Cmd: DELETE
+[2025.05.19-16.44.20:780][555]Cmd: ACTOR DELETE
+[2025.05.19-16.44.20:788][555]LogEditorActor: Deleted Actor: BP_ChaseEnemy_C
+[2025.05.19-16.44.20:804][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.05.19-16.44.20:809][555]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2025.05.19-16.44.22:579][754]Cmd: DELETE
+[2025.05.19-16.44.22:579][754]Cmd: ACTOR DELETE
+[2025.05.19-16.44.22:587][754]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2025.05.19-16.44.22:602][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.05.19-16.44.22:608][754]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2025.05.19-16.44.23:849][893]LogEditorViewport: Clicking Background
+[2025.05.19-16.44.24:057][916]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.19-16.44.24:146][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.05.19-16.44.24:163][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.05.19-16.44.24:176][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.05.19-16.44.24:189][916]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 4.60 sec)
