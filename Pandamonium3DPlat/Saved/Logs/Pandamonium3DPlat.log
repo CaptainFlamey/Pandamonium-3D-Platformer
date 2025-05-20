@@ -4121,3 +4121,217 @@ UnknownFunction []
 [2025.05.20-17.22.00:824][130]LogContentValidation: Display: Validating /Script/Engine.BlockingVolume /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BlockingVolume_UAID_74563C6C81B0326A02_1259120526
 [2025.05.20-17.22.00:824][130]LogContentValidation: Display: Validating /Script/Engine.KillZVolume /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.KillZVolume_UAID_74563C6C81B0326A02_1298939527
 [2025.05.20-17.22.00:824][130]LogContentValidation: Display: Validating /Script/Engine.KillZVolume /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.KillZVolume_UAID_74563C6C81B0326A02_1339987528
+[2025.05.20-17.23.49:123][651]LogEditorViewport: Clicking Background
+[2025.05.20-17.23.49:419][680]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.23.49:552][680]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.05.20-17.23.49:600][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.05.20-17.23.49:645][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.05.20-17.23.49:648][680]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/3/D0/1EPHTHFBB60QRKM7LHNQ80
+[2025.05.20-17.23.49:649][680]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/1EPHTHFBB60QRKM7LHNQ80F0C1D4D142E7BF271C6F548AE65D8C52.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/3/D0/1EPHTHFBB60QRKM7LHNQ80.uasset'
+[2025.05.20-17.23.49:652][680]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/3/OV/N66YMRHT6GAJ4TP3RPMUAG
+[2025.05.20-17.23.49:653][680]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/N66YMRHT6GAJ4TP3RPMUAG44C99227463077133DF247B19DADEE3C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/3/OV/N66YMRHT6GAJ4TP3RPMUAG.uasset'
+[2025.05.20-17.23.49:663][680]LogFileHelpers: InternalPromptForCheckoutAndSave took 244 ms (total: 12.8 sec)
+[2025.05.20-17.23.49:668][680]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.20-17.23.49:668][680]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B09D6902_1512689031
+[2025.05.20-17.23.49:668][680]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0C86902_1324221578
+[2025.05.20-17.24.20:012][141]LogEditorViewport: Clicking Background
+[2025.05.20-17.24.20:200][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.24.20:334][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.05.20-17.24.20:376][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.05.20-17.24.20:417][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.05.20-17.24.20:426][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 226 ms (total: 13.0 sec)
+[2025.05.20-17.35.33:693][241]AssetReimport: New page: Outstanding source content changes 19:35:33
+[2025.05.20-17.35.33:749][242]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/balloonPlatform_Texture.png)
+[2025.05.20-17.35.33:749][242]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.20-17.35.33:763][242]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/balloon_Platform.obj)
+[2025.05.20-17.35.33:766][242]LogFbx: Loading FBX Scene from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/balloon_Platform.obj
+[2025.05.20-17.35.33:769][242]LogFbx: FBX Scene Loaded Succesfully
+[2025.05.20-17.35.35:208][242]LogSlate: Window 'FBX Import Options' being destroyed
+[2025.05.20-17.35.35:230][242]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.20-17.35.35:266][242]LogStaticMesh: Built static mesh [0.01s] /Game/Models/LevelProps/OBJ_Files/balloon_Platform.balloon_Platform
+[2025.05.20-17.35.35:291][243]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/balloonPlatform_Texture.png)
+[2025.05.20-17.35.35:291][243]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.20-17.35.35:297][243]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.35.35:372][243]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/balloonPlatform_Texture
+[2025.05.20-17.35.35:372][243]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/balloonPlatform_TextureAD0863714BE607C1DC3DCC97882E26FB.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/balloonPlatform_Texture.uasset'
+[2025.05.20-17.35.35:445][243]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/balloon_Platform
+[2025.05.20-17.35.35:445][243]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/balloon_Platform6807CBAD40428726E84CF5B961C852D0.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/balloon_Platform.uasset'
+[2025.05.20-17.35.35:450][243]LogSavePackage: Moving output files for package: /Game/Models/Textures/balloonPlatform_Texture
+[2025.05.20-17.35.35:450][243]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/balloonPlatform_TextureB36E683448F6D2471241F0B3EB16C048.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/balloonPlatform_Texture.uasset'
+[2025.05.20-17.35.35:463][243]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 13.2 sec)
+[2025.05.20-17.35.35:465][243]LogShaderCompilers: Display: ================================================
+[2025.05.20-17.35.35:465][243]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.20-17.35.35:465][243]LogShaderCompilers: Display: Total job queries 58, among them cache hits 42 (72.41%)
+[2025.05.20-17.35.35:465][243]LogShaderCompilers: Display: Tracking 16 distinct input hashes that result in 13 distinct outputs (81.25%)
+[2025.05.20-17.35.35:465][243]LogShaderCompilers: Display: RAM used: 398,33 KiB of 1,60 GiB budget. Usage: 0.02%
+[2025.05.20-17.35.35:465][243]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.20-17.35.35:465][243]LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.05.20-17.35.35:465][243]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.05.20-17.35.35:465][243]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.05.20-17.35.35:465][243]LogShaderCompilers: Display: ================================================
+[2025.05.20-17.35.35:486][244]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.20-17.35.35:486][244]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/OBJ_Files/balloonPlatform_Texture.balloonPlatform_Texture
+[2025.05.20-17.35.35:486][244]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/OBJ_Files/balloon_Platform.balloon_Platform
+[2025.05.20-17.35.35:486][244]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Textures/balloonPlatform_Texture.balloonPlatform_Texture
+[2025.05.20-17.35.38:464][548]AssetReimport: Importing new asset /Game/Models/LevelProps/OBJ_Files/balloonPlatform_Texture.
+[2025.05.20-17.35.38:464][548]AssetReimport: Importing new asset /Game/Models/LevelProps/OBJ_Files/balloon_Platform.
+[2025.05.20-17.35.38:464][548]AssetReimport: Importing new asset /Game/Models/Textures/balloonPlatform_Texture.
+[2025.05.20-17.35.47:034][360]LogTexture: Display: Building textures: /Game/Models/Textures/balloonPlatform_Texture.balloonPlatform_Texture (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 0.54166 MB), EncodeSpeed: Fast
+[2025.05.20-17.35.49:455][601]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Models/Textures/balloonPlatform_Texture.balloonPlatform_Texture
+[2025.05.20-17.35.49:626][601]LogViewport: Scene viewport resized to 919x529, mode Windowed.
+[2025.05.20-17.35.56:241][235]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.35.56:316][235]LogSavePackage: Moving output files for package: /Game/Models/Textures/balloonPlatform_Texture
+[2025.05.20-17.35.56:317][235]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/balloonPlatform_TextureF3914F8441957389AD92E3B6A089C6FA.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/balloonPlatform_Texture.uasset'
+[2025.05.20-17.35.56:327][235]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 13.3 sec)
+[2025.05.20-17.35.56:328][235]AssetCheck: New page: Asset Save: balloonPlatform_Texture
+[2025.05.20-17.35.56:328][235]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Textures/balloonPlatform_Texture.balloonPlatform_Texture
+[2025.05.20-17.35.57:201][319]LogSlate: Window 'balloonPlatform_Texture' being destroyed
+[2025.05.20-17.36.15:156][189]LogTexture: Display: Building textures: /Game/Models/LevelProps/OBJ_Files/balloonPlatform_Texture.balloonPlatform_Texture (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 0.54166 MB), EncodeSpeed: Fast
+[2025.05.20-17.36.16:698][340]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.36.16:768][340]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/balloonPlatform_Texture
+[2025.05.20-17.36.16:769][340]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/balloonPlatform_Texture3060421C488EDB7BCDBD4AABF2986E33.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/balloonPlatform_Texture.uasset'
+[2025.05.20-17.36.16:777][340]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 13.4 sec)
+[2025.05.20-17.36.16:778][340]AssetCheck: New page: Asset Save: balloonPlatform_Texture
+[2025.05.20-17.36.16:778][340]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/OBJ_Files/balloonPlatform_Texture.balloonPlatform_Texture
+[2025.05.20-17.36.17:486][403]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Models/LevelProps/OBJ_Files/balloonPlatform_Texture.balloonPlatform_Texture
+[2025.05.20-17.36.17:677][403]LogViewport: Scene viewport resized to 919x529, mode Windowed.
+[2025.05.20-17.36.22:870][885]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.36.22:950][885]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/balloonPlatform_Texture
+[2025.05.20-17.36.22:950][885]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/balloonPlatform_TextureB5E4CD17484BC5D2267B3FB1762D74BA.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/balloonPlatform_Texture.uasset'
+[2025.05.20-17.36.22:962][885]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 13.4 sec)
+[2025.05.20-17.36.22:963][885]AssetCheck: New page: Asset Save: balloonPlatform_Texture
+[2025.05.20-17.36.22:963][885]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/OBJ_Files/balloonPlatform_Texture.balloonPlatform_Texture
+[2025.05.20-17.36.23:709][957]LogSlate: Window 'balloonPlatform_Texture' being destroyed
+[2025.05.20-17.36.26:208][198]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.36.26:304][198]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/m_1cef11b0-934f-e912-520c-2121ba22e8c6
+[2025.05.20-17.36.26:304][198]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/m_1cef11b0-934f-e912-520c-2121baBDB195564CA1707C911489A9B1335480.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/m_1cef11b0-934f-e912-520c-2121ba22e8c6.uasset'
+[2025.05.20-17.36.26:315][198]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 13.6 sec)
+[2025.05.20-17.36.26:316][198]AssetCheck: New page: Asset Save: m_1cef11b0-934f-e912-520c-2121ba22e8c6
+[2025.05.20-17.36.26:316][198]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/LevelProps/OBJ_Files/m_1cef11b0-934f-e912-520c-2121ba22e8c6.m_1cef11b0-934f-e912-520c-2121ba22e8c6
+[2025.05.20-17.36.27:740][314]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/balloon_Platform.balloon_Platform
+[2025.05.20-17.36.27:740][314]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/balloon_Platform.balloon_Platform
+[2025.05.20-17.36.27:741][314]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/OBJ_Files/balloon_Platform.balloon_Platform as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_8
+[2025.05.20-17.36.30:149][547]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/balloon_Platform.balloon_Platform
+[2025.05.20-17.36.30:149][547]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/balloon_Platform.balloon_Platform
+[2025.05.20-17.36.30:152][547]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/OBJ_Files/balloon_Platform.balloon_Platform as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0336A02_1156566705
+[2025.05.20-17.36.45:032][122]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 0
+[2025.05.20-17.37.01:322][811]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/LevelProps/OBJ_Files/balloon_Platform.balloon_Platform
+[2025.05.20-17.37.01:396][811]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.20-17.37.01:397][811]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.20-17.37.01:932][811]LogViewport: Scene viewport resized to 654x533, mode Windowed.
+[2025.05.20-17.37.03:704][944]LogSlate: Window 'balloon_Platform' being destroyed
+[2025.05.20-17.37.03:749][944]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.05.20-17.37.03:749][944]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.20-17.37.10:116][547]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.20-17.37.15:107][889]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.05.20-17.37.15:117][889]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.05.20-17.37.15:124][889]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.05.20-17.37.15:145][890]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.05.20-17.37.25:283][ 26]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_BalloonPlatform
+[2025.05.20-17.37.25:288][ 26]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.05.20-17.37.28:024][289]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_BalloonPlatform.PackageMetaData'
+[2025.05.20-17.37.28:025][289]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.SKEL_BP_BalloonPlatform_C:UserConstructionScript' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_BalloonPlatform.PackageMetaData'
+[2025.05.20-17.37.28:025][289]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.SKEL_BP_BalloonPlatform_C' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_BalloonPlatform.PackageMetaData'
+[2025.05.20-17.37.28:025][289]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform_C' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_BalloonPlatform.PackageMetaData'
+[2025.05.20-17.37.28:025][289]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_BalloonPlatform.PackageMetaData'
+[2025.05.20-17.37.28:025][289]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_BalloonPlatform.PackageMetaData'
+[2025.05.20-17.37.28:025][289]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_BalloonPlatform.PackageMetaData'
+[2025.05.20-17.37.28:025][289]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.37.28:104][289]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform
+[2025.05.20-17.37.28:104][289]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_BalloonPlatform23597676478152E80A9CB29654E53DD9.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.uasset'
+[2025.05.20-17.37.28:118][289]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 13.6 sec)
+[2025.05.20-17.37.28:184][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.05.20-17.37.28:228][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.05.20-17.37.28:269][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.05.20-17.37.28:289][289]AssetCheck: New page: Asset Save: BP_BalloonPlatform
+[2025.05.20-17.37.28:290][289]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform
+[2025.05.20-17.37.31:621][587]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform
+[2025.05.20-17.37.31:621][587]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.20-17.37.31:621][587]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.20-17.37.31:829][587]LogViewport: Scene viewport resized to 699x396, mode Windowed.
+[2025.05.20-17.37.33:293][692]LogViewport: Scene viewport resized to 697x414, mode Windowed.
+[2025.05.20-17.37.33:394][694]LogViewport: Scene viewport resized to 520x281, mode Windowed.
+[2025.05.20-17.37.33:441][695]LogViewport: Scene viewport resized to 442x222, mode Windowed.
+[2025.05.20-17.37.33:715][718]LogViewport: Scene viewport resized to 1081x685, mode Windowed.
+[2025.05.20-17.37.34:034][754]LogSlate: Window 'BP_BalloonPlatform' being destroyed
+[2025.05.20-17.37.42:616][678]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.20-17.38.02:204][724]LogEditorTransaction: Undo Modify Component(s)
+[2025.05.20-17.38.02:936][743]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform'
+[2025.05.20-17.38.05:007][948]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform'
+[2025.05.20-17.38.20:917][572]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform'
+[2025.05.20-17.38.21:583][634]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform'
+[2025.05.20-17.38.29:382][496]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform'
+[2025.05.20-17.39.11:382][247]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.39.11:448][247]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform
+[2025.05.20-17.39.11:449][247]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_BalloonPlatform9CDF4E814CBC3F6B43973AA0260A5E57.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.uasset'
+[2025.05.20-17.39.11:461][247]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 13.7 sec)
+[2025.05.20-17.39.11:465][247]AssetCheck: New page: Asset Save: BP_BalloonPlatform
+[2025.05.20-17.39.11:465][247]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform
+[2025.05.20-17.39.16:120][773]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.05.20-17.39.23:663][641]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.39.23:742][641]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform
+[2025.05.20-17.39.23:743][641]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_BalloonPlatformE69E655E407C94FF8AE00F9D82CF0910.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.uasset'
+[2025.05.20-17.39.23:752][641]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 13.8 sec)
+[2025.05.20-17.39.23:753][641]AssetCheck: New page: Asset Save: BP_BalloonPlatform
+[2025.05.20-17.39.23:753][641]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform
+[2025.05.20-17.39.30:377][407]BlueprintLog: New page: Compile BP_BalloonPlatform
+[2025.05.20-17.39.30:464][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.05.20-17.39.31:147][470]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.39.31:234][470]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform
+[2025.05.20-17.39.31:235][470]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_BalloonPlatformFCFF03C94AB4A802EB740ABF47F6B7AE.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.uasset'
+[2025.05.20-17.39.31:243][470]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 13.9 sec)
+[2025.05.20-17.39.31:244][470]AssetCheck: New page: Asset Save: BP_BalloonPlatform
+[2025.05.20-17.39.31:244][470]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform
+[2025.05.20-17.39.35:352][925]Cmd: DELETE
+[2025.05.20-17.39.35:352][925]Cmd: ACTOR DELETE
+[2025.05.20-17.39.35:360][925]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.05.20-17.39.35:401][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.05.20-17.39.35:405][925]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2025.05.20-17.39.37:024][ 92]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform_C
+[2025.05.20-17.39.37:024][ 92]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform_C
+[2025.05.20-17.39.37:031][ 92]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform as actor: BP_BalloonPlatform_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BalloonPlatform_C_0
+[2025.05.20-17.39.37:034][ 92]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform as actor: BP_BalloonPlatform_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BalloonPlatform_C_0
+[2025.05.20-17.39.37:283][ 93]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform_C
+[2025.05.20-17.39.37:283][ 93]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform_C
+[2025.05.20-17.39.37:287][ 93]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform as actor: BP_BalloonPlatform_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BalloonPlatform_C_1
+[2025.05.20-17.39.37:290][ 93]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform as actor: BP_BalloonPlatform_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BalloonPlatform_C_1
+[2025.05.20-17.39.38:496][150]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform_C
+[2025.05.20-17.39.38:496][150]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform_C
+[2025.05.20-17.39.38:500][150]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform as actor: BP_BalloonPlatform_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BalloonPlatform_C_UAID_74563C6C81B0336A02_1344913706
+[2025.05.20-17.39.38:507][150]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform as actor: BP_BalloonPlatform_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BalloonPlatform_C_UAID_74563C6C81B0336A02_1344913706
+[2025.05.20-17.40.05:375][905]Cmd: EDIT COPY
+[2025.05.20-17.40.05:586][917]Cmd: EDIT PASTE
+[2025.05.20-17.40.22:226][538]Cmd: TRANSACTION UNDO
+[2025.05.20-17.40.22:226][538]LogEditorTransaction: Undo Move Elements
+[2025.05.20-17.40.26:880][900]LogEditorViewport: Clicking Background
+[2025.05.20-17.40.28:019][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.40.28:166][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.05.20-17.40.28:211][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.05.20-17.40.28:253][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.05.20-17.40.28:257][ 28]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/C/AX/VTMJE587DNHLZWLM5814RU
+[2025.05.20-17.40.28:257][ 28]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/VTMJE587DNHLZWLM5814RU74CBE04C4AFC3F324C25E98FF9374BF9.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/C/AX/VTMJE587DNHLZWLM5814RU.uasset'
+[2025.05.20-17.40.28:262][ 28]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/D/JM/7NSPA60T5BAYOUNV099AAJ
+[2025.05.20-17.40.28:262][ 28]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/7NSPA60T5BAYOUNV099AAJ10C9AA464F2A44C16F0C7782E15AE74C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/D/JM/7NSPA60T5BAYOUNV099AAJ.uasset'
+[2025.05.20-17.40.28:272][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave took 252 ms (total: 14.2 sec)
+[2025.05.20-17.40.28:276][ 28]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.20-17.40.28:276][ 28]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BalloonPlatform_C_UAID_74563C6C81B0336A02_1344913706
+[2025.05.20-17.40.28:276][ 28]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BalloonPlatform_C_UAID_74563C6C81B0336A02_1372004834
+[2025.05.20-17.40.33:899][535]LogEditorViewport: Clicking Background
+[2025.05.20-17.40.34:907][647]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.40.35:042][647]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.05.20-17.40.35:092][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.05.20-17.40.35:135][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.05.20-17.40.35:140][647]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/C/AX/VTMJE587DNHLZWLM5814RU
+[2025.05.20-17.40.35:140][647]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/VTMJE587DNHLZWLM5814RU124F12384B18CCB048D1BF8C7A5377D9.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/C/AX/VTMJE587DNHLZWLM5814RU.uasset'
+[2025.05.20-17.40.35:144][647]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/D/JM/7NSPA60T5BAYOUNV099AAJ
+[2025.05.20-17.40.35:145][647]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/7NSPA60T5BAYOUNV099AAJ3C76BB6E406EB418A88C66AC3874AB3B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/D/JM/7NSPA60T5BAYOUNV099AAJ.uasset'
+[2025.05.20-17.40.35:157][647]LogFileHelpers: InternalPromptForCheckoutAndSave took 249 ms (total: 14.4 sec)
+[2025.05.20-17.40.35:161][647]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.20-17.40.35:161][647]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BalloonPlatform_C_UAID_74563C6C81B0336A02_1344913706
+[2025.05.20-17.40.35:161][647]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_BalloonPlatform.BP_BalloonPlatform_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_BalloonPlatform_C_UAID_74563C6C81B0336A02_1372004834
+[2025.05.20-17.40.40:626][158]LogEditorViewport: Clicking Background
+[2025.05.20-17.40.40:925][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.40.41:055][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.05.20-17.40.41:100][187]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.05.20-17.40.41:140][187]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.05.20-17.40.41:150][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 224 ms (total: 14.6 sec)
