@@ -3861,3 +3861,27 @@ UnknownFunction []
 [2025.05.20-17.07.04:326][640]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0316A02_1490710345
 [2025.05.20-17.07.04:326][640]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0316A02_1500912346
 [2025.05.20-17.07.04:326][640]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0316A02_1508384347
+[2025.05.20-17.08.15:011][672]Cmd: DELETE
+[2025.05.20-17.08.15:011][672]Cmd: ACTOR DELETE
+[2025.05.20-17.08.15:018][672]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.05.20-17.08.15:056][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.05.20-17.08.15:058][672]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2025.05.20-17.08.42:537][667]LogEditorViewport: Clicking Background
+[2025.05.20-17.08.42:880][701]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.08.43:011][701]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.05.20-17.08.43:050][701]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.05.20-17.08.43:089][701]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.05.20-17.08.43:092][701]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/A/KN/D4V5EF9RQ21E08TXEAFMFA
+[2025.05.20-17.08.43:093][701]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/D4V5EF9RQ21E08TXEAFMFA78B93F93471893BFA505D39BFF6DC566.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/A/KN/D4V5EF9RQ21E08TXEAFMFA.uasset'
+[2025.05.20-17.08.43:096][701]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/C/U6/DA3ABUFLD36P2VO1WSFE9E
+[2025.05.20-17.08.43:096][701]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/DA3ABUFLD36P2VO1WSFE9E7196ED55482C27F97A1A06A6BFDDB0A4.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/C/U6/DA3ABUFLD36P2VO1WSFE9E.uasset'
+[2025.05.20-17.08.43:107][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 226 ms (total: 11.3 sec)
+[2025.05.20-17.08.43:111][701]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.20-17.08.43:111][701]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0D76902_1113696225
+[2025.05.20-17.08.43:111][701]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0806902_2017776246
+[2025.05.20-17.08.48:676][130]LogEditorViewport: Clicking Background
+[2025.05.20-17.08.48:965][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.20-17.08.49:089][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.05.20-17.08.49:130][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.05.20-17.08.49:170][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.20-17.08.49:181][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 215 ms (total: 11.5 sec)
