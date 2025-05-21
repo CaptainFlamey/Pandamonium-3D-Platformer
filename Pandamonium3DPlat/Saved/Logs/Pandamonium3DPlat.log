@@ -12224,3 +12224,94 @@ Make sure 'NewBlueprint_C' has been compiled for  Call OnAttackEnd
 [2025.05.21-14.47.48:137][602]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/HUD_Widget.HUD_Widget
 [2025.05.21-14.47.49:736][788]BlueprintLog: New page: Compile HUD_Widget
 [2025.05.21-14.47.49:770][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.05.21-14.55.09:197][765]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.21-14.55.09:197][765]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.21-14.55.09:197][765]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.21-14.55.09:205][765]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.21-14.55.09:205][765]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.21-14.57.44:628][989]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.21-14.57.44:630][989]LogBlueprint: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\ThirdPerson\UI\Widget\Audio_Widget.uasset: [Compiler] On Clicked (Back)  does not have a valid matching component!
+[2025.05.21-14.57.44:657][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2025.05.21-14.58.47:262][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.05.21-14.58.47:271][764]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/MainMenu' took 0.029
+[2025.05.21-14.58.47:271][764]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/UI/Widget/Audio_Widget] ([2] browsable assets)...
+[2025.05.21-14.58.47:280][764]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget]
+[2025.05.21-14.58.47:280][764]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/UI/Widget/Audio_Widget]
+[2025.05.21-14.58.47:283][764]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/UI/Widget/Audio_Widget_Auto7
+[2025.05.21-14.58.47:284][764]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget_Auto722223CBE4510C11706CFA09E5C2E45DF.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/ThirdPerson/UI/Widget/Audio_Widget_Auto7.uasset'
+[2025.05.21-14.58.47:285][764]LogFileHelpers: Auto-saving content packages took 0.015
+[2025.05.21-14.59.08:161][243]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.21-14.59.08:187][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.05.21-14.59.19:070][471]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.21-14.59.19:098][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.05.21-14.59.29:515][324]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.05.21-14.59.29:528][324]LogContentBrowser: Creating deferred item: NewFolder
+[2025.05.21-14.59.29:539][325]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.05.21-14.59.31:602][563]LogContentBrowser: Attempting asset rename: NewFolder -> Sounds
+[2025.05.21-14.59.31:602][563]LogContentBrowser: End creating deferred item NewFolder
+[2025.05.21-14.59.34:382][844]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.05.21-14.59.34:395][844]LogContentBrowser: Creating deferred item: NewFolder
+[2025.05.21-14.59.34:421][846]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.05.21-14.59.37:020][149]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2025.05.21-14.59.37:020][149]LogContentBrowser: End creating deferred item NewFolder
+[2025.05.21-14.59.41:390][311]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2025.05.21-15.00.10:661][300]LogContentBrowser: Deferred new asset file creation: NewSoundMix
+[2025.05.21-15.00.10:672][300]LogContentBrowser: Creating deferred item: NewSoundMix
+[2025.05.21-15.00.10:695][302]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundMix).
+[2025.05.21-15.00.12:224][376]LogContentBrowser: Attempting asset rename: NewSoundMix -> NewSoundMix
+[2025.05.21-15.00.12:226][376]LogContentBrowser: End creating deferred item NewSoundMix
+[2025.05.21-15.00.15:234][664]LogContentBrowser: Attempting asset rename: NewSoundMix -> NewSoundMix
+[2025.05.21-15.00.21:417][283]LogContentBrowser: Attempting asset rename: NewSoundMix -> MasterVolume
+[2025.05.21-15.00.21:445][283]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-15.00.21:517][283]LogSavePackage: Moving output files for package: /Game/Sounds/Blueprints/MasterVolume
+[2025.05.21-15.00.21:517][283]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MasterVolume34B85E364150AA88F4A319AA5E0A446F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/Blueprints/MasterVolume.uasset'
+[2025.05.21-15.00.21:534][283]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 9.38 sec)
+[2025.05.21-15.00.21:578][283]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2025.05.21-15.00.21:616][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.05.21-15.00.21:637][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.05.21-15.00.21:642][283]AssetCheck: New page: Asset Save: MasterVolume
+[2025.05.21-15.00.21:642][283]LogContentValidation: Display: Validating /Script/Engine.SoundMix /Game/Sounds/Blueprints/MasterVolume.MasterVolume
+[2025.05.21-15.00.22:033][313]LogAssetEditorSubsystem: Opening Asset editor for SoundMix /Game/Sounds/Blueprints/MasterVolume.MasterVolume
+[2025.05.21-15.00.40:747][521]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-15.00.40:820][521]LogSavePackage: Moving output files for package: /Game/Sounds/Blueprints/MasterVolume
+[2025.05.21-15.00.40:821][521]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MasterVolume42EC8ED7489B74E4DF25418183818F57.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/Blueprints/MasterVolume.uasset'
+[2025.05.21-15.00.40:832][521]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 9.46 sec)
+[2025.05.21-15.00.40:833][521]AssetCheck: New page: Asset Save: MasterVolume
+[2025.05.21-15.00.40:833][521]LogContentValidation: Display: Validating /Script/Engine.SoundMix /Game/Sounds/Blueprints/MasterVolume.MasterVolume
+[2025.05.21-15.00.44:050][888]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-15.00.44:121][888]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.21-15.00.44:121][888]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_WidgetD58DFAAF4D2F45816626759431023F5D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.21-15.00.44:133][888]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 9.54 sec)
+[2025.05.21-15.00.44:136][888]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.21-15.00.44:136][888]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.21-15.00.44:737][958]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.21-15.00.44:769][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.05.21-15.00.56:307][208]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-15.00.56:307][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-15.00.58:383][393]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.21-15.00.58:383][393]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-15.00.58:383][393]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-15.01.00:084][509]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-15.01.00:085][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-15.01.00:095][509]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-15.01.00:095][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-15.01.00:644][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.21-15.01.00:644][542]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-15.01.00:644][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-15.01.01:267][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.21-15.01.01:267][578]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-15.01.01:267][578]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-15.01.01:818][615]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-15.01.01:818][615]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-15.01.01:828][615]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-15.01.01:828][615]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-15.01.22:060][396]LogViewport: Scene viewport resized to 458x281, mode Windowed.
+[2025.05.21-15.01.22:612][428]Cmd: EDIT COPY
+[2025.05.21-15.01.23:019][453]Cmd: EDIT PASTE
+[2025.05.21-15.01.23:130][454]LogViewport: Scene viewport resized to 458x281, mode Windowed.
+[2025.05.21-15.02.22:420][697]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-15.02.22:498][697]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/KN/7VY9PXVPBH5JSOFH0DG6HB
+[2025.05.21-15.02.22:498][697]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/7VY9PXVPBH5JSOFH0DG6HB4A1C63E4443C35602C6C91925B6E7B7C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/KN/7VY9PXVPBH5JSOFH0DG6HB.uasset'
+[2025.05.21-15.02.22:509][697]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 9.63 sec)
+[2025.05.21-15.02.22:511][697]AssetCheck: New page: Asset Save: BP_Menu_C_UAID_74563C6C81B07A6A02_2013768067
+[2025.05.21-15.02.22:511][697]LogContentValidation: Display: Validating /Game/ThirdPerson/UI/BP_Menu.BP_Menu_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_Menu_C_UAID_74563C6C81B07A6A02_2013768067
