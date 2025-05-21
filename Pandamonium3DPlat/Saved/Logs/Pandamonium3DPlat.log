@@ -11856,3 +11856,371 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.05.21-14.37.52:967][ 27]AssetCheck: New page: Asset Save: BP_ChaseEnemy
 [2025.05.21-14.37.52:967][ 27]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_ChaseEnemy.BP_ChaseEnemy
 [2025.05.21-14.37.57:948][545]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:12.082 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 6242 files in 7724 folders with total size 114 MiB.
+[2025.05.21-14.38.50:195][442]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.05.21-14.38.50:207][442]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.05.21-14.38.50:215][442]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.05.21-14.38.50:216][442]LogAutomationController: Ignoring very large delta of 2.85 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.21-14.38.50:225][443]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.05.21-14.38.55:108][974]LogContentBrowser: Attempting asset rename: NewBlueprint -> ChaseEnemy
+[2025.05.21-14.38.55:113][974]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.05.21-14.38.55:716][ 31]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/Enemy/ChaseEnemy.ChaseEnemy
+[2025.05.21-14.38.55:717][ 31]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.21-14.38.55:717][ 31]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.21-14.38.55:855][ 31]LogViewport: Scene viewport resized to 1081x685, mode Windowed.
+[2025.05.21-14.39.02:866][814]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.05.21-14.39.02:909][815]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.21-14.39.05:105][ 48]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.21-14.39.16:727][326]LogEditorTransaction: Undo Modify Component Scale
+[2025.05.21-14.39.19:543][589]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-14.39.19:543][589]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-14.39.32:671][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.05.21-14.39.33:793][ 30]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.21-14.39.33:834][ 30]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/ThirdPerson/Blueprints/Enemy/ChaseEnemy.ChaseEnemy
+	Asset Type: Blueprint
+[2025.05.21-14.39.34:257][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.05.21-14.39.34:327][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2025.05.21-14.39.34:352][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.05.21-14.39.34:375][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.05.21-14.39.48:405][154]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.05.21-14.39.48:419][154]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.05.21-14.39.48:442][154]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.05.21-14.39.48:444][154]LogAutomationController: Ignoring very large delta of 12.65 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.21-14.39.48:451][155]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.05.21-14.39.52:441][632]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2025.05.21-14.39.52:446][632]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.05.21-14.39.54:617][874]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint
+[2025.05.21-14.39.54:617][874]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.21-14.39.54:617][874]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.21-14.39.54:742][874]LogViewport: Scene viewport resized to 1081x685, mode Windowed.
+[2025.05.21-14.40.08:185][355]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.21-14.40.46:193][252]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-14.40.46:274][252]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint
+[2025.05.21-14.40.46:274][252]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NewBlueprint256E1A424B342C4F44E2FA8A2A70726F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/NewBlueprint.uasset'
+[2025.05.21-14.40.46:285][252]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 8.42 sec)
+[2025.05.21-14.40.46:285][252]AssetCheck: New page: Asset Save: NewBlueprint
+[2025.05.21-14.40.46:285][252]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint
+[2025.05.21-14.40.48:220][451]BlueprintLog: New page: Compile NewBlueprint
+[2025.05.21-14.40.48:262][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.05.21-14.41.39:204][935]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-14.41.39:320][935]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint
+[2025.05.21-14.41.39:320][935]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NewBlueprintAD1DBD4C46E4DA8C81663C9286CE830C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/NewBlueprint.uasset'
+[2025.05.21-14.41.39:331][935]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 8.55 sec)
+[2025.05.21-14.41.39:333][935]AssetCheck: New page: Asset Save: NewBlueprint
+[2025.05.21-14.41.39:333][935]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint
+[2025.05.21-14.41.39:874][999]BlueprintLog: New page: Compile NewBlueprint
+[2025.05.21-14.41.39:877][999]LogBlueprint: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\ThirdPerson\Blueprints\Enemy\NewBlueprint.uasset: [Compiler] On See Pawn (PawnSensing)  does not have a valid matching component!
+[2025.05.21-14.41.39:878][999]LogBlueprint: Error: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\ThirdPerson\Blueprints\Enemy\NewBlueprint.uasset: [Compiler] Could not find an event-dispatcher named "OnAttackEnd" in 'NewBlueprint_C'.
+Make sure 'NewBlueprint_C' has been compiled for  Call OnAttackEnd
+[2025.05.21-14.41.39:908][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.05.21-14.41.55:047][738]BlueprintLog: New page: Compile NewBlueprint
+[2025.05.21-14.41.55:051][738]LogBlueprint: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\ThirdPerson\Blueprints\Enemy\NewBlueprint.uasset: [Compiler] On See Pawn (PawnSensing)  does not have a valid matching component!
+[2025.05.21-14.41.55:081][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.05.21-14.42.10:185][526]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-14.42.10:322][526]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint
+[2025.05.21-14.42.10:322][526]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NewBlueprint0B0CECC24347D23A145BB590466F644A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/NewBlueprint.uasset'
+[2025.05.21-14.42.10:332][526]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 8.70 sec)
+[2025.05.21-14.42.10:333][526]AssetCheck: New page: Asset Save: NewBlueprint
+[2025.05.21-14.42.10:333][526]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint
+[2025.05.21-14.42.10:768][576]BlueprintLog: New page: Compile NewBlueprint
+[2025.05.21-14.42.10:771][576]LogBlueprint: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\ThirdPerson\Blueprints\Enemy\NewBlueprint.uasset: [Compiler] On See Pawn (PawnSensing)  does not have a valid matching component!
+[2025.05.21-14.42.10:795][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.05.21-14.42.27:141][431]BlueprintLog: New page: Compile NewBlueprint
+[2025.05.21-14.42.27:173][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.05.21-14.42.38:842][675]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.38:842][675]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.38:850][676]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.38:860][677]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.38:868][678]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.38:879][679]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.38:890][680]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.38:899][681]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.38:909][682]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.38:918][683]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.38:929][684]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:163][710]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:164][710]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:173][711]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:182][712]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:192][713]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:201][714]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:210][715]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:219][716]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:229][717]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:237][718]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:247][719]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:257][720]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:265][721]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:275][722]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:283][723]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:293][724]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:303][725]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:313][726]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:323][727]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:332][728]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:343][729]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:351][730]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:361][731]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:372][732]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:380][733]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:388][734]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:399][735]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:408][736]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:416][737]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.39:426][738]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2025.05.21-14.42.44:500][281]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:500][281]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:509][282]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:518][283]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:527][284]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:536][285]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:547][286]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:558][287]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:566][288]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:576][289]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:584][290]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:592][291]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:601][292]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:610][293]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:618][294]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:627][295]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:635][296]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:644][297]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:653][298]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:661][299]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:670][300]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:679][301]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:687][302]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:696][303]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:705][304]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:713][305]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:722][306]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:729][307]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:739][308]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:748][309]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:757][310]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:766][311]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:777][312]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:786][313]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:796][314]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:804][315]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:814][316]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:824][317]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:833][318]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.44:842][319]LogPhysics: Warning: Scale for /Engine/Transient.World_46:PersistentLevel.NewBlueprint_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.250 Y=0.000 Z=0.250
+[2025.05.21-14.42.49:453][820]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-14.42.49:548][820]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint
+[2025.05.21-14.42.49:549][820]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NewBlueprintD56A05E64C99E3544CA55297651F379D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/NewBlueprint.uasset'
+[2025.05.21-14.42.49:560][820]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 8.80 sec)
+[2025.05.21-14.42.49:564][820]AssetCheck: New page: Asset Save: NewBlueprint
+[2025.05.21-14.42.49:564][820]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint
+[2025.05.21-14.43.49:140][477]BlueprintLog: New page: Compile NewBlueprint
+[2025.05.21-14.43.49:269][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.05.21-14.43.54:400][  1]Cmd: DELETE
+[2025.05.21-14.43.54:400][  1]Cmd: ACTOR DELETE
+[2025.05.21-14.43.54:404][  1]LogEditorActor: Deleted Actor: BP_ChaseEnemy_C
+[2025.05.21-14.43.54:420][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.05.21-14.43.54:433][  1]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2025.05.21-14.43.54:881][ 41]Cmd: DELETE
+[2025.05.21-14.43.54:881][ 41]Cmd: ACTOR DELETE
+[2025.05.21-14.43.54:884][ 41]LogEditorActor: Deleted Actor: BP_ChaseEnemy_C
+[2025.05.21-14.43.54:901][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.05.21-14.43.54:909][ 41]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2025.05.21-14.43.56:758][212]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint_C
+[2025.05.21-14.43.56:758][212]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint_C
+[2025.05.21-14.43.56:760][212]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint as actor: NewBlueprint_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.NewBlueprint_C_0
+[2025.05.21-14.43.56:761][212]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint as actor: NewBlueprint_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.NewBlueprint_C_0
+[2025.05.21-14.43.56:993][214]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint_C
+[2025.05.21-14.43.56:993][214]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint_C
+[2025.05.21-14.43.56:994][214]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint as actor: NewBlueprint_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.NewBlueprint_C_1
+[2025.05.21-14.43.56:996][214]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint as actor: NewBlueprint_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.NewBlueprint_C_1
+[2025.05.21-14.43.57:516][248]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint_C
+[2025.05.21-14.43.57:516][248]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint_C
+[2025.05.21-14.43.57:520][248]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint as actor: NewBlueprint_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.NewBlueprint_C_UAID_74563C6C81B0796A02_2042005889
+[2025.05.21-14.43.57:522][248]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint as actor: NewBlueprint_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.NewBlueprint_C_UAID_74563C6C81B0796A02_2042005889
+[2025.05.21-14.44.20:600][728]LogEditorTransaction: Undo Attach Component
+[2025.05.21-14.44.28:403][513]LogEditorTransaction: Undo Set Scale
+[2025.05.21-14.44.44:370][172]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-14.44.44:510][172]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint
+[2025.05.21-14.44.44:510][172]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NewBlueprintF120129D4D3E28EF118FF3A045E01766.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/NewBlueprint.uasset'
+[2025.05.21-14.44.44:522][172]LogFileHelpers: InternalPromptForCheckoutAndSave took 150 ms (total: 8.96 sec)
+[2025.05.21-14.44.44:524][172]AssetCheck: New page: Asset Save: NewBlueprint
+[2025.05.21-14.44.44:524][172]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint
+[2025.05.21-14.44.44:676][188]BlueprintLog: New page: Compile NewBlueprint
+[2025.05.21-14.44.44:736][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.05.21-14.44.49:790][739]Cmd: DELETE
+[2025.05.21-14.44.49:790][739]Cmd: ACTOR DELETE
+[2025.05.21-14.44.49:793][739]LogEditorActor: Deleted Actor: NewBlueprint_C
+[2025.05.21-14.44.49:812][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.05.21-14.44.49:821][739]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2025.05.21-14.44.51:431][896]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint_C
+[2025.05.21-14.44.51:431][896]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint_C
+[2025.05.21-14.44.51:433][896]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint as actor: NewBlueprint_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.NewBlueprint_C_2
+[2025.05.21-14.44.51:434][896]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint as actor: NewBlueprint_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.NewBlueprint_C_2
+[2025.05.21-14.44.51:624][897]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint_C
+[2025.05.21-14.44.51:624][897]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint_C
+[2025.05.21-14.44.51:626][897]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint as actor: NewBlueprint_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.NewBlueprint_C_3
+[2025.05.21-14.44.51:627][897]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint as actor: NewBlueprint_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.NewBlueprint_C_3
+[2025.05.21-14.44.52:083][933]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint_C
+[2025.05.21-14.44.52:083][933]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint_C
+[2025.05.21-14.44.52:086][933]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint as actor: NewBlueprint_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.NewBlueprint_C_UAID_74563C6C81B0796A02_2096572890
+[2025.05.21-14.44.52:087][933]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint as actor: NewBlueprint_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.NewBlueprint_C_UAID_74563C6C81B0796A02_2096572890
+[2025.05.21-14.44.59:313][727]BlueprintLog: New page: Compile NewBlueprint
+[2025.05.21-14.44.59:358][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.05.21-14.45.06:244][492]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-14.45.06:331][492]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint
+[2025.05.21-14.45.06:332][492]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NewBlueprint000FD0AD45F8AD9A45173689607E1819.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/NewBlueprint.uasset'
+[2025.05.21-14.45.06:343][492]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 9.05 sec)
+[2025.05.21-14.45.06:346][492]AssetCheck: New page: Asset Save: NewBlueprint
+[2025.05.21-14.45.06:346][492]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint
+[2025.05.21-14.45.06:821][545]BlueprintLog: New page: Compile NewBlueprint
+[2025.05.21-14.45.06:864][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.05.21-14.45.09:155][776]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.21-14.45.09:164][776]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.21-14.45.09:164][776]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.05.21-14.45.09:169][776]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 4 ms (total: 594 ms)
+[2025.05.21-14.45.09:170][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.21-14.45.09:170][776]PIE: New page: PIE session: Level_0 (21 maj 2025, 16:45:09)
+[2025.05.21-14.45.09:207][776]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.05.21-14.45.09:226][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019070s)
+[2025.05.21-14.45.09:226][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.019102s)
+[2025.05.21-14.45.09:242][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.05.21-14.45.09:247][776]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.21-14.45.09:247][776]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.21-14.45.09:248][776]LogAIModule: Creating AISystem for world Level_0
+[2025.05.21-14.45.09:248][776]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.21-14.45.09:248][776]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.21-14.45.09:248][776]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.21-14.45.09:248][776]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.21-14.45.09:254][776]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.05.21-14.45.09:254][776]LogWorldPartition: Display: WorldPartition initialize took 5 ms (total: 3.93 sec)
+[2025.05.21-14.45.09:254][776]LogPlayLevel: PIE: World Init took: (0.006303s)
+[2025.05.21-14.45.09:254][776]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2025.05.21-14.45.09:254][776]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.21-14.45.09:254][776]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.21-14.45.09:254][776]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.21-14.45.09:254][776]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.21-14.45.09:254][776]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.21-14.45.09:254][776]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.21-14.45.09:254][776]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.21-14.45.09:254][776]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.21-14.45.09:254][776]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.21-14.45.09:254][776]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.21-14.45.09:254][776]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.21-14.45.09:256][776]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.21-14.45.09:272][776]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.21-14.45.09:272][776]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.21-14.45.09:272][776]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.21-14.45.09:272][776]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.21-14.45.09:273][776]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2025.05.21-14.45.09:273][776]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2025.05.21-14.45.09:274][776]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2025.05.21-14.45.09:274][776]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2025.05.21-14.45.09:274][776]LogInit: FAudioDevice initialized with ID 30.
+[2025.05.21-14.45.09:274][776]LogAudio: Display: Audio Device (ID: 30) registered with world 'Level_0'.
+[2025.05.21-14.45.09:274][776]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2025.05.21-14.45.09:277][776]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.21-14.45.09:289][776]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.05.21-15.45.09
+[2025.05.21-14.45.09:291][776]LogWorld: Bringing up level for play took: 0.012469
+[2025.05.21-14.45.09:294][776]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2025.05.21-14.45.09:296][776]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.05.21-14.45.09:297][776]PIE: Server logged in
+[2025.05.21-14.45.09:298][776]PIE: Play in editor total start time 0,134 seconds.
+[2025.05.21-14.45.10:901][934]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0B06702_1489487242] 1
+[2025.05.21-14.45.11:147][962]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0B06702_1489484241] 2
+[2025.05.21-14.45.11:457][991]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B07D6402_1443429166] 3
+[2025.05.21-14.45.11:731][ 20]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B07D6402_1380930165] 4
+[2025.05.21-14.45.11:840][ 32]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B07D6402_1380928164] 5
+[2025.05.21-14.45.12:553][109]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] true
+[2025.05.21-14.45.13:393][199]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0816402_1244171801] 6
+[2025.05.21-14.45.13:822][248]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0816402_1254804802] 7
+[2025.05.21-14.45.14:156][285]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0816402_1260872803] 8
+[2025.05.21-14.45.14:591][335]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0816402_1260874804] 9
+[2025.05.21-14.45.14:839][364]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0816402_1289677805] 10
+[2025.05.21-14.45.15:254][412]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0816402_1289680806] 11
+[2025.05.21-14.45.15:349][423]LogBlueprintUserMessages: [BP_PowerUpRemove_C_UAID_74563C6C81B05A6102_1173523815] false
+[2025.05.21-14.45.24:397][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.21-14.45.24:397][460]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.05.21-14.45.24:397][460]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-14.45.24:399][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-14.45.24:399][460]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.05.21-14.45.24:404][460]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.21-14.45.24:410][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-14.45.24:426][460]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.21-14.45.24:426][460]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2025.05.21-14.45.24:426][460]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2025.05.21-14.45.24:428][460]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2025.05.21-14.45.24:431][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.21-14.45.24:436][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.05.21-14.45.24:492][461]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2025.05.21-14.45.46:756][588]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-14.45.46:756][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-14.45.54:149][394]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2025.05.21-14.45.55:116][394]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.21-14.45.55:153][394]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/ThirdPerson/Blueprints/Enemy/NewBlueprint.NewBlueprint
+	Asset Type: Blueprint
+[2025.05.21-14.45.55:423][394]LogWorldPartition: Actor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1540618817 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/T8/CFQE55LZCAOX2PXVWK3XSY.PackageMetaData in its package
+[2025.05.21-14.45.55:423][394]LogWorldPartition: Actor /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_ChaseEnemy_C_UAID_74563C6C81B05A6102_1548520818 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/0/XM/JDFTZOWM3VDE8RE1FW8AAB.PackageMetaData in its package
+[2025.05.21-14.45.55:426][394]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.05.21-14.45.55:471][394]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.05.21-14.45.55:489][394]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.05.21-14.45.55:506][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.05.21-14.45.55:549][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.05.21-14.46.12:150][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.05.21-14.46.12:158][ 39]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-14.46.12:242][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.05.21-14.46.12:261][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.05.21-14.46.12:279][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.05.21-14.46.12:292][ 39]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 9.19 sec)
+[2025.05.21-14.46.17:808][630]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/Enemy/AI_Controller.AI_Controller
+[2025.05.21-14.46.17:809][630]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.21-14.46.17:809][630]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.21-14.46.35:753][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.05.21-14.46.35:841][597]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.21-14.46.35:842][597]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.21-14.46.35:842][597]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.21-14.46.35:842][597]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.21-14.46.36:030][597]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.21-14.46.36:030][597]LogWorldPartition: Display: WorldPartition initialize took 188 ms (total: 4.12 sec)
+[2025.05.21-14.46.36:040][597]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/MainMenu.MainMenu
+[2025.05.21-14.46.36:040][597]Cmd: MAP LOAD FILE="../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.05.21-14.46.36:040][597]LightingResults: New page: Lighting Build
+[2025.05.21-14.46.36:040][597]LoadErrors: New page: Loading map: MainMenu.umap
+[2025.05.21-14.46.36:072][597]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-14.46.36:073][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-14.46.36:074][597]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.05.21-14.46.36:076][597]MapCheck: New page: Map Check
+[2025.05.21-14.46.36:076][597]LightingResults: New page: Lighting Build
+[2025.05.21-14.46.36:096][597]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.21-14.46.36:107][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.05.21-14.46.36:113][597]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.21-14.46.36:114][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.21-14.46.36:116][597]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.21-14.46.36:139][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.05.21-14.46.36:157][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.05.21-14.46.36:177][597]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2025.05.21-14.46.36:178][597]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.21-14.46.36:178][597]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.21-14.46.36:178][597]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.21-14.46.36:178][597]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.21-14.46.36:178][597]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.21-14.46.36:178][597]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.21-14.46.36:346][597]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.21-14.46.36:346][597]LogWorldPartition: Display: WorldPartition initialize took 167 ms (total: 4.29 sec)
+[2025.05.21-14.46.36:390][597]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.05.21-14.46.36:409][597]LogWorldPartition: Actor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.RecastNavMesh_UAID_74563C6C81B0905D02-Default is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/ZA/61077G2OHT4M1OSUQTKII3.PackageMetaData in its package
+[2025.05.21-14.46.36:410][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.05.21-14.46.36:422][597]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.05.21-14.46.36:423][597]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,625ms to complete.
+[2025.05.21-14.46.36:490][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.05.21-14.47.20:082][392]LogSlate: Window 'Color Picker' being destroyed
+[2025.05.21-14.47.25:596][ 36]LogEditorTransaction: Undo Edit Skew Amount
+[2025.05.21-14.47.48:036][602]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.21-14.47.48:123][602]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/HUD_Widget
+[2025.05.21-14.47.48:123][602]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/HUD_Widget45AC7AC44783FC225C12199D8AAFF850.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/HUD_Widget.uasset'
+[2025.05.21-14.47.48:135][602]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 9.29 sec)
+[2025.05.21-14.47.48:137][602]AssetCheck: New page: Asset Save: HUD_Widget
+[2025.05.21-14.47.48:137][602]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/HUD_Widget.HUD_Widget
+[2025.05.21-14.47.49:736][788]BlueprintLog: New page: Compile HUD_Widget
+[2025.05.21-14.47.49:770][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
