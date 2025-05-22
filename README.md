@@ -50,5 +50,16 @@ The aim of this project is to produce a polished game level of a 3D platformer. 
 ![AD_4nXdlh392jeRvO_V41YtGMjDVUUdDzZSiiwZYYIoE2xJPwX](https://github.com/user-attachments/assets/419308bc-8163-4ac8-a9de-aa439d57e838)
 
 
+## Licences + Audio Sources
+
+- Pixabay Content License - https://pixabay.com/service/license-summary/
+- ZapSplat Standard License - https://www.zapsplat.com/license-type/standard-license/
+- SONNISS Unlimted User License - https://sonniss.com/gdc-bundle-license/
+
+Most of the audio was sourced from these websites:
+Pixabay: https://pixabay.com/sound-effects/
+ZapSplat: https://www.zapsplat.com/
+SONNISS: https://sonniss.com/
+
 ## Link to the Jira:
 https://kostaszewski03.atlassian.net/jira/software/projects/P3PFYP/boards/2/timeline
