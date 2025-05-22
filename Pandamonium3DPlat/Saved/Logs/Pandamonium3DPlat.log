@@ -4246,3 +4246,583 @@ Script Stack (0 frames) :
 [2025.05.22-10.58.39:009][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.05.22-10.58.39:025][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
 [2025.05.22-10.58.39:090][821]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2025.05.22-11.10.58:563][431]AssetReimport: New page: Outstanding source content changes 13:10:58
+[2025.05.22-11.10.58:625][432]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/footstep_Grass4wav.wav)
+[2025.05.22-11.10.58:630][432]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/footstep_Grass3.wav)
+[2025.05.22-11.10.58:634][432]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/footstel_grass2.wav)
+[2025.05.22-11.10.58:645][432]LogAudio: Display: Chunk sizes for SoundWave /Game/Sounds/footstel_grass2.footstel_grass2: Chunk0=28 bytes, Chunk1-N=256k
+[2025.05.22-11.10.58:689][433]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/footstep_grass.wav)
+[2025.05.22-11.10.58:695][433]LogAudio: Display: Chunk sizes for SoundWave /Game/Sounds/footstep_grass.footstep_grass: Chunk0=28 bytes, Chunk1-N=256k
+[2025.05.22-11.10.58:696][433]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.22-11.10.58:923][433]LogSavePackage: Moving output files for package: /Game/Sounds/footstep_Grass4wav
+[2025.05.22-11.10.58:923][433]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/footstep_Grass4wav38EE44A940AA8AAC8F2038A69D3C5D39.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/footstep_Grass4wav.uasset'
+[2025.05.22-11.10.58:929][433]LogSavePackage: Moving output files for package: /Game/Sounds/footstep_Grass3
+[2025.05.22-11.10.58:929][433]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/footstep_Grass3D174C10649862AEB4BF67E81CB4F9A35.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/footstep_Grass3.uasset'
+[2025.05.22-11.10.58:934][433]LogSavePackage: Moving output files for package: /Game/Sounds/footstel_grass2
+[2025.05.22-11.10.58:934][433]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/footstel_grass2B7D0309B41410D79AEE56E8936740AB4.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/footstel_grass2.uasset'
+[2025.05.22-11.10.58:938][433]LogSavePackage: Moving output files for package: /Game/Sounds/footstep_grass
+[2025.05.22-11.10.58:938][433]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/footstep_grass726A07444E54D047D3ADDA84215A4A8C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/footstep_grass.uasset'
+[2025.05.22-11.10.59:078][433]LogFileHelpers: InternalPromptForCheckoutAndSave took 382 ms (total: 3.76 sec)
+[2025.05.22-11.10.59:112][434]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.22-11.10.59:112][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/footstep_Grass4wav.footstep_Grass4wav
+[2025.05.22-11.10.59:112][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/footstep_Grass3.footstep_Grass3
+[2025.05.22-11.10.59:112][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/footstel_grass2.footstel_grass2
+[2025.05.22-11.10.59:112][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/footstep_grass.footstep_grass
+[2025.05.22-11.11.02:079][696]AssetReimport: Importing new asset /Game/Sounds/footstep_Grass4wav.
+[2025.05.22-11.11.02:079][696]AssetReimport: Importing new asset /Game/Sounds/footstep_Grass3.
+[2025.05.22-11.11.02:079][696]AssetReimport: Importing new asset /Game/Sounds/footstel_grass2.
+[2025.05.22-11.11.02:079][696]AssetReimport: Importing new asset /Game/Sounds/footstep_grass.
+[2025.05.22-11.11.14:979][965]LogContentBrowser: Attempting asset rename: footstep_Grass3 -> footstep_Grass3
+[2025.05.22-11.11.18:595][382]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Sounds/footstep_Grass4wav.footstep_Grass4wav
+[2025.05.22-11.11.34:023][990]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.22-11.11.34:090][990]LogSavePackage: Moving output files for package: /Game/Sounds/FootstepAudioCue
+[2025.05.22-11.11.34:091][990]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/FootstepAudioCueF36CF9C54E6BEE88F60E1A894B4D4EDE.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/FootstepAudioCue.uasset'
+[2025.05.22-11.11.34:100][990]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 3.84 sec)
+[2025.05.22-11.11.34:101][990]AssetCheck: New page: Asset Save: FootstepAudioCue
+[2025.05.22-11.11.34:101][990]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/FootstepAudioCue.FootstepAudioCue
+[2025.05.22-11.11.35:438][129]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.22-11.11.35:447][129]LogContentBundle: [Level_1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.22-11.11.35:447][129]LogWorldPartition: Display: GenerateStreaming for 'Level_1' started...
+[2025.05.22-11.11.35:471][129]LogWorldPartition: Display: GenerateStreaming for 'Level_1' took 25 ms (total: 276 ms)
+[2025.05.22-11.11.35:473][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.22-11.11.35:473][129]PIE: New page: PIE session: Level_1 (22 maj 2025, 13:11:35)
+[2025.05.22-11.11.35:494][129]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.22-11.11.35:589][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095159s)
+[2025.05.22-11.11.35:589][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_1.Level_1 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 (0.095212s)
+[2025.05.22-11.11.35:605][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.05.22-11.11.35:610][129]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.22-11.11.35:610][129]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.22-11.11.35:610][129]LogAIModule: Creating AISystem for world Level_1
+[2025.05.22-11.11.35:611][129]LogWorldPartition: ULevel::OnLevelLoaded(Level_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.22-11.11.35:611][129]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.22-11.11.35:611][129]LogWorldPartition: UWorldPartition::Initialize : World = Level_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.22-11.11.35:611][129]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.22-11.11.35:633][129]LogContentBundle: [Level_1(Standalone)] Creating new contrainer.
+[2025.05.22-11.11.35:633][129]LogWorldPartition: Display: WorldPartition initialize took 22 ms (total: 16.8 sec)
+[2025.05.22-11.11.35:633][129]LogPlayLevel: PIE: World Init took: (0.023893s)
+[2025.05.22-11.11.35:633][129]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2025.05.22-11.11.35:633][129]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.22-11.11.35:633][129]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.22-11.11.35:633][129]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.22-11.11.35:633][129]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.22-11.11.35:633][129]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.22-11.11.35:633][129]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.22-11.11.35:633][129]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.22-11.11.35:633][129]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.22-11.11.35:633][129]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.22-11.11.35:633][129]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.22-11.11.35:633][129]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.22-11.11.35:636][129]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.22-11.11.35:652][129]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.22-11.11.35:652][129]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.22-11.11.35:652][129]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.22-11.11.35:652][129]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.22-11.11.35:653][129]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2025.05.22-11.11.35:653][129]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2025.05.22-11.11.35:654][129]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2025.05.22-11.11.35:654][129]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2025.05.22-11.11.35:654][129]LogInit: FAudioDevice initialized with ID 20.
+[2025.05.22-11.11.35:654][129]LogAudio: Display: Audio Device (ID: 20) registered with world 'Level_1'.
+[2025.05.22-11.11.35:654][129]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2025.05.22-11.11.35:657][129]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.22-11.11.35:727][129]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2025.05.22-12.11.35
+[2025.05.22-11.11.35:740][129]LogWorld: Bringing up level for play took: 0.082056
+[2025.05.22-11.11.35:751][129]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2025.05.22-11.11.35:757][129]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.05.22-11.11.35:758][129]PIE: Server logged in
+[2025.05.22-11.11.35:759][129]PIE: Play in editor total start time 0,312 seconds.
+[2025.05.22-11.11.35:781][129]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'WindCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.22-11.11.38:429][358]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1176247437] 1
+[2025.05.22-11.11.38:596][372]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1108778432] 2
+[2025.05.22-11.11.38:629][375]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1176248438] 3
+[2025.05.22-11.11.38:639][376]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1111878433] 4
+[2025.05.22-11.11.42:484][733]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1291022440] 5
+[2025.05.22-11.11.42:810][763]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1291026441] 6
+[2025.05.22-11.11.43:217][799]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1291027442] 7
+[2025.05.22-11.11.43:523][828]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D76902_1949845248] 8
+[2025.05.22-11.11.45:785][ 44]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1340912445] 9
+[2025.05.22-11.11.46:241][ 87]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1349593446] 10
+[2025.05.22-11.11.46:730][133]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1353883447] 11
+[2025.05.22-11.11.47:275][184]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1357834448] 12
+[2025.05.22-11.11.47:779][230]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1366196449] 13
+[2025.05.22-11.11.47:961][246]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1370852450] 14
+[2025.05.22-11.11.48:070][256]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1377083451] 15
+[2025.05.22-11.11.48:184][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.22-11.11.48:184][263]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.22-11.11.48:186][263]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.22-11.11.48:195][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-11.11.48:195][263]LogContentBundle: [Level_1(Standalone)] Deleting container.
+[2025.05.22-11.11.48:204][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.22-11.11.48:210][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-11.11.48:231][263]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.22-11.11.48:233][263]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2025.05.22-11.11.48:233][263]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2025.05.22-11.11.48:235][263]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2025.05.22-11.11.48:238][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.22-11.11.48:253][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.05.22-11.11.48:317][264]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2025.05.22-11.11.59:775][541]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.22-11.11.59:842][541]LogSavePackage: Moving output files for package: /Game/Sounds/FootstepAudioCue
+[2025.05.22-11.11.59:842][541]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/FootstepAudioCue767B17DD4E6641BA631B0F8449CACC80.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/FootstepAudioCue.uasset'
+[2025.05.22-11.11.59:851][541]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 3.92 sec)
+[2025.05.22-11.11.59:852][541]AssetCheck: New page: Asset Save: FootstepAudioCue
+[2025.05.22-11.11.59:852][541]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/FootstepAudioCue.FootstepAudioCue
+[2025.05.22-11.33.03:804][715]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.05.22-11.33.03:823][715]LogContentBrowser: Creating deferred item: NewFolder
+[2025.05.22-11.33.03:835][716]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.05.22-11.33.06:944][ 27]LogContentBrowser: Attempting asset rename: NewFolder -> Footsteps
+[2025.05.22-11.33.06:945][ 27]LogContentBrowser: End creating deferred item NewFolder
+[2025.05.22-11.33.11:918][428]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.22-11.33.11:992][428]LogSavePackage: Moving output files for package: /Game/Sounds/FootstepAudioCue
+[2025.05.22-11.33.11:992][428]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/FootstepAudioCue81779EAB4DFCD00C736A0DB54A372786.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/FootstepAudioCue.uasset'
+[2025.05.22-11.33.11:995][428]LogSavePackage: Moving output files for package: /Game/Sounds/Footsteps/footstel_grass2
+[2025.05.22-11.33.11:995][428]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/footstel_grass25E758AE14447AEB53EFC61BDE1EFC9C3.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/Footsteps/footstel_grass2.uasset'
+[2025.05.22-11.33.11:999][428]LogSavePackage: Moving output files for package: /Game/Sounds/Footsteps/footstep
+[2025.05.22-11.33.11:999][428]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/footstep1819B0E748FEA8ED6A028491CCB4238F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/Footsteps/footstep.uasset'
+[2025.05.22-11.33.12:001][428]LogSavePackage: Moving output files for package: /Game/Sounds/Footsteps/footstep_grass
+[2025.05.22-11.33.12:001][428]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/footstep_grassAB095F2E496D630ADBC2A2A9135C0BB6.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/Footsteps/footstep_grass.uasset'
+[2025.05.22-11.33.12:004][428]LogSavePackage: Moving output files for package: /Game/Sounds/Footsteps/footstep_Grass3
+[2025.05.22-11.33.12:004][428]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/footstep_Grass3DED1618E413160AB43194D970AD964A0.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/Footsteps/footstep_Grass3.uasset'
+[2025.05.22-11.33.12:006][428]LogSavePackage: Moving output files for package: /Game/Sounds/Footsteps/footstep_Grass4wav
+[2025.05.22-11.33.12:006][428]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/footstep_Grass4wav75405CFC41190B8DFB7E42873D7FA273.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/Footsteps/footstep_Grass4wav.uasset'
+[2025.05.22-11.33.12:009][428]LogSavePackage: Moving output files for package: /Game/Sounds/Footsteps/footstep_light1
+[2025.05.22-11.33.12:009][428]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/footstep_light1D13545FF49757B3BFE9331BFFD96E9F0.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/Footsteps/footstep_light1.uasset'
+[2025.05.22-11.33.12:011][428]LogSavePackage: Moving output files for package: /Game/Sounds/Footsteps/footstep_light2
+[2025.05.22-11.33.12:011][428]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/footstep_light29C9F6EED40CE15852E38D4B71F4F7D08.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/Footsteps/footstep_light2.uasset'
+[2025.05.22-11.33.12:016][428]LogSavePackage: Moving output files for package: /Game/Sounds/Footsteps/footstep_light3
+[2025.05.22-11.33.12:016][428]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/footstep_light34B2BDB354BC3DFD84F08DE8E4FC219B1.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/Footsteps/footstep_light3.uasset'
+[2025.05.22-11.33.12:025][428]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 4.02 sec)
+[2025.05.22-11.33.12:086][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.05.22-11.33.12:104][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.05.22-11.33.12:120][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.05.22-11.33.12:208][428]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.22-11.33.12:208][428]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/FootstepAudioCue.FootstepAudioCue
+[2025.05.22-11.33.12:208][428]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/Footsteps/footstel_grass2.footstel_grass2
+[2025.05.22-11.33.12:208][428]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/Footsteps/footstep.footstep
+[2025.05.22-11.33.12:208][428]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/Footsteps/footstep_grass.footstep_grass
+[2025.05.22-11.33.12:208][428]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/Footsteps/footstep_Grass3.footstep_Grass3
+[2025.05.22-11.33.12:208][428]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/Footsteps/footstep_Grass4wav.footstep_Grass4wav
+[2025.05.22-11.33.12:208][428]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/Footsteps/footstep_light1.footstep_light1
+[2025.05.22-11.33.12:208][428]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/Footsteps/footstep_light2.footstep_light2
+[2025.05.22-11.33.12:208][428]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/Footsteps/footstep_light3.footstep_light3
+[2025.05.22-11.33.14:403][590]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.05.22-11.33.14:439][590]LogContentBrowser: Creating deferred item: NewFolder
+[2025.05.22-11.33.14:450][591]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.05.22-11.33.19:594][ 77]LogContentBrowser: Attempting asset rename: NewFolder -> SoundCues
+[2025.05.22-11.33.19:595][ 77]LogContentBrowser: End creating deferred item NewFolder
+[2025.05.22-11.33.21:356][217]LogMetaData: Removing '/Game/Sounds/SoundCues/FootstepAudioCue.FootstepAudioCue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/FootstepAudioCue.PackageMetaData'
+[2025.05.22-11.33.21:367][217]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.22-11.33.21:450][217]LogSavePackage: Moving output files for package: /Game/Models/Characters/RedPandaCharacter/redPanda_Run2
+[2025.05.22-11.33.21:451][217]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/redPanda_Run221880AB9451B36FAD0552FBA81AAE069.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/RedPandaCharacter/redPanda_Run2.uasset'
+[2025.05.22-11.33.21:455][217]LogSavePackage: Moving output files for package: /Game/Sounds/SoundCues/FootstepAudioCue
+[2025.05.22-11.33.21:455][217]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/FootstepAudioCueE59D04DA4164976E1889F5AFD6994DD1.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/SoundCues/FootstepAudioCue.uasset'
+[2025.05.22-11.33.21:465][217]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 4.12 sec)
+[2025.05.22-11.33.21:491][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.05.22-11.33.21:509][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.05.22-11.33.21:523][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2025.05.22-11.33.21:558][217]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.22-11.33.21:558][217]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Models/Characters/RedPandaCharacter/redPanda_Run2.redPanda_Run2
+[2025.05.22-11.33.21:558][217]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/SoundCues/FootstepAudioCue.FootstepAudioCue
+[2025.05.22-11.33.25:592][542]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.05.22-11.33.25:621][542]LogContentBrowser: Creating deferred item: NewFolder
+[2025.05.22-11.33.25:635][543]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.05.22-11.33.30:226][  0]LogContentBrowser: Attempting asset rename: NewFolder -> PickUpSFX
+[2025.05.22-11.33.30:226][  0]LogContentBrowser: End creating deferred item NewFolder
+[2025.05.22-11.33.38:114][344]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\okacp\Desktop\bambooPickup.wav)
+[2025.05.22-11.33.38:121][344]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave bambooPickup...
+[2025.05.22-11.33.38:128][344]LogAudio: Display: Chunk sizes for SoundWave /Game/Sounds/PickUpSFX/bambooPickup.bambooPickup: Chunk0=28 bytes, Chunk1-N=256k
+[2025.05.22-11.33.38:129][344]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_0_END wave bambooPickup...
+[2025.05.22-11.33.38:137][344]LogAudio: Display: Chunk sizes for SoundWave /Game/Sounds/PickUpSFX/bambooPickup.bambooPickup: Chunk0=28 bytes, Chunk1-N=256k
+[2025.05.22-11.34.15:386][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.05.22-11.34.15:389][382]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/Level_1' took 0.018
+[2025.05.22-11.34.15:390][382]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sounds/PickUpSFX/bambooPickup] ([1] browsable assets)...
+[2025.05.22-11.34.15:391][382]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Sounds/PickUpSFX/bambooPickup.bambooPickup]
+[2025.05.22-11.34.15:391][382]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sounds/PickUpSFX/bambooPickup]
+[2025.05.22-11.34.15:394][382]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Sounds/PickUpSFX/bambooPickup_Auto4
+[2025.05.22-11.34.15:394][382]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/bambooPickup_Auto4B9DF4AA94A8E620CFCBD6D8A62C8D6E5.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Game/Sounds/PickUpSFX/bambooPickup_Auto4.uasset'
+[2025.05.22-11.34.15:394][382]LogFileHelpers: Auto-saving content packages took 0.005
+[2025.05.22-11.34.16:494][439]AssetReimport: New page: Outstanding source content changes 13:34:16
+[2025.05.22-11.34.16:557][440]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/bambooPickup.wav)
+[2025.05.22-11.34.20:056][440]LogSlate: Window 'Message' being destroyed
+[2025.05.22-11.34.20:070][440]LogAudio: Display: Chunk sizes for SoundWave /Game/Sounds/bambooPickup.bambooPickup: Chunk0=28 bytes, Chunk1-N=256k
+[2025.05.22-11.34.20:084][441]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.22-11.34.20:158][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/bambooPickup" FILE="../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/bambooPickup.uasset" SILENT=true
+[2025.05.22-11.34.20:160][441]LogSavePackage: Moving output files for package: /Game/Sounds/bambooPickup
+[2025.05.22-11.34.20:160][441]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/bambooPickupC49A2B244D326435B9C3ED86BCD1B7CA.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/bambooPickup.uasset'
+[2025.05.22-11.34.20:171][441]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 4.21 sec)
+[2025.05.22-11.34.20:194][442]AssetCheck: New page: Asset Save: bambooPickup
+[2025.05.22-11.34.20:194][442]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/bambooPickup.bambooPickup
+[2025.05.22-11.34.23:172][682]AssetReimport: Importing new asset /Game/Sounds/bambooPickup.
+[2025.05.22-11.34.25:474][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.05.22-11.34.26:561][863]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.22-11.34.26:584][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.05.22-11.34.26:599][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.05.22-11.34.26:614][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.22-11.34.32:566][323]LogContentBrowser: Deferred new asset file creation: bambooPickup_Cue
+[2025.05.22-11.34.32:602][323]LogContentBrowser: Creating deferred item: bambooPickup_Cue
+[2025.05.22-11.34.32:615][324]LogContentBrowser: Renaming the item being created (Deferred Item: bambooPickup_Cue).
+[2025.05.22-11.34.33:964][454]LogContentBrowser: Attempting asset rename: bambooPickup_Cue -> bambooPickup_Cue
+[2025.05.22-11.34.33:965][454]LogContentBrowser: End creating deferred item bambooPickup_Cue
+[2025.05.22-11.34.36:366][636]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.22-11.34.36:447][636]LogSavePackage: Moving output files for package: /Game/Sounds/PickUpSFX/bambooPickup
+[2025.05.22-11.34.36:447][636]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/bambooPickupDF3D63E348F8CA805171F89A8668C41D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/PickUpSFX/bambooPickup.uasset'
+[2025.05.22-11.34.36:459][636]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 4.30 sec)
+[2025.05.22-11.34.36:486][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.05.22-11.34.36:502][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.05.22-11.34.36:518][636]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.05.22-11.34.36:551][636]AssetCheck: New page: Asset Save: bambooPickup
+[2025.05.22-11.34.36:551][636]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/PickUpSFX/bambooPickup.bambooPickup
+[2025.05.22-11.34.38:454][776]LogMetaData: Removing '/Game/Sounds/SoundCues/bambooPickup_Cue.bambooPickup_Cue:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/bambooPickup_Cue.PackageMetaData'
+[2025.05.22-11.34.38:454][776]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.22-11.34.38:525][776]LogSavePackage: Moving output files for package: /Game/Sounds/SoundCues/bambooPickup_Cue
+[2025.05.22-11.34.38:525][776]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/bambooPickup_Cue7DF2CCDD449ACF2FC58307B242D3FBEC.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/SoundCues/bambooPickup_Cue.uasset'
+[2025.05.22-11.34.38:533][776]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 4.38 sec)
+[2025.05.22-11.34.38:557][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.05.22-11.34.38:575][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.05.22-11.34.38:591][776]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.05.22-11.34.38:612][776]AssetCheck: New page: Asset Save: bambooPickup_Cue
+[2025.05.22-11.34.38:612][776]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/SoundCues/bambooPickup_Cue.bambooPickup_Cue
+[2025.05.22-11.34.40:969][976]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/SoundCues/bambooPickup_Cue.bambooPickup_Cue
+[2025.05.22-11.34.45:317][475]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2025.05.22-11.34.45:317][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-11.34.47:971][779]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.22-11.34.47:971][779]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.05.22-11.34.47:971][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-11.34.48:838][862]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.22-11.34.48:838][862]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.05.22-11.34.48:838][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-11.34.50:054][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.22-11.34.50:055][972]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.05.22-11.34.50:055][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-11.34.53:458][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.22-11.34.53:458][340]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2025.05.22-11.34.53:458][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-11.34.55:500][565]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2025.05.22-11.34.55:500][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-11.34.57:204][749]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.22-11.34.57:205][749]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2025.05.22-11.34.57:205][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-11.35.13:517][660]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.22-11.35.13:596][660]LogSavePackage: Moving output files for package: /Game/Sounds/SoundCues/bambooPickup_Cue
+[2025.05.22-11.35.13:597][660]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/bambooPickup_Cue0BD6E3594E12CD820E0F0EAC6D984DFF.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Sounds/SoundCues/bambooPickup_Cue.uasset'
+[2025.05.22-11.35.13:611][660]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 4.47 sec)
+[2025.05.22-11.35.13:613][660]AssetCheck: New page: Asset Save: bambooPickup_Cue
+[2025.05.22-11.35.13:613][660]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/SoundCues/bambooPickup_Cue.bambooPickup_Cue
+[2025.05.22-11.35.26:959][993]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.22-11.35.27:846][ 71]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable
+[2025.05.22-11.35.27:847][ 71]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.22-11.35.27:847][ 71]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.22-11.35.36:094][954]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_6.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:094][954]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_5.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:094][954]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_7.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:094][954]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_4.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:113][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403743.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:113][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403742.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:113][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403741.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:113][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403740.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:146][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403747.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:146][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403746.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:146][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403745.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:146][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403744.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:154][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403751.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:154][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403750.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:154][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403749.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:154][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403748.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:157][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403755.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:158][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403754.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:158][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403753.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:158][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403752.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:189][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403759.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:189][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403758.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:189][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403757.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:189][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403756.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:198][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403763.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:198][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403762.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:198][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403761.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:198][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403760.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:202][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403767.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:202][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403766.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:202][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403765.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:202][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403764.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:217][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403771.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:217][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403770.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:217][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403769.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:217][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403768.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:221][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403775.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:221][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403774.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:221][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403773.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.36:221][954]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403772.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:524][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_12.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:524][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_13.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:524][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_14.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:524][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_15.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:528][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403776.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:528][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403777.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:528][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403778.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:528][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403779.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:532][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403780.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:532][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403781.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:532][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403782.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:532][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403783.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:536][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403784.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:536][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403785.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:537][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403786.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:537][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403787.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:541][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403788.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:541][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403789.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:541][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403790.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:541][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403791.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:545][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403792.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:545][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403793.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:545][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403794.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:545][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403795.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:549][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403796.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:549][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403797.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:549][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403798.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:549][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403799.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:552][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403800.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:552][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403801.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:552][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403802.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:552][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403803.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:557][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403804.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:557][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403805.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:557][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403806.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:557][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403807.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:561][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403808.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:561][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403809.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:561][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403810.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.40:562][435]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403811.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:224][ 25]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_20.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:224][ 25]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_21.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:224][ 25]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_22.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:224][ 25]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_23.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:228][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403812.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:228][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403813.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:228][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403814.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:228][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403815.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:232][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403816.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:232][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403817.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:232][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403818.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:232][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403819.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:236][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403820.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:236][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403821.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:236][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403822.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:236][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403823.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:241][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403824.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:241][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403825.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:241][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403826.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:241][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403827.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:245][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403828.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:245][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403829.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:245][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403830.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:245][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403831.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:250][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403832.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:250][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403833.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:250][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403834.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:250][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403835.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:254][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403836.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:254][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403837.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:254][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403838.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:254][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403839.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:259][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403840.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:259][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403841.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:259][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403842.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:259][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403843.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:263][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403844.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:263][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403845.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:263][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403846.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.35.46:263][ 25]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403847.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.10:128][653]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.22-11.36.10:213][653]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable
+[2025.05.22-11.36.10:214][653]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_BambooCollectableAD8FD8D04E2D9F20754F63A015CA453F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.uasset'
+[2025.05.22-11.36.10:222][653]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 4.57 sec)
+[2025.05.22-11.36.10:222][653]AssetCheck: New page: Asset Save: BP_BambooCollectable
+[2025.05.22-11.36.10:222][653]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable
+[2025.05.22-11.36.21:467][936]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.22-11.36.21:562][936]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable
+[2025.05.22-11.36.21:563][936]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_BambooCollectableE193F058403E4A02A01104A11E99D447.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.uasset'
+[2025.05.22-11.36.21:572][936]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 4.67 sec)
+[2025.05.22-11.36.21:573][936]AssetCheck: New page: Asset Save: BP_BambooCollectable
+[2025.05.22-11.36.21:573][936]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/PickUps/BP_BambooCollectable.BP_BambooCollectable
+[2025.05.22-11.36.22:186][  8]BlueprintLog: New page: Compile BP_BambooCollectable
+[2025.05.22-11.36.22:375][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.05.22-11.36.22:467][  8]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_28.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:467][  8]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_29.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:467][  8]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_30.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:467][  8]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_31.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:471][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403848.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:471][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403849.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:471][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403850.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:471][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403851.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:476][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403852.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:476][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403853.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:476][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403854.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:476][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403855.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:480][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403856.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:480][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403857.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:480][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403858.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:480][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403859.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:484][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403860.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:484][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403861.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:484][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403862.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:484][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403863.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:488][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403864.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:488][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403865.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:488][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403866.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:488][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403867.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:492][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403868.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:492][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403869.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:492][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403870.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:492][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403871.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:498][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403872.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:498][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403873.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:498][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403874.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:498][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403875.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:502][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403876.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:502][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403877.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:502][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403878.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:502][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403879.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:507][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403880.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:507][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403881.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:507][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403882.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:507][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403883.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:601][  8]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_36.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:601][  8]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_37.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:601][  8]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_38.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:601][  8]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_39.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:606][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403884.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:606][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403885.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:606][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403886.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:606][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403887.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:610][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403888.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:610][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403889.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:610][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403890.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:610][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403891.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:614][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403892.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:614][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403893.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:614][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403894.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:614][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403895.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:618][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403896.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:618][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403897.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:618][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403898.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:618][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403899.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:622][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403900.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:622][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403901.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:622][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403902.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:622][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403903.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:627][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403904.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:627][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403905.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:627][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403906.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:627][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403907.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:631][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403908.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:631][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403909.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:631][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403910.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:631][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403911.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:636][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403912.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:636][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403913.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:636][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403914.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:636][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403915.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:641][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403916.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:641][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403917.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:641][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403918.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.22:641][  8]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_BambooCollectable_C_CHILDACTOR_2145403919.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.22-11.36.23:798][118]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.22-11.36.23:808][118]LogContentBundle: [Level_1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.22-11.36.23:808][118]LogWorldPartition: Display: GenerateStreaming for 'Level_1' started...
+[2025.05.22-11.36.23:837][118]LogWorldPartition: Display: GenerateStreaming for 'Level_1' took 28 ms (total: 305 ms)
+[2025.05.22-11.36.23:837][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.22-11.36.23:837][118]PIE: New page: PIE session: Level_1 (22 maj 2025, 13:36:23)
+[2025.05.22-11.36.23:885][118]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.22-11.36.23:980][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094896s)
+[2025.05.22-11.36.23:980][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_1.Level_1 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 (0.094951s)
+[2025.05.22-11.36.24:000][118]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.05.22-11.36.24:007][118]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.22-11.36.24:007][118]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.22-11.36.24:008][118]LogAIModule: Creating AISystem for world Level_1
+[2025.05.22-11.36.24:009][118]LogWorldPartition: ULevel::OnLevelLoaded(Level_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.22-11.36.24:009][118]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.22-11.36.24:009][118]LogWorldPartition: UWorldPartition::Initialize : World = Level_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.22-11.36.24:009][118]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.22-11.36.24:031][118]LogContentBundle: [Level_1(Standalone)] Creating new contrainer.
+[2025.05.22-11.36.24:031][118]LogWorldPartition: Display: WorldPartition initialize took 22 ms (total: 16.8 sec)
+[2025.05.22-11.36.24:031][118]LogPlayLevel: PIE: World Init took: (0.023961s)
+[2025.05.22-11.36.24:031][118]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2025.05.22-11.36.24:031][118]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.22-11.36.24:031][118]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.22-11.36.24:031][118]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.22-11.36.24:031][118]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.22-11.36.24:031][118]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.22-11.36.24:031][118]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.22-11.36.24:031][118]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.22-11.36.24:031][118]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.22-11.36.24:032][118]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.22-11.36.24:032][118]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.22-11.36.24:032][118]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.22-11.36.24:034][118]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.22-11.36.24:049][118]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.22-11.36.24:049][118]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.22-11.36.24:049][118]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.22-11.36.24:049][118]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.22-11.36.24:050][118]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2025.05.22-11.36.24:050][118]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2025.05.22-11.36.24:051][118]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2025.05.22-11.36.24:051][118]LogInit: FAudioDevice initialized with ID 21.
+[2025.05.22-11.36.24:051][118]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2025.05.22-11.36.24:051][118]LogAudio: Display: Audio Device (ID: 21) registered with world 'Level_1'.
+[2025.05.22-11.36.24:052][118]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2025.05.22-11.36.24:055][118]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.22-11.36.24:126][118]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2025.05.22-12.36.24
+[2025.05.22-11.36.24:139][118]LogWorld: Bringing up level for play took: 0.083233
+[2025.05.22-11.36.24:152][118]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2025.05.22-11.36.24:158][118]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.05.22-11.36.24:159][118]PIE: Server logged in
+[2025.05.22-11.36.24:160][118]PIE: Play in editor total start time 0,352 seconds.
+[2025.05.22-11.36.24:182][118]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'WindCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.22-11.36.26:865][361]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1176242435] 1
+[2025.05.22-11.36.27:012][375]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D76902_2131256253] 2
+[2025.05.22-11.36.27:948][463]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1106603431] 3
+[2025.05.22-11.36.28:253][493]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1108778432] 4
+[2025.05.22-11.36.28:282][496]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1176245436] 5
+[2025.05.22-11.36.28:367][504]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1176247437] 6
+[2025.05.22-11.36.28:540][521]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1111878433] 7
+[2025.05.22-11.36.28:778][543]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1114191434] 8
+[2025.05.22-11.36.29:609][618]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1176250439] 9
+[2025.05.22-11.36.29:794][635]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1176248438] 10
+[2025.05.22-11.36.30:783][729]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D76902_2120163252] 11
+[2025.05.22-11.36.30:936][743]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D76902_2120160251] 12
+[2025.05.22-11.36.32:732][913]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B02C6A02_1669015282] 13
+[2025.05.22-11.36.32:994][939]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B02C6A02_1669017283] 14
+[2025.05.22-11.36.33:398][979]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B02C6A02_1656832280] 15
+[2025.05.22-11.36.33:716][ 10]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B02C6A02_1656836281] 16
+[2025.05.22-11.36.34:084][ 47]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D76902_1944919247] 17
+[2025.05.22-11.36.34:411][ 78]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D76902_1889611246] 18
+[2025.05.22-11.36.35:138][148]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0986802_1154497174] 19
+[2025.05.22-11.36.35:191][153]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0986802_1146682173] 20
+[2025.05.22-11.36.38:032][429]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1291022440] 21
+[2025.05.22-11.36.38:642][486]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1291026441] 22
+[2025.05.22-11.36.39:003][521]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1291027442] 23
+[2025.05.22-11.36.39:375][556]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D76902_1949845248] 24
+[2025.05.22-11.36.40:044][621]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1505388456] 25
+[2025.05.22-11.36.40:342][649]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1512261457] 26
+[2025.05.22-11.36.43:087][917]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1340912445] 27
+[2025.05.22-11.36.44:101][ 17]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1349593446] 28
+[2025.05.22-11.36.44:549][ 60]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1353883447] 29
+[2025.05.22-11.36.45:116][116]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1357834448] 30
+[2025.05.22-11.36.45:665][171]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1366196449] 31
+[2025.05.22-11.36.45:902][195]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1370852450] 32
+[2025.05.22-11.36.45:989][204]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1377083451] 33
+[2025.05.22-11.36.46:109][217]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1378810452] 34
+[2025.05.22-11.36.47:025][304]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.22-11.36.47:025][304]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.22-11.36.47:027][304]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.22-11.36.47:036][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-11.36.47:037][304]LogContentBundle: [Level_1(Standalone)] Deleting container.
+[2025.05.22-11.36.47:040][304]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.22-11.36.47:046][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.22-11.36.47:061][304]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.22-11.36.47:067][304]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2025.05.22-11.36.47:067][304]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2025.05.22-11.36.47:069][304]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2025.05.22-11.36.47:072][304]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.22-11.36.47:089][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.05.22-11.36.47:155][305]LogPlayLevel: Display: Destroying online subsystem :Context_58
