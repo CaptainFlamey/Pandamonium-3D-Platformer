@@ -7884,3 +7884,1153 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.05.23-21.35.38:602][984]UATHelper: Packaging (Windows): BUILD SUCCESSFUL
 [2025.05.23-21.35.38:613][984]UATHelper: Packaging (Windows): AutomationTool executed for 0h 0m 57s
 [2025.05.23-21.35.38:613][984]UATHelper: Packaging (Windows): AutomationTool exiting with ExitCode=0 (Success)
+[2025.05.23-21.37.05:710][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.05.23-21.37.07:932][391]LogTurnkeySupport: Project does not require temp target
+[2025.05.23-21.37.07:934][391]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UnrealGame-Win64-Shipping.target
+[2025.05.23-21.37.07:953][391]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Pandamonium3DPlat.uproject" Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=59469  -project="C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Pandamonium3DPlat.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook  -project="C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Pandamonium3DPlat.uproject"  -unrealexe="C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -installed -stage -archive -package -pak -iostore -compressed -prereqs -archivedirectory="C:/Users/okacp/Desktop/PlatformerBuild" -distribution -clientconfig=Shipping -nodebuginfo" -nocompile -nocompileuat ]
+[2025.05.23-21.37.08:012][393]UATHelper: Packaging (Windows): Running AutomationTool...
+[2025.05.23-21.37.08:107][402]UATHelper: Packaging (Windows): Using bundled DotNet SDK version: 6.0.302
+[2025.05.23-21.37.08:214][412]UATHelper: Packaging (Windows): Starting AutomationTool...
+[2025.05.23-21.37.08:224][413]UATHelper: Packaging (Windows): Parsing command line: -ScriptsForProject=C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Pandamonium3DPlat.uproject Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=59469 -project=C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Pandamonium3DPlat.uproject BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook -project=C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Pandamonium3DPlat.uproject -unrealexe="C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -installed -stage -archive -package -pak -iostore -compressed -prereqs -archivedirectory=C:/Users/okacp/Desktop/PlatformerBuild -distribution -clientconfig=Shipping -nodebuginfo -nocompile -nocompileuat
+[2025.05.23-21.37.08:308][421]UATHelper: Packaging (Windows): Initializing script modules...
+[2025.05.23-21.37.08:468][434]UATHelper: Packaging (Windows): Total script module initialization time: 0.15 s.
+[2025.05.23-21.37.08:782][463]UATHelper: Packaging (Windows): Executing commands...
+[2025.05.23-21.37.08:826][467]UATHelper: Packaging (Windows): Installed Sdk validity:
+[2025.05.23-21.37.08:826][467]UATHelper: Packaging (Windows): Win64: (Status=Valid, MinAllowed_Sdk=10.0.00000.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.18362.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists")
+[2025.05.23-21.37.08:826][467]UATHelper: Packaging (Windows): Scanning for envvar changes...
+[2025.05.23-21.37.08:826][467]UATHelper: Packaging (Windows): ... done! 
+[2025.05.23-21.37.08:826][467]UATHelper: Packaging (Windows): Cleaning Temp Paths...
+[2025.05.23-21.37.08:826][467]UATHelper: Packaging (Windows): BUILD SUCCESSFUL
+[2025.05.23-21.37.08:826][467]UATHelper: Packaging (Windows): Setting up ProjectParams for C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Pandamonium3DPlat.uproject
+[2025.05.23-21.37.09:015][487]UATHelper: Packaging (Windows): ********** COOK COMMAND STARTED **********
+[2025.05.23-21.37.09:025][488]UATHelper: Packaging (Windows): Running UnrealEditor Cook for project C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Pandamonium3DPlat.uproject
+[2025.05.23-21.37.09:025][488]UATHelper: Packaging (Windows): Commandlet log file is C:\Program Files\Epic Games\UE_5.3\Engine\Programs\AutomationTool\Saved\Cook-2025.05.23-22.37.09.txt
+[2025.05.23-21.37.09:047][489]UATHelper: Packaging (Windows): Running: C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Pandamonium3DPlat.uproject" -run=Cook  -TargetPlatform=Windows  -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.3\Engine\Programs\AutomationTool\Saved\Cook-2025.05.23-22.37.09.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2025.05.23-21.37.09:556][507]UATHelper: Packaging (Windows): LogInit: Display: Running engine for game: Pandamonium3DPlat
+[2025.05.23-21.37.09:556][507]UATHelper: Packaging (Windows): LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2025.05.23-21.37.09:556][507]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2025.05.23-21.37.09:556][507]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : config="Development"
+[2025.05.23-21.37.09:556][507]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.3-CL-29314046"
+[2025.05.23-21.37.09:556][507]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : engineversion="5.3.2-29314046+++UE5+Release-5.3"
+[2025.05.23-21.37.09:556][507]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : os="Windows 11 (23H2) [10.0.22631.5335] "
+[2025.05.23-21.37.09:556][507]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 7 5800X 8-Core Processor"
+[2025.05.23-21.37.09:556][507]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2025.05.23-21.37.09:556][507]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2025.05.23-21.37.09:556][507]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2025.05.23-21.37.09:556][507]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : asan="0"
+[2025.05.23-21.37.09:556][507]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Pandamonium3DPlat.uproject -run=Cook -TargetPlatform=Windows -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.3\Engine\Programs\AutomationTool\Saved\Cook-2025.05.23-22.37.09.txt" -stdout -CrashForUAT -unattended -NoLogTimes -UTF8Output""
+[2025.05.23-21.37.09:556][507]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : loginid="9faabc6947d8dc3bb1b4f9aaa9426fc7"
+[2025.05.23-21.37.09:746][507]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : llm="0"
+[2025.05.23-21.37.09:746][507]UATHelper: Packaging (Windows): LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+[2025.05.23-21.37.09:746][507]UATHelper: Packaging (Windows): LogConfig: Display: Loading Mac ini files took 0.03 seconds
+[2025.05.23-21.37.09:746][507]UATHelper: Packaging (Windows): LogConfig: Display: Loading IOS ini files took 0.03 seconds
+[2025.05.23-21.37.09:746][507]UATHelper: Packaging (Windows): LogConfig: Display: Loading Android ini files took 0.03 seconds
+[2025.05.23-21.37.09:746][507]UATHelper: Packaging (Windows): LogConfig: Display: Loading Unix ini files took 0.04 seconds
+[2025.05.23-21.37.09:746][507]UATHelper: Packaging (Windows): LogConfig: Display: Loading Windows ini files took 0.04 seconds
+[2025.05.23-21.37.09:746][507]UATHelper: Packaging (Windows): LogConfig: Display: Loading TVOS ini files took 0.04 seconds
+[2025.05.23-21.37.09:746][507]UATHelper: Packaging (Windows): LogConfig: Display: Loading Linux ini files took 0.04 seconds
+[2025.05.23-21.37.09:746][507]UATHelper: Packaging (Windows): LogConfig: Display: Loading LinuxArm64 ini files took 0.04 seconds
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogAssetRegistry: Display: Asset registry cache read as 22.5 MiB from ../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Intermediate/CachedAssetRegistry_0.bin
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/TraceUtilities/Content/' mounted to '/TraceUtilities/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ACLPlugin/Content/' mounted to '/ACLPlugin/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaPlate/Content/' mounted to '/MediaPlate/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/GLTFExporter/Content/' mounted to '/GLTFExporter/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/VirtualProduction/Takes/Content/' mounted to '/Takes/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioWidgets/Content/' mounted to '/AudioWidgets/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Metasound/Content/' mounted to '/Metasound/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/RigVM/Content/' mounted to '/RigVM/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/WaveTable/Content/' mounted to '/WaveTable/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/BlueprintHeaderView/Content/' mounted to '/BlueprintHeaderView/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Interchange/Runtime/Content/' mounted to '/Interchange/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/UVEditor/Content/' mounted to '/UVEditor/'
+[2025.05.23-21.37.09:820][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+[2025.05.23-21.37.09:831][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosCaching/Content/' mounted to '/ChaosCaching/'
+[2025.05.23-21.37.09:831][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+[2025.05.23-21.37.09:831][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+[2025.05.23-21.37.09:831][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+[2025.05.23-21.37.09:831][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+[2025.05.23-21.37.09:831][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/Dataflow/Content/' mounted to '/Dataflow/'
+[2025.05.23-21.37.09:831][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+[2025.05.23-21.37.09:831][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+[2025.05.23-21.37.09:831][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+[2025.05.23-21.37.09:831][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+[2025.05.23-21.37.09:831][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+[2025.05.23-21.37.09:831][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ToolPresets/Content/' mounted to '/ToolPresets/'
+[2025.05.23-21.37.09:831][507]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/ObjectMixer/Content/' mounted to '/ObjectMixer/'
+[2025.05.23-21.37.09:967][508]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/LightMixer/Content/' mounted to '/LightMixer/'
+[2025.05.23-21.37.10:042][508]UATHelper: Packaging (Windows): RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2025.05.23-21.37.10:042][508]UATHelper: Packaging (Windows): LogHAL: Display: Platform has ~ 32 GB [34278256640 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.05.23-21.37.10:073][508]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.05.23-21.37.10:073][508]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.05.23-21.37.10:073][508]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.05.23-21.37.10:084][508]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.05.23-21.37.10:084][508]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.05.23-21.37.10:084][508]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.05.23-21.37.10:084][508]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.10
+[2025.05.23-21.37.10:084][508]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2025.05.23-21.37.10:084][508]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.6.dll
+[2025.05.23-21.37.10:084][508]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.7.dll
+[2025.05.23-21.37.10:084][508]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2025.05.23-21.37.10:084][508]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.9.dll
+[2025.05.23-21.37.10:084][508]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.10.dll
+[2025.05.23-21.37.10:095][508]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.05.23-21.37.10:095][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.05.23-21.37.10:095][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.05.23-21.37.10:095][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.05.23-21.37.10:095][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.05.23-21.37.10:095][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.05.23-21.37.10:095][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.05.23-21.37.10:095][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.05.23-21.37.10:095][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.05.23-21.37.10:095][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.05.23-21.37.10:095][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.05.23-21.37.10:095][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.05.23-21.37.10:105][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.05.23-21.37.10:105][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.05.23-21.37.10:105][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2025.05.23-21.37.10:105][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.05.23-21.37.10:105][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.05.23-21.37.10:105][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2025.05.23-21.37.10:105][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2025.05.23-21.37.10:105][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2025.05.23-21.37.10:105][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2025.05.23-21.37.10:105][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2025.05.23-21.37.10:105][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2025.05.23-21.37.10:116][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2025.05.23-21.37.10:116][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.05.23-21.37.10:116][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.05.23-21.37.10:116][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.05.23-21.37.10:116][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2025.05.23-21.37.10:116][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.05.23-21.37.10:116][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.05.23-21.37.10:127][508]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Building Assets For Windows
+[2025.05.23-21.37.10:338][509]UATHelper: Packaging (Windows): LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2025.05.23-21.37.10:381][509]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.05.23-21.37.10:392][509]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (2383 MiB)
+[2025.05.23-21.37.10:392][509]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.05ms. RandomReadSpeed=968.42MBs, RandomWriteSpeed=174.60MBs. Assigned SpeedClass 'Local'
+[2025.05.23-21.37.11:219][511]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Using Local Shader Compiler with 13 workers.
+[2025.05.23-21.37.11:219][511]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2025.05.23-21.37.11:229][511]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2025.05.23-21.37.11:240][512]UATHelper: Packaging (Windows): LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Intermediate/CachedAssetRegistry_*.bin.
+[2025.05.23-21.37.11:410][512]UATHelper: Packaging (Windows): LogEditorDomain: Display: EditorDomain is Disabled
+[2025.05.23-21.37.11:410][512]UATHelper: Packaging (Windows): LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.05.23-21.37.11:528][512]UATHelper: Packaging (Windows): LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.05.23-21.37.11:528][512]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.05.23-21.37.11:528][512]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.05.23-21.37.11:549][512]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2025.05.23-21.37.11:549][512]UATHelper: Packaging (Windows): LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2025.05.23-21.37.11:549][512]UATHelper: Packaging (Windows): LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.05.23-21.37.11:591][513]UATHelper: Packaging (Windows): LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.05.23-21.37.11:591][513]UATHelper: Packaging (Windows): LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.05.23-21.37.11:591][513]UATHelper: Packaging (Windows): LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.05.23-21.37.11:591][513]UATHelper: Packaging (Windows): LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.05.23-21.37.11:709][513]UATHelper: Packaging (Windows): LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.05.23-21.37.11:709][513]UATHelper: Packaging (Windows): LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.05.23-21.37.11:857][513]UATHelper: Packaging (Windows): LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.05.23-21.37.11:857][513]UATHelper: Packaging (Windows): LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.05.23-21.37.12:162][514]UATHelper: Packaging (Windows): LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1 ms
+[2025.05.23-21.37.13:197][517]UATHelper: Packaging (Windows): LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.05.23-21.37.13:197][517]UATHelper: Packaging (Windows): LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.05.23-21.37.13:733][519]UATHelper: Packaging (Windows): LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.05.23-21.37.13:871][519]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.05.23-21.37.13:871][519]UATHelper: Packaging (Windows): LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+[2025.05.23-21.37.13:903][520]UATHelper: Packaging (Windows): LogCook: Display: CookSettings for Memory:
+[2025.05.23-21.37.13:903][520]UATHelper: Packaging (Windows): 	MemoryMaxUsedVirtual 0MiB
+[2025.05.23-21.37.13:903][520]UATHelper: Packaging (Windows): 	MemoryMaxUsedPhysical 0MiB
+[2025.05.23-21.37.13:903][520]UATHelper: Packaging (Windows): 	MemoryMinFreeVirtual 2048MiB
+[2025.05.23-21.37.13:903][520]UATHelper: Packaging (Windows): 	MemoryMinFreePhysical 2048MiB
+[2025.05.23-21.37.13:903][520]UATHelper: Packaging (Windows): 	MemoryTriggerGCAtPressureLevel None
+[2025.05.23-21.37.13:903][520]UATHelper: Packaging (Windows): 	UseSoftGC true (5/10)
+[2025.05.23-21.37.13:903][520]UATHelper: Packaging (Windows): LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.05.23-21.37.14:403][521]UATHelper: Packaging (Windows): LogCook: Display: Waiting for Asset Registry
+[2025.05.23-21.37.14:423][521]UATHelper: Packaging (Windows): LogAssetRegistry: Display: Asset registry cache written as 0.0 MiB to ../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Intermediate/CachedAssetRegistry_*.bin
+[2025.05.23-21.37.14:518][521]UATHelper: Packaging (Windows): LogCook: Display: Clearing all cooked content for platform Windows
+[2025.05.23-21.37.14:518][521]UATHelper: Packaging (Windows): LogCook: Display: Sandbox cleanup took 0.054 seconds for platforms Windows
+[2025.05.23-21.37.15:959][526]UATHelper: Packaging (Windows): LogCook: Display: Compiling global changed shaders for platform 'Windows'
+[2025.05.23-21.37.15:959][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display:
+[2025.05.23-21.37.15:959][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM6-PCD3D_SM6) Stats:
+[2025.05.23-21.37.15:969][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.05.23-21.37.15:969][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 326 (32600.00%)
+[2025.05.23-21.37.15:969][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shaders: 4161, Unique Shaders: 4161 (100.00%)
+[2025.05.23-21.37.15:969][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shader Size: 73.82mb, Unique Shaders Size: 73.82mb (100.00%)
+[2025.05.23-21.37.15:969][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: === Extended info:
+[2025.05.23-21.37.15:969][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2025.05.23-21.37.15:969][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+[2025.05.23-21.37.15:969][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Maximum number of shaders in shadermap: 264
+[2025.05.23-21.37.15:969][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2025.05.23-21.37.15:969][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display:     1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+[2025.05.23-21.37.15:969][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Textual dump saved to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-Global-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+[2025.05.23-21.37.16:012][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.05.23-21.37.16:012][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display:
+[2025.05.23-21.37.16:012][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5-PCD3D_SM5) Stats:
+[2025.05.23-21.37.16:012][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.05.23-21.37.16:012][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 294 (29400.00%)
+[2025.05.23-21.37.16:012][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shaders: 3549, Unique Shaders: 3539 (99.72%)
+[2025.05.23-21.37.16:012][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shader Size: 11.82mb, Unique Shaders Size: 11.82mb (99.97%)
+[2025.05.23-21.37.16:012][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: === Extended info:
+[2025.05.23-21.37.16:012][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2025.05.23-21.37.16:012][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+[2025.05.23-21.37.16:012][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Maximum number of shaders in shadermap: 264
+[2025.05.23-21.37.16:012][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2025.05.23-21.37.16:023][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display:     4, 2, 2, 2, 2, 2, 2, 2, 1, 1
+[2025.05.23-21.37.16:023][526]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Textual dump saved to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+[2025.05.23-21.37.16:565][527]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.05.23-21.37.17:009][529]UATHelper: Packaging (Windows): LogPackageUtilities: Warning: Engine.ini:[Core.System]:Paths entry '../../../Engine/Plugins/Fab/Content' is not mounted. Skipping it.
+[2025.05.23-21.37.17:020][529]UATHelper: Packaging (Windows): LogPackageUtilities: Warning: Engine.ini:[Core.System]:Paths entry '../../../Engine/Plugins/Fab/Content' is not mounted. Skipping it.
+[2025.05.23-21.37.17:031][529]UATHelper: Packaging (Windows): LogCook: Warning: Unable to find package for cooking /Game/ThirdPerson/Blueprints/GI_GameInstance. Instigator: { GameDefaultObject: GameInstanceClass }.
+[2025.05.23-21.37.17:031][529]UATHelper: Packaging (Windows): LogCook: Display: Discovering localized assets for cultures: en
+[2025.05.23-21.37.17:031][529]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 0 Packages Remain 3199 Total 3199
+[2025.05.23-21.37.17:073][529]UATHelper: Packaging (Windows): LogCook: Display: Cook Diagnostics: OpenFileHandles=220, VirtualMemory=1235MiB
+[2025.05.23-21.37.17:073][529]UATHelper: Packaging (Windows): LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+[2025.05.23-21.37.17:073][529]UATHelper: Packaging (Windows):   CookSettings.bUseSoftGC: Available physical memory 15366MiB is less than the current target for SoftGC 16345MiB.
+[2025.05.23-21.37.17:095][529]UATHelper: Packaging (Windows): LogCookCommandlet: Display: GarbageCollection... (Soft GC)
+[2025.05.23-21.37.17:238][530]PackagingResults: Warning: Engine.ini:[Core.System]:Paths entry '../../../Engine/Plugins/Fab/Content' is not mounted. Skipping it.
+[2025.05.23-21.37.17:238][530]PackagingResults: Warning: Engine.ini:[Core.System]:Paths entry '../../../Engine/Plugins/Fab/Content' is not mounted. Skipping it.
+[2025.05.23-21.37.17:238][530]PackagingResults: Warning: Unable to find package for cooking /Game/ThirdPerson/Blueprints/GI_GameInstance. Instigator: { GameDefaultObject: GameInstanceClass }.
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): LogCook: Display: GarbageCollection Results:
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): 	Type: Soft
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): 	NumObjects:
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): 		Capacity:           25231360
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): 		Before GC:             37280
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): 		After GC:              37274
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): 		Freed by GC:               6
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): 	Virtual Memory:
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): 		Before GC:              1294 MB
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): 		After GC:               1292 MB
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): 		Freed by GC:               1 MB
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.05.23-21.37.17:315][530]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.05.23-21.37.19:058][535]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2025.05.23-21.37.21:083][541]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 895 Packages Remain 3443 Total 4338
+[2025.05.23-21.37.23:909][550]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 2488 Packages Remain 1850 Total 4338
+[2025.05.23-21.37.25:923][556]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 3189 Packages Remain 1150 Total 4339
+[2025.05.23-21.37.25:977][556]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 3952 Packages Remain 387 Total 4339
+[2025.05.23-21.37.25:977][556]UATHelper: Packaging (Windows): LogUObjectGlobals: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\LevelProps\LogPlatforms\log_walkway_small.uasset: Failed to load '/Game/Models/LevelProps/LogPlatforms/none': Can't find file.
+[2025.05.23-21.37.26:248][557]PackagingResults: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\LevelProps\LogPlatforms\log_walkway_small.uasset: Failed to load '/Game/Models/LevelProps/LogPlatforms/none': Can't find file.
+[2025.05.23-21.37.27:963][562]UATHelper: Packaging (Windows): LogLinker: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\LevelProps\LogPlatforms\log_walkway_small.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Models/LevelProps/LogPlatforms/none'
+[2025.05.23-21.37.28:242][563]PackagingResults: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\LevelProps\LogPlatforms\log_walkway_small.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Models/LevelProps/LogPlatforms/none'
+[2025.05.23-21.37.28:748][564]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 4160 Packages Remain 179 Total 4339
+[2025.05.23-21.37.28:748][564]UATHelper: Packaging (Windows): LogCook: Display: Splitting Package /Game/ThirdPerson/Maps/MainMenu with splitter FWorldPartitionCookPackageSplitter acting on object World /Game/ThirdPerson/Maps/MainMenu.MainMenu.
+[2025.05.23-21.37.28:759][564]UATHelper: Packaging (Windows): LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.23-21.37.28:759][564]UATHelper: Packaging (Windows): LogWorldPartition: Display: WorldPartition initialize took 9 ms
+[2025.05.23-21.37.28:759][564]UATHelper: Packaging (Windows): LogWorldPartition: Display: GenerateStreaming for 'MainMenu' started...
+[2025.05.23-21.37.29:839][567]UATHelper: Packaging (Windows): LogWorldPartition: Display: GenerateStreaming for 'MainMenu' took 6 ms
+[2025.05.23-21.37.30:008][568]UATHelper: Packaging (Windows): LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Manny) ...
+[2025.05.23-21.37.30:261][569]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 4282 Packages Remain 55 Total 4337
+[2025.05.23-21.37.30:261][569]UATHelper: Packaging (Windows): LogCook: Display: Splitting Package /Game/ThirdPerson/Maps/ThirdPersonMap with splitter FWorldPartitionCookPackageSplitter acting on object World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap.
+[2025.05.23-21.37.30:261][569]UATHelper: Packaging (Windows): LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.23-21.37.30:261][569]UATHelper: Packaging (Windows): LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 13 ms)
+[2025.05.23-21.37.30:261][569]UATHelper: Packaging (Windows): LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.05.23-21.37.30:293][569]UATHelper: Packaging (Windows): LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 8 ms)
+[2025.05.23-21.37.30:293][569]UATHelper: Packaging (Windows): LogUObjectGlobals: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\__ExternalActors__\ThirdPerson\Maps\ThirdPersonMap\C\Q5\GG10NC2O7ZAB48U8H3SL6X.uasset: Failed to load '/Game/Models/Characters/red_Panda': Can't find file.
+[2025.05.23-21.37.30:368][569]UATHelper: Packaging (Windows): LogLinker: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\__ExternalActors__\ThirdPerson\Maps\ThirdPersonMap\C\Q5\GG10NC2O7ZAB48U8H3SL6X.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Models/Characters/red_Panda'
+[2025.05.23-21.37.30:368][569]UATHelper: Packaging (Windows): LogCook: Display: Splitting Package /Game/ThirdPerson/Maps/Level_1 with splitter FWorldPartitionCookPackageSplitter acting on object World /Game/ThirdPerson/Maps/Level_1.Level_1.
+[2025.05.23-21.37.30:368][569]UATHelper: Packaging (Windows): LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.23-21.37.30:390][569]UATHelper: Packaging (Windows): LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_KillzoneOutOfBounds does not exist, will not scan.
+[2025.05.23-21.37.30:390][569]UATHelper: Packaging (Windows): LogWorldPartition: Display: WorldPartition initialize took 22 ms (total: 35 ms)
+[2025.05.23-21.37.30:422][569]UATHelper: Packaging (Windows): LogWorldPartition: Display: GenerateStreaming for 'Level_1' started...
+[2025.05.23-21.37.30:577][570]PackagingResults: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\__ExternalActors__\ThirdPerson\Maps\ThirdPersonMap\C\Q5\GG10NC2O7ZAB48U8H3SL6X.uasset: Failed to load '/Game/Models/Characters/red_Panda': Can't find file.
+[2025.05.23-21.37.30:578][570]PackagingResults: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\__ExternalActors__\ThirdPerson\Maps\ThirdPersonMap\C\Q5\GG10NC2O7ZAB48U8H3SL6X.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Models/Characters/red_Panda'
+[2025.05.23-21.37.30:578][570]PackagingResults: Warning: ScanPathsSynchronous: Package /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_KillzoneOutOfBounds does not exist, will not scan.
+[2025.05.23-21.37.32:246][575]UATHelper: Packaging (Windows): LogWorldPartition: Display: GenerateStreaming for 'Level_1' took 31 ms (total: 40 ms)
+[2025.05.23-21.37.32:469][575]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 4298 Packages Remain 39 Total 4337
+[2025.05.23-21.37.32:469][575]UATHelper: Packaging (Windows): LogCook: Display: Splitting Package /Game/ThirdPerson/Maps/Level_0 with splitter FWorldPartitionCookPackageSplitter acting on object World /Game/ThirdPerson/Maps/Level_0.Level_0.
+[2025.05.23-21.37.32:469][575]UATHelper: Packaging (Windows): LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.23-21.37.32:469][575]UATHelper: Packaging (Windows): LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 37 ms)
+[2025.05.23-21.37.32:480][575]UATHelper: Packaging (Windows): LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.05.23-21.37.32:883][576]UATHelper: Packaging (Windows): LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 4 ms (total: 45 ms)
+[2025.05.23-21.37.32:883][576]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 4323 Packages Remain 0 Total 4323
+[2025.05.23-21.37.32:883][576]UATHelper: Packaging (Windows): LogCook: Display: Cook Diagnostics: OpenFileHandles=6450, VirtualMemory=2105MiB
+[2025.05.23-21.37.32:956][577]UATHelper: Packaging (Windows): LogCook: Display: Finishing up...
+[2025.05.23-21.37.33:084][577]UATHelper: Packaging (Windows): LogAssetRegistryGenerator: Display: Saving asset registry v17.
+[2025.05.23-21.37.33:159][577]UATHelper: Packaging (Windows): LogAssetRegistryGenerator: Display: Generated development asset registry C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Cooked/Windows/Pandamonium3DPlat/Metadata/DevelopmentAssetRegistry.bin num assets 6557, size is 5641.56kb, XxHash64 = llu, waited on hash -27814044299487928691373746829581033416668950986669972426448931150042591212430107850366997228086104971965849037974685889447390711286094785091569140435582080553113579039817388598576620532557757637680168960.00 seconds
+[2025.05.23-21.37.33:159][577]UATHelper: Packaging (Windows): LogAssetRegistryGenerator: Display: Generated asset registry num assets 4293, size is 1162.67kb
+[2025.05.23-21.37.33:372][578]UATHelper: Packaging (Windows): LogAssetRegistryGenerator: Display: Done saving asset registry. Took 0.2 seconds.
+[2025.05.23-21.37.33:372][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display:
+[2025.05.23-21.37.33:372][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Shader Library 'Pandamonium3DPlat' (PCD3D_SM6-PCD3D_SM6) Stats:
+[2025.05.23-21.37.33:372][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.05.23-21.37.33:372][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Assets: 223, Unique Shadermaps: 173 (77.58%)
+[2025.05.23-21.37.33:372][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shaders: 3643, Unique Shaders: 2819 (77.38%)
+[2025.05.23-21.37.33:372][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shader Size: 92.42mb, Unique Shaders Size: 75.44mb (81.63%)
+[2025.05.23-21.37.33:372][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: === Extended info:
+[2025.05.23-21.37.33:372][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2025.05.23-21.37.33:372][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Median number of shaders in shadermap: 19
+[2025.05.23-21.37.33:372][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Maximum number of shaders in shadermap: 495
+[2025.05.23-21.37.33:372][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2025.05.23-21.37.33:372][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display:     68, 65, 53, 53, 32, 28, 18, 17, 16, 16
+[2025.05.23-21.37.33:372][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Textual dump saved to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-Pandamonium3DPlat-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display:
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Shader Library 'Pandamonium3DPlat' (PCD3D_SM5-PCD3D_SM5) Stats:
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Assets: 223, Unique Shadermaps: 173 (77.58%)
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shaders: 3365, Unique Shaders: 2560 (76.08%)
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shader Size: 9.01mb, Unique Shaders Size: 7.53mb (83.53%)
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: === Extended info:
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Median number of shaders in shadermap: 19
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Maximum number of shaders in shadermap: 363
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display:     68, 66, 53, 53, 32, 30, 26, 18, 17, 16
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Textual dump saved to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-Pandamonium3DPlat-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+[2025.05.23-21.37.33:413][578]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display: Finalize package store(s)...
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display: Done finalizing package store(s)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display: Cook by the book total time in tick 15.827741s total time 19.518442
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display: Peak Used virtual 2124 MiB Peak Used physical 2198 MiB
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display: Packages Cooked: 4225, Packages Iteratively Skipped: 0, Packages Skipped by Platform: 98, Total Packages: 4323
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display: Hierarchy Timer Information:
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:   Root: 0.000s (0)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:     CleanSandbox: 0.054s (1)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:     CollectFilesToCook: 0.977s (1)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:       CookModificationDelegate: 0.000s (1)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:     GenerateLongPackageName: 0.011s (1)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:     TickMainCookLoop: 15.828s (2)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:       PumpPollables: 0.002s (2)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:       PumpRequests: 0.055s (138)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:       LoadPackageForCooking: 5.698s (4347)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:       SavingPackages: 9.807s (359)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:         PollPendingCookedPlatformDatas: 0.288s (77880)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:         PrepareSave: 2.503s (73711)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:         PrecachePlatformDataForNextPackage: 0.460s (4346)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:           PrepareSave: 0.458s (4733)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:         SaveCookedPackage: 5.970s (4347)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:           GEditorSavePackage: 3.290s (4347)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:             VerifyCanCookPackage: 0.014s (4225)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:           TargetDomainDependencies: 0.002s (4347)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:         ClearAllCachedCookedPlatformData: 0.134s (4323)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:       PostLoadPackageFixup: 0.000s (8)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:       WaitForAsync: 0.098s (1238)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:     SavingCurrentIniSettings: 0.015s (1)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:       ProcessingAccessedStrings: 0.003s (1)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:     SavingAssetRegistry: 0.507s (1)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:       BuildChunkManifest: 0.033s (1)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:       SaveManifests: 0.000s (1)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:       SaveRealAssetRegistry: 0.203s (1)
+[2025.05.23-21.37.33:424][578]UATHelper: Packaging (Windows): LogCook: Display:       WriteCookerOpenOrder: 0.092s (1)
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     FinalizePackageStore: 0.009s (1)
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: Misc Cook Stats
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: ===============
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: NiagaraShader.Misc
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     ShadersCompiled=0
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: ShaderCompiler
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     BlockingTimeSec=0.000103
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     AsyncCompileTimeSec=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     GlobalBeginCompileShaderCalls=0
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     ProcessAsyncResultsTimeSec=0.000247
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: GlobalShader.Misc
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     ShadersCompiled=0
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: Material
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     MeshMaterialShadersCompiled=0
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     FinishCacheShadersSec=0.170249
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialShadersCompiled=0
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialShaderMapSubmitCompileJobsTime=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialShaderMapSubmitCompileCalls=0
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialInstanceUpdateCachedExpressionDataSec=0.001692
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialInstancePostLoadSec=0.002184
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialUpdateCachedExpressionDataSec=0.007328
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialTranslateCalls=0
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialTranslateTimeSec=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: Package.Load
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     NumInlineLoads=2146
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     NumPackagesLoaded=6513
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     LoadPackageTimeSec=7.429401
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: Package.Save
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     NumPackagesIterativelySkipped=0
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     NumPackagesSaved=4347
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     SavePackageTimeSec=3.224616
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     TagPackageExportsPresaveTimeSec=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     TagPackageExportsTimeSec=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     FullyLoadLoadersTimeSec=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     ResetLoadersTimeSec=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     SerializeImportsTimeSec=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     SerializeExportsTimeSec=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     SerializeBulkDataTimeSec=0.018123
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     AsyncWriteTimeSec=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     MBWritten=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: CookOnTheFlyServer
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     PeakRequestQueueSize=4338
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     PeakLoadQueueSize=2464
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     PeakSaveQueueSize=592
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: Package.DifferentPackagesSizeMBPerAsset
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: Package.PackageDifferencesSizeMBPerAsset
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: Package.DiffTotal
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     NumberOfDifferentPackages=0
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     DifferentPackagesSizeMB=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     NumberOfDifferencesInPackages=0
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     PackageDifferencesSizeMB=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: UnversionedProperties
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     SavedStructs=0
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     SavedMB=0
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     EquivalentTaggedMB=0
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     CompressionRatio=-nan(ind)
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:     BitfieldWasteKB=0
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: Cook Profile
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display: ============
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:  0.CookWallTimeSec=24.149436
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 0.StartupWallTimeSec=4.585456
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1.CookByTheBookTimeSec=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 0.StartCookByTheBookTimeSec=3.129658
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 0. 0.BlockOnAssetRegistryTimeSec=0.496231
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 0. 1.GameCookModificationDelegateTimeSec=0.000056
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 1.TickCookOnTheSideTimeSec=0.034565
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=5.699438
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=5.969994
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 1. 2.TickCookOnTheSidePrepareSaveTimeSec=2.966824
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 2.TickLoopGCTimeSec=0.022986
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.000000
+[2025.05.23-21.37.33:435][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.000005
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000003
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000001
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 7.TickLoopFlushRenderingCommandsTimeSec=0.001646
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 8.TargetPlatforms=Windows
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 9.CookProject=Pandamonium3DPlat
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 10.CookCultures=
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 11.IsCookAll=false
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 12.IsCookOnTheFly=false
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 13.IsIterativeCook=false
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 14.IsUnversioned=true
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 15.CookLabel=
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 16.IsFastCook=false
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display:
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: DDC Summary Stats
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: =================
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: BackEnd         =InstalledDerivedDataBackendGraph
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: HasLocalCache   =      true
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: HasSharedCache  =     false
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: HasCloudCache   =     false
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: HasZenCache     =     false
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: TotalGetHits    =     13164
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: TotalGetMisses  =       133
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: TotalGets       =     13297
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: TotalGetHitPct  =  0.989998
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: GetMissPct      =  0.010002
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: TotalPutHits    =         0
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: TotalPutMisses  =         0
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: TotalPuts       =         0
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: TotalPutHitPct  =  0.000000
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: PutMissPct      =  0.000000
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: LocalGetHits    =      4245
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: LocalGetTotal   =      4378
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: LocalGetHitPct  =  0.969621
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: SharedGetHits   =         0
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: SharedGetTotal  =         0
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: SharedGetHitPct =  0.000000
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: ZenLocalGetHits =         0
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: ZenLocalGetTotal=         0
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: ZenLocalGetHitPct=  0.000000
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: ZenRemoteGetHits=         0
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: ZenRemoteGetTotal=         0
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: ZenRemoteGetHitPct=  0.000000
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: CloudGetHits    =         0
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: CloudGetTotal   =         0
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: CloudGetHitPct  =  0.000000
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: LocalLatency    =  0.062399
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: LocalReadSpeed  = 96.848839
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: LocalWriteSpeed =  0.000000
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: SharedLatency   =  0.000000
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: SharedReadSpeed =  0.000000
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: SharedWriteSpeed=  0.000000
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: CloudLatency    =  0.000000
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: CloudReadSpeed  =  0.000000
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: CloudWriteSpeed =  0.000000
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display:
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: DDC Resource Stats
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: =======================================================================================================
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: Texture                                         2.76                   0.01             0        328.64
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: BulkDataList                                    1.23                   0.00             0          1.21
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: Audio                                           0.30                   0.00             0         36.32
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: MaterialShader                                  0.18                   0.16             0         89.34
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: GlobalShader                                    0.05                   0.08             0         62.05
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: SkeletalMesh                                    0.03                   0.00             0         35.96
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: BulkDataPayloadId                               0.02                   0.00             0          0.01
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: StaticMesh                                      0.02                   0.01             0          3.43
+[2025.05.23-21.37.33:445][578]UATHelper: Packaging (Windows): LogCook: Display: DistanceField                                   0.02                   0.00             0          1.69
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: CardRepresentation                              0.01                   0.00             0          0.05
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: NavCollision                                    0.01                   0.00             0          0.12
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: AnimationSequence                               0.01                   0.00             0          1.17
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: BodySetup                                       0.00                   0.01             0          1.43
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: NiagaraShader                                   0.00                   0.00             0          0.02
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogPackageBuildDependencyTracker: Display: Package Accesses (2760 referencing packages with a total of 10342 unique accesses)
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: Done!
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogSavePackage: Display: Took 0.005891s to verify the EDL loading graph.
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: Misc Cook Stats
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: ===============
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: NiagaraShader.Misc
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     ShadersCompiled=0
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: ShaderCompiler
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     BlockingTimeSec=0.000103
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     AsyncCompileTimeSec=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     GlobalBeginCompileShaderCalls=0
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     ProcessAsyncResultsTimeSec=0.000247
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: GlobalShader.Misc
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     ShadersCompiled=0
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: Material
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     MeshMaterialShadersCompiled=0
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     FinishCacheShadersSec=0.170249
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialShadersCompiled=0
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialShaderMapSubmitCompileJobsTime=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialShaderMapSubmitCompileCalls=0
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialInstanceUpdateCachedExpressionDataSec=0.001692
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialInstancePostLoadSec=0.002184
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialUpdateCachedExpressionDataSec=0.007328
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialTranslateCalls=0
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     MaterialTranslateTimeSec=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: Package.Load
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     NumInlineLoads=2146
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     NumPackagesLoaded=6513
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     LoadPackageTimeSec=7.429401
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: Package.Save
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     NumPackagesIterativelySkipped=0
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     NumPackagesSaved=4347
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     SavePackageTimeSec=3.224616
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     TagPackageExportsPresaveTimeSec=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     TagPackageExportsTimeSec=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     FullyLoadLoadersTimeSec=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     ResetLoadersTimeSec=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     SerializeImportsTimeSec=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     SerializeExportsTimeSec=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     SerializeBulkDataTimeSec=0.018123
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     AsyncWriteTimeSec=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     MBWritten=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: CookOnTheFlyServer
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     PeakRequestQueueSize=4338
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     PeakLoadQueueSize=2464
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     PeakSaveQueueSize=592
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: Package.DifferentPackagesSizeMBPerAsset
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: Package.PackageDifferencesSizeMBPerAsset
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: Package.DiffTotal
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     NumberOfDifferentPackages=0
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     DifferentPackagesSizeMB=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     NumberOfDifferencesInPackages=0
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     PackageDifferencesSizeMB=0.000000
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: UnversionedProperties
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     SavedStructs=0
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     SavedMB=0
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     EquivalentTaggedMB=0
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     CompressionRatio=-nan(ind)
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:     BitfieldWasteKB=0
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: Cook Profile
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display: ============
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:  0.CookWallTimeSec=24.160927
+[2025.05.23-21.37.33:456][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 0.StartupWallTimeSec=4.585456
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1.CookByTheBookTimeSec=19.571366
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 0.StartCookByTheBookTimeSec=3.129658
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 0. 0.BlockOnAssetRegistryTimeSec=0.496231
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 0. 1.GameCookModificationDelegateTimeSec=0.000056
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 1.TickCookOnTheSideTimeSec=16.373885
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=5.699438
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=5.969994
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 1. 2.TickCookOnTheSidePrepareSaveTimeSec=2.966824
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 2.TickLoopGCTimeSec=0.022986
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.000005
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000003
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000001
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 7.TickLoopFlushRenderingCommandsTimeSec=0.001646
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 8.TargetPlatforms=Windows
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 9.CookProject=Pandamonium3DPlat
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 10.CookCultures=
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 11.IsCookAll=false
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 12.IsCookOnTheFly=false
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 13.IsIterativeCook=false
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 14.IsUnversioned=true
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 15.CookLabel=
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:  0. 1. 16.IsFastCook=false
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: DDC Summary Stats
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: =================
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: BackEnd         =InstalledDerivedDataBackendGraph
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: HasLocalCache   =      true
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: HasSharedCache  =     false
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: HasCloudCache   =     false
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: HasZenCache     =     false
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: TotalGetHits    =     13164
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: TotalGetMisses  =       133
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: TotalGets       =     13297
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: TotalGetHitPct  =  0.989998
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: GetMissPct      =  0.010002
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: TotalPutHits    =         0
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: TotalPutMisses  =         0
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: TotalPuts       =         0
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: TotalPutHitPct  =  0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: PutMissPct      =  0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: LocalGetHits    =      4245
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: LocalGetTotal   =      4378
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: LocalGetHitPct  =  0.969621
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: SharedGetHits   =         0
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: SharedGetTotal  =         0
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: SharedGetHitPct =  0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: ZenLocalGetHits =         0
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: ZenLocalGetTotal=         0
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: ZenLocalGetHitPct=  0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: ZenRemoteGetHits=         0
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: ZenRemoteGetTotal=         0
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: ZenRemoteGetHitPct=  0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: CloudGetHits    =         0
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: CloudGetTotal   =         0
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: CloudGetHitPct  =  0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: LocalLatency    =  0.062399
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: LocalReadSpeed  = 96.848839
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: LocalWriteSpeed =  0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: SharedLatency   =  0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: SharedReadSpeed =  0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: SharedWriteSpeed=  0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: CloudLatency    =  0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: CloudReadSpeed  =  0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: CloudWriteSpeed =  0.000000
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display:
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: DDC Resource Stats
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: =======================================================================================================
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: Texture                                         2.76                   0.01             0        328.64
+[2025.05.23-21.37.33:466][578]UATHelper: Packaging (Windows): LogCook: Display: BulkDataList                                    1.23                   0.00             0          1.21
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogCook: Display: Audio                                           0.30                   0.00             0         36.32
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogCook: Display: MaterialShader                                  0.18                   0.16             0         89.34
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogCook: Display: GlobalShader                                    0.05                   0.08             0         62.05
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogCook: Display: SkeletalMesh                                    0.03                   0.00             0         35.96
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogCook: Display: BulkDataPayloadId                               0.02                   0.00             0          0.01
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogCook: Display: StaticMesh                                      0.02                   0.01             0          3.43
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogCook: Display: DistanceField                                   0.02                   0.00             0          1.69
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogCook: Display: CardRepresentation                              0.01                   0.00             0          0.05
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogCook: Display: NavCollision                                    0.01                   0.00             0          0.12
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogCook: Display: AnimationSequence                               0.01                   0.00             0          1.17
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogCook: Display: BodySetup                                       0.00                   0.01             0          1.43
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogCook: Display: NiagaraShader                                   0.00                   0.00             0          0.02
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogPackageBuildDependencyTracker: Display: Package Accesses (2760 referencing packages with a total of 10342 unique accesses)
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogInit: Display:
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogInit: Display: Warning/Error Summary (Unique only)
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogInit: Display: -----------------------------------
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogInit: Display: LogPackageUtilities: Warning: Engine.ini:[Core.System]:Paths entry '../../../Engine/Plugins/Fab/Content' is not mounted. Skipping it.
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogInit: Display: LogCook: Warning: Unable to find package for cooking /Game/ThirdPerson/Blueprints/GI_GameInstance. Instigator: { GameDefaultObject: GameInstanceClass }.
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\LevelProps\LogPlatforms\log_walkway_small.uasset: Failed to load '/Game/Models/LevelProps/LogPlatforms/none': Can't find file.
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogInit: Display: LogLinker: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\LevelProps\LogPlatforms\log_walkway_small.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Models/LevelProps/LogPlatforms/none'
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogInit: Display: LogUObjectGlobals: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\__ExternalActors__\ThirdPerson\Maps\ThirdPersonMap\C\Q5\GG10NC2O7ZAB48U8H3SL6X.uasset: Failed to load '/Game/Models/Characters/red_Panda': Can't find file.
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogInit: Display: LogLinker: Warning: [AssetLog] C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\__ExternalActors__\ThirdPerson\Maps\ThirdPersonMap\C\Q5\GG10NC2O7ZAB48U8H3SL6X.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Models/Characters/red_Panda'
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogInit: Display: LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_KillzoneOutOfBounds does not exist, will not scan.
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogInit: Display:
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogInit: Display: Success - 0 error(s), 8 warning(s)
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): LogInit: Display:
+[2025.05.23-21.37.33:477][578]UATHelper: Packaging (Windows): Execution of commandlet took:  19.58 seconds
+[2025.05.23-21.37.33:963][580]UATHelper: Packaging (Windows): LogShaderCompilers: Display: ================================================
+[2025.05.23-21.37.33:963][580]UATHelper: Packaging (Windows): LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.23-21.37.33:963][580]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2025.05.23-21.37.33:963][580]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2025.05.23-21.37.33:963][580]UATHelper: Packaging (Windows): LogShaderCompilers: Display: RAM used: 240,00 B of 1,60 GiB budget. Usage: 0.00%
+[2025.05.23-21.37.33:963][580]UATHelper: Packaging (Windows): LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.23-21.37.33:963][580]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Shaders Compiled: 0
+[2025.05.23-21.37.33:963][580]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2025.05.23-21.37.33:963][580]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2025.05.23-21.37.34:070][580]UATHelper: Packaging (Windows): LogShaderCompilers: Display: ================================================
+[2025.05.23-21.37.35:168][583]UATHelper: Packaging (Windows): Took 26,14s to run UnrealEditor-Cmd.exe, ExitCode=0
+[2025.05.23-21.37.35:168][583]UATHelper: Packaging (Windows): Cook command time: 26.16 s
+[2025.05.23-21.37.35:168][583]UATHelper: Packaging (Windows): ********** COOK COMMAND COMPLETED **********
+[2025.05.23-21.37.35:179][583]UATHelper: Packaging (Windows): ********** STAGE COMMAND STARTED **********
+[2025.05.23-21.37.35:212][583]UATHelper: Packaging (Windows): Creating Staging Manifest...
+[2025.05.23-21.37.35:223][583]UATHelper: Packaging (Windows): Patching bootstrap executable; C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Intermediate\Staging\Pandamonium3DPlat.exe
+[2025.05.23-21.37.35:223][583]UATHelper: Packaging (Windows): Begin update resource 'C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Intermediate\Staging\Pandamonium3DPlat.exe' (0)
+[2025.05.23-21.37.35:223][583]UATHelper: Packaging (Windows): Add resource 101, length 104 (True)
+[2025.05.23-21.37.35:223][583]UATHelper: Packaging (Windows): Add resource 1, length 1996 (True)
+[2025.05.23-21.37.35:223][583]UATHelper: Packaging (Windows): Add resource 2, length 2447 (True)
+[2025.05.23-21.37.35:223][583]UATHelper: Packaging (Windows): Add resource 3, length 2535 (True)
+[2025.05.23-21.37.35:223][583]UATHelper: Packaging (Windows): Add resource 4, length 3037 (True)
+[2025.05.23-21.37.35:223][583]UATHelper: Packaging (Windows): Add resource 5, length 3244 (True)
+[2025.05.23-21.37.35:223][583]UATHelper: Packaging (Windows): Add resource 6, length 3531 (True)
+[2025.05.23-21.37.35:223][583]UATHelper: Packaging (Windows): Add resource 7, length 6931 (True)
+[2025.05.23-21.37.35:223][583]UATHelper: Packaging (Windows): Add resource 201, length 104 (True)
+[2025.05.23-21.37.35:223][583]UATHelper: Packaging (Windows): Add resource 202, length 108 (True)
+[2025.05.23-21.37.35:223][583]UATHelper: Packaging (Windows): End update resource (True/0)
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Base.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseCompat.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseDeviceProfiles.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseEditor.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseEditorKeyBindings.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseEditorSettings.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseEngine.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseGame.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseGameUserSettings.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseHardware.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseInput.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseInstallBundle.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseLightmass.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BasePakFileRules.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseRuntimeOptions.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\BaseScalability.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\ConfigRedirects.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\ConsoleVariables.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Layouts\DefaultLayout.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Layouts\UE4ClassicLayout.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Localization\Category.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Localization\Editor.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Localization\EditorTutorials.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Localization\Engine.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Localization\Keywords.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Localization\PortableObjectExport.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Localization\PortableObjectImport.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Localization\PropertyNames.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Localization\RepairData.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Localization\ToolTips.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Localization\WordCount.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\VulkanPC\DataDrivenPlatformInfo.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Windows\BaseWindowsEngine.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Windows\DataDrivenPlatformInfo.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Excluding config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Windows\WindowsEditorPerProjectUserSettings.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Windows\WindowsEngine.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Windows\WindowsGame.ini
+[2025.05.23-21.37.35:234][583]UATHelper: Packaging (Windows): Including config file C:\Program Files\Epic Games\UE_5.3\Engine\Config\Windows\WindowsInput.ini
+[2025.05.23-21.37.35:244][583]UATHelper: Packaging (Windows): Excluding config file C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Config\DefaultEditor.ini
+[2025.05.23-21.37.35:244][583]UATHelper: Packaging (Windows): Excluding config file C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Config\DefaultEditorPerProjectUserSettings.ini
+[2025.05.23-21.37.35:244][583]UATHelper: Packaging (Windows): Including config file C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Config\DefaultEngine.ini
+[2025.05.23-21.37.35:244][583]UATHelper: Packaging (Windows): Including config file C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Config\DefaultGame.ini
+[2025.05.23-21.37.35:244][583]UATHelper: Packaging (Windows): Including config file C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Config\DefaultInput.ini
+[2025.05.23-21.37.35:350][584]UATHelper: Packaging (Windows): Cleaning Stage Directory: C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\StagedBuilds\Windows
+[2025.05.23-21.37.35:403][584]UATHelper: Packaging (Windows): Creating pak using staging manifest.
+[2025.05.23-21.37.35:403][584]UATHelper: Packaging (Windows): DumpManifest: C:\Users\okacp\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.3\PrePak_Windows_NonUFSFiles.txt, NumItems: 16
+[2025.05.23-21.37.35:403][584]UATHelper: Packaging (Windows): DumpManifest: C:\Users\okacp\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.3\PrePak_Windows_NonUFSFilesDebug.txt, NumItems: 5
+[2025.05.23-21.37.35:403][584]UATHelper: Packaging (Windows): DumpManifest: C:\Users\okacp\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.3\PrePak_Windows_UFSFiles.txt, NumItems: 10412
+[2025.05.23-21.37.35:614][585]UATHelper: Packaging (Windows): No matching platform for PakFileRules for Section ExcludeContentForMobile : Windows
+[2025.05.23-21.37.35:635][585]UATHelper: Packaging (Windows): Using 0 pak order files:
+[2025.05.23-21.37.35:646][585]UATHelper: Packaging (Windows): Running: C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealPak.exe "C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Pandamonium3DPlat.uproject"  -cryptokeys="C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\Cooked\Windows\Pandamonium3DPlat\Metadata\Crypto.json" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=7 -compressmethod=Kraken  -platform=Windows  -CreateMultiple="C:\Users\okacp\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.3\PakCommands.txt"
+[2025.05.23-21.37.35:815][585]UATHelper: Packaging (Windows): LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2025.05.23-21.37.35:815][585]UATHelper: Packaging (Windows): LogPakFile: Display: CompressionFormats in priority order: Oodle, Zlib
+[2025.05.23-21.37.35:815][585]UATHelper: Packaging (Windows): LogPakFile: Display: Oodle enabled on 'NoPluginCompression' files
+[2025.05.23-21.37.35:837][585]UATHelper: Packaging (Windows): LogPakFile: Display: Loading response file C:\Program Files\Epic Games\UE_5.3\Engine\Programs\AutomationTool\Saved\ResponseFiles\PakList_Pandamonium3DPlat-Windows.txt
+[2025.05.23-21.37.35:837][585]UATHelper: Packaging (Windows): LogPakFile: Display: Added 1515 entries to add to pak file.
+[2025.05.23-21.37.35:837][585]UATHelper: Packaging (Windows): LogPakFile: Display: Collecting files to add to pak file...
+[2025.05.23-21.37.35:837][585]UATHelper: Packaging (Windows): LogPakFile: Display: Collected 1515 files in 0.00s.
+[2025.05.23-21.37.35:871][585]UATHelper: Packaging (Windows): LogPakFile: Display: Creating pak C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\StagedBuilds\Windows\Pandamonium3DPlat\Content\Paks\Pandamonium3DPlat-Windows.pak.
+[2025.05.23-21.37.36:645][588]UATHelper: Packaging (Windows): OodleDataCompression: Display: Oodle v2.9.10 format for pak/iostore with method=Kraken, level=7=Optimal3
+[2025.05.23-21.37.36:645][588]UATHelper: Packaging (Windows): LogPakFile: Display: Created pak file: C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\StagedBuilds\Windows\Pandamonium3DPlat\Content\Paks\Pandamonium3DPlat-Windows.pak
+[2025.05.23-21.37.36:645][588]UATHelper: Packaging (Windows): LogPakFile: Display: CompressionFormat 0 [Oodle] : 328 files, 23803059 -> 8056325 bytes
+[2025.05.23-21.37.36:645][588]UATHelper: Packaging (Windows): LogPakFile: Display: CompressionFormat 2 [None] : 1187 files, 701416 -> 701416 bytes
+[2025.05.23-21.37.36:645][588]UATHelper: Packaging (Windows): LogPakFile: Display: Added 1515 files, 9350053 bytes total
+[2025.05.23-21.37.36:645][588]UATHelper: Packaging (Windows): LogPakFile: Display: PrimaryIndex size: 20978 bytes
+[2025.05.23-21.37.36:645][588]UATHelper: Packaging (Windows): LogPakFile: Display: PathHashIndex size: 43718 bytes
+[2025.05.23-21.37.36:645][588]UATHelper: Packaging (Windows): LogPakFile: Display: FullDirectoryIndex size: 46990 bytes
+[2025.05.23-21.37.36:645][588]UATHelper: Packaging (Windows): LogPakFile: Display: Compression summary: 33.85% of original size. Compressed Size 8056325 bytes, Original Size 23803059 bytes.
+[2025.05.23-21.37.36:645][588]UATHelper: Packaging (Windows): LogPakFile: Display: Encryption - DISABLED
+[2025.05.23-21.37.36:645][588]UATHelper: Packaging (Windows): LogPakFile: Display:
+[2025.05.23-21.37.36:645][588]UATHelper: Packaging (Windows): LogPakFile: Display: Writer and Compression Threads exited.
+[2025.05.23-21.37.36:688][588]UATHelper: Packaging (Windows): LogPakFile: Display: UnrealPak executed in 0.829898 seconds
+[2025.05.23-21.37.36:688][588]UATHelper: Packaging (Windows): Took 1,04s to run UnrealPak.exe, ExitCode=0
+[2025.05.23-21.37.36:698][588]UATHelper: Packaging (Windows): Running UnrealPak with arguments: -CreateGlobalContainer="C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\StagedBuilds\Windows\Pandamonium3DPlat\Content\Paks\global.utoc" -CookedDirectory="C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\Cooked\Windows" -PackageStoreManifest="C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\Cooked\Windows\Pandamonium3DPlat\Metadata\packagestore.manifest" -Commands="C:\Users\okacp\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.3\IoStoreCommands.txt" -ScriptObjects="C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\Cooked\Windows\Pandamonium3DPlat\Metadata\scriptobjects.bin" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=7 -compressmethod=Kraken   -cryptokeys="C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\Cooked\Windows\Pandamonium3DPlat\Metadata\Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled 
+[2025.05.23-21.37.36:698][588]UATHelper: Packaging (Windows): Running: C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealPak.exe -CreateGlobalContainer="C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\StagedBuilds\Windows\Pandamonium3DPlat\Content\Paks\global.utoc" -CookedDirectory="C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\Cooked\Windows" -PackageStoreManifest="C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\Cooked\Windows\Pandamonium3DPlat\Metadata\packagestore.manifest" -Commands="C:\Users\okacp\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.3\IoStoreCommands.txt" -ScriptObjects="C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\Cooked\Windows\Pandamonium3DPlat\Metadata\scriptobjects.bin" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=7 -compressmethod=Kraken   -cryptokeys="C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\Cooked\Windows\Pandamonium3DPlat\Metadata\Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled
+[2025.05.23-21.37.36:829][588]UATHelper: Packaging (Windows): LogIoStore: Display: ==================== IoStore Utils ====================
+[2025.05.23-21.37.36:829][588]UATHelper: Packaging (Windows): LogIoStore: Display: Parsing crypto keys from a crypto key cache file 'C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\Cooked\Windows\Pandamonium3DPlat\Metadata\Crypto.json'
+[2025.05.23-21.37.36:829][588]UATHelper: Packaging (Windows): LogIoStore: Display: Container signing - DISABLED
+[2025.05.23-21.37.36:829][588]UATHelper: Packaging (Windows): LogIoStore: Display: Directory index - ENABLED
+[2025.05.23-21.37.36:829][588]UATHelper: Packaging (Windows): LogIoStore: Display: Using compression format 'Oodle'
+[2025.05.23-21.37.36:829][588]UATHelper: Packaging (Windows): LogIoStore: Display: Using memory mapping alignment '16384'
+[2025.05.23-21.37.36:829][588]UATHelper: Packaging (Windows): LogIoStore: Display: Using compression block size '65536'
+[2025.05.23-21.37.36:829][588]UATHelper: Packaging (Windows): LogIoStore: Display: Using compression block alignment '2048'
+[2025.05.23-21.37.36:829][588]UATHelper: Packaging (Windows): LogIoStore: Display: Using compression min bytes saved '1024'
+[2025.05.23-21.37.36:829][588]UATHelper: Packaging (Windows): LogIoStore: Display: Using compression min percent saved '5'
+[2025.05.23-21.37.36:829][588]UATHelper: Packaging (Windows): LogIoStore: Display: Using max partition size '0'
+[2025.05.23-21.37.36:829][588]UATHelper: Packaging (Windows): LogIoStore: Display: Not using DDC for compression
+[2025.05.23-21.37.36:851][588]UATHelper: Packaging (Windows): LogIoStore: Display: Using command list file: 'C:\Users\okacp\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.3\IoStoreCommands.txt'
+[2025.05.23-21.37.36:861][588]UATHelper: Packaging (Windows): LogIoStore: Display: Selected Oodle level 7 (Optimal3) from command line for shaders
+[2025.05.23-21.37.36:905][588]UATHelper: Packaging (Windows): LogIoStore: Display: Searching for cooked assets in folder 'C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\Cooked\Windows'
+[2025.05.23-21.37.36:925][588]UATHelper: Packaging (Windows): LogIoStore: Display: Found '8901' files
+[2025.05.23-21.37.36:936][588]UATHelper: Packaging (Windows): LogIoStore: Display: Using input asset registry: C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\Cooked\Windows/Pandamonium3DPlat/Metadata/DevelopmentAssetRegistry.bin
+[2025.05.23-21.37.36:947][588]UATHelper: Packaging (Windows): LogIoStore: Display: Added 443 hashes to the hash database, init took 0.000290 seconds
+[2025.05.23-21.37.36:957][589]UATHelper: Packaging (Windows): LogIoStore: Display: Creating container targets...
+[2025.05.23-21.37.36:999][589]UATHelper: Packaging (Windows): OodleDataCompression: Display: Oodle v2.9.10 format for pak/iostore with method=Kraken, level=7=Optimal3
+[2025.05.23-21.37.36:999][589]UATHelper: Packaging (Windows): LogIoStore: Display: Parsing packages...
+[2025.05.23-21.37.37:010][589]UATHelper: Packaging (Windows): LogIoStore: Display: Reading package assets...
+[2025.05.23-21.37.37:010][589]UATHelper: Packaging (Windows): LogIoStore: Display: Reading 1000/4225: 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Cooked/Windows/Engine/Content/EngineMaterials/Substrate/GLints/dict_16_192_64_0p5_0p02_0023_0008.uasset'
+[2025.05.23-21.37.37:021][589]UATHelper: Packaging (Windows): LogIoStore: Display: Reading 2000/4225: 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Cooked/Windows/Engine/Content/EngineMaterials/Substrate/Glints2/dict_0002_0027.uasset'
+[2025.05.23-21.37.37:033][589]UATHelper: Packaging (Windows): LogIoStore: Display: Reading 3000/4225: 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Cooked/Windows/Engine/Content/EngineMaterials/Substrate/Glints2/dict_0006_0004.uasset'
+[2025.05.23-21.37.37:033][589]UATHelper: Packaging (Windows): LogIoStore: Display: Reading 4000/4225: 'C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Cooked/Windows/Engine/Content/EngineMaterials/Substrate/GLints/dict_16_192_64_0p5_0p02_0043_0002.uasset'
+[2025.05.23-21.37.37:044][589]UATHelper: Packaging (Windows): LogIoStore: Display: Packages read 4,225 files in 0.03 seconds, 6,690,493 total bytes, 201,897,911 bytes per second
+[2025.05.23-21.37.37:044][589]UATHelper: Packaging (Windows): LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 7 (Optimal3)
+[2025.05.23-21.37.38:377][593]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 329 groups (119 of them didn't need new indices), average uncompressed size 157809 bytes, min 172 bytes, max 1026946 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.05.23-21.37.38:389][593]UATHelper: Packaging (Windows): LogIoStore: Display: Global-PCD3D_SM5(PCD3D_SM5): Recompressed 3539 shaders as 329 groups. Library size changed from 12101 KB (4.19 : 1 ratio) to 4321 KB (11.73 : 1 ratio), 35.71% of previous.
+[2025.05.23-21.37.41:444][602]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 404 groups (129 of them didn't need new indices), average uncompressed size 303250 bytes, min 2166 bytes, max 1033458 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.05.23-21.37.41:444][602]UATHelper: Packaging (Windows): LogIoStore: Display: Global-PCD3D_SM6(PCD3D_SM6): Recompressed 4161 shaders as 404 groups. Library size changed from 75590 KB (1.58 : 1 ratio) to 38306 KB (3.12 : 1 ratio), 50.68% of previous.
+[2025.05.23-21.37.41:984][603]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 253 groups (72 of them didn't need new indices), average uncompressed size 103578 bytes, min 436 bytes, max 823829 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.05.23-21.37.41:985][603]UATHelper: Packaging (Windows): LogIoStore: Display: Pandamonium3DPlat-PCD3D_SM5(PCD3D_SM5): Recompressed 2560 shaders as 253 groups. Library size changed from 7708 KB (3.32 : 1 ratio) to 1809 KB (14.14 : 1 ratio), 23.48% of previous.
+[2025.05.23-21.37.45:752][678]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 296 groups (65 of them didn't need new indices), average uncompressed size 469223 bytes, min 4086 bytes, max 1037386 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.05.23-21.37.45:752][678]UATHelper: Packaging (Windows): LogIoStore: Display: Pandamonium3DPlat-PCD3D_SM6(PCD3D_SM6): Recompressed 2819 shaders as 296 groups. Library size changed from 77252 KB (1.76 : 1 ratio) to 43210 KB (3.14 : 1 ratio), 55.93% of previous.
+[2025.05.23-21.37.45:763][679]UATHelper: Packaging (Windows): LogIoStore: Display: Shaders processed in 8.71 seconds
+[2025.05.23-21.37.45:763][679]UATHelper: Packaging (Windows): LogIoStore: Display: Processing redirects...
+[2025.05.23-21.37.45:774][679]UATHelper: Packaging (Windows): LogIoStore: Display: Creating disk layout...
+[2025.05.23-21.37.45:795][680]UATHelper: Packaging (Windows): LogIoStore: Display: Ordered 4225 packages using fallback bundle order
+[2025.05.23-21.37.47:954][803]UATHelper: Packaging (Windows): LogIoStore: Display: Serializing container(s)...
+[2025.05.23-21.37.49:960][818]UATHelper: Packaging (Windows): LogIoStore: Display: Writing chunks (998/5954)... [616 compressed] [5256 compression tasks scheduled]
+[2025.05.23-21.37.51:965][824]UATHelper: Packaging (Windows): LogIoStore: Display: Writing chunks (998/5954)... [3222 compressed] [1605 compression tasks scheduled]
+[2025.05.23-21.37.53:967][830]UATHelper: Packaging (Windows): LogIoStore: Display: Writing chunks (5470/5954)... [4226 compressed] [8900 compression tasks scheduled]
+[2025.05.23-21.37.55:980][869]UATHelper: Packaging (Windows): LogIoStore: Display: Writing chunks (5470/5954)... [4252 compressed] [7375 compression tasks scheduled]
+[2025.05.23-21.37.58:024][982]UATHelper: Packaging (Windows): LogIoStore: Display: Writing chunks (5470/5954)... [4290 compressed] [6050 compression tasks scheduled]
+[2025.05.23-21.38.00:031][ 91]UATHelper: Packaging (Windows): LogIoStore: Display: Writing chunks (5470/5954)... [4310 compressed] [4789 compression tasks scheduled]
+[2025.05.23-21.38.02:035][203]UATHelper: Packaging (Windows): LogIoStore: Display: Writing chunks (5470/5954)... [4338 compressed] [3686 compression tasks scheduled]
+[2025.05.23-21.38.04:059][244]UATHelper: Packaging (Windows): LogIoStore: Display: Writing chunks (5470/5954)... [4396 compressed] [2427 compression tasks scheduled]
+[2025.05.23-21.38.05:912][249]UATHelper: Packaging (Windows): LogIoStore: Display: Writing chunks (5470/5954)... [4482 compressed] [1216 compression tasks scheduled]
+[2025.05.23-21.38.05:912][249]UATHelper: Packaging (Windows): LogIoStore: Display: Writing and compressing took 19.97 seconds, writes to disk took 0.63 seconds for 486,002,864 bytes @ 771,693,901 bytes per second.
+[2025.05.23-21.38.05:912][249]UATHelper: Packaging (Windows): LogIoStore: Display: global: Found perfect hashmap for 1 items.
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: Pandamonium3DPlat-Windows: Found perfect hashmap for 5953 items.
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: Finalize took 0.0 seconds for 2 writers to write 768,080 bytes, 65,825,084 bytes per second
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: 443 / 5,954 hashes were loaded from the hash database, by type:
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:     BulkData                   443
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: 4,668 / 5,954 chunks attempted to compress, by type:
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:     ExportBundleData           4,225 / 4,225
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:     BulkData                   443 / 443
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:     ScriptObjects              0 / 1
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:     ContainerHeader            0 / 1
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:     ShaderCodeLibrary          0 / 4
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:     ShaderCode                 0 / 1,280
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: Source bytes read:
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:     Zen:                                  0
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:     Loose File:                 993,894,239
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:         ExportBundleData        421,531,586 bytes over 8,450 reads
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:         BulkData                572,362,653 bytes over 443 reads
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:     Memory:                     180,547,390
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:         ShaderCodeLibrary         1,077,184 bytes over 8 reads
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:         ShaderCode              179,470,206 bytes over 2,560 reads
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: Calculating stats...
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: --------------------------------------------------- IoDispatcher --------------------------------------------------------
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: Container                           Flags   TOC Size (KB)     TOC Entries       Size (MB)           Compressed (MB)
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: -------------------------------------------------------------------------------------------------------------------------
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: global                          -/-/-/-/-            0.56               1            1.93                         -
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: Pandamonium3DPlat-Windows       C/-/-/I/-          749.52            5953          840.26     461.56 (45.07% Oodle)
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: TOTAL                                              750.08            5954          842.18                         -
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: Compression block padding:     3.00 MB
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: -------------------------------------------- Container Directory Index --------------------------------------------------
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: Container                            Size (KB)
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: global                                    0.00
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: Pandamonium3DPlat-Windows               200.72
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: ---------------------------------------------- Container Patch Report ---------------------------------------------------
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: Container                         Total (count) Modified (count)    Added (count)    Modified (MB)       Added (MB)
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: global                                        1                0                0             0.00             0.00
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: Pandamonium3DPlat-Windows                  5953                0             5953             0.00           458.57
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: --------------------------------------------------- PackageStore (KB) ---------------------------------------------------
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: Container                                Store Size             Packages            Localized
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: -------------------------------------------------------------------------------------------------------------------------
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: Pandamonium3DPlat-Windows                        86                 4225                    0
+[2025.05.23-21.38.05:922][249]UATHelper: Packaging (Windows): LogIoStore: Display: TOTAL                                            86                 4225                    0
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      4225 Packages
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      0.20 GB UExp
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      0.01 GB UAsset
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      0.53 GB UBulk
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display: Input:     41.63 MB for 733 Global shaders
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      4.77 MB for 184 Shared shaders
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display: Input:      0.00 MB for 0 Unique shaders
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display: Input:     39.18 MB for 363 Inline shaders
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display: Output:    35883 Name map entries
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display: Output:     1494 Imported package entries
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display: Output:     3660 Packages without imports
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display: Output:        0 Public runtime script objects
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display: Output:     0.00 GB HeaderData
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display: Output:     1.93 MB InitialLoadData
+[2025.05.23-21.38.05:933][249]UATHelper: Packaging (Windows): LogIoStore: Display:
+[2025.05.23-21.38.05:976][249]UATHelper: Packaging (Windows): LogPakFile: Display: UnrealPak executed in 29.100597 seconds
+[2025.05.23-21.38.05:976][249]UATHelper: Packaging (Windows): Took 29,28s to run UnrealPak.exe, ExitCode=0
+[2025.05.23-21.38.05:976][249]UATHelper: Packaging (Windows): DumpManifest: C:\Users\okacp\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.3\FinalCopyWin64_UFSFiles.txt, NumItems: 10413
+[2025.05.23-21.38.06:007][249]UATHelper: Packaging (Windows): DumpManifest: C:\Users\okacp\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.3\FinalCopyWin64_NonUFSFiles.txt, NumItems: 16
+[2025.05.23-21.38.06:007][249]UATHelper: Packaging (Windows): DumpManifest: C:\Users\okacp\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.3\FinalCopyWin64_NonUFSFilesDebug.txt, NumItems: 5
+[2025.05.23-21.38.06:007][249]UATHelper: Packaging (Windows): Copying NonUFSFiles to staging directory: C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Saved\StagedBuilds\Windows
+[2025.05.23-21.38.06:398][251]UATHelper: Packaging (Windows): Stage command time: 31.23 s
+[2025.05.23-21.38.06:398][251]UATHelper: Packaging (Windows): ********** STAGE COMMAND COMPLETED **********
+[2025.05.23-21.38.06:409][251]UATHelper: Packaging (Windows): ********** PACKAGE COMMAND STARTED **********
+[2025.05.23-21.38.06:409][251]UATHelper: Packaging (Windows): Package command time: 0.00 s
+[2025.05.23-21.38.06:409][251]UATHelper: Packaging (Windows): ********** PACKAGE COMMAND COMPLETED **********
+[2025.05.23-21.38.06:409][251]UATHelper: Packaging (Windows): ********** ARCHIVE COMMAND STARTED **********
+[2025.05.23-21.38.06:409][251]UATHelper: Packaging (Windows): Archiving to C:/Users/okacp/Desktop/PlatformerBuild
+[2025.05.23-21.38.06:654][251]UATHelper: Packaging (Windows): Archive command time: 0.25 s
+[2025.05.23-21.38.06:654][251]UATHelper: Packaging (Windows): ********** ARCHIVE COMMAND COMPLETED **********
+[2025.05.23-21.38.06:654][251]UATHelper: Packaging (Windows): BuildCookRun time: 57.83 s
+[2025.05.23-21.38.06:654][251]UATHelper: Packaging (Windows): BUILD SUCCESSFUL
+[2025.05.23-21.38.06:665][251]UATHelper: Packaging (Windows): AutomationTool executed for 0h 0m 58s
+[2025.05.23-21.38.06:665][251]UATHelper: Packaging (Windows): AutomationTool exiting with ExitCode=0 (Success)
+[2025.05.23-21.39.22:808][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.05.23-21.39.22:895][558]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-21.39.22:895][558]LogWorldPartition: ULevel::OnLevelLoaded(Level_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.23-21.39.22:895][558]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.23-21.39.22:895][558]LogWorldPartition: UWorldPartition::Initialize : World = Level_1, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.23-21.39.22:896][558]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_KillzoneOutOfBounds does not exist, will not scan.
+[2025.05.23-21.39.23:958][558]LogContentBundle: [Level_1(Standalone)] Creating new contrainer.
+[2025.05.23-21.39.23:958][558]LogWorldPartition: Display: WorldPartition initialize took 1.06 sec (total: 17.2 sec)
+[2025.05.23-21.39.24:222][558]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/Level_1.Level_1
+[2025.05.23-21.39.24:222][558]Cmd: MAP LOAD FILE="../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.05.23-21.39.24:222][558]LightingResults: New page: Lighting Build
+[2025.05.23-21.39.24:222][558]LoadErrors: New page: Loading map: Level_1.umap
+[2025.05.23-21.39.24:264][558]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.23-21.39.24:264][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-21.39.24:267][558]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.23-21.39.24:267][558]MapCheck: New page: Map Check
+[2025.05.23-21.39.24:267][558]LightingResults: New page: Lighting Build
+[2025.05.23-21.39.24:301][558]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.23-21.39.24:316][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.05.23-21.39.24:322][558]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.23-21.39.24:332][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-21.39.24:345][558]LogContentBundle: [Level_1(Standalone)] Deleting container.
+[2025.05.23-21.39.24:412][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.05.23-21.39.24:440][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.05.23-21.39.24:458][558]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level_1'.
+[2025.05.23-21.39.24:460][558]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-21.39.24:460][558]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-21.39.24:460][558]LogAIModule: Creating AISystem for world Level_1
+[2025.05.23-21.39.24:461][558]LogWorldPartition: ULevel::OnLevelLoaded(Level_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.23-21.39.24:461][558]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.23-21.39.24:461][558]LogWorldPartition: UWorldPartition::Initialize : World = Level_1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.23-21.39.24:462][558]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_KillzoneOutOfBounds does not exist, will not scan.
+[2025.05.23-21.39.25:584][558]LogContentBundle: [Level_1(Standalone)] Creating new contrainer.
+[2025.05.23-21.39.25:584][558]LogWorldPartition: Display: WorldPartition initialize took 1.12 sec (total: 18.3 sec)
+[2025.05.23-21.39.26:013][558]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.05.23-21.39.26:014][558]LogNavigation: Warning: NavData RegistrationFailed_AgentAlreadySupported, specified agent type already has its navmesh implemented.
+[2025.05.23-21.39.26:053][558]LogWorldPartition: Actor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.RecastNavMesh_UAID_74563C6C81B0836902-Default is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/5/GO/NAUTUHUCGDWTJ41NSU609W.PackageMetaData in its package
+[2025.05.23-21.39.26:063][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.05.23-21.39.26:072][558]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.05.23-21.39.26:074][558]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2,695ms to complete.
+[2025.05.23-21.39.26:120][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.05.23-21.40.31:331][979]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.23-21.40.31:341][979]LogContentBundle: [Level_1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.23-21.40.31:341][979]LogWorldPartition: Display: GenerateStreaming for 'Level_1' started...
+[2025.05.23-21.40.31:370][979]LogWorldPartition: Display: GenerateStreaming for 'Level_1' took 28 ms (total: 3.18 sec)
+[2025.05.23-21.40.31:370][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.23-21.40.31:371][979]PIE: New page: PIE session: Level_1 (23 maj 2025, 23:40:31)
+[2025.05.23-21.40.31:371][979]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.23-21.40.31:506][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135189s)
+[2025.05.23-21.40.31:506][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_1.Level_1 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 (0.135236s)
+[2025.05.23-21.40.31:523][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.05.23-21.40.31:530][979]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-21.40.31:530][979]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-21.40.31:530][979]LogAIModule: Creating AISystem for world Level_1
+[2025.05.23-21.40.31:530][979]LogWorldPartition: ULevel::OnLevelLoaded(Level_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.23-21.40.31:530][979]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.23-21.40.31:530][979]LogWorldPartition: UWorldPartition::Initialize : World = Level_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.23-21.40.31:530][979]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.23-21.40.31:561][979]LogContentBundle: [Level_1(Standalone)] Creating new contrainer.
+[2025.05.23-21.40.31:561][979]LogWorldPartition: Display: WorldPartition initialize took 30 ms (total: 18.4 sec)
+[2025.05.23-21.40.31:561][979]LogPlayLevel: PIE: World Init took: (0.031997s)
+[2025.05.23-21.40.31:561][979]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2025.05.23-21.40.31:561][979]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.23-21.40.31:562][979]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.23-21.40.31:562][979]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.23-21.40.31:562][979]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.23-21.40.31:562][979]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.23-21.40.31:562][979]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.23-21.40.31:562][979]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.23-21.40.31:562][979]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.23-21.40.31:562][979]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.23-21.40.31:562][979]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.23-21.40.31:562][979]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.23-21.40.31:564][979]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.23-21.40.31:580][979]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.23-21.40.31:581][979]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.23-21.40.31:581][979]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.23-21.40.31:581][979]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.23-21.40.31:581][979]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2025.05.23-21.40.31:581][979]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2025.05.23-21.40.31:583][979]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2025.05.23-21.40.31:583][979]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2025.05.23-21.40.31:583][979]LogInit: FAudioDevice initialized with ID 21.
+[2025.05.23-21.40.31:583][979]LogAudio: Display: Audio Device (ID: 21) registered with world 'Level_1'.
+[2025.05.23-21.40.31:583][979]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2025.05.23-21.40.31:586][979]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.23-21.40.31:668][979]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2025.05.23-22.40.31
+[2025.05.23-21.40.31:681][979]LogWorld: Bringing up level for play took: 0.093911
+[2025.05.23-21.40.31:694][979]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2025.05.23-21.40.31:702][979]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.05.23-21.40.31:703][979]PIE: Server logged in
+[2025.05.23-21.40.31:703][979]PIE: Play in editor total start time 0,362 seconds.
+[2025.05.23-21.40.31:738][979]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'WindCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.23-21.40.31:738][979]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'jungleAmbience_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.23-21.40.31:738][979]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'MusicLoopCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.23-21.40.34:528][172]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1176242435] 1
+[2025.05.23-21.40.34:710][185]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D76902_2131256253] 2
+[2025.05.23-21.40.34:992][206]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D76902_2120163252] 3
+[2025.05.23-21.40.35:100][214]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D76902_2120160251] 4
+[2025.05.23-21.40.37:495][386]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1291022440] 5
+[2025.05.23-21.40.37:902][415]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1291026441] 6
+[2025.05.23-21.40.38:668][470]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1318179443] 7
+[2025.05.23-21.40.39:304][516]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1333060444] 8
+[2025.05.23-21.40.39:524][533]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1340912445] 9
+[2025.05.23-21.40.40:583][613]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1353883447] 10
+[2025.05.23-21.40.40:831][631]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1357834448] 11
+[2025.05.23-21.40.41:267][662]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1366196449] 12
+[2025.05.23-21.40.49:381][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.23-21.40.49:381][280]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.23-21.40.49:383][280]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.23-21.40.49:394][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-21.40.49:394][280]LogContentBundle: [Level_1(Standalone)] Deleting container.
+[2025.05.23-21.40.49:400][280]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.23-21.40.49:407][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-21.40.49:424][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.23-21.40.49:434][280]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2025.05.23-21.40.49:434][280]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2025.05.23-21.40.49:436][280]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2025.05.23-21.40.49:458][280]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2025.05.23-21.40.49:527][281]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2025.05.23-21.41.13:222][982]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-21.41.13:412][982]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.05.23-21.41.13:413][982]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ThirdPersonCharacter2D57323E423B7DE064B38C8E42EBD581.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.05.23-21.41.13:422][982]LogFileHelpers: InternalPromptForCheckoutAndSave took 200 ms (total: 5.73 sec)
+[2025.05.23-21.41.13:424][982]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.05.23-21.41.13:424][982]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.05.23-21.41.22:608][947]Cmd: DELETE
+[2025.05.23-21.41.22:608][947]Cmd: ACTOR DELETE
+[2025.05.23-21.41.22:616][947]LogEditorActor: Deleted Actor: BP_PowerUpRemove_C
+[2025.05.23-21.41.22:635][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.05.23-21.41.22:641][947]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2025.05.23-21.41.46:212][540]Cmd: TRANSACTION UNDO
+[2025.05.23-21.41.46:212][540]LogEditorTransaction: Undo Delete Elements
+[2025.05.23-21.41.48:507][690]LogEditorViewport: Clicking Background
+[2025.05.23-21.54.46:328][340]LogViewport: Scene viewport resized to 963x574, mode Windowed.
+[2025.05.23-21.54.46:695][340]LogViewport: Scene viewport resized to 1024x580, mode Windowed.
+[2025.05.23-21.54.57:054][391]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPerson/UI/Widget/ScreenFade.ScreenFade
+[2025.05.23-21.54.57:054][391]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-21.54.57:054][391]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-21.54.57:062][391]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-21.54.57:062][391]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-21.55.01:445][892]BlueprintLog: New page: Compile ScreenFade
+[2025.05.23-21.55.01:472][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.05.23-21.55.03:037][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-21.55.03:102][ 75]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/ScreenFade
+[2025.05.23-21.55.03:103][ 75]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/ScreenFadeB2A7D3CA44A04C3EB4EFC090B1DB97B9.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/ScreenFade.uasset'
+[2025.05.23-21.55.03:110][ 75]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 5.81 sec)
+[2025.05.23-21.55.03:112][ 75]AssetCheck: New page: Asset Save: ScreenFade
+[2025.05.23-21.55.03:112][ 75]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/ScreenFade.ScreenFade
+[2025.05.23-21.55.04:716][251]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.23-21.55.04:727][251]LogContentBundle: [Level_1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.23-21.55.04:727][251]LogWorldPartition: Display: GenerateStreaming for 'Level_1' started...
+[2025.05.23-21.55.04:755][251]LogWorldPartition: Display: GenerateStreaming for 'Level_1' took 28 ms (total: 3.21 sec)
+[2025.05.23-21.55.04:756][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.23-21.55.04:756][251]PIE: New page: PIE session: Level_1 (23 maj 2025, 23:55:04)
+[2025.05.23-21.55.04:779][251]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.23-21.55.04:924][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.144769s)
+[2025.05.23-21.55.04:924][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_1.Level_1 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 (0.144827s)
+[2025.05.23-21.55.04:941][251]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.05.23-21.55.04:943][251]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-21.55.04:944][251]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-21.55.04:944][251]LogAIModule: Creating AISystem for world Level_1
+[2025.05.23-21.55.04:945][251]LogWorldPartition: ULevel::OnLevelLoaded(Level_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.23-21.55.04:945][251]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.23-21.55.04:945][251]LogWorldPartition: UWorldPartition::Initialize : World = Level_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.23-21.55.04:945][251]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.23-21.55.04:977][251]LogContentBundle: [Level_1(Standalone)] Creating new contrainer.
+[2025.05.23-21.55.04:977][251]LogWorldPartition: Display: WorldPartition initialize took 31 ms (total: 18.4 sec)
+[2025.05.23-21.55.04:977][251]LogPlayLevel: PIE: World Init took: (0.033586s)
+[2025.05.23-21.55.04:977][251]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2025.05.23-21.55.04:977][251]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.23-21.55.04:977][251]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.23-21.55.04:977][251]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.23-21.55.04:977][251]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.23-21.55.04:977][251]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.23-21.55.04:977][251]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.23-21.55.04:977][251]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.23-21.55.04:977][251]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.23-21.55.04:978][251]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.23-21.55.04:978][251]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.23-21.55.04:978][251]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.23-21.55.04:979][251]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.23-21.55.04:995][251]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.23-21.55.04:995][251]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.23-21.55.04:995][251]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.23-21.55.04:995][251]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.23-21.55.04:996][251]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2025.05.23-21.55.04:996][251]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2025.05.23-21.55.04:998][251]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2025.05.23-21.55.04:998][251]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2025.05.23-21.55.04:998][251]LogInit: FAudioDevice initialized with ID 22.
+[2025.05.23-21.55.04:998][251]LogAudio: Display: Audio Device (ID: 22) registered with world 'Level_1'.
+[2025.05.23-21.55.04:998][251]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2025.05.23-21.55.05:001][251]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.23-21.55.05:079][251]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2025.05.23-22.55.05
+[2025.05.23-21.55.05:090][251]LogWorld: Bringing up level for play took: 0.088790
+[2025.05.23-21.55.05:103][251]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2025.05.23-21.55.05:110][251]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.05.23-21.55.05:111][251]PIE: Server logged in
+[2025.05.23-21.55.05:112][251]PIE: Play in editor total start time 0,385 seconds.
+[2025.05.23-21.55.05:141][251]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'WindCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.23-21.55.05:141][251]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'jungleAmbience_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.23-21.55.05:141][251]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'MusicLoopCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.23-21.55.08:023][456]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1176242435] 1
+[2025.05.23-21.55.08:063][459]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D76902_2131256253] 2
+[2025.05.23-21.55.08:518][494]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D76902_2120163252] 3
+[2025.05.23-21.55.10:536][645]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1291022440] 4
+[2025.05.23-21.55.10:878][669]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1291026441] 5
+[2025.05.23-21.55.11:803][733]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1318179443] 6
+[2025.05.23-21.55.12:414][776]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1333060444] 7
+[2025.05.23-21.55.14:006][898]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1357834448] 8
+[2025.05.23-21.55.14:272][919]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1366196449] 9
+[2025.05.23-21.55.14:475][935]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0D86902_1370852450] 10
+[2025.05.23-21.55.18:389][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.23-21.55.18:389][225]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.23-21.55.18:391][225]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.23-21.55.18:402][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-21.55.18:402][225]LogContentBundle: [Level_1(Standalone)] Deleting container.
+[2025.05.23-21.55.18:410][225]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.23-21.55.18:417][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-21.55.18:437][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.23-21.55.18:437][225]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2025.05.23-21.55.18:437][225]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2025.05.23-21.55.18:439][225]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2025.05.23-21.55.18:467][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2025.05.23-21.55.18:547][226]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2025.05.23-21.57.01:544][583]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/PickUps/BP_HealthUp.BP_HealthUp
+[2025.05.23-21.57.01:545][583]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-21.57.01:545][583]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-21.57.13:058][863]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-21.57.13:173][863]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/PickUps/BP_HealthUp
+[2025.05.23-21.57.13:173][863]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_HealthUp216A74C14B809DB1863230BBDB7E0961.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/PickUps/BP_HealthUp.uasset'
+[2025.05.23-21.57.13:182][863]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 5.93 sec)
+[2025.05.23-21.57.13:184][863]AssetCheck: New page: Asset Save: BP_HealthUp
+[2025.05.23-21.57.13:184][863]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/PickUps/BP_HealthUp.BP_HealthUp
+[2025.05.23-21.57.13:885][942]BlueprintLog: New page: Compile BP_HealthUp
+[2025.05.23-21.57.13:923][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
