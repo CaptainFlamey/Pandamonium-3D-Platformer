@@ -7051,3 +7051,586 @@ Script Stack (0 frames) :
 [2025.05.23-13.21.40:012][729]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 19.3 sec)
 [2025.05.23-13.21.40:013][729]AssetCheck: New page: Asset Save: BP_SpawnPos
 [2025.05.23-13.21.40:013][729]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos
+[2025.05.23-13.23.33:330][942]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2025.05.23-13.23.33:330][942]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2025.05.23-13.23.39:910][556]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.23.39:910][556]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.23.39:911][556]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-13.23.39:919][556]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.23.39:919][556]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-13.23.39:924][556]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.05.23-13.23.40:087][556]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2025.05.23-13.23.40:218][557]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2025.05.23-13.23.40:225][557]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/Level_1' took 0.032
+[2025.05.23-13.23.40:226][557]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat] ([1] browsable assets)...
+[2025.05.23-13.23.40:251][557]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.MAT_ColorTrack_Mat]
+[2025.05.23-13.23.40:251][557]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat]
+[2025.05.23-13.23.40:253][557]LogSavePackage: Moving output files for package: /Temp/Autosaves/Engine/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat_Auto4
+[2025.05.23-13.23.40:253][557]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MAT_ColorTrack_Mat_Auto4E509ACD7460FC6AE716F37BB2F79CCA6.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Autosaves/Engine/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat_Auto4.uasset'
+[2025.05.23-13.23.40:254][557]LogFileHelpers: Auto-saving content packages took 0.029
+[2025.05.23-13.24.43:633][453]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPerson/UI/Widget/MainMenu_Widget.MainMenu_Widget
+[2025.05.23-13.24.43:633][453]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.24.43:633][453]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-13.24.43:641][453]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.24.43:641][453]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-13.24.48:699][ 14]LogSlate: Window 'Color Picker' being destroyed
+[2025.05.23-13.24.52:718][469]LogSlate: Window 'Color Picker' being destroyed
+[2025.05.23-13.25.00:565][391]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.25.00:645][391]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.25.00:645][391]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget6D6EFB8B4A57660465B07FA71124DBB7.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.25.00:654][391]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 19.4 sec)
+[2025.05.23-13.25.00:655][391]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.25.00:655][391]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.25.51:044][157]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2025.05.23-13.25.51:044][157]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2025.05.23-13.26.12:197][665]LogSlate: Window 'Color Picker' being destroyed
+[2025.05.23-13.26.19:627][533]LogSlate: Window 'Color Picker' being destroyed
+[2025.05.23-13.26.23:065][939]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2025.05.23-13.26.25:660][234]LogSlate: Window 'Color Picker' being destroyed
+[2025.05.23-13.26.32:874][ 68]LogSlate: Window 'Color Picker' being destroyed
+[2025.05.23-13.26.54:990][759]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.26.55:018][759]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.05.23-13.26.58:671][173]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.26.58:753][173]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.26.58:755][173]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_WidgetBF5B6F1042ADB332CA3B3CB19BC491A8.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.26.58:764][173]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 19.5 sec)
+[2025.05.23-13.26.58:765][173]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.26.58:765][173]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.27.12:343][745]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.27.12:428][745]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.27.12:429][745]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_WidgetC71ADFBC4E2D9241B0B438B69D2F8941.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.27.12:438][745]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 19.6 sec)
+[2025.05.23-13.27.12:439][745]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.27.12:439][745]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.27.17:007][291]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.27.17:034][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.05.23-13.27.30:580][647]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPerson/UI/Widget/Settings_Widget.Settings_Widget
+[2025.05.23-13.27.30:581][647]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.27.30:581][647]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-13.27.30:588][647]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.27.30:588][647]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-13.28.13:548][562]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.13:550][562]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.13:621][563]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.13:624][563]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.13:635][563]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.13:643][564]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.13:648][564]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.13:736][566]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.13:739][566]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.13:803][567]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.13:815][567]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.13:895][569]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.13:905][570]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.13:966][571]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.13:988][572]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:053][573]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:065][573]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:074][574]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:138][575]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:151][575]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:160][576]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:223][577]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:245][578]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:307][579]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:318][579]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:388][581]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:401][581]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:410][582]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:473][583]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:496][584]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:500][584]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:561][585]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:573][585]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:643][587]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.14:656][587]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2025.05.23-13.28.48:734][505]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.28.48:805][505]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.28.48:805][505]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget7A3B647D471371D440C475BF65B85546.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.28.48:813][505]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 19.7 sec)
+[2025.05.23-13.28.48:814][505]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.28.48:814][505]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.28.49:506][586]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.28.49:536][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.05.23-13.29.05:993][508]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.29.06:070][508]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.29.06:071][508]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget82721F7F46C829E1A2706DA7E93C13B3.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.29.06:079][508]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 19.8 sec)
+[2025.05.23-13.29.06:080][508]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.29.06:080][508]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.29.12:375][224]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.29.12:455][224]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.29.12:455][224]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget60CE5E2E44FCF9BAA49C31B21BBFF9A2.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.29.12:464][224]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 19.9 sec)
+[2025.05.23-13.29.12:466][224]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.29.12:466][224]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.29.36:079][997]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.29.36:105][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.05.23-13.29.36:827][ 76]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.29.36:922][ 76]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.29.36:922][ 76]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget34B59F2D493845A902CC8699FD3654A4.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.29.36:931][ 76]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 20.0 sec)
+[2025.05.23-13.29.36:932][ 76]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.29.36:932][ 76]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.30.31:272][319]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.30.31:302][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.05.23-13.30.36:177][876]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.30.36:271][876]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.30.36:272][876]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget5B0E4FB14BFB29988AC3AFB4EF84BE44.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.30.36:280][876]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 20.1 sec)
+[2025.05.23-13.30.36:281][876]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.30.36:281][876]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.31.24:581][467]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.31.24:666][467]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Settings_Widget
+[2025.05.23-13.31.24:667][467]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Settings_Widget1CD8F66440015CE8D90490B5A83003B8.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Settings_Widget.uasset'
+[2025.05.23-13.31.24:677][467]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 20.2 sec)
+[2025.05.23-13.31.24:679][467]AssetCheck: New page: Asset Save: Settings_Widget
+[2025.05.23-13.31.24:679][467]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Settings_Widget.Settings_Widget
+[2025.05.23-13.31.33:147][478]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.31.33:228][478]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Settings_Widget
+[2025.05.23-13.31.33:228][478]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Settings_WidgetFFE3B2384FBA78F959A9D7A7B3C7E93A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Settings_Widget.uasset'
+[2025.05.23-13.31.33:237][478]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 20.3 sec)
+[2025.05.23-13.31.33:240][478]AssetCheck: New page: Asset Save: Settings_Widget
+[2025.05.23-13.31.33:240][478]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Settings_Widget.Settings_Widget
+[2025.05.23-13.32.09:738][660]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.32.09:805][660]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.32.09:805][660]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_WidgetD4C3DE3C4976F47166F922BA058FD592.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.32.09:812][660]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 20.3 sec)
+[2025.05.23-13.32.09:814][660]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.32.09:814][660]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.32.11:166][792]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.32.11:238][792]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.32.11:239][792]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget936EBCCB43CD0883E9F507A6610D241C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.32.11:246][792]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 20.4 sec)
+[2025.05.23-13.32.11:248][792]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.32.11:248][792]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.32.11:895][869]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.32.11:923][869]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.05.23-13.32.18:546][631]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.32.18:628][631]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.32.18:628][631]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget0FAC4A194874A3DC9ACE35AD1F5D0C71.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.32.18:638][631]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 20.5 sec)
+[2025.05.23-13.32.18:642][631]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.32.18:642][631]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.32.19:045][679]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.32.19:073][679]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.05.23-13.32.21:122][914]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.32.21:209][914]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.32.21:210][914]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget2A137D4F481BD19779152A9708441443.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.32.21:220][914]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 20.6 sec)
+[2025.05.23-13.32.21:221][914]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.32.21:221][914]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.33.11:259][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.05.23-13.33.13:045][856]LogSlate: Window 'Save Content' being destroyed
+[2025.05.23-13.33.13:054][856]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.33.13:110][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat" FILE="../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset" SILENT=true
+[2025.05.23-13.33.13:111][856]LogSavePackage: Moving output files for package: /Engine/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat
+[2025.05.23-13.33.13:112][856]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MAT_ColorTrack_Mat19F86CE0429C96F325BEB69BEE72B2DE.tmp' to '../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset'
+[2025.05.23-13.33.13:120][856]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 20.7 sec)
+[2025.05.23-13.33.13:242][856]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.33.13:248][856]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.23-13.33.13:248][856]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.23-13.33.13:248][856]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.23-13.33.14:426][856]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.23-13.33.14:426][856]LogWorldPartition: Display: WorldPartition initialize took 1.17 sec (total: 13.4 sec)
+[2025.05.23-13.33.14:437][856]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/MainMenu.MainMenu
+[2025.05.23-13.33.14:437][856]Cmd: MAP LOAD FILE="../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.05.23-13.33.14:437][856]LightingResults: New page: Lighting Build
+[2025.05.23-13.33.14:439][856]LoadErrors: New page: Loading map: MainMenu.umap
+[2025.05.23-13.33.14:520][856]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.23-13.33.14:520][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-13.33.14:539][856]LogContentBundle: [Level_1(Standalone)] Deleting container.
+[2025.05.23-13.33.14:539][856]MapCheck: New page: Map Check
+[2025.05.23-13.33.14:539][856]LightingResults: New page: Lighting Build
+[2025.05.23-13.33.14:571][856]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.23-13.33.14:664][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.05.23-13.33.14:682][856]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.23-13.33.14:682][856]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-13.33.14:684][856]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.23-13.33.14:706][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.05.23-13.33.14:723][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.05.23-13.33.14:742][856]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2025.05.23-13.33.14:742][856]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.33.14:742][856]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-13.33.14:742][856]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.23-13.33.14:742][856]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.23-13.33.14:742][856]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.23-13.33.14:742][856]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.23-13.33.14:909][856]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.23-13.33.14:909][856]LogWorldPartition: Display: WorldPartition initialize took 166 ms (total: 13.6 sec)
+[2025.05.23-13.33.14:955][856]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.05.23-13.33.14:974][856]LogWorldPartition: Actor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.RecastNavMesh_UAID_74563C6C81B0905D02-Default is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/ZA/61077G2OHT4M1OSUQTKII3.PackageMetaData in its package
+[2025.05.23-13.33.14:976][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.05.23-13.33.14:984][856]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.05.23-13.33.14:984][856]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,616ms to complete.
+[2025.05.23-13.33.14:999][856]AssetCheck: New page: Asset Save: MAT_ColorTrack_Mat
+[2025.05.23-13.33.14:999][856]LogContentValidation: Display: Validating /Script/Engine.Material /Engine/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.MAT_ColorTrack_Mat
+[2025.05.23-13.33.15:050][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.05.23-13.33.16:436][ 11]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.23-13.33.16:448][ 11]LogContentBundle: [MainMenu(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.23-13.33.16:448][ 11]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' started...
+[2025.05.23-13.33.16:457][ 11]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' took 8 ms (total: 765 ms)
+[2025.05.23-13.33.16:457][ 11]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.05.23-13.33.16:457][ 11]LogPlayLevel: [PlayLevel] Compiling Settings_Widget before play...
+[2025.05.23-13.33.16:498][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.05.23-13.33.16:500][ 11]LogPlayLevel: PlayLevel: Blueprint regeneration took 43 ms (1 blueprints)
+[2025.05.23-13.33.16:500][ 11]PIE: New page: PIE session: MainMenu (23 maj 2025, 15:33:16)
+[2025.05.23-13.33.16:522][ 11]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.23-13.33.16:538][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014751s)
+[2025.05.23-13.33.16:538][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/MainMenu.MainMenu to /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.014788s)
+[2025.05.23-13.33.16:552][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.05.23-13.33.16:554][ 11]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.33.16:554][ 11]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-13.33.16:554][ 11]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.23-13.33.16:555][ 11]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.23-13.33.16:555][ 11]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.23-13.33.16:555][ 11]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.23-13.33.16:555][ 11]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.23-13.33.16:560][ 11]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.23-13.33.16:560][ 11]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 13.6 sec)
+[2025.05.23-13.33.16:560][ 11]LogPlayLevel: PIE: World Init took: (0.005800s)
+[2025.05.23-13.33.16:560][ 11]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2025.05.23-13.33.16:560][ 11]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.23-13.33.16:560][ 11]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.23-13.33.16:560][ 11]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.23-13.33.16:560][ 11]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.23-13.33.16:560][ 11]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.23-13.33.16:560][ 11]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.23-13.33.16:560][ 11]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.23-13.33.16:560][ 11]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.23-13.33.16:560][ 11]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.23-13.33.16:560][ 11]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.23-13.33.16:560][ 11]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.23-13.33.16:562][ 11]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.23-13.33.16:577][ 11]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.23-13.33.16:577][ 11]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.23-13.33.16:577][ 11]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.23-13.33.16:577][ 11]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.23-13.33.16:578][ 11]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2025.05.23-13.33.16:578][ 11]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2025.05.23-13.33.16:579][ 11]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2025.05.23-13.33.16:579][ 11]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2025.05.23-13.33.16:579][ 11]LogInit: FAudioDevice initialized with ID 28.
+[2025.05.23-13.33.16:579][ 11]LogAudio: Display: Audio Device (ID: 28) registered with world 'MainMenu'.
+[2025.05.23-13.33.16:579][ 11]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2025.05.23-13.33.16:582][ 11]LogLoad: Game class is 'MainMenuGamemode_C'
+[2025.05.23-13.33.16:591][ 11]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.05.23-14.33.16
+[2025.05.23-13.33.16:591][ 11]LogWorld: Bringing up level for play took: 0.009079
+[2025.05.23-13.33.16:593][ 11]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2025.05.23-13.33.16:594][ 11]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.23-13.33.16:594][ 11]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.05.23-13.33.16:594][ 11]PIE: Server logged in
+[2025.05.23-13.33.16:596][ 11]PIE: Play in editor total start time 0,147 seconds.
+[2025.05.23-13.33.16:601][ 11]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'WindCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.23-13.33.21:856][632]Cmd: quit
+[2025.05.23-13.33.21:857][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.23-13.33.21:857][632]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.23-13.33.21:893][632]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.23-13.33.21:894][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-13.33.21:894][632]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.23-13.33.21:897][632]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.23-13.33.21:902][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-13.33.21:918][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.23-13.33.21:919][632]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2025.05.23-13.33.21:919][632]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2025.05.23-13.33.21:920][632]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2025.05.23-13.33.21:930][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2025.05.23-13.33.21:986][633]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2025.05.23-13.33.28:498][362]LogViewport: Scene viewport resized to 458x281, mode Windowed.
+[2025.05.23-13.33.34:645][824]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2025.05.23-13.33.34:645][824]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2025.05.23-13.33.40:781][242]LogViewport: Scene viewport resized to 458x281, mode Windowed.
+[2025.05.23-13.33.42:369][342]LogViewport: Scene viewport resized to 458x281, mode Windowed.
+[2025.05.23-13.33.48:547][796]LogViewport: Scene viewport resized to 458x281, mode Windowed.
+[2025.05.23-13.33.52:763][ 55]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2025.05.23-13.33.52:763][ 55]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2025.05.23-13.33.56:647][263]LogViewport: Scene viewport resized to 458x281, mode Windowed.
+[2025.05.23-13.34.25:183][915]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2025.05.23-13.34.25:183][915]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2025.05.23-13.34.26:847][  7]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.34.26:912][  7]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/ZL/ZQAMALOUOWP2EAL1F74WNV
+[2025.05.23-13.34.26:912][  7]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/ZQAMALOUOWP2EAL1F74WNV93A7F8FE49C99AC28B22BE8C6328779C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/8/ZL/ZQAMALOUOWP2EAL1F74WNV.uasset'
+[2025.05.23-13.34.26:919][  7]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/KN/7VY9PXVPBH5JSOFH0DG6HB
+[2025.05.23-13.34.26:920][  7]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/7VY9PXVPBH5JSOFH0DG6HB10923B82438910291B9D81A5BBA0BA08.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/KN/7VY9PXVPBH5JSOFH0DG6HB.uasset'
+[2025.05.23-13.34.26:929][  7]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 20.8 sec)
+[2025.05.23-13.34.26:931][  7]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.23-13.34.26:931][  7]LogContentValidation: Display: Validating /Game/ThirdPerson/UI/BP_Menu.BP_Menu_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_Menu_C_UAID_74563C6C81B04A6702_1631010288
+[2025.05.23-13.34.26:931][  7]LogContentValidation: Display: Validating /Game/ThirdPerson/UI/BP_Menu.BP_Menu_C /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.BP_Menu_C_UAID_74563C6C81B07A6A02_2013768067
+[2025.05.23-13.34.31:110][494]LogViewport: Scene viewport resized to 458x281, mode Windowed.
+[2025.05.23-13.34.45:998][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.34.46:076][ 36]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.34.46:077][ 36]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget01C710F24964C0D84916FAB7A4C5F964.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.34.46:084][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 20.8 sec)
+[2025.05.23-13.34.46:086][ 36]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.34.46:086][ 36]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.35.09:208][562]LogEditorTransaction: Undo Drag and Drop Widget
+[2025.05.23-13.35.09:868][569]144511_NS_CheckpointConfetti_MessageLog: System successfully compiled.
+[2025.05.23-13.35.14:802][ 71]LogEditorTransaction: Undo Drag and Drop Widget
+[2025.05.23-13.35.15:417][ 78]144511_NS_CheckpointConfetti_MessageLog: System successfully compiled.
+[2025.05.23-13.35.35:436][381]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.35.35:526][381]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.35.35:526][381]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_WidgetBE5D89AA446CC3AAFEDD66B9D4CD906D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.35.35:535][381]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 20.9 sec)
+[2025.05.23-13.35.35:538][381]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.35.35:538][381]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.35.35:972][430]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.35.36:038][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.05.23-13.36.38:820][289]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.36.38:911][289]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.36.38:911][289]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget2F81B0E3424B8A272C462B974C7B7122.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.36.38:920][289]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 21.0 sec)
+[2025.05.23-13.36.38:924][289]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.36.38:924][289]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.36.39:799][392]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.36.39:838][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.05.23-13.36.52:200][659]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.36.52:278][659]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.36.52:279][659]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget188E494847BB5DBB03F9E387CDDD50FC.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.36.52:289][659]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 21.1 sec)
+[2025.05.23-13.36.52:291][659]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.36.52:291][659]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.37.03:203][775]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.37.03:289][775]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.37.03:290][775]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget26DB0F22427104D904430EB53B60CDCE.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.37.03:300][775]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 21.2 sec)
+[2025.05.23-13.37.03:300][775]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.37.03:300][775]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.37.06:410][140]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.37.06:482][140]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.37.06:483][140]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget76E1FE2641EC5892E48DB898A59C7DA7.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.37.06:491][140]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 21.3 sec)
+[2025.05.23-13.37.06:493][140]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.37.06:493][140]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.37.06:735][168]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.37.06:775][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.05.23-13.37.15:114][932]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.37.15:187][932]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.37.15:188][932]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_WidgetE34C097342579358123240BA86899924.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.37.15:197][932]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 21.4 sec)
+[2025.05.23-13.37.15:200][932]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.37.15:200][932]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.37.15:573][976]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.37.15:613][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.05.23-13.37.25:187][992]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.37.25:272][992]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.37.25:273][992]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_WidgetFBC618B94E84D3642BEB20B6ABD3AAEE.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.37.25:282][992]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 21.5 sec)
+[2025.05.23-13.37.25:283][992]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.37.25:283][992]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.37.25:674][ 37]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.37.25:716][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.05.23-13.37.38:354][362]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.37.38:434][362]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.37.38:435][362]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget939C7EB44631B5DD3224ED9EB73AE24C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.37.38:444][362]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 21.6 sec)
+[2025.05.23-13.37.38:448][362]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.37.38:448][362]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.37.39:031][429]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.37.39:071][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.05.23-13.37.46:099][106]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.37.46:168][106]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.37.46:169][106]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_WidgetC3AE88DF47043F61F2DDCCB6ED4A5750.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.37.46:178][106]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 21.6 sec)
+[2025.05.23-13.37.46:179][106]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.37.46:179][106]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.37.46:573][151]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.37.46:614][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.05.23-13.37.50:684][523]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2025.05.23-13.37.50:684][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-13.37.50:694][523]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2025.05.23-13.37.50:694][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-13.37.51:509][612]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2025.05.23-13.37.51:509][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-13.37.51:519][612]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2025.05.23-13.37.51:519][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-13.37.53:559][822]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.37.53:634][822]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.37.53:635][822]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget0442AB094EDB830E30840A93689F90E3.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.37.53:644][822]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 21.7 sec)
+[2025.05.23-13.37.53:647][822]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.37.53:647][822]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.37.54:216][890]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.37.54:258][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.05.23-13.37.58:956][255]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.37.59:034][255]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.37.59:035][255]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget4BB2E21547DF5001902D42B3BED42DF3.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.37.59:043][255]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 21.8 sec)
+[2025.05.23-13.37.59:047][255]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.37.59:047][255]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.37.59:490][306]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.37.59:534][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.05.23-13.38.03:805][672]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.38.03:886][672]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.38.03:887][672]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget2DFB2EA34C6E006E789CA3A003DAADC1.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.38.03:896][672]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 21.9 sec)
+[2025.05.23-13.38.03:899][672]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.38.03:899][672]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.38.04:564][748]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.38.04:604][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.05.23-13.38.08:816][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.38.08:902][160]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.38.08:902][160]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget290B8912429999F0959C369408928E1F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.38.08:912][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 22.0 sec)
+[2025.05.23-13.38.08:913][160]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.38.08:913][160]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.38.09:199][192]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.38.09:240][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.05.23-13.38.13:667][605]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.38.13:751][605]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/Audio_Widget
+[2025.05.23-13.38.13:752][605]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Audio_Widget8D9C372143C23C21AD9591A8F380CCC0.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/Audio_Widget.uasset'
+[2025.05.23-13.38.13:761][605]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 22.1 sec)
+[2025.05.23-13.38.13:763][605]AssetCheck: New page: Asset Save: Audio_Widget
+[2025.05.23-13.38.13:764][605]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/Audio_Widget.Audio_Widget
+[2025.05.23-13.38.16:523][867]BlueprintLog: New page: Compile Audio_Widget
+[2025.05.23-13.38.16:566][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.05.23-13.38.19:432][ 89]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.23-13.38.19:441][ 89]LogContentBundle: [MainMenu(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.23-13.38.19:441][ 89]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' started...
+[2025.05.23-13.38.19:448][ 89]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' took 6 ms (total: 772 ms)
+[2025.05.23-13.38.19:449][ 89]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.23-13.38.19:449][ 89]PIE: New page: PIE session: MainMenu (23 maj 2025, 15:38:19)
+[2025.05.23-13.38.19:449][ 89]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.23-13.38.19:464][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014294s)
+[2025.05.23-13.38.19:464][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/MainMenu.MainMenu to /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.014318s)
+[2025.05.23-13.38.19:477][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.05.23-13.38.19:485][ 89]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.38.19:485][ 89]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-13.38.19:485][ 89]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.23-13.38.19:486][ 89]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.23-13.38.19:486][ 89]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.23-13.38.19:486][ 89]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.23-13.38.19:486][ 89]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.23-13.38.19:489][ 89]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.23-13.38.19:489][ 89]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 13.6 sec)
+[2025.05.23-13.38.19:489][ 89]LogPlayLevel: PIE: World Init took: (0.004756s)
+[2025.05.23-13.38.19:489][ 89]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2025.05.23-13.38.19:489][ 89]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.23-13.38.19:489][ 89]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.23-13.38.19:489][ 89]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.23-13.38.19:489][ 89]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.23-13.38.19:489][ 89]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.23-13.38.19:489][ 89]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.23-13.38.19:489][ 89]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.23-13.38.19:489][ 89]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.23-13.38.19:490][ 89]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.23-13.38.19:490][ 89]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.23-13.38.19:490][ 89]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.23-13.38.19:492][ 89]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.23-13.38.19:507][ 89]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.23-13.38.19:507][ 89]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.23-13.38.19:507][ 89]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.23-13.38.19:507][ 89]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.23-13.38.19:508][ 89]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2025.05.23-13.38.19:508][ 89]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2025.05.23-13.38.19:510][ 89]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2025.05.23-13.38.19:510][ 89]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2025.05.23-13.38.19:510][ 89]LogInit: FAudioDevice initialized with ID 29.
+[2025.05.23-13.38.19:510][ 89]LogAudio: Display: Audio Device (ID: 29) registered with world 'MainMenu'.
+[2025.05.23-13.38.19:510][ 89]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2025.05.23-13.38.19:512][ 89]LogLoad: Game class is 'MainMenuGamemode_C'
+[2025.05.23-13.38.19:520][ 89]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.05.23-14.38.19
+[2025.05.23-13.38.19:520][ 89]LogWorld: Bringing up level for play took: 0.008441
+[2025.05.23-13.38.19:522][ 89]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2025.05.23-13.38.19:524][ 89]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.23-13.38.19:524][ 89]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.05.23-13.38.19:524][ 89]PIE: Server logged in
+[2025.05.23-13.38.19:524][ 89]PIE: Play in editor total start time 0,083 seconds.
+[2025.05.23-13.38.19:530][ 89]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'WindCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.23-13.38.22:603][444]Cmd: quit
+[2025.05.23-13.38.22:603][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.23-13.38.22:603][444]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.23-13.38.22:641][444]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.23-13.38.22:644][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-13.38.22:644][444]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.23-13.38.22:646][444]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.23-13.38.22:653][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-13.38.22:667][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.23-13.38.22:667][444]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2025.05.23-13.38.22:667][444]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2025.05.23-13.38.22:669][444]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2025.05.23-13.38.22:676][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.05.23-13.38.22:746][445]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2025.05.23-13.38.22:771][445]LogViewport: Scene viewport resized to 458x281, mode Windowed.
+[2025.05.23-13.38.28:599][785]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/ThirdPerson/UI/Widget/MainMenu_Widget.MainMenu_Widget
+[2025.05.23-13.38.28:599][785]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.38.28:599][785]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-13.38.28:617][785]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.38.28:617][785]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-13.39.20:326][865]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.39.20:407][865]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/Widget/MainMenu_Widget
+[2025.05.23-13.39.20:407][865]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MainMenu_Widget0E3A916947C00B84B6DE9C823B11DB96.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/UI/Widget/MainMenu_Widget.uasset'
+[2025.05.23-13.39.20:416][865]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 22.2 sec)
+[2025.05.23-13.39.20:421][865]AssetCheck: New page: Asset Save: MainMenu_Widget
+[2025.05.23-13.39.20:421][865]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/ThirdPerson/UI/Widget/MainMenu_Widget.MainMenu_Widget
+[2025.05.23-13.39.24:279][327]BlueprintLog: New page: Compile MainMenu_Widget
+[2025.05.23-13.39.24:316][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.05.23-13.39.24:832][378]BlueprintLog: New page: Compile MainMenu_Widget
+[2025.05.23-13.39.24:869][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.05.23-13.39.31:588][100]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.23-13.39.31:599][100]LogContentBundle: [MainMenu(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.23-13.39.31:599][100]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' started...
+[2025.05.23-13.39.31:606][100]LogWorldPartition: Display: GenerateStreaming for 'MainMenu' took 7 ms (total: 780 ms)
+[2025.05.23-13.39.31:606][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.23-13.39.31:606][100]PIE: New page: PIE session: MainMenu (23 maj 2025, 15:39:31)
+[2025.05.23-13.39.31:607][100]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.23-13.39.31:622][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014649s)
+[2025.05.23-13.39.31:622][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/MainMenu.MainMenu to /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu (0.014677s)
+[2025.05.23-13.39.31:638][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.05.23-13.39.31:647][100]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.39.31:647][100]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-13.39.31:647][100]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.23-13.39.31:648][100]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.23-13.39.31:648][100]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.23-13.39.31:648][100]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.23-13.39.31:648][100]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.23-13.39.31:652][100]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.23-13.39.31:652][100]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 13.6 sec)
+[2025.05.23-13.39.31:652][100]LogPlayLevel: PIE: World Init took: (0.004767s)
+[2025.05.23-13.39.31:652][100]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2025.05.23-13.39.31:652][100]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.23-13.39.31:652][100]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.23-13.39.31:652][100]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.23-13.39.31:652][100]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.23-13.39.31:652][100]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.23-13.39.31:652][100]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.23-13.39.31:652][100]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.23-13.39.31:652][100]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.23-13.39.31:652][100]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.23-13.39.31:652][100]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.23-13.39.31:652][100]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.23-13.39.31:654][100]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.23-13.39.31:668][100]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.23-13.39.31:668][100]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.23-13.39.31:668][100]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.23-13.39.31:668][100]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.23-13.39.31:669][100]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2025.05.23-13.39.31:669][100]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2025.05.23-13.39.31:671][100]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2025.05.23-13.39.31:671][100]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2025.05.23-13.39.31:671][100]LogInit: FAudioDevice initialized with ID 30.
+[2025.05.23-13.39.31:671][100]LogAudio: Display: Audio Device (ID: 30) registered with world 'MainMenu'.
+[2025.05.23-13.39.31:671][100]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2025.05.23-13.39.31:673][100]LogLoad: Game class is 'MainMenuGamemode_C'
+[2025.05.23-13.39.31:682][100]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2025.05.23-14.39.31
+[2025.05.23-13.39.31:682][100]LogWorld: Bringing up level for play took: 0.008419
+[2025.05.23-13.39.31:684][100]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2025.05.23-13.39.31:685][100]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.05.23-13.39.31:685][100]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.05.23-13.39.31:685][100]PIE: Server logged in
+[2025.05.23-13.39.31:686][100]PIE: Play in editor total start time 0,087 seconds.
+[2025.05.23-13.39.31:691][100]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'WindCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.23-13.39.56:426][ 58]Cmd: quit
+[2025.05.23-13.39.56:427][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.23-13.39.56:427][ 58]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_MainMenu
+[2025.05.23-13.39.56:452][ 58]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.23-13.39.56:454][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-13.39.56:454][ 58]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.23-13.39.56:456][ 58]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.23-13.39.56:461][ 58]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-13.39.56:475][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.23-13.39.56:475][ 58]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2025.05.23-13.39.56:475][ 58]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2025.05.23-13.39.56:477][ 58]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2025.05.23-13.39.56:486][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.05.23-13.39.56:553][ 59]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2025.05.23-13.39.56:579][ 59]LogViewport: Scene viewport resized to 458x281, mode Windowed.
