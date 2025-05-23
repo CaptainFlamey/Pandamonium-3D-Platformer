@@ -6321,3 +6321,196 @@ Script Stack (0 frames) :
 [2025.05.23-12.52.53:832][561]AssetCheck: New page: Asset Save: multiple assets
 [2025.05.23-12.52.53:832][561]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0896802_1517651445
 [2025.05.23-12.52.53:832][561]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0E46802_1682425450
+[2025.05.23-13.04.03:793][893]AssetReimport: New page: Outstanding source content changes 15:04:03
+[2025.05.23-13.04.03:837][894]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/checkpoint_Texture.png)
+[2025.05.23-13.04.03:837][894]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.23-13.04.03:849][894]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/checkpoint.obj)
+[2025.05.23-13.04.03:852][894]LogFbx: Loading FBX Scene from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/checkpoint.obj
+[2025.05.23-13.04.03:854][894]LogFbx: FBX Scene Loaded Succesfully
+[2025.05.23-13.04.05:226][894]LogSlate: Window 'FBX Import Options' being destroyed
+[2025.05.23-13.04.05:248][894]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.23-13.04.05:281][894]LogStaticMesh: Built static mesh [0.01s] /Game/Models/LevelProps/OBJ_Files/checkpoint.checkpoint
+[2025.05.23-13.04.05:313][895]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/checkpoint_Texture.png)
+[2025.05.23-13.04.05:313][895]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.23-13.04.05:321][895]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.04.05:396][895]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/checkpoint_Texture
+[2025.05.23-13.04.05:396][895]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/checkpoint_TextureB40F5AF04C5669701D24D0B3C489FE77.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/checkpoint_Texture.uasset'
+[2025.05.23-13.04.05:432][895]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/checkpoint
+[2025.05.23-13.04.05:432][895]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/checkpointBEA863CA4A39ABED1D9C24A29C9A80D2.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/checkpoint.uasset'
+[2025.05.23-13.04.05:436][895]LogSavePackage: Moving output files for package: /Game/Models/Textures/checkpoint_Texture
+[2025.05.23-13.04.05:436][895]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/checkpoint_Texture774BBF9944089BD9817C2EB576120211.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/checkpoint_Texture.uasset'
+[2025.05.23-13.04.05:448][895]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 16.4 sec)
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: ================================================
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Total job queries 305, among them cache hits 176 (57.70%)
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Tracking 125 distinct input hashes that result in 92 distinct outputs (73.60%)
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: RAM used: 2,74 MiB of 1,60 GiB budget. Usage: 0.17%
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Shaders Compiled: 94
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Jobs assigned 94, completed 94 (100%)
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Average time worker was idle: 101.07 s
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Time job spent in pending queue: average 0.22 s, longest 1.15 s
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Job execution time: average 0.29 s, max 1.01 s
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Job life time (pending + execution): average 0.51 s, max 1.46
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Shader code size: average 31,796 KiB, min 1,877 KiB, max 63 KiB
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 16.72 s
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Jobs were issued in 94 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Average processing rate: 5.62 jobs/sec
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Total thread time: 18,948 s
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Total thread preprocess time: 2,417 s
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Percentage time preprocessing: 12.76%
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Effective parallelization: 1.13 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.36 sec, max 0.83 sec, min 0.20 sec)
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 0.34 sec, max 0.75 sec, min 0.20 sec)
+[2025.05.23-13.04.05:451][895]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.26 sec, max 0.31 sec, min 0.22 sec)
+[2025.05.23-13.04.05:452][895]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyLQ (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.05.23-13.04.05:452][895]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.05.23-13.04.05:452][895]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.05.23-13.04.05:452][895]LogShaderCompilers: Display:                                               FNiagaraShader - 37.66% of total time (compiled   47 times, average 0.15 sec, max 0.34 sec, min 0.04 sec)
+[2025.05.23-13.04.05:452][895]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.51% of total time (compiled    5 times, average 0.36 sec, max 0.83 sec, min 0.20 sec)
+[2025.05.23-13.04.05:452][895]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.91% of total time (compiled    5 times, average 0.34 sec, max 0.75 sec, min 0.20 sec)
+[2025.05.23-13.04.05:452][895]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 2.79% of total time (compiled    2 times, average 0.26 sec, max 0.31 sec, min 0.22 sec)
+[2025.05.23-13.04.05:452][895]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 2.68% of total time (compiled    2 times, average 0.25 sec, max 0.30 sec, min 0.21 sec)
+[2025.05.23-13.04.05:452][895]LogShaderCompilers: Display: ================================================
+[2025.05.23-13.04.05:476][896]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.23-13.04.05:476][896]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/OBJ_Files/checkpoint_Texture.checkpoint_Texture
+[2025.05.23-13.04.05:476][896]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/OBJ_Files/checkpoint.checkpoint
+[2025.05.23-13.04.05:476][896]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Textures/checkpoint_Texture.checkpoint_Texture
+[2025.05.23-13.04.08:453][191]AssetReimport: Importing new asset /Game/Models/LevelProps/OBJ_Files/checkpoint_Texture.
+[2025.05.23-13.04.08:454][191]AssetReimport: Importing new asset /Game/Models/LevelProps/OBJ_Files/checkpoint.
+[2025.05.23-13.04.08:454][191]AssetReimport: Importing new asset /Game/Models/Textures/checkpoint_Texture.
+[2025.05.23-13.04.10:031][322]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos
+[2025.05.23-13.04.10:032][322]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.04.10:032][322]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-13.04.12:531][583]LogViewport: Scene viewport resized to 1081x685, mode Windowed.
+[2025.05.23-13.04.27:274][134]LogEditorTransaction: Undo Attach Component
+[2025.05.23-13.04.52:133][667]LogTexture: Display: Building textures: /Game/Models/LevelProps/OBJ_Files/checkpoint_Texture.checkpoint_Texture (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 0.54166 MB), EncodeSpeed: Fast
+[2025.05.23-13.04.52:847][736]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Models/LevelProps/OBJ_Files/checkpoint_Texture.checkpoint_Texture
+[2025.05.23-13.04.53:019][736]LogViewport: Scene viewport resized to 919x529, mode Windowed.
+[2025.05.23-13.04.57:947][176]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.04.58:024][176]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/checkpoint_Texture
+[2025.05.23-13.04.58:024][176]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/checkpoint_Texture039EAECD492C1CCDA72E6987C68B403E.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/checkpoint_Texture.uasset'
+[2025.05.23-13.04.58:035][176]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 16.5 sec)
+[2025.05.23-13.04.58:037][176]AssetCheck: New page: Asset Save: checkpoint_Texture
+[2025.05.23-13.04.58:037][176]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/OBJ_Files/checkpoint_Texture.checkpoint_Texture
+[2025.05.23-13.04.59:199][282]LogSlate: Window 'checkpoint_Texture' being destroyed
+[2025.05.23-13.04.59:211][282]LogSlate: Window 'checkpoint_Texture' being destroyed
+[2025.05.23-13.05.04:876][775]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.05.04:944][775]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/ModelTextures/checkpoint_Texture
+[2025.05.23-13.05.04:944][775]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/checkpoint_Texture3C74A6074510FDE00C983B93405BB804.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/ModelTextures/checkpoint_Texture.uasset'
+[2025.05.23-13.05.04:958][775]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 16.6 sec)
+[2025.05.23-13.05.04:988][775]LogWorldPartition: Actor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0E46802_1431482447 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/0/6M/M798GKSG68RQ5U73ZWY1BH.PackageMetaData in its package
+[2025.05.23-13.05.04:988][775]LogWorldPartition: Actor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0DE6802_1675703511 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/0/1L/VITDR1FTX1K84U2VQMTJ1B.PackageMetaData in its package
+[2025.05.23-13.05.04:988][775]LogWorldPartition: Actor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0826902_1975678656 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/A/BQ/F3ED0E9KKB7ML664DB5BFM.PackageMetaData in its package
+[2025.05.23-13.05.04:988][775]LogWorldPartition: Actor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0DE6802_1701336512 is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/A/9S/YPX36GMCX0ZMO24M67515G.PackageMetaData in its package
+[2025.05.23-13.05.04:996][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.05.23-13.05.05:028][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.05.23-13.05.05:044][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.05.23-13.05.05:064][775]AssetCheck: New page: Asset Save: checkpoint_Texture
+[2025.05.23-13.05.05:064][775]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/ModelTextures/checkpoint_Texture.checkpoint_Texture
+[2025.05.23-13.05.05:083][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.05.23-13.05.08:712][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.05.08:787][ 66]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/checkpoint
+[2025.05.23-13.05.08:789][ 66]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/checkpoint8D06EBD54FF45908F6FEAA92907C8240.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/checkpoint.uasset'
+[2025.05.23-13.05.08:828][ 66]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/ModelMaterials/m_577a7bf0-3cc4-07a3-6c98-7fdbb3fa914b
+[2025.05.23-13.05.08:828][ 66]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/m_577a7bf0-3cc4-07a3-6c98-7fdbb374E28013409F8F0EFB39E4A523FAA9B2.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/ModelMaterials/m_577a7bf0-3cc4-07a3-6c98-7fdbb3fa914b.uasset'
+[2025.05.23-13.05.08:838][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 16.7 sec)
+[2025.05.23-13.05.08:861][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.05.23-13.05.08:877][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.05.23-13.05.08:891][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.05.23-13.05.08:909][ 66]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.23-13.05.08:909][ 66]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/OBJ_Files/checkpoint.checkpoint
+[2025.05.23-13.05.08:910][ 66]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/LevelProps/ModelMaterials/m_577a7bf0-3cc4-07a3-6c98-7fdbb3fa914b.m_577a7bf0-3cc4-07a3-6c98-7fdbb3fa914b
+[2025.05.23-13.05.12:321][382]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/LevelProps/OBJ_Files/checkpoint.checkpoint
+[2025.05.23-13.05.12:383][382]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.23-13.05.12:383][382]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.23-13.05.12:833][382]LogViewport: Scene viewport resized to 654x533, mode Windowed.
+[2025.05.23-13.05.20:193][928]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.05.20:279][928]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/checkpoint
+[2025.05.23-13.05.20:279][928]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/checkpoint9D0B1A484963297A4C4173866CBDFDAD.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/checkpoint.uasset'
+[2025.05.23-13.05.20:289][928]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 16.8 sec)
+[2025.05.23-13.05.20:289][928]AssetCheck: New page: Asset Save: checkpoint
+[2025.05.23-13.05.20:290][928]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/OBJ_Files/checkpoint.checkpoint
+[2025.05.23-13.05.20:965][980]LogSlate: Window 'checkpoint' being destroyed
+[2025.05.23-13.05.20:980][980]LogSlate: Window 'checkpoint' being destroyed
+[2025.05.23-13.05.21:046][980]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2025.05.23-13.05.21:046][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.23-13.05.28:034][739]LogEditorTransaction: Undo Modify Component(s)
+[2025.05.23-13.06.02:763][510]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.06.02:850][510]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos
+[2025.05.23-13.06.02:850][510]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_SpawnPosED060962489CF05F15A4779F01C0C2C8.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.uasset'
+[2025.05.23-13.06.02:860][510]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 16.9 sec)
+[2025.05.23-13.06.02:862][510]AssetCheck: New page: Asset Save: BP_SpawnPos
+[2025.05.23-13.06.02:862][510]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos
+[2025.05.23-13.06.03:453][576]BlueprintLog: New page: Compile BP_SpawnPos
+[2025.05.23-13.06.03:566][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.05.23-13.06.14:465][814]Cmd: DELETE
+[2025.05.23-13.06.14:465][814]Cmd: ACTOR DELETE
+[2025.05.23-13.06.14:476][814]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.05.23-13.06.14:493][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.05.23-13.06.14:500][814]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2025.05.23-13.06.53:450][190]LogEditorViewport: Clicking Background
+[2025.05.23-13.07.16:345][592]LogEditorViewport: Clicking Background
+[2025.05.23-13.07.16:626][623]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.07.16:704][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.05.23-13.07.16:730][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.05.23-13.07.16:746][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.05.23-13.07.16:751][623]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/1/1D/QBPC0IPBS49DCY17LVXFSV
+[2025.05.23-13.07.16:751][623]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/QBPC0IPBS49DCY17LVXFSVD3533303439B854E6AF31F9FF4049330.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/1/1D/QBPC0IPBS49DCY17LVXFSV.uasset'
+[2025.05.23-13.07.16:754][623]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/2/5E/FKE5C9FJQCMCP34F3D84B0
+[2025.05.23-13.07.16:754][623]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/FKE5C9FJQCMCP34F3D84B086AF6134474D517A6F40A8A11C5200DC.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/2/5E/FKE5C9FJQCMCP34F3D84B0.uasset'
+[2025.05.23-13.07.16:756][623]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/3/OV/N66YMRHT6GAJ4TP3RPMUAG
+[2025.05.23-13.07.16:758][623]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/N66YMRHT6GAJ4TP3RPMUAG4D361EFF47D42CCCED564483A5DD7948.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/3/OV/N66YMRHT6GAJ4TP3RPMUAG.uasset'
+[2025.05.23-13.07.16:761][623]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/5/BT/332OE27KUN53Z0V858ZD2M
+[2025.05.23-13.07.16:761][623]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/332OE27KUN53Z0V858ZD2M94C219D8442F1ABA89AB098B438C697B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/5/BT/332OE27KUN53Z0V858ZD2M.uasset'
+[2025.05.23-13.07.16:764][623]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/8/0D/OXFVHU8PHJCL7Y5K1XGB0N
+[2025.05.23-13.07.16:765][623]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/OXFVHU8PHJCL7Y5K1XGB0N95555AC144A9A801B3C358820363E134.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/8/0D/OXFVHU8PHJCL7Y5K1XGB0N.uasset'
+[2025.05.23-13.07.16:768][623]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/9/CN/9GHTS6SGYBHDGQB053WKHJ
+[2025.05.23-13.07.16:768][623]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/9GHTS6SGYBHDGQB053WKHJ5B6BB8BF421183288E3D5F88B591866F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/9/CN/9GHTS6SGYBHDGQB053WKHJ.uasset'
+[2025.05.23-13.07.16:771][623]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/9/WE/AFN37L7I0R8A5ECQUO3354
+[2025.05.23-13.07.16:771][623]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/AFN37L7I0R8A5ECQUO33548D89282541A8FF17E4D2A5B1D154A855.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/9/WE/AFN37L7I0R8A5ECQUO3354.uasset'
+[2025.05.23-13.07.16:776][623]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/A/UK/286EWK3W082PTQDGIU0JLX
+[2025.05.23-13.07.16:776][623]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/286EWK3W082PTQDGIU0JLXD0BC17BB416EB900959448BDB4FA0177.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/A/UK/286EWK3W082PTQDGIU0JLX.uasset'
+[2025.05.23-13.07.16:779][623]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/C/7Q/W4NK10HFHL75A7UAR07A16
+[2025.05.23-13.07.16:780][623]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/W4NK10HFHL75A7UAR07A1605615B9745D8DF88FCACE0A18FF11C0B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/C/7Q/W4NK10HFHL75A7UAR07A16.uasset'
+[2025.05.23-13.07.16:789][623]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 17.1 sec)
+[2025.05.23-13.07.16:794][623]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.23-13.07.16:794][623]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0CF6902_1222412956
+[2025.05.23-13.07.16:794][623]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0336902_1481471389
+[2025.05.23-13.07.16:794][623]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0C86902_1324221578
+[2025.05.23-13.07.16:794][623]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B03D6902_1979756253
+[2025.05.23-13.07.16:794][623]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0E46802_1682425450
+[2025.05.23-13.07.16:794][623]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0C86902_1369605579
+[2025.05.23-13.07.16:794][623]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0336902_1501270390
+[2025.05.23-13.07.16:794][623]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0C76902_2089816401
+[2025.05.23-13.07.16:794][623]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0D66902_1698912039
+[2025.05.23-13.07.36:136][741]LogEditorViewport: Clicking Background
+[2025.05.23-13.08.11:361][682]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.08.11:452][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.05.23-13.08.11:471][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.23-13.08.11:487][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.05.23-13.08.11:492][682]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/1/1D/QBPC0IPBS49DCY17LVXFSV
+[2025.05.23-13.08.11:492][682]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/QBPC0IPBS49DCY17LVXFSVBC9823A544D8E201FE92FCB1CD142E06.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/1/1D/QBPC0IPBS49DCY17LVXFSV.uasset'
+[2025.05.23-13.08.11:495][682]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/3/OV/N66YMRHT6GAJ4TP3RPMUAG
+[2025.05.23-13.08.11:496][682]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/N66YMRHT6GAJ4TP3RPMUAGBBEE84BE41ED6164C7C4D4ABFE146F3C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/3/OV/N66YMRHT6GAJ4TP3RPMUAG.uasset'
+[2025.05.23-13.08.11:506][682]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 17.2 sec)
+[2025.05.23-13.08.11:509][682]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.23-13.08.11:509][682]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0CF6902_1222412956
+[2025.05.23-13.08.11:509][682]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0C86902_1324221578
+[2025.05.23-13.08.27:119][395]LogEditorViewport: Clicking Background
+[2025.05.23-13.08.27:328][416]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.08.27:419][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.05.23-13.08.27:439][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.05.23-13.08.27:455][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.05.23-13.08.27:459][416]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/5/BT/332OE27KUN53Z0V858ZD2M
+[2025.05.23-13.08.27:459][416]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/332OE27KUN53Z0V858ZD2M27F3E8E24906930A1C399D9F3AE2DDCE.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/5/BT/332OE27KUN53Z0V858ZD2M.uasset'
+[2025.05.23-13.08.27:470][416]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 17.4 sec)
+[2025.05.23-13.08.27:473][416]AssetCheck: New page: Asset Save: BP_SpawnPos_C_UAID_74563C6C81B03D6902_1979756253
+[2025.05.23-13.08.27:473][416]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B03D6902_1979756253
+[2025.05.23-13.08.38:641][733]LogEditorViewport: Clicking Background
+[2025.05.23-13.08.38:784][747]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-13.08.38:867][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.05.23-13.08.38:883][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.05.23-13.08.38:899][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.05.23-13.08.38:909][747]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 17.5 sec)
