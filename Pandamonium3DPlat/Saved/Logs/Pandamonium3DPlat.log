@@ -6033,3 +6033,291 @@ Script Stack (0 frames) :
 [2025.05.23-12.34.53:713][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
 [2025.05.23-12.34.53:726][310]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
 [2025.05.23-12.34.53:753][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.05.23-12.40.12:898][165]AssetReimport: New page: Outstanding source content changes 14:40:12
+[2025.05.23-12.40.12:961][166]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/planks.png)
+[2025.05.23-12.40.12:961][166]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.23-12.40.12:973][166]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/planks.obj)
+[2025.05.23-12.40.12:974][166]LogEditorFactories: Performing atomic reimport of [C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/planks.obj]
+[2025.05.23-12.40.12:974][166]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/planks.obj)
+[2025.05.23-12.40.13:094][167]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/planks.png)
+[2025.05.23-12.40.13:095][167]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.23-12.40.13:099][167]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-12.40.13:530][167]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/planks
+[2025.05.23-12.40.13:530][167]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/planksFAB3C39A48EF1D452DAD7C8AAA5E3280.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/planks.uasset'
+[2025.05.23-12.40.13:532][167]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/planks
+[2025.05.23-12.40.13:533][167]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/planksCEF02D244C76E26F64A6FB978B2ED202.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/planks.uasset'
+[2025.05.23-12.40.13:536][167]LogSavePackage: Moving output files for package: /Game/Models/Textures/planks
+[2025.05.23-12.40.13:536][167]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/planksD78DF84F4D9595256AAB8E8BDEEFF5CB.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/planks.uasset'
+[2025.05.23-12.40.13:567][167]LogFileHelpers: InternalPromptForCheckoutAndSave took 468 ms (total: 14.6 sec)
+[2025.05.23-12.40.13:600][168]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.23-12.40.13:600][168]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/OBJ_Files/planks.planks
+[2025.05.23-12.40.13:600][168]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Textures/planks.planks
+[2025.05.23-12.40.16:571][441]AssetReimport: Importing new asset /Game/Models/LevelProps/OBJ_Files/planks.
+[2025.05.23-12.40.16:571][441]AssetReimport: Importing new asset /Game/Models/LevelProps/OBJ_Files/planks.
+[2025.05.23-12.40.16:571][441]AssetReimport: Importing new asset /Game/Models/Textures/planks.
+[2025.05.23-12.40.32:665][200]AssetReimport: New page: Outstanding source content changes 14:40:32
+[2025.05.23-12.40.32:666][200]LogEditorFactories: Performing atomic reimport of [C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/planks.obj]
+[2025.05.23-12.40.32:666][200]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/planks.obj)
+[2025.05.23-12.40.35:735][452]AssetReimport: Error: Failed to reimport asset planks.
+[2025.05.23-12.40.40:864][875]LogTexture: Display: Building textures: /Game/Models/LevelProps/OBJ_Files/planks.planks (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 0.54166 MB), EncodeSpeed: Fast
+[2025.05.23-12.40.45:065][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.05.23-12.40.46:260][211]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.23-12.40.46:284][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.05.23-12.40.46:300][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.05.23-12.40.46:315][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.05.23-12.41.19:030][477]AssetReimport: New page: Outstanding source content changes 14:41:19
+[2025.05.23-12.41.19:093][478]LogEditorFactories: Performing atomic reimport of [C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/planks.obj]
+[2025.05.23-12.41.19:094][478]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/planks.obj)
+[2025.05.23-12.41.22:108][735]AssetReimport: Error: Failed to reimport asset planks.
+[2025.05.23-12.41.33:381][796]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-12.41.33:443][796]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/planks
+[2025.05.23-12.41.33:444][796]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/planksD90160414C7FFD047DD5ECA0A8AF8CE4.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/planks.uasset'
+[2025.05.23-12.41.33:453][796]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 14.7 sec)
+[2025.05.23-12.41.33:454][796]AssetCheck: New page: Asset Save: planks
+[2025.05.23-12.41.33:454][796]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/OBJ_Files/planks.planks
+[2025.05.23-12.41.56:043][245]LogEditorFactories: Performing atomic reimport of [C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/planks.uasset]
+[2025.05.23-12.41.56:043][245]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/planks.uasset)
+[2025.05.23-12.41.56:044][245]Error: Texture import failed
+[2025.05.23-12.41.56:044][245]LogEditorFactories: Warning: -- import failed
+[2025.05.23-12.42.04:611][609]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-12.42.04:714][609]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/bill_Board
+[2025.05.23-12.42.04:715][609]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/bill_Board76B252F048A4F4602FA0F6BDFAD09C6C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/bill_Board.uasset'
+[2025.05.23-12.42.04:717][609]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/ModelMaterials/billBoard_Texture_Mat
+[2025.05.23-12.42.04:717][609]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/billBoard_Texture_Mat245472E14D40DCBA188F50A96D8F3682.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/ModelMaterials/billBoard_Texture_Mat.uasset'
+[2025.05.23-12.42.04:726][609]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 14.8 sec)
+[2025.05.23-12.42.04:751][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.05.23-12.42.04:773][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.05.23-12.42.04:787][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.05.23-12.42.04:808][609]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.23-12.42.04:808][609]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/OBJ_Files/bill_Board.bill_Board
+[2025.05.23-12.42.04:808][609]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/LevelProps/ModelMaterials/billBoard_Texture_Mat.billBoard_Texture_Mat
+[2025.05.23-12.42.07:280][823]LogAssetTools: Warning: Failed to import 'C:\Users\okacp\Documents\GitHub\Pandamonium-3D-Platformer\Pandamonium3DPlat\Content\Models\LevelProps\OBJ_Files\planks.uasset'. Unknown extension 'uasset'.
+[2025.05.23-12.42.40:646][200]AssetReimport: New page: Outstanding source content changes 14:42:40
+[2025.05.23-12.42.40:708][201]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/planks.obj)
+[2025.05.23-12.42.40:708][201]LogEditorFactories: Performing atomic reimport of [C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/planks.obj]
+[2025.05.23-12.42.40:708][201]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/planks.obj)
+[2025.05.23-12.42.40:843][202]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-12.42.41:291][202]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/planks
+[2025.05.23-12.42.41:291][202]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/planksFBF34AD44C2DCEF76DA2BD9F269648C3.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/planks.uasset'
+[2025.05.23-12.42.41:324][202]LogFileHelpers: InternalPromptForCheckoutAndSave took 481 ms (total: 15.3 sec)
+[2025.05.23-12.42.41:338][203]AssetCheck: New page: Asset Save: planks
+[2025.05.23-12.42.41:338][203]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/OBJ_Files/planks.planks
+[2025.05.23-12.42.44:329][479]AssetReimport: Importing new asset /Game/Models/LevelProps/OBJ_Files/planks.
+[2025.05.23-12.45.42:477][ 47]AssetReimport: New page: Outstanding source content changes 14:45:42
+[2025.05.23-12.45.42:522][ 48]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/plank_Texture.png)
+[2025.05.23-12.45.42:522][ 48]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.23-12.45.42:534][ 48]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/planksModel.obj)
+[2025.05.23-12.45.42:538][ 48]LogFbx: Loading FBX Scene from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ Files/planksModel.obj
+[2025.05.23-12.45.42:539][ 48]LogFbx: FBX Scene Loaded Succesfully
+[2025.05.23-12.45.45:003][ 48]LogSlate: Window 'FBX Import Options' being destroyed
+[2025.05.23-12.45.45:026][ 48]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.23-12.45.45:053][ 48]LogStaticMesh: Built static mesh [0.00s] /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel
+[2025.05.23-12.45.45:098][ 49]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/plank_Texture.png)
+[2025.05.23-12.45.45:098][ 49]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.05.23-12.45.45:103][ 49]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-12.45.45:177][ 49]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/plank_Texture
+[2025.05.23-12.45.45:177][ 49]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/plank_Texture3E154BFA4C4684A3C058748B8E245675.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/plank_Texture.uasset'
+[2025.05.23-12.45.45:222][ 49]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/planksModel
+[2025.05.23-12.45.45:222][ 49]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/planksModel084833F4423C1198989A568AC8AF4D5F.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/planksModel.uasset'
+[2025.05.23-12.45.45:227][ 49]LogSavePackage: Moving output files for package: /Game/Models/Textures/plank_Texture
+[2025.05.23-12.45.45:227][ 49]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/plank_Texture0E8FD4224F73D0C26B20FC895DCFF02D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Textures/plank_Texture.uasset'
+[2025.05.23-12.45.45:238][ 49]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 15.4 sec)
+[2025.05.23-12.45.45:239][ 49]LogShaderCompilers: Display: ================================================
+[2025.05.23-12.45.45:239][ 49]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.23-12.45.45:239][ 49]LogShaderCompilers: Display: Total job queries 281, among them cache hits 152 (54.09%)
+[2025.05.23-12.45.45:239][ 49]LogShaderCompilers: Display: Tracking 125 distinct input hashes that result in 92 distinct outputs (73.60%)
+[2025.05.23-12.45.45:239][ 49]LogShaderCompilers: Display: RAM used: 2,74 MiB of 1,60 GiB budget. Usage: 0.17%
+[2025.05.23-12.45.45:239][ 49]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.23-12.45.45:239][ 49]LogShaderCompilers: Display: Shaders Compiled: 94
+[2025.05.23-12.45.45:239][ 49]LogShaderCompilers: Display: Jobs assigned 94, completed 94 (100%)
+[2025.05.23-12.45.45:239][ 49]LogShaderCompilers: Display: Average time worker was idle: 101.07 s
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display: Time job spent in pending queue: average 0.22 s, longest 1.15 s
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display: Job execution time: average 0.29 s, max 1.01 s
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display: Job life time (pending + execution): average 0.51 s, max 1.46
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display: Shader code size: average 31,796 KiB, min 1,877 KiB, max 63 KiB
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 16.72 s
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display: Jobs were issued in 94 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display: Average processing rate: 5.62 jobs/sec
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display: Total thread time: 18,948 s
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display: Total thread preprocess time: 2,417 s
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display: Percentage time preprocessing: 12.76%
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display: Effective parallelization: 1.13 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.36 sec, max 0.83 sec, min 0.20 sec)
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 0.34 sec, max 0.75 sec, min 0.20 sec)
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.26 sec, max 0.31 sec, min 0.22 sec)
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyLQ (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display:                                               FNiagaraShader - 37.66% of total time (compiled   47 times, average 0.15 sec, max 0.34 sec, min 0.04 sec)
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.51% of total time (compiled    5 times, average 0.36 sec, max 0.83 sec, min 0.20 sec)
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.91% of total time (compiled    5 times, average 0.34 sec, max 0.75 sec, min 0.20 sec)
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 2.79% of total time (compiled    2 times, average 0.26 sec, max 0.31 sec, min 0.22 sec)
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 2.68% of total time (compiled    2 times, average 0.25 sec, max 0.30 sec, min 0.21 sec)
+[2025.05.23-12.45.45:240][ 49]LogShaderCompilers: Display: ================================================
+[2025.05.23-12.45.45:260][ 50]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.23-12.45.45:260][ 50]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/OBJ_Files/plank_Texture.plank_Texture
+[2025.05.23-12.45.45:260][ 50]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel
+[2025.05.23-12.45.45:260][ 50]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/Textures/plank_Texture.plank_Texture
+[2025.05.23-12.45.48:240][366]AssetReimport: Importing new asset /Game/Models/LevelProps/OBJ_Files/plank_Texture.
+[2025.05.23-12.45.48:240][366]AssetReimport: Importing new asset /Game/Models/LevelProps/OBJ_Files/planksModel.
+[2025.05.23-12.45.48:241][366]AssetReimport: Importing new asset /Game/Models/Textures/plank_Texture.
+[2025.05.23-12.45.50:909][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.05.23-12.45.51:784][567]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.23-12.45.51:807][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.05.23-12.45.51:824][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.05.23-12.45.51:836][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.05.23-12.45.55:873][881]LogTexture: Display: Building textures: /Game/Models/LevelProps/OBJ_Files/plank_Texture.plank_Texture (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 0.54166 MB), EncodeSpeed: Fast
+[2025.05.23-12.45.57:784][ 40]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Models/LevelProps/OBJ_Files/plank_Texture.plank_Texture
+[2025.05.23-12.45.57:984][ 40]LogViewport: Scene viewport resized to 919x529, mode Windowed.
+[2025.05.23-12.46.03:630][566]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-12.46.03:706][566]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/plank_Texture
+[2025.05.23-12.46.03:706][566]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/plank_TextureC689238F44F44219A600E5B90EE53EB5.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/plank_Texture.uasset'
+[2025.05.23-12.46.03:715][566]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 15.5 sec)
+[2025.05.23-12.46.03:718][566]AssetCheck: New page: Asset Save: plank_Texture
+[2025.05.23-12.46.03:718][566]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/OBJ_Files/plank_Texture.plank_Texture
+[2025.05.23-12.46.04:562][645]LogSlate: Window 'plank_Texture' being destroyed
+[2025.05.23-12.46.09:359][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-12.46.09:423][ 24]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/ModelTextures/plank_Texture
+[2025.05.23-12.46.09:423][ 24]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/plank_TextureFEFB1364449B6E90A3534ABD794E7F61.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/ModelTextures/plank_Texture.uasset'
+[2025.05.23-12.46.09:433][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 15.6 sec)
+[2025.05.23-12.46.09:457][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.05.23-12.46.09:478][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.05.23-12.46.09:493][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.05.23-12.46.09:515][ 24]AssetCheck: New page: Asset Save: plank_Texture
+[2025.05.23-12.46.09:515][ 24]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Models/LevelProps/ModelTextures/plank_Texture.plank_Texture
+[2025.05.23-12.46.12:479][256]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-12.46.12:538][256]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/planksModel
+[2025.05.23-12.46.12:540][256]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/planksModelE410E4D4433A9CA17129B284D628731E.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/planksModel.uasset'
+[2025.05.23-12.46.12:578][256]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/ModelMaterials/m_bd687fc0-cebf-d8d9-25fa-b29d298351ea
+[2025.05.23-12.46.12:578][256]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/m_bd687fc0-cebf-d8d9-25fa-b29d29010C26C743D66B1DA6520DACFAAB5649.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/ModelMaterials/m_bd687fc0-cebf-d8d9-25fa-b29d298351ea.uasset'
+[2025.05.23-12.46.12:588][256]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 15.7 sec)
+[2025.05.23-12.46.12:609][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.05.23-12.46.12:625][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.05.23-12.46.12:640][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.23-12.46.12:661][256]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.23-12.46.12:661][256]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel
+[2025.05.23-12.46.12:661][256]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/LevelProps/ModelMaterials/m_bd687fc0-cebf-d8d9-25fa-b29d298351ea.m_bd687fc0-cebf-d8d9-25fa-b29d298351ea
+[2025.05.23-12.46.21:500][114]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel
+[2025.05.23-12.46.21:500][114]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel
+[2025.05.23-12.46.21:501][114]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_5
+[2025.05.23-12.46.22:303][178]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel
+[2025.05.23-12.46.22:303][178]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel
+[2025.05.23-12.46.22:307][178]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0146B02_1356810040
+[2025.05.23-12.46.24:486][419]Cmd: DELETE
+[2025.05.23-12.46.24:486][419]Cmd: ACTOR DELETE
+[2025.05.23-12.46.24:496][419]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.05.23-12.46.24:512][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.05.23-12.46.24:518][419]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2025.05.23-12.47.56:703][622]Cmd: EDIT COPY
+[2025.05.23-12.47.56:923][633]Cmd: EDIT PASTE
+[2025.05.23-12.48.14:984][681]LogEditorViewport: Clicking Background
+[2025.05.23-12.48.19:626][177]Cmd: DELETE
+[2025.05.23-12.48.19:626][177]Cmd: ACTOR DELETE
+[2025.05.23-12.48.19:638][177]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.05.23-12.48.19:653][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.05.23-12.48.19:659][177]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2025.05.23-12.48.20:849][308]Cmd: EDIT COPY
+[2025.05.23-12.48.21:084][336]Cmd: EDIT PASTE
+[2025.05.23-12.48.36:773][  9]LogEditorViewport: Clicking Background
+[2025.05.23-12.48.37:008][ 34]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-12.48.37:085][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.05.23-12.48.37:106][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.05.23-12.48.37:122][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.05.23-12.48.37:130][ 34]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/0/FH/IKCOSUJLXGUZNPCHYZM1WE
+[2025.05.23-12.48.37:131][ 34]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/IKCOSUJLXGUZNPCHYZM1WE9811E9394D48DDFDC358878EBC40F121.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/0/FH/IKCOSUJLXGUZNPCHYZM1WE.uasset'
+[2025.05.23-12.48.37:138][ 34]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/3/PE/UPN834L6ICD4GAI0TWE4MC
+[2025.05.23-12.48.37:138][ 34]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/UPN834L6ICD4GAI0TWE4MCFBD10DBF457ECFC7048484B48EB3D2B3.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/3/PE/UPN834L6ICD4GAI0TWE4MC.uasset'
+[2025.05.23-12.48.37:145][ 34]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/3/Q6/N3NJ3WNVNQ60AU82AFCJ6U
+[2025.05.23-12.48.37:145][ 34]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/N3NJ3WNVNQ60AU82AFCJ6U182D6C254B550393202FCAABC014A6C4.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/3/Q6/N3NJ3WNVNQ60AU82AFCJ6U.uasset'
+[2025.05.23-12.48.37:151][ 34]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/4/BO/KSCLASH2QPAQG32Q8XM2PZ
+[2025.05.23-12.48.37:152][ 34]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/KSCLASH2QPAQG32Q8XM2PZ00C1D78746870BD749FBACA330A81EE0.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/4/BO/KSCLASH2QPAQG32Q8XM2PZ.uasset'
+[2025.05.23-12.48.37:158][ 34]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/5/RA/LX6JRIJR0SH9C9NA2KQLO1
+[2025.05.23-12.48.37:158][ 34]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/LX6JRIJR0SH9C9NA2KQLO1E4DDDA044AA4641BEACACEB42BFF6BA7.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/5/RA/LX6JRIJR0SH9C9NA2KQLO1.uasset'
+[2025.05.23-12.48.37:164][ 34]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/D/XP/QNBXDQZYJT0PJ5G7PPN15Q
+[2025.05.23-12.48.37:165][ 34]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/QNBXDQZYJT0PJ5G7PPN15QA78B9BA549D1ABAE8EDE7FB0086ED96A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/D/XP/QNBXDQZYJT0PJ5G7PPN15Q.uasset'
+[2025.05.23-12.48.37:171][ 34]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/E/AV/PL7FV1NZGN1A28K2E0EKUE
+[2025.05.23-12.48.37:172][ 34]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/PL7FV1NZGN1A28K2E0EKUE40E48E0F4857B2F44A7478854E112855.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/E/AV/PL7FV1NZGN1A28K2E0EKUE.uasset'
+[2025.05.23-12.48.37:174][ 34]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/7/YR/C0H5TN49FR8ZG5QDBO7C6S
+[2025.05.23-12.48.37:174][ 34]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/C0H5TN49FR8ZG5QDBO7C6S50CA67E548F7F52D1722ED89F372B49D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/7/YR/C0H5TN49FR8ZG5QDBO7C6S.uasset'
+[2025.05.23-12.48.37:177][ 34]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/C/SI/PGWH9ERC0SGX6D1K7S5BW9
+[2025.05.23-12.48.37:177][ 34]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/PGWH9ERC0SGX6D1K7S5BW95637C06C47A8B36AD55DC3A80148347C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/C/SI/PGWH9ERC0SGX6D1K7S5BW9.uasset'
+[2025.05.23-12.48.37:178][ 34]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/E/4G/NJRP4TBH2UWY48A1KC4A9U
+[2025.05.23-12.48.37:178][ 34]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/NJRP4TBH2UWY48A1KC4A9UC21132174C1295151766EE9D803983A0.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/E/4G/NJRP4TBH2UWY48A1KC4A9U.uasset'
+[2025.05.23-12.48.37:188][ 34]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 15.9 sec)
+[2025.05.23-12.48.37:193][ 34]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.23-12.48.37:193][ 34]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_Spline.BP_Spline_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_Spline_C_UAID_74563C6C81B0CA6902_1159159947
+[2025.05.23-12.48.37:193][ 34]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_Spline.BP_Spline_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_Spline_C_UAID_74563C6C81B0CC6902_1858302361
+[2025.05.23-12.48.37:193][ 34]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_Spline.BP_Spline_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_Spline_C_UAID_74563C6C81B0836902_1592033839
+[2025.05.23-12.48.37:193][ 34]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_Spline.BP_Spline_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_Spline_C_UAID_74563C6C81B0816902_1868854457
+[2025.05.23-12.48.37:193][ 34]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_Spline.BP_Spline_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_Spline_C_UAID_74563C6C81B0CC6902_1596657355
+[2025.05.23-12.48.37:194][ 34]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_Spline.BP_Spline_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_Spline_C_UAID_74563C6C81B0836902_1318224836
+[2025.05.23-12.48.37:194][ 34]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/Enemy/BP_Spline.BP_Spline_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_Spline_C_UAID_74563C6C81B0CC6902_1890883362
+[2025.05.23-12.48.37:194][ 34]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0146B02_1356810040
+[2025.05.23-12.48.37:194][ 34]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0146B02_1451431041
+[2025.05.23-12.48.37:194][ 34]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0146B02_1475592042
+[2025.05.23-12.50.00:230][494]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/rock_1.rock_1
+[2025.05.23-12.50.00:230][494]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/rock_1.rock_1
+[2025.05.23-12.50.00:231][494]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/OBJ_Files/rock_1.rock_1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_6
+[2025.05.23-12.50.00:346][499]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/rock_1.rock_1
+[2025.05.23-12.50.00:346][499]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/rock_1.rock_1
+[2025.05.23-12.50.00:348][499]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/OBJ_Files/rock_1.rock_1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_7
+[2025.05.23-12.50.00:884][554]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/rock_1.rock_1
+[2025.05.23-12.50.00:884][554]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/rock_1.rock_1
+[2025.05.23-12.50.00:886][554]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/OBJ_Files/rock_1.rock_1 as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0146B02_1575391043
+[2025.05.23-12.50.55:576][655]Cmd: DELETE
+[2025.05.23-12.50.55:576][655]Cmd: ACTOR DELETE
+[2025.05.23-12.50.55:587][655]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.05.23-12.50.55:605][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.05.23-12.50.55:609][655]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2025.05.23-12.51.00:239][175]Cmd: DELETE
+[2025.05.23-12.51.00:239][175]Cmd: ACTOR DELETE
+[2025.05.23-12.51.00:249][175]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.05.23-12.51.00:265][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.05.23-12.51.00:269][175]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2025.05.23-12.51.03:561][448]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel
+[2025.05.23-12.51.03:561][448]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel
+[2025.05.23-12.51.03:563][448]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_8
+[2025.05.23-12.51.04:264][515]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel
+[2025.05.23-12.51.04:264][515]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel
+[2025.05.23-12.51.04:268][515]LogActorFactory: Actor Factory spawned StaticMesh /Game/Models/LevelProps/OBJ_Files/planksModel.planksModel as actor: StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0146B02_1638771044
+[2025.05.23-12.51.58:435][341]LogEditorViewport: Clicking Background
+[2025.05.23-12.51.58:897][393]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-12.51.58:987][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.05.23-12.51.59:012][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.05.23-12.51.59:027][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.05.23-12.51.59:031][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/7/ON/Y90BNBJZUTCZDCDHR88UA1
+[2025.05.23-12.51.59:031][393]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Y90BNBJZUTCZDCDHR88UA1F1F822434F8CE94152B04386AB7004A9.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/7/ON/Y90BNBJZUTCZDCDHR88UA1.uasset'
+[2025.05.23-12.51.59:034][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/8/9Y/LP68FPMFGUZ4B1LS9FVDE7
+[2025.05.23-12.51.59:034][393]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/LP68FPMFGUZ4B1LS9FVDE7DD2545144FB9709398E5E682DE5CC20E.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/8/9Y/LP68FPMFGUZ4B1LS9FVDE7.uasset'
+[2025.05.23-12.51.59:037][393]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/1/C7/KYH6SV89EM5FJB4DS3URX8
+[2025.05.23-12.51.59:037][393]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/KYH6SV89EM5FJB4DS3URX8C2C836E046E6AAB33FB5048A7012393E.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/1/C7/KYH6SV89EM5FJB4DS3URX8.uasset'
+[2025.05.23-12.51.59:047][393]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 16.0 sec)
+[2025.05.23-12.51.59:050][393]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.23-12.51.59:050][393]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0E56A02_1813825526
+[2025.05.23-12.51.59:050][393]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0146B02_1575391043
+[2025.05.23-12.51.59:050][393]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0146B02_1638771044
+[2025.05.23-12.52.13:365][982]LogEditorViewport: Clicking Background
+[2025.05.23-12.52.13:539][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-12.52.13:600][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.05.23-12.52.13:621][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.05.23-12.52.13:639][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.05.23-12.52.13:643][  0]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/9/CN/9GHTS6SGYBHDGQB053WKHJ
+[2025.05.23-12.52.13:643][  0]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/9GHTS6SGYBHDGQB053WKHJ11B8F2BD4A552389B70BD7B05ADC3FBF.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/9/CN/9GHTS6SGYBHDGQB053WKHJ.uasset'
+[2025.05.23-12.52.13:660][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 16.1 sec)
+[2025.05.23-12.52.13:663][  0]AssetCheck: New page: Asset Save: BP_SpawnPos_C_UAID_74563C6C81B0C86902_1369605579
+[2025.05.23-12.52.13:663][  0]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0C86902_1369605579
+[2025.05.23-12.52.47:667][867]LogEditorViewport: Clicking Background
+[2025.05.23-12.52.53:407][530]LogEditorViewport: Clicking Background
+[2025.05.23-12.52.53:690][561]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.23-12.52.53:769][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.05.23-12.52.53:787][561]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.05.23-12.52.53:803][561]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.05.23-12.52.53:807][561]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/1/P8/AEL21DE7ENH2HNP4RFKI7C
+[2025.05.23-12.52.53:808][561]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/AEL21DE7ENH2HNP4RFKI7CB62BB16F489862DC1FAB4988A131BE17.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/1/P8/AEL21DE7ENH2HNP4RFKI7C.uasset'
+[2025.05.23-12.52.53:811][561]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/8/0D/OXFVHU8PHJCL7Y5K1XGB0N
+[2025.05.23-12.52.53:812][561]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/OXFVHU8PHJCL7Y5K1XGB0NAEF175B5441F0937B16D4E80E8BA585A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/8/0D/OXFVHU8PHJCL7Y5K1XGB0N.uasset'
+[2025.05.23-12.52.53:828][561]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 16.3 sec)
+[2025.05.23-12.52.53:832][561]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.23-12.52.53:832][561]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.StaticMeshActor_UAID_74563C6C81B0896802_1517651445
+[2025.05.23-12.52.53:832][561]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_SpawnPos.BP_SpawnPos_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_SpawnPos_C_UAID_74563C6C81B0E46802_1682425450
