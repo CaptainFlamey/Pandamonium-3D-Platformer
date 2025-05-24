@@ -3281,3 +3281,1182 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.05.24-12.32.59:089][297]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
 [2025.05.24-12.32.59:133][298]LogPlayLevel: Display: Destroying online subsystem :Context_52
 [2025.05.24-12.33.10:968][954]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2025.05.24-12.39.13:454][634]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.24-12.39.13:467][634]LogContentBundle: [Level_1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.24-12.39.13:467][634]LogWorldPartition: Display: GenerateStreaming for 'Level_1' started...
+[2025.05.24-12.39.13:507][634]LogWorldPartition: Display: GenerateStreaming for 'Level_1' took 40 ms (total: 288 ms)
+[2025.05.24-12.39.13:507][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.24-12.39.13:508][634]PIE: New page: PIE session: Level_1 (24 maj 2025, 14:39:13)
+[2025.05.24-12.39.13:508][634]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.24-12.39.13:646][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137828s)
+[2025.05.24-12.39.13:646][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_1.Level_1 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 (0.137879s)
+[2025.05.24-12.39.13:663][634]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2025.05.24-12.39.13:665][634]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-12.39.13:665][634]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-12.39.13:665][634]LogAIModule: Creating AISystem for world Level_1
+[2025.05.24-12.39.13:666][634]LogWorldPartition: ULevel::OnLevelLoaded(Level_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.24-12.39.13:666][634]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.24-12.39.13:666][634]LogWorldPartition: UWorldPartition::Initialize : World = Level_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.24-12.39.13:666][634]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.24-12.39.13:698][634]LogContentBundle: [Level_1(Standalone)] Creating new contrainer.
+[2025.05.24-12.39.13:698][634]LogWorldPartition: Display: WorldPartition initialize took 31 ms (total: 13.8 sec)
+[2025.05.24-12.39.13:698][634]LogPlayLevel: PIE: World Init took: (0.033486s)
+[2025.05.24-12.39.13:698][634]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.05.24-12.39.13:698][634]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.24-12.39.13:698][634]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.24-12.39.13:698][634]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.24-12.39.13:698][634]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.24-12.39.13:698][634]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.24-12.39.13:699][634]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.24-12.39.13:699][634]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.24-12.39.13:699][634]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.24-12.39.13:699][634]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.24-12.39.13:699][634]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.24-12.39.13:699][634]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.24-12.39.13:701][634]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.24-12.39.13:716][634]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.24-12.39.13:716][634]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.24-12.39.13:716][634]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.24-12.39.13:716][634]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.24-12.39.13:717][634]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.05.24-12.39.13:717][634]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.05.24-12.39.13:718][634]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.05.24-12.39.13:718][634]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.05.24-12.39.13:718][634]LogInit: FAudioDevice initialized with ID 10.
+[2025.05.24-12.39.13:718][634]LogAudio: Display: Audio Device (ID: 10) registered with world 'Level_1'.
+[2025.05.24-12.39.13:718][634]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.05.24-12.39.13:721][634]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.24-12.39.13:776][634]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2025.05.24-13.39.13
+[2025.05.24-12.39.13:780][634]LogWorld: Bringing up level for play took: 0.058447
+[2025.05.24-12.39.13:794][634]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2025.05.24-12.39.13:802][634]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.05.24-12.39.13:803][634]PIE: Server logged in
+[2025.05.24-12.39.13:803][634]PIE: Play in editor total start time 0,336 seconds.
+[2025.05.24-12.39.13:829][634]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'WindCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-12.39.13:829][634]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'jungleAmbience_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-12.39.13:829][634]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'MusicLoopCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-12.39.38:764][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.24-12.39.38:764][455]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.24-12.39.38:767][455]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-12.39.38:778][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-12.39.38:779][455]LogContentBundle: [Level_1(Standalone)] Deleting container.
+[2025.05.24-12.39.38:781][455]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.24-12.39.38:789][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-12.39.38:805][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.24-12.39.38:813][455]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.05.24-12.39.38:813][455]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.05.24-12.39.38:814][455]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.05.24-12.39.38:835][455]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2025.05.24-12.39.38:877][456]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2025.05.24-12.42.18:297][581]LogEditorViewport: Clicking Background
+[2025.05.24-12.42.42:522][558]LogEditorViewport: Clicking Background
+[2025.05.24-13.12.19:015][323]LogDerivedDataCache: C:/Users/okacp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:13.168 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 7223 files in 9035 folders with total size 172 MiB.
+[2025.05.24-13.26.38:026][962]AssetReimport: New page: Outstanding source content changes 15:26:38
+[2025.05.24-13.26.38:071][963]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle.fbx)
+[2025.05.24-13.26.38:075][963]LogFbx: Loading FBX Scene from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle.fbx
+[2025.05.24-13.26.38:087][963]LogFbx: FBX Scene Loaded Succesfully
+[2025.05.24-13.26.45:393][963]LogSlate: Window 'FBX Import Options' being destroyed
+[2025.05.24-13.26.45:412][963]LogFbx: Valid bind pose for Pose (Mesh_0.001) - Mesh_0.001
+[2025.05.24-13.26.45:455][963]LogFbx: Bones digested - 42  Depth of hierarchy - 4
+[2025.05.24-13.26.45:457][963]LogSkeletalMesh: Section 0: Material=0, 276 triangles
+[2025.05.24-13.26.45:458][963]LogSkeletalMesh: Building Skeletal Mesh monkeyEnemyAnimIdle...
+[2025.05.24-13.26.45:462][963]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle.monkeyEnemyAnimIdle
+[2025.05.24-13.26.45:465][963]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.26.45:465][963]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.26.45:484][963]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_44:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2025.05.24-13.26.45:484][963]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.26.45:484][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.26.45:487][963]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.26.45:487][963]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.26.45:496][963]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.26.45:496][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(0) Monkey Enemy
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(1) Monkey Enemy1
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(2) Head
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(3) Head_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(4) Ear_R
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(5) Ear_R_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(6) Ear_L
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(7) Ear_L_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(8) UpperTailTip
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(9) UpperTailTip_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(10) UpperTailMid
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(11) UpperTailMid_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(12) UpperTailLow
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(13) UpperTailLow_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(14) LowerTailTip
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(15) LowerTailTip_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(16) LowerTailMid
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(17) LowerTailMid_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(18) LowerTailBase
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(19) LowerTailBase_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(20) Body
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(21) Body_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(22) Shoulder_L
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(23) Shoulder_L_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(24) ForeArm_L
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(25) ForeArm_L_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(26) Hand_L
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(27) Hand_L_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(28) Shoulder_R
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(29) Shoulder_R_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(30) ForeArm_R
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(31) ForeArm_R_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(32) Hand_R
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(33) Hand_R_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(34) UpperLeg_L
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(35) UpperLeg_L_end
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(36) Foot_L
+[2025.05.24-13.26.45:505][963]LogFbx: SortedLinks :(37) Foot_L_end
+[2025.05.24-13.26.45:506][963]LogFbx: SortedLinks :(38) UpperLeg_R
+[2025.05.24-13.26.45:506][963]LogFbx: SortedLinks :(39) UpperLeg_R_end
+[2025.05.24-13.26.45:506][963]LogFbx: SortedLinks :(40) Foot_R
+[2025.05.24-13.26.45:506][963]LogFbx: SortedLinks :(41) Foot_R_end
+[2025.05.24-13.26.45:506][963]LogFbx: Parsing AnimStack Scene
+[2025.05.24-13.26.45:556][963]FBXImport: FBX File Loading: Found name clash, node 'Monkey Enemy' was renamed to 'Monkey Enemy1' 
+[2025.05.24-13.26.45:571][963]LogAutomationController: Ignoring very large delta of 7.50 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.24-13.26.45:574][964]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-13.26.45:702][964]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.26.45:748][964]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle
+[2025.05.24-13.26.45:748][964]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/monkeyEnemyAnimIdleAF9561904E15741FBDAC379F02C3B242.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle.uasset'
+[2025.05.24-13.26.45:758][964]LogFileHelpers: InternalPromptForCheckoutAndSave took 184 ms (total: 3.27 sec)
+[2025.05.24-13.26.45:775][965]AssetCheck: New page: Asset Save: monkeyEnemyAnimIdle
+[2025.05.24-13.26.45:775][965]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle.monkeyEnemyAnimIdle
+[2025.05.24-13.26.48:764][266]AssetReimport: Importing new asset /Game/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle.
+[2025.05.24-13.26.52:209][490]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_103
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.26.52:209][490]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_103
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.26.52:223][491]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_104
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.26.52:223][491]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_104
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.26.52:238][492]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_105
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.26.52:239][492]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_105
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.26.52:253][493]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_106
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.26.52:253][493]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_106
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.26.52:267][494]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_107
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.26.52:267][494]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_107
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.26.52:354][500]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_108
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.26.52:354][500]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_108
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.26.52:368][501]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_109
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.26.52:368][501]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_109
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.26.52:382][502]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_110
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.26.52:382][502]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_110
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.26.52:396][503]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_111
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.26.52:396][503]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_111
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.27.07:864][690]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.27.11:774][973]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle.monkeyEnemyAnimIdle
+[2025.05.24-13.27.11:775][973]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.27.11:775][973]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.27.11:783][973]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.05.24-13.27.11:985][973]LogToolMenus: Warning: Menu already registered : SkeletalMeshEditor.MeshContextMenu
+[2025.05.24-13.27.12:068][973]LogViewport: Scene viewport resized to 1430x858, mode Windowed.
+[2025.05.24-13.27.22:869][ 56]LogMaterial: Display: Material /Game/Models/Characters/Enemies/MonkeyTurret_Material.MonkeyTurret_Material needed to have new flag set bUsedWithSkeletalMesh !
+[2025.05.24-13.27.24:571][227]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-13.27.24:645][227]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle
+[2025.05.24-13.27.24:645][227]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/monkeyEnemyAnimIdle90F7BD5947B55AD079B571918AB24D9B.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle.uasset'
+[2025.05.24-13.27.24:663][227]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 3.36 sec)
+[2025.05.24-13.27.24:664][227]AssetCheck: New page: Asset Save: monkeyEnemyAnimIdle
+[2025.05.24-13.27.24:664][227]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle.monkeyEnemyAnimIdle
+[2025.05.24-13.27.30:427][775]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle_Anim.monkeyEnemyAnimIdle_Anim
+[2025.05.24-13.27.30:427][775]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.27.30:427][775]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.27.30:433][775]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.05.24-13.27.30:645][775]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.27.30:645][775]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.27.30:790][775]LogViewport: Scene viewport resized to 1141x552, mode Windowed.
+[2025.05.24-13.27.30:806][775]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2025.05.24-13.27.46:985][350]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.27.46:985][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.27.48:018][444]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.27.48:018][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.27.48:042][444]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.27.48:042][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.27.48:091][444]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.27.48:091][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.27.50:289][690]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.27.50:289][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.27.50:321][690]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.27.50:321][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.27.56:001][175]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Models/Characters/Enemies/MonkeyRig/Material_0_001.Material_0_001
+[2025.05.24-13.27.56:018][175]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.27.56:018][175]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.27.56:159][175]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.24-13.27.56:159][175]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.24-13.27.56:159][175]MaterialEditorStats: Shader Count: 0
+[2025.05.24-13.27.56:166][175]LogViewport: Scene viewport resized to 376x444, mode Windowed.
+[2025.05.24-13.27.56:254][177]MaterialEditorStats: Base pass shader: 193 instructions
+[2025.05.24-13.27.56:254][177]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2025.05.24-13.27.56:254][177]MaterialEditorStats: Texture samplers: 2/16
+[2025.05.24-13.27.56:254][177]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.24-13.27.56:254][177]MaterialEditorStats: Shader Count: 4
+[2025.05.24-13.27.59:911][474]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2025.05.24-13.28.00:834][474]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.24-13.28.00:884][474]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.28.00:884][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.28.00:901][474]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Models/Characters/Enemies/MonkeyRig/Material_0_001.Material_0_001
+	Asset Type: Material
+[2025.05.24-13.28.01:249][474]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2025.05.24-13.28.01:275][474]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2025.05.24-13.28.01:293][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.05.24-13.28.04:215][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.05.24-13.28.04:223][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-13.28.04:295][707]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/MonkeyTurret_Material
+[2025.05.24-13.28.04:296][707]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MonkeyTurret_Material6B98877040B29FB3D8EF728D3E89ACCA.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/MonkeyTurret_Material.uasset'
+[2025.05.24-13.28.04:304][707]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle_PhysicsAsset
+[2025.05.24-13.28.04:304][707]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/monkeyEnemyAnimIdle_PhysicsAsset60BF74BC4E489059E0AAEAB7DC2251EF.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle_PhysicsAsset.uasset'
+[2025.05.24-13.28.04:328][707]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle_Anim
+[2025.05.24-13.28.04:328][707]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/monkeyEnemyAnimIdle_Anim5F1993F14A9EF087B30892BB56EC5082.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle_Anim.uasset'
+[2025.05.24-13.28.04:345][707]LogSavePackage: Moving output files for package: /Game/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle_Skeleton
+[2025.05.24-13.28.04:345][707]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/monkeyEnemyAnimIdle_Skeleton2C00137B49DAAC0E0657EC8B4537ED3D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle_Skeleton.uasset'
+[2025.05.24-13.28.04:360][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 3.50 sec)
+[2025.05.24-13.28.04:364][707]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.24-13.28.04:364][707]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Characters/Enemies/MonkeyTurret_Material.MonkeyTurret_Material
+[2025.05.24-13.28.04:364][707]LogContentValidation: Display: Validating /Script/Engine.PhysicsAsset /Game/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle_PhysicsAsset.monkeyEnemyAnimIdle_PhysicsAsset
+[2025.05.24-13.28.04:364][707]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle_Anim.monkeyEnemyAnimIdle_Anim
+[2025.05.24-13.28.04:364][707]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/Models/Characters/Enemies/MonkeyRig/monkeyEnemyAnimIdle_Skeleton.monkeyEnemyAnimIdle_Skeleton
+[2025.05.24-13.28.11:283][286]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_69
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.11:283][286]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_69
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.11:283][286]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_69
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.11:283][286]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_69
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.11:311][288]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_112
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.28.11:311][288]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_112
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.28.19:264][678]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2025.05.24-13.28.19:273][678]LogContentBrowser: Deferred new asset file creation: NewAnimBlueprint
+[2025.05.24-13.28.19:280][678]LogContentBrowser: Creating deferred item: NewAnimBlueprint
+[2025.05.24-13.28.19:282][678]LogAutomationController: Ignoring very large delta of 2.93 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.24-13.28.19:290][679]LogContentBrowser: Renaming the item being created (Deferred Item: NewAnimBlueprint).
+[2025.05.24-13.28.25:078][245]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> MonkeyEnemyAnim
+[2025.05.24-13.28.25:093][245]LogContentBrowser: End creating deferred item NewAnimBlueprint
+[2025.05.24-13.28.25:094][245]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.28.26:045][332]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_70
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:045][332]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_70
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:045][332]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_70
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:045][332]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_70
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:057][333]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_71
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:057][333]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_71
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:057][333]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_71
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:057][333]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_71
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:070][334]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_72
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:070][334]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_72
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:070][334]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_72
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:070][334]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_72
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:082][335]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_73
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:082][335]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_73
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:082][335]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_73
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:082][335]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_73
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:094][336]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_74
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:094][336]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_74
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:094][336]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_74
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:094][336]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_74
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:107][337]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_75
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:107][337]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_75
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:107][337]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_75
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:107][337]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_75
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:119][338]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_76
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:119][338]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_76
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:119][338]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_76
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:119][338]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_76
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:132][339]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_77
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:132][339]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_77
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:132][339]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_77
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:132][339]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_77
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:144][340]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_78
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:144][340]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_78
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:144][340]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_78
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:144][340]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_78
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:156][341]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_79
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:156][341]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_79
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:156][341]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_79
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:156][341]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_79
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:167][342]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_80
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:167][342]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_80
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:167][342]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_80
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:167][342]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_80
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:180][343]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_81
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:180][343]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_81
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:180][343]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_81
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:180][343]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_81
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:193][344]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_82
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:194][344]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_82
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:194][344]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_82
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:194][344]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_82
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:206][345]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_83
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:206][345]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_83
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:206][345]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_83
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:206][345]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_83
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:221][346]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_84
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:221][346]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_84
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:221][346]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_84
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:221][346]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_84
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:233][347]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_85
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:233][347]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_85
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:233][347]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_85
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:233][347]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_85
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:246][348]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_86
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:246][348]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_86
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:246][348]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_86
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:246][348]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_86
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:258][349]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_87
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:258][349]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_87
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:258][349]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_87
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:258][349]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_87
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:270][350]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_88
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:270][350]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_88
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:270][350]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_88
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:270][350]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_88
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:283][351]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_89
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:283][351]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_89
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:283][351]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_89
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:283][351]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_89
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:295][352]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_90
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:295][352]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_90
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:295][352]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_90
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:295][352]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_90
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:308][353]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_91
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:308][353]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_91
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:308][353]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_91
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:308][353]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_91
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:320][354]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_92
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:320][354]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_92
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:320][354]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_92
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:320][354]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_92
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:332][355]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_93
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:332][355]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_93
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:332][355]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_93
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:332][355]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_93
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:345][356]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_94
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:345][356]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_94
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:345][356]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_94
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:345][356]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_94
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:430][363]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-13.28.26:511][363]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyAnim
+[2025.05.24-13.28.26:511][363]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MonkeyEnemyAnim3063295240D992814C8BA69B3EDBA99A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Animation/MonkeyEnemyAnim.uasset'
+[2025.05.24-13.28.26:529][363]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 3.60 sec)
+[2025.05.24-13.28.26:530][363]AssetCheck: New page: Asset Save: MonkeyEnemyAnim
+[2025.05.24-13.28.26:530][363]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyAnim.MonkeyEnemyAnim
+[2025.05.24-13.28.26:674][369]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_95
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:674][369]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_95
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:674][369]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_95
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:674][369]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_95
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:688][370]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_96
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:688][370]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_96
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:688][370]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_96
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:688][370]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_96
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:701][371]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_97
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:701][371]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_97
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:701][371]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_97
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:701][371]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_97
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:714][372]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_98
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:714][372]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_98
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:714][372]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_98
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:714][372]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_98
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:728][373]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_99
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:728][373]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_99
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:728][373]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_99
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:728][373]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_99
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:741][374]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_100
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:741][374]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_100
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:741][374]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_100
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:741][374]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_100
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:754][375]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_101
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:754][375]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_101
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:754][375]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_101
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:754][375]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_101
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:767][376]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_102
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:767][376]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_102
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:767][376]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_102
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:767][376]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_102
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:780][377]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_103
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:780][377]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_103
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:780][377]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_103
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:780][377]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_103
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:793][378]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_104
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:794][378]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_104
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:794][378]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_104
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:794][378]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_104
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:808][379]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_105
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:808][379]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_105
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:808][379]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_105
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:808][379]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_105
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:822][380]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_106
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:822][380]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_106
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:822][380]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_106
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:822][380]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_106
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.26:836][381]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_107
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.28.26:836][381]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_107
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.28.26:836][381]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_107
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.28.26:836][381]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_107
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.28.36:501][971]LogSlate: Window 'Pick Skeleton' being destroyed
+[2025.05.24-13.28.36:509][971]LogContentBrowser: Deferred new asset file creation: NewBlendSpace1D
+[2025.05.24-13.28.36:517][971]LogContentBrowser: Creating deferred item: NewBlendSpace1D
+[2025.05.24-13.28.36:526][972]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlendSpace1D).
+[2025.05.24-13.28.46:668][943]LogContentBrowser: Attempting asset rename: NewBlendSpace1D -> MonkeyEnemyBlendSpace1D
+[2025.05.24-13.28.46:680][943]LogContentBrowser: End creating deferred item NewBlendSpace1D
+[2025.05.24-13.28.47:551][ 13]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyBlendSpace1D.MonkeyEnemyBlendSpace1D
+[2025.05.24-13.28.49:101][155]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2025.05.24-13.28.56:797][860]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.28.56:797][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.28.56:831][860]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.28.56:831][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.29.00:064][172]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyAnim.MonkeyEnemyAnim
+[2025.05.24-13.29.00:065][172]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.29.00:065][172]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.29.00:074][172]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.29.00:074][172]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.29.00:080][172]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_54:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.05.24-13.29.00:297][172]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.29.00:297][172]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.29.00:389][172]LogViewport: Scene viewport resized to 416x407, mode Windowed.
+[2025.05.24-13.29.00:414][172]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2025.05.24-13.29.02:350][392]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2025.05.24-13.29.05:989][726]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-13.29.06:061][726]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyAnim
+[2025.05.24-13.29.06:062][726]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MonkeyEnemyAnimC64451F148C35D19247048A7217DC987.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Animation/MonkeyEnemyAnim.uasset'
+[2025.05.24-13.29.06:070][726]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 3.68 sec)
+[2025.05.24-13.29.06:071][726]AssetCheck: New page: Asset Save: MonkeyEnemyAnim
+[2025.05.24-13.29.06:071][726]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyAnim.MonkeyEnemyAnim
+[2025.05.24-13.29.06:400][762]BlueprintLog: New page: Compile MonkeyEnemyAnim
+[2025.05.24-13.29.06:433][762]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2025.05.24-13.29.23:853][163]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_108
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.29.23:853][163]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_108
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.29.23:853][163]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_108
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.29.23:853][163]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_108
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.29.23:915][167]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_113
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.29.23:915][167]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_113
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.29.25:429][275]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_109
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.29.25:429][275]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_109
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.29.25:429][275]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_109
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.29.25:429][275]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_109
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.29.25:478][278]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_114
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.29.25:478][278]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_114
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.29.27:768][427]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2025.05.24-13.29.29:180][427]LogSlate: Window 'Delete Assets' being destroyed
+[2025.05.24-13.29.29:220][427]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2025.05.24-13.29.29:237][427]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2025.05.24-13.29.29:251][427]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.05.24-13.29.40:778][279]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy
+[2025.05.24-13.29.40:779][279]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.29.40:779][279]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.29.42:935][465]LogViewport: Scene viewport resized to 1081x685, mode Windowed.
+[2025.05.24-13.29.49:101][ 59]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_3.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.29.49:103][ 59]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007841.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.29.49:104][ 59]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007842.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.29.58:559][ 33]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_7.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.29.58:561][ 33]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007845.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.29.58:563][ 33]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007846.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.04:227][647]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-13.30.04:291][647]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy
+[2025.05.24-13.30.04:292][647]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ProjectileEnemyE4D576CD4622EE1CF0701098D8317A9D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.uasset'
+[2025.05.24-13.30.04:300][647]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 3.75 sec)
+[2025.05.24-13.30.04:301][647]AssetCheck: New page: Asset Save: BP_ProjectileEnemy
+[2025.05.24-13.30.04:301][647]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy
+[2025.05.24-13.30.10:076][252]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_13.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.10:078][252]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007851.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.10:080][252]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007852.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.10:673][313]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-13.30.10:742][313]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy
+[2025.05.24-13.30.10:743][313]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ProjectileEnemy700D67B740D66141BA1538815C97244D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.uasset'
+[2025.05.24-13.30.10:752][313]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 3.83 sec)
+[2025.05.24-13.30.10:753][313]AssetCheck: New page: Asset Save: BP_ProjectileEnemy
+[2025.05.24-13.30.10:753][313]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy
+[2025.05.24-13.30.11:468][392]BlueprintLog: New page: Compile BP_ProjectileEnemy
+[2025.05.24-13.30.11:521][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.05.24-13.30.11:546][392]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_15.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.11:548][392]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007853.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.11:550][392]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007854.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.11:566][392]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_17.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.11:568][392]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007855.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.11:570][392]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007856.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.16:867][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_21.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.16:869][996]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007859.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.16:870][996]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007860.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.17:231][ 34]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-13.30.17:315][ 34]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy
+[2025.05.24-13.30.17:316][ 34]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_ProjectileEnemy4E3275A345EE53225199B1BAC5ABE9F9.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.uasset'
+[2025.05.24-13.30.17:323][ 34]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 3.93 sec)
+[2025.05.24-13.30.17:325][ 34]AssetCheck: New page: Asset Save: BP_ProjectileEnemy
+[2025.05.24-13.30.17:325][ 34]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Enemy/BP_ProjectileEnemy.BP_ProjectileEnemy
+[2025.05.24-13.30.19:927][328]BlueprintLog: New page: Compile BP_ProjectileEnemy
+[2025.05.24-13.30.19:984][328]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.05.24-13.30.20:008][328]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_23.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.20:010][328]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007861.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.20:011][328]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007862.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.20:030][328]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_25.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.20:032][328]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007863.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.20:034][328]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.DESTROYED_BP_ProjectileEnemy_C_CHILDACTOR_1372007864.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2025.05.24-13.30.34:943][704]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.24-13.30.34:954][704]LogContentBundle: [Level_1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.24-13.30.34:955][704]LogWorldPartition: Display: GenerateStreaming for 'Level_1' started...
+[2025.05.24-13.30.34:985][704]LogWorldPartition: Display: GenerateStreaming for 'Level_1' took 30 ms (total: 318 ms)
+[2025.05.24-13.30.34:985][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.24-13.30.34:985][704]PIE: New page: PIE session: Level_1 (24 maj 2025, 15:30:34)
+[2025.05.24-13.30.35:022][704]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.24-13.30.35:153][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131129s)
+[2025.05.24-13.30.35:153][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_1.Level_1 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 (0.131186s)
+[2025.05.24-13.30.35:171][704]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2025.05.24-13.30.35:176][704]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.30.35:176][704]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.30.35:176][704]LogAIModule: Creating AISystem for world Level_1
+[2025.05.24-13.30.35:177][704]LogWorldPartition: ULevel::OnLevelLoaded(Level_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.24-13.30.35:177][704]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.24-13.30.35:177][704]LogWorldPartition: UWorldPartition::Initialize : World = Level_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.24-13.30.35:177][704]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.24-13.30.35:209][704]LogContentBundle: [Level_1(Standalone)] Creating new contrainer.
+[2025.05.24-13.30.35:209][704]LogWorldPartition: Display: WorldPartition initialize took 31 ms (total: 13.8 sec)
+[2025.05.24-13.30.35:209][704]LogPlayLevel: PIE: World Init took: (0.033526s)
+[2025.05.24-13.30.35:209][704]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.05.24-13.30.35:209][704]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.24-13.30.35:209][704]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.24-13.30.35:209][704]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.24-13.30.35:209][704]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.24-13.30.35:209][704]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.24-13.30.35:209][704]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.24-13.30.35:209][704]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.24-13.30.35:209][704]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.24-13.30.35:210][704]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.24-13.30.35:210][704]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.24-13.30.35:210][704]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.24-13.30.35:211][704]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.24-13.30.35:228][704]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.24-13.30.35:228][704]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.24-13.30.35:228][704]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.24-13.30.35:228][704]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.24-13.30.35:229][704]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.05.24-13.30.35:229][704]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.05.24-13.30.35:230][704]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.05.24-13.30.35:230][704]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.05.24-13.30.35:230][704]LogInit: FAudioDevice initialized with ID 11.
+[2025.05.24-13.30.35:230][704]LogAudio: Display: Audio Device (ID: 11) registered with world 'Level_1'.
+[2025.05.24-13.30.35:230][704]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.05.24-13.30.35:231][704]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.24-13.30.35:289][704]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2025.05.24-14.30.35
+[2025.05.24-13.30.35:293][704]LogWorld: Bringing up level for play took: 0.060385
+[2025.05.24-13.30.35:308][704]LogOnline: OSS: Created online subsystem instance for: :Context_67
+[2025.05.24-13.30.35:317][704]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.05.24-13.30.35:318][704]PIE: Server logged in
+[2025.05.24-13.30.35:318][704]PIE: Play in editor total start time 0,363 seconds.
+[2025.05.24-13.30.35:345][704]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'WindCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-13.30.35:345][704]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'jungleAmbience_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-13.30.35:345][704]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'MusicLoopCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-13.30.40:113][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.24-13.30.40:113][ 41]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.24-13.30.40:115][ 41]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.30.40:129][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.30.40:129][ 41]LogContentBundle: [Level_1(Standalone)] Deleting container.
+[2025.05.24-13.30.40:133][ 41]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.24-13.30.40:141][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.30.40:171][ 41]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.24-13.30.40:171][ 41]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.05.24-13.30.40:171][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.05.24-13.30.40:173][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.05.24-13.30.40:177][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.24-13.30.40:199][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2025.05.24-13.30.40:249][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2025.05.24-13.30.50:206][143]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.24-13.30.50:216][143]LogContentBundle: [Level_1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.24-13.30.50:216][143]LogWorldPartition: Display: GenerateStreaming for 'Level_1' started...
+[2025.05.24-13.30.50:247][143]LogWorldPartition: Display: GenerateStreaming for 'Level_1' took 31 ms (total: 350 ms)
+[2025.05.24-13.30.50:248][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.24-13.30.50:248][143]PIE: New page: PIE session: Level_1 (24 maj 2025, 15:30:50)
+[2025.05.24-13.30.50:272][143]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.24-13.30.50:412][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140585s)
+[2025.05.24-13.30.50:412][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_1.Level_1 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 (0.140620s)
+[2025.05.24-13.30.50:428][143]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2025.05.24-13.30.50:431][143]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.30.50:431][143]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.30.50:431][143]LogAIModule: Creating AISystem for world Level_1
+[2025.05.24-13.30.50:432][143]LogWorldPartition: ULevel::OnLevelLoaded(Level_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.24-13.30.50:432][143]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.24-13.30.50:432][143]LogWorldPartition: UWorldPartition::Initialize : World = Level_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.24-13.30.50:432][143]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.24-13.30.50:465][143]LogContentBundle: [Level_1(Standalone)] Creating new contrainer.
+[2025.05.24-13.30.50:465][143]LogWorldPartition: Display: WorldPartition initialize took 31 ms (total: 13.9 sec)
+[2025.05.24-13.30.50:465][143]LogPlayLevel: PIE: World Init took: (0.033714s)
+[2025.05.24-13.30.50:465][143]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.05.24-13.30.50:465][143]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.24-13.30.50:465][143]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.24-13.30.50:465][143]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.24-13.30.50:465][143]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.24-13.30.50:465][143]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.24-13.30.50:465][143]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.24-13.30.50:465][143]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.24-13.30.50:465][143]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.24-13.30.50:465][143]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.24-13.30.50:465][143]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.24-13.30.50:465][143]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.24-13.30.50:467][143]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.24-13.30.50:482][143]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.24-13.30.50:482][143]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.24-13.30.50:482][143]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.24-13.30.50:482][143]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.24-13.30.50:483][143]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.05.24-13.30.50:483][143]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.05.24-13.30.50:485][143]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.05.24-13.30.50:485][143]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.05.24-13.30.50:485][143]LogInit: FAudioDevice initialized with ID 12.
+[2025.05.24-13.30.50:485][143]LogAudio: Display: Audio Device (ID: 12) registered with world 'Level_1'.
+[2025.05.24-13.30.50:485][143]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.05.24-13.30.50:488][143]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.24-13.30.50:551][143]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2025.05.24-14.30.50
+[2025.05.24-13.30.50:555][143]LogWorld: Bringing up level for play took: 0.065820
+[2025.05.24-13.30.50:569][143]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2025.05.24-13.30.50:576][143]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.05.24-13.30.50:577][143]PIE: Server logged in
+[2025.05.24-13.30.50:578][143]PIE: Play in editor total start time 0,362 seconds.
+[2025.05.24-13.30.50:607][143]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'WindCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-13.30.50:607][143]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'jungleAmbience_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-13.30.50:607][143]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'MusicLoopCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-13.31.04:543][ 40]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.24-13.31.04:543][ 40]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.24-13.31.04:546][ 40]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.31.04:557][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.31.04:558][ 40]LogContentBundle: [Level_1(Standalone)] Deleting container.
+[2025.05.24-13.31.04:561][ 40]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.24-13.31.04:568][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.31.04:586][ 40]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.24-13.31.04:593][ 40]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.05.24-13.31.04:593][ 40]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.05.24-13.31.04:595][ 40]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.05.24-13.31.04:616][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2025.05.24-13.31.04:673][ 41]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2025.05.24-13.31.11:918][784]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-13.31.11:998][784]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyAnim
+[2025.05.24-13.31.11:998][784]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MonkeyEnemyAnimE7C0B1CF4E92E060E1CEBF9827F9652D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Animation/MonkeyEnemyAnim.uasset'
+[2025.05.24-13.31.12:009][784]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 4.02 sec)
+[2025.05.24-13.31.12:010][784]AssetCheck: New page: Asset Save: MonkeyEnemyAnim
+[2025.05.24-13.31.12:010][784]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyAnim.MonkeyEnemyAnim
+[2025.05.24-13.31.19:885][635]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.31.19:885][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.31.26:427][239]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_110
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.31.26:427][239]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_110
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.31.26:427][239]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_110
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.31.26:427][239]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_110
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.31.26:456][241]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_115
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.31.26:457][241]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_115
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.31.27:345][327]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_116
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.31.27:345][327]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_116
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.31.27:359][328]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_117
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.31.27:359][328]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_117
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.31.27:371][329]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_118
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-13.31.27:371][329]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_118
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-13.31.57:999][971]LogSlate: Window 'Pick Skeleton' being destroyed
+[2025.05.24-13.31.58:007][971]LogContentBrowser: Deferred new asset file creation: NewBlendSpace1D
+[2025.05.24-13.31.58:015][971]LogContentBrowser: Creating deferred item: NewBlendSpace1D
+[2025.05.24-13.31.58:026][972]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlendSpace1D).
+[2025.05.24-13.32.02:566][334]LogContentBrowser: Attempting asset rename: NewBlendSpace1D -> NewBlendSpace1D
+[2025.05.24-13.32.02:571][334]LogContentBrowser: End creating deferred item NewBlendSpace1D
+[2025.05.24-13.32.04:009][426]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_111
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-13.32.04:009][426]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_111
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-13.32.04:009][426]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_111
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-13.32.04:009][426]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_111
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-13.32.10:014][917]LogContentBrowser: Attempting asset rename: NewBlendSpace1D -> MonkeyEnemyBlendSpace1D
+[2025.05.24-13.32.10:047][917]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-13.32.10:125][917]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyBlendSpace1D
+[2025.05.24-13.32.10:125][917]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MonkeyEnemyBlendSpace1D7A599FA843B0C16DB709E79D6C00499D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Animation/MonkeyEnemyBlendSpace1D.uasset'
+[2025.05.24-13.32.10:139][917]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 4.11 sec)
+[2025.05.24-13.32.10:169][917]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2025.05.24-13.32.10:199][917]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2025.05.24-13.32.10:211][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.05.24-13.32.10:213][917]AssetCheck: New page: Asset Save: MonkeyEnemyBlendSpace1D
+[2025.05.24-13.32.10:213][917]LogContentValidation: Display: Validating /Script/Engine.BlendSpace1D /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyBlendSpace1D.MonkeyEnemyBlendSpace1D
+[2025.05.24-13.32.12:174][ 44]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyBlendSpace1D.MonkeyEnemyBlendSpace1D
+[2025.05.24-13.32.12:174][ 44]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.32.12:174][ 44]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.32.12:182][ 44]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_57:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.05.24-13.32.12:374][ 44]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.32.12:374][ 44]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.32.12:491][ 44]LogViewport: Scene viewport resized to 1141x552, mode Windowed.
+[2025.05.24-13.32.12:503][ 44]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2025.05.24-13.32.13:405][147]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2025.05.24-13.32.21:565][885]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-13.32.21:658][885]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyBlendSpace1D
+[2025.05.24-13.32.21:659][885]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MonkeyEnemyBlendSpace1DFC126536400FCB49B9AA69BA742AE8FC.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Animation/MonkeyEnemyBlendSpace1D.uasset'
+[2025.05.24-13.32.21:670][885]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 4.21 sec)
+[2025.05.24-13.32.21:670][885]AssetCheck: New page: Asset Save: MonkeyEnemyBlendSpace1D
+[2025.05.24-13.32.21:670][885]LogContentValidation: Display: Validating /Script/Engine.BlendSpace1D /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyBlendSpace1D.MonkeyEnemyBlendSpace1D
+[2025.05.24-13.32.25:196][165]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.BlendSpace1D
+[2025.05.24-13.32.27:554][386]BlueprintLog: New page: Compile MonkeyEnemyAnim
+[2025.05.24-13.32.27:586][386]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2025.05.24-13.32.36:019][178]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-13.32.36:111][178]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyAnim
+[2025.05.24-13.32.36:111][178]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MonkeyEnemyAnimED5207F0491C0C2F3D479289A1384DB7.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Animation/MonkeyEnemyAnim.uasset'
+[2025.05.24-13.32.36:121][178]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 4.31 sec)
+[2025.05.24-13.32.36:122][178]AssetCheck: New page: Asset Save: MonkeyEnemyAnim
+[2025.05.24-13.32.36:122][178]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Blueprints/Animation/MonkeyEnemyAnim.MonkeyEnemyAnim
+[2025.05.24-13.32.36:599][220]BlueprintLog: New page: Compile MonkeyEnemyAnim
+[2025.05.24-13.32.36:629][220]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2025.05.24-13.32.40:990][641]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.24-13.32.41:001][641]LogContentBundle: [Level_1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.24-13.32.41:001][641]LogWorldPartition: Display: GenerateStreaming for 'Level_1' started...
+[2025.05.24-13.32.41:031][641]LogWorldPartition: Display: GenerateStreaming for 'Level_1' took 31 ms (total: 381 ms)
+[2025.05.24-13.32.41:033][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.24-13.32.41:033][641]PIE: New page: PIE session: Level_1 (24 maj 2025, 15:32:41)
+[2025.05.24-13.32.41:034][641]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.24-13.32.41:167][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.133727s)
+[2025.05.24-13.32.41:167][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_1.Level_1 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 (0.133779s)
+[2025.05.24-13.32.41:184][641]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2025.05.24-13.32.41:186][641]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-13.32.41:186][641]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-13.32.41:187][641]LogAIModule: Creating AISystem for world Level_1
+[2025.05.24-13.32.41:188][641]LogWorldPartition: ULevel::OnLevelLoaded(Level_1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.24-13.32.41:188][641]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.24-13.32.41:188][641]LogWorldPartition: UWorldPartition::Initialize : World = Level_1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.24-13.32.41:188][641]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.24-13.32.41:220][641]LogContentBundle: [Level_1(Standalone)] Creating new contrainer.
+[2025.05.24-13.32.41:220][641]LogWorldPartition: Display: WorldPartition initialize took 32 ms (total: 13.9 sec)
+[2025.05.24-13.32.41:220][641]LogPlayLevel: PIE: World Init took: (0.034123s)
+[2025.05.24-13.32.41:220][641]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.05.24-13.32.41:220][641]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.24-13.32.41:220][641]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.24-13.32.41:220][641]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.24-13.32.41:220][641]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.24-13.32.41:220][641]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.24-13.32.41:220][641]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.24-13.32.41:220][641]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.24-13.32.41:220][641]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.24-13.32.41:221][641]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.24-13.32.41:221][641]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.24-13.32.41:221][641]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.24-13.32.41:222][641]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.24-13.32.41:239][641]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.24-13.32.41:239][641]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.24-13.32.41:239][641]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.24-13.32.41:239][641]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.24-13.32.41:240][641]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.05.24-13.32.41:240][641]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.05.24-13.32.41:242][641]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.05.24-13.32.41:242][641]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.05.24-13.32.41:242][641]LogInit: FAudioDevice initialized with ID 13.
+[2025.05.24-13.32.41:242][641]LogAudio: Display: Audio Device (ID: 13) registered with world 'Level_1'.
+[2025.05.24-13.32.41:242][641]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.05.24-13.32.41:245][641]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.24-13.32.41:306][641]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2025.05.24-14.32.41
+[2025.05.24-13.32.41:311][641]LogWorld: Bringing up level for play took: 0.065799
+[2025.05.24-13.32.41:325][641]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2025.05.24-13.32.41:333][641]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.05.24-13.32.41:334][641]PIE: Server logged in
+[2025.05.24-13.32.41:335][641]PIE: Play in editor total start time 0,335 seconds.
+[2025.05.24-13.32.41:361][641]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'WindCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-13.32.41:362][641]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'jungleAmbience_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-13.32.41:362][641]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'MusicLoopCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-13.33.12:756][832]LogEditorViewport: Clicking Background
+[2025.05.24-13.33.14:652][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.24-13.33.14:652][934]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_1
+[2025.05.24-13.33.14:655][934]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-13.33.14:667][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.33.14:668][934]LogContentBundle: [Level_1(Standalone)] Deleting container.
+[2025.05.24-13.33.14:671][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.24-13.33.14:679][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-13.33.14:705][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.24-13.33.14:705][934]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.05.24-13.33.14:705][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.05.24-13.33.14:707][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.05.24-13.33.14:731][934]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2025.05.24-13.33.14:793][935]LogPlayLevel: Display: Destroying online subsystem :Context_71
