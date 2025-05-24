@@ -8789,3 +8789,49 @@ UnknownFunction []
 [2025.05.24-14.50.41:826][150]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 11.0 sec)
 [2025.05.24-14.50.41:830][150]AssetCheck: New page: Asset Save: MainMenu
 [2025.05.24-14.50.41:830][150]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/MainMenu.MainMenu
+[2025.05.24-15.03.00:464][468]AssetReimport: New page: Outstanding source content changes 17:03:00
+[2025.05.24-15.03.00:526][469]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Level Props/Animated Props/umbrellaAnim.fbx)
+[2025.05.24-15.03.00:530][469]LogFbx: Loading FBX Scene from C:/Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Level Props/Animated Props/umbrellaAnim.fbx
+[2025.05.24-15.03.00:537][469]LogFbx: FBX Scene Loaded Succesfully
+[2025.05.24-15.03.03:664][469]LogSlate: Window 'FBX Import Options' being destroyed
+[2025.05.24-15.03.03:687][469]LogFbx: Valid bind pose for Pose (Mesh_0) - Mesh_0
+[2025.05.24-15.03.03:715][469]LogFbx: Bones digested - 12  Depth of hierarchy - 4
+[2025.05.24-15.03.03:716][469]LogSkeletalMesh: Section 0: Material=0, 96 triangles
+[2025.05.24-15.03.03:717][469]LogSkeletalMesh: Building Skeletal Mesh umbrellaAnim...
+[2025.05.24-15.03.03:719][469]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Models/Level_Props/Animated_Props/umbrellaAnim.umbrellaAnim
+[2025.05.24-15.03.03:720][469]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.03.03:720][469]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-15.03.03:731][469]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_80:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2025.05.24-15.03.03:731][469]LogWorld: UWorld::CleanupWorld for World_80, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-15.03.03:731][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-15.03.03:737][469]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.03.03:737][469]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-15.03.03:742][469]LogWorld: UWorld::CleanupWorld for World_81, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-15.03.03:742][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-15.03.03:747][469]LogFbx: SortedLinks :(0) Umbrella
+[2025.05.24-15.03.03:747][469]LogFbx: SortedLinks :(1) Umbrella1
+[2025.05.24-15.03.03:747][469]LogFbx: SortedLinks :(2) UmbrellaTop
+[2025.05.24-15.03.03:747][469]LogFbx: SortedLinks :(3) UmbrellaTop_end
+[2025.05.24-15.03.03:747][469]LogFbx: SortedLinks :(4) UmbrellaFlap1
+[2025.05.24-15.03.03:747][469]LogFbx: SortedLinks :(5) UmbrellaFlap1_end
+[2025.05.24-15.03.03:747][469]LogFbx: SortedLinks :(6) UmbrellaFlap2
+[2025.05.24-15.03.03:747][469]LogFbx: SortedLinks :(7) UmbrellaFlap2_end
+[2025.05.24-15.03.03:747][469]LogFbx: SortedLinks :(8) UmbrellaFlap3
+[2025.05.24-15.03.03:747][469]LogFbx: SortedLinks :(9) UmbrellaFlap3_end
+[2025.05.24-15.03.03:747][469]LogFbx: SortedLinks :(10) UmbrellaFlap4
+[2025.05.24-15.03.03:747][469]LogFbx: SortedLinks :(11) UmbrellaFlap4_end
+[2025.05.24-15.03.03:747][469]LogFbx: Parsing AnimStack Scene
+[2025.05.24-15.03.03:759][469]FBXImport: FBX File Loading: Found name clash, node 'Umbrella' was renamed to 'Umbrella1' 
+[2025.05.24-15.03.03:779][469]LogAutomationController: Ignoring very large delta of 3.26 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.24-15.03.03:784][470]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-15.03.03:862][470]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.03.03:916][470]LogSavePackage: Moving output files for package: /Game/Models/Level_Props/Animated_Props/umbrellaAnim
+[2025.05.24-15.03.03:916][470]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/umbrellaAnim2D1FEE7A47EBC0C6F4B4A1BA33A724F0.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Level_Props/Animated_Props/umbrellaAnim.uasset'
+[2025.05.24-15.03.03:925][470]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 11.1 sec)
+[2025.05.24-15.03.03:945][471]AssetCheck: New page: Asset Save: umbrellaAnim
+[2025.05.24-15.03.03:945][471]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Models/Level_Props/Animated_Props/umbrellaAnim.umbrellaAnim
+[2025.05.24-15.03.06:933][827]AssetReimport: Importing new asset /Game/Models/Level_Props/Animated_Props/umbrellaAnim.
+[2025.05.24-15.03.28:497][461]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad
+[2025.05.24-15.03.28:497][461]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.03.28:497][461]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-15.03.43:251][104]LogViewport: Scene viewport resized to 1081x685, mode Windowed.
