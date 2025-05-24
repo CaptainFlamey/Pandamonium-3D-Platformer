@@ -61,5 +61,12 @@ Pixabay: https://pixabay.com/sound-effects/
 ZapSplat: https://www.zapsplat.com/
 SONNISS: https://sonniss.com/
 
+## Known Issues
+- Roaming enemies will often struggle to attack you if you are too close to them
+- The jumping animation will play when the player is falling/walking off of a ledge
+- The jumping animation will sometimes play after a dash causing the jumping sound effect to play in a place it shouldn't
+- Ranged enemies do not have a throwing animation
+- The fading screen after the player death can be quite inconsistent depending on how the player died
+
 ## Link to the Jira:
 https://kostaszewski03.atlassian.net/jira/software/projects/P3PFYP/boards/2/timeline
