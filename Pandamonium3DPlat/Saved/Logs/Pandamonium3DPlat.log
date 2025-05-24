@@ -8835,3 +8835,518 @@ UnknownFunction []
 [2025.05.24-15.03.28:497][461]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2025.05.24-15.03.28:497][461]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
 [2025.05.24-15.03.43:251][104]LogViewport: Scene viewport resized to 1081x685, mode Windowed.
+[2025.05.24-15.06.00:392][896]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.06.02:118][ 42]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Models/Level_Props/Animated_Props/umbrellaAnim.umbrellaAnim
+[2025.05.24-15.06.02:119][ 42]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.06.02:119][ 42]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-15.06.02:130][ 42]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_85:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.05.24-15.06.02:352][ 42]LogToolMenus: Warning: Menu already registered : SkeletalMeshEditor.MeshContextMenu
+[2025.05.24-15.06.02:438][ 42]LogViewport: Scene viewport resized to 1430x858, mode Windowed.
+[2025.05.24-15.06.17:580][560]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Models/LevelProps/ModelMaterials/m_1a00cf81-378d-46d0-7207-9a7e27f3aa14.m_1a00cf81-378d-46d0-7207-9a7e27f3aa14
+[2025.05.24-15.06.17:583][560]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.06.17:583][560]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-15.06.17:728][560]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.24-15.06.17:728][560]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.05.24-15.06.17:728][560]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.24-15.06.17:728][560]MaterialEditorStats: Shader Count: 0
+[2025.05.24-15.06.17:733][560]LogViewport: Scene viewport resized to 376x444, mode Windowed.
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: ================================================
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Total job queries 249, among them cache hits 149 (59.84%)
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Tracking 100 distinct input hashes that result in 48 distinct outputs (48.00%)
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: RAM used: 2,38 MiB of 1,60 GiB budget. Usage: 0.15%
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Shaders Compiled: 21
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Jobs assigned 21, completed 21 (100%)
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Average time worker was idle: 3713.90 s
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.10 s
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Job execution time: average 0.76 s, max 1.06 s
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Job life time (pending + execution): average 0.84 s, max 1.14
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Shader code size: average 38,047 KiB, min 11,148 KiB, max 60,668 KiB
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.43 s
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Jobs were issued in 14 batches (only local compilation was used), average 1.50 jobs/batch
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Average processing rate: 6.12 jobs/sec
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Total thread time: 5,809 s
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Total thread preprocess time: 0,514 s
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Percentage time preprocessing: 8.85%
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Effective parallelization: 1.69 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display:                                               FNiagaraShader - 19.79% of total time (compiled    5 times, average 0.23 sec, max 0.34 sec, min 0.08 sec)
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.32% of total time (compiled    2 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.20% of total time (compiled    2 times, average 0.24 sec, max 0.27 sec, min 0.21 sec)
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.51% of total time (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 6.34% of total time (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2025.05.24-15.06.17:783][561]LogShaderCompilers: Display: ================================================
+[2025.05.24-15.06.17:805][562]MaterialEditorStats: Base pass shader: 194 instructions
+[2025.05.24-15.06.17:805][562]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2025.05.24-15.06.17:805][562]MaterialEditorStats: Texture samplers: 3/16
+[2025.05.24-15.06.17:805][562]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.05.24-15.06.17:805][562]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.24-15.06.17:805][562]MaterialEditorStats: Shader Count: 4
+[2025.05.24-15.06.21:545][985]LogWorld: UWorld::CleanupWorld for World_86, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-15.06.21:545][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-15.06.24:411][233]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Models/LevelProps/ModelMaterials/m_1d8744ef-627a-def6-74be-2d3488c58512.m_1d8744ef-627a-def6-74be-2d3488c58512
+[2025.05.24-15.06.24:414][233]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.06.24:414][233]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-15.06.24:567][233]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.24-15.06.24:567][233]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.05.24-15.06.24:567][233]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.24-15.06.24:567][233]MaterialEditorStats: Shader Count: 0
+[2025.05.24-15.06.24:572][233]LogViewport: Scene viewport resized to 376x444, mode Windowed.
+[2025.05.24-15.06.24:630][235]MaterialEditorStats: Base pass shader: 194 instructions
+[2025.05.24-15.06.24:630][235]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2025.05.24-15.06.24:630][235]MaterialEditorStats: Texture samplers: 3/16
+[2025.05.24-15.06.24:630][235]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.05.24-15.06.24:630][235]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.05.24-15.06.24:630][235]MaterialEditorStats: Shader Count: 4
+[2025.05.24-15.06.27:468][555]LogWorld: UWorld::CleanupWorld for World_87, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-15.06.27:468][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-15.06.38:310][626]LogContentBrowser: Attempting asset rename: m_1d8744ef-627a-def6-74be-2d3488c58512 -> Umbrella_Mat
+[2025.05.24-15.06.38:350][626]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-15.06.38:438][626]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/umbrella_Bouncepad
+[2025.05.24-15.06.38:438][626]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/umbrella_BouncepadB8F3D11E4F6CA56D0FF787A59B4C1E9C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/umbrella_Bouncepad.uasset'
+[2025.05.24-15.06.38:441][626]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/ModelMaterials/Umbrella_Mat
+[2025.05.24-15.06.38:441][626]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Umbrella_Mat25892EED4DEB96BB6DE5C1A78CCB7296.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/ModelMaterials/Umbrella_Mat.uasset'
+[2025.05.24-15.06.38:451][626]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 11.2 sec)
+[2025.05.24-15.06.38:484][626]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2025.05.24-15.06.38:505][626]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2025.05.24-15.06.38:519][626]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.05.24-15.06.38:523][626]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.24-15.06.38:523][626]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/OBJ_Files/umbrella_Bouncepad.umbrella_Bouncepad
+[2025.05.24-15.06.38:523][626]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/LevelProps/ModelMaterials/Umbrella_Mat.Umbrella_Mat
+[2025.05.24-15.06.46:804][389]LogContentBrowser: Attempting asset rename: m_1a00cf81-378d-46d0-7207-9a7e27f3aa14 -> Trampoline_Mat
+[2025.05.24-15.06.46:841][389]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-15.06.46:921][389]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/OBJ_Files/trampoline
+[2025.05.24-15.06.46:922][389]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/trampolineC5CB02314889D8B2F5C68AA70F7C6B00.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/OBJ_Files/trampoline.uasset'
+[2025.05.24-15.06.46:924][389]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/ModelMaterials/Trampoline_Mat
+[2025.05.24-15.06.46:924][389]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Trampoline_Mat0D562941495944FBC8CAC6B5C5149253.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/ModelMaterials/Trampoline_Mat.uasset'
+[2025.05.24-15.06.46:934][389]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 11.3 sec)
+[2025.05.24-15.06.46:960][389]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2025.05.24-15.06.46:981][389]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2025.05.24-15.06.46:996][389]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.05.24-15.06.47:000][389]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.24-15.06.47:000][389]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/LevelProps/OBJ_Files/trampoline.trampoline
+[2025.05.24-15.06.47:000][389]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/LevelProps/ModelMaterials/Trampoline_Mat.Trampoline_Mat
+[2025.05.24-15.06.57:663][359]LogContentBrowser: Attempting asset rename: m_cb177b0c-d813-9b0d-3567-60a830ef9633 -> Checkpoint_Mat
+[2025.05.24-15.06.57:690][359]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-15.06.57:771][359]LogSavePackage: Moving output files for package: /Game/Models/Collectables/heartPickUp
+[2025.05.24-15.06.57:771][359]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/heartPickUpA24E3A944A1428B3EDDC55AD5FA4F6B8.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Collectables/heartPickUp.uasset'
+[2025.05.24-15.06.57:774][359]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/ModelMaterials/Checkpoint_Mat
+[2025.05.24-15.06.57:774][359]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Checkpoint_Mat0707E36F4421D395D03F69889B75889D.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/ModelMaterials/Checkpoint_Mat.uasset'
+[2025.05.24-15.06.57:784][359]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 11.4 sec)
+[2025.05.24-15.06.57:809][359]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2025.05.24-15.06.57:826][359]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.05.24-15.06.57:841][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.05.24-15.06.57:845][359]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.24-15.06.57:845][359]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Models/Collectables/heartPickUp.heartPickUp
+[2025.05.24-15.06.57:845][359]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/LevelProps/ModelMaterials/Checkpoint_Mat.Checkpoint_Mat
+[2025.05.24-15.07.07:959][423]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-15.07.08:037][423]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad
+[2025.05.24-15.07.08:038][423]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_BouncePadD1607B1D4FDDFAED9CB5FA92B2467F88.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.uasset'
+[2025.05.24-15.07.08:047][423]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 11.5 sec)
+[2025.05.24-15.07.08:049][423]AssetCheck: New page: Asset Save: BP_BouncePad
+[2025.05.24-15.07.08:049][423]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad
+[2025.05.24-15.07.14:259][121]LogMaterial: Display: Material /Game/Models/LevelProps/ModelMaterials/Umbrella_Mat.Umbrella_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2025.05.24-15.07.14:850][165]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-15.07.14:930][165]LogSavePackage: Moving output files for package: /Game/Models/Level_Props/Animated_Props/umbrellaAnim
+[2025.05.24-15.07.14:930][165]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/umbrellaAnimB6C5831040529265F620B080C50629AA.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Level_Props/Animated_Props/umbrellaAnim.uasset'
+[2025.05.24-15.07.14:939][165]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 11.6 sec)
+[2025.05.24-15.07.14:940][165]AssetCheck: New page: Asset Save: umbrellaAnim
+[2025.05.24-15.07.14:940][165]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Models/Level_Props/Animated_Props/umbrellaAnim.umbrellaAnim
+[2025.05.24-15.07.27:697][944]BlueprintLog: New page: Compile BP_BouncePad
+[2025.05.24-15.07.27:729][944]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2025.05.24-15.07.37:618][949]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_150
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-15.07.37:618][949]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_150
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-15.07.37:618][949]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_150
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-15.07.37:618][949]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_150
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-15.07.37:650][951]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_141
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0038
+[2025.05.24-15.07.37:650][951]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	MartenEnemyAnim_C /Engine/Transient.World_27:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.MartenEnemyAnim_C_141
+	Function /Game/ThirdPerson/Blueprints/Animation/MartenEnemyAnim.MartenEnemyAnim_C:ExecuteUbergraph_MartenEnemyAnim:0077
+[2025.05.24-15.07.44:579][249]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2025.05.24-15.07.44:588][249]LogContentBrowser: Deferred new asset file creation: NewAnimBlueprint
+[2025.05.24-15.07.44:594][249]LogContentBrowser: Creating deferred item: NewAnimBlueprint
+[2025.05.24-15.07.44:596][249]LogAutomationController: Ignoring very large delta of 3.08 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.24-15.07.44:606][250]LogContentBrowser: Renaming the item being created (Deferred Item: NewAnimBlueprint).
+[2025.05.24-15.07.45:105][301]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_151
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-15.07.45:105][301]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_151
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-15.07.45:105][301]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_151
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-15.07.45:105][301]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_151
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-15.07.45:115][302]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_152
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-15.07.45:115][302]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_152
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-15.07.45:115][302]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_152
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-15.07.45:115][302]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_152
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-15.07.45:128][303]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_153
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-15.07.45:128][303]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_153
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-15.07.45:128][303]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_153
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-15.07.45:128][303]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_153
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-15.07.45:141][304]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_154
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-15.07.45:141][304]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_154
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-15.07.45:141][304]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_154
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-15.07.45:141][304]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_154
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-15.07.45:153][305]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_155
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-15.07.45:153][305]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_155
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-15.07.45:153][305]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_155
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-15.07.45:153][305]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_155
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-15.07.45:165][306]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_156
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-15.07.45:165][306]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_156
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-15.07.45:165][306]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_156
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-15.07.45:165][306]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_156
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-15.07.45:176][307]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_157
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-15.07.45:176][307]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_157
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-15.07.45:176][307]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_157
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-15.07.45:176][307]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_157
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-15.07.45:187][308]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_158
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-15.07.45:187][308]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_158
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-15.07.45:187][308]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_158
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-15.07.45:187][308]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_158
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-15.07.45:200][309]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_159
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-15.07.45:201][309]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_159
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-15.07.45:201][309]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_159
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-15.07.45:201][309]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_159
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-15.07.45:211][310]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_160
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-15.07.45:211][310]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_160
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-15.07.45:211][310]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_160
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-15.07.45:211][310]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_160
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-15.07.45:221][311]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_161
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-15.07.45:221][311]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_161
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-15.07.45:221][311]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_161
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-15.07.45:221][311]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_161
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-15.07.45:232][312]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_162
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-15.07.45:232][312]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_162
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-15.07.45:232][312]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_162
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-15.07.45:232][312]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_162
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-15.07.45:244][313]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_163
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:00D7
+[2025.05.24-15.07.45:244][313]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_163
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0116
+[2025.05.24-15.07.45:244][313]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_163
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:0192
+[2025.05.24-15.07.45:244][313]LogScript: Warning: Accessed None trying to read property CallFunc_GetMovementComponent_ReturnValue
+	RedPandaAnimBlueprint_C /Engine/Transient.World_26:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.RedPandaAnimBlueprint_C_163
+	Function /Game/ThirdPerson/Blueprints/Animation/RedPandaAnimBlueprint.RedPandaAnimBlueprint_C:ExecuteUbergraph_RedPandaAnimBlueprint:01C0
+[2025.05.24-15.07.50:045][863]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> UmbrellaAnim
+[2025.05.24-15.07.50:057][863]LogContentBrowser: End creating deferred item NewAnimBlueprint
+[2025.05.24-15.07.50:057][863]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.07.51:324][975]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/ThirdPerson/Blueprints/Animation/UmbrellaAnim.UmbrellaAnim
+[2025.05.24-15.07.51:324][975]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.07.51:325][975]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-15.07.51:331][975]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.07.51:331][975]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-15.07.51:337][975]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_90:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.05.24-15.07.51:592][975]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.07.51:592][975]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-15.07.51:724][975]LogViewport: Scene viewport resized to 416x407, mode Windowed.
+[2025.05.24-15.07.51:746][975]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2025.05.24-15.07.53:262][122]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2025.05.24-15.07.56:527][425]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-15.07.56:616][425]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Animation/UmbrellaAnim
+[2025.05.24-15.07.56:616][425]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/UmbrellaAnim0BEBFA024430A8FD6294058780A79E52.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/Animation/UmbrellaAnim.uasset'
+[2025.05.24-15.07.56:638][425]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 11.7 sec)
+[2025.05.24-15.07.56:639][425]AssetCheck: New page: Asset Save: UmbrellaAnim
+[2025.05.24-15.07.56:639][425]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/ThirdPerson/Blueprints/Animation/UmbrellaAnim.UmbrellaAnim
+[2025.05.24-15.07.56:928][454]BlueprintLog: New page: Compile UmbrellaAnim
+[2025.05.24-15.07.56:963][454]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2025.05.24-15.08.08:831][607]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-15.08.08:920][607]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad
+[2025.05.24-15.08.08:921][607]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_BouncePadEF8B856C442F581AF5AB34881E474E0A.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.uasset'
+[2025.05.24-15.08.08:930][607]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 11.8 sec)
+[2025.05.24-15.08.08:932][607]AssetCheck: New page: Asset Save: BP_BouncePad
+[2025.05.24-15.08.08:932][607]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad
+[2025.05.24-15.08.16:758][406]BlueprintLog: New page: Compile BP_BouncePad
+[2025.05.24-15.08.16:788][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2025.05.24-15.08.17:440][464]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-15.08.17:515][464]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad
+[2025.05.24-15.08.17:516][464]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_BouncePadB52D36124241B2C229B38086A90695F8.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.uasset'
+[2025.05.24-15.08.17:525][464]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 11.9 sec)
+[2025.05.24-15.08.17:525][464]AssetCheck: New page: Asset Save: BP_BouncePad
+[2025.05.24-15.08.17:525][464]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad
+[2025.05.24-15.08.26:233][387]LogWorld: UWorld::CleanupWorld for World_85, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-15.08.26:233][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-15.08.28:492][626]LogWorld: UWorld::CleanupWorld for World_89, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-15.08.28:492][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-15.08.28:510][626]LogWorld: UWorld::CleanupWorld for World_90, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-15.08.28:510][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-15.08.28:558][626]LogWorld: UWorld::CleanupWorld for World_91, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-15.08.28:558][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-15.08.56:136][753]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-15.08.56:243][753]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad
+[2025.05.24-15.08.56:244][753]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/BP_BouncePad1EF9CF5B494827FBCDA05793FDD1A9B8.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.uasset'
+[2025.05.24-15.08.56:252][753]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 12.0 sec)
+[2025.05.24-15.08.56:254][753]AssetCheck: New page: Asset Save: BP_BouncePad
+[2025.05.24-15.08.56:254][753]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad
+[2025.05.24-15.08.57:612][904]BlueprintLog: New page: Compile BP_BouncePad
+[2025.05.24-15.08.57:644][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.05.24-15.09.06:474][802]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2025.05.24-15.09.07:791][802]LogSlate: Window 'Save Content' being destroyed
+[2025.05.24-15.09.07:800][802]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-15.09.07:903][802]LogSavePackage: Moving output files for package: /Game/Models/Level_Props/Animated_Props/Material_0
+[2025.05.24-15.09.07:903][802]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Material_01F86356245176E963DCD9395AAC48A31.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Level_Props/Animated_Props/Material_0.uasset'
+[2025.05.24-15.09.07:907][802]LogSavePackage: Moving output files for package: /Game/Models/LevelProps/ModelMaterials/Umbrella_Mat
+[2025.05.24-15.09.07:908][802]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/Umbrella_Mat4D8606E74A4B9F3E64F605B8297AA022.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/LevelProps/ModelMaterials/Umbrella_Mat.uasset'
+[2025.05.24-15.09.07:919][802]LogSavePackage: Moving output files for package: /Game/Models/Level_Props/Animated_Props/umbrellaAnim_Anim
+[2025.05.24-15.09.07:919][802]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/umbrellaAnim_AnimF12DED4240A2D79F65A9B9AAA2BDF771.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Level_Props/Animated_Props/umbrellaAnim_Anim.uasset'
+[2025.05.24-15.09.07:927][802]LogSavePackage: Moving output files for package: /Game/Models/Level_Props/Animated_Props/umbrellaAnim_PhysicsAsset
+[2025.05.24-15.09.07:927][802]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/umbrellaAnim_PhysicsAssetBD48BB874B0DF643C52D35BC84843CC0.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Level_Props/Animated_Props/umbrellaAnim_PhysicsAsset.uasset'
+[2025.05.24-15.09.07:935][802]LogSavePackage: Moving output files for package: /Game/Models/Level_Props/Animated_Props/umbrellaAnim_Skeleton
+[2025.05.24-15.09.07:935][802]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/umbrellaAnim_Skeleton3CD45A26466D87DBDF79A9A7ADD1FB17.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/Models/Level_Props/Animated_Props/umbrellaAnim_Skeleton.uasset'
+[2025.05.24-15.09.07:944][802]LogFileHelpers: InternalPromptForCheckoutAndSave took 143 ms (total: 12.1 sec)
+[2025.05.24-15.09.08:044][802]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.09.08:046][802]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.24-15.09.08:046][802]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.24-15.09.08:046][802]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.24-15.09.08:750][802]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.05.24-15.09.08:750][802]LogWorldPartition: Display: WorldPartition initialize took 703 ms (total: 17.0 sec)
+[2025.05.24-15.09.08:804][802]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/Level_0.Level_0
+[2025.05.24-15.09.08:804][802]Cmd: MAP LOAD FILE="../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/Level_0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.05.24-15.09.08:804][802]LightingResults: New page: Lighting Build
+[2025.05.24-15.09.08:804][802]LoadErrors: New page: Loading map: Level_0.umap
+[2025.05.24-15.09.08:861][802]LogWorld: UWorld::CleanupWorld for World_79, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-15.09.08:861][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-15.09.08:895][802]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-15.09.08:895][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-15.09.08:899][802]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.24-15.09.08:899][802]MapCheck: New page: Map Check
+[2025.05.24-15.09.08:899][802]LightingResults: New page: Lighting Build
+[2025.05.24-15.09.08:919][802]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.24-15.09.08:940][802]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2025.05.24-15.09.08:949][802]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-15.09.08:951][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-15.09.08:953][802]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.05.24-15.09.08:976][802]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2025.05.24-15.09.08:994][802]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2025.05.24-15.09.09:017][802]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level_0'.
+[2025.05.24-15.09.09:017][802]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.09.09:017][802]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-15.09.09:017][802]LogAIModule: Creating AISystem for world Level_0
+[2025.05.24-15.09.09:018][802]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.24-15.09.09:018][802]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.24-15.09.09:018][802]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.24-15.09.09:158][802]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.05.24-15.09.09:158][802]LogWorldPartition: Display: WorldPartition initialize took 141 ms (total: 17.1 sec)
+[2025.05.24-15.09.09:260][802]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.05.24-15.09.09:261][802]LogNavigation: Warning: Recreating dtNavMesh instance due mismatch in number of bytes required to store serialized maxTiles (168, 8 bits) vs calculated maxtiles (120, 7 bits)
+[2025.05.24-15.09.09:285][802]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2025.05.24-15.09.09:293][802]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.05.24-15.09.09:294][802]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,541ms to complete.
+[2025.05.24-15.09.09:312][802]AssetCheck: New page: Asset Save: multiple assets
+[2025.05.24-15.09.09:312][802]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/Level_Props/Animated_Props/Material_0.Material_0
+[2025.05.24-15.09.09:312][802]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Models/LevelProps/ModelMaterials/Umbrella_Mat.Umbrella_Mat
+[2025.05.24-15.09.09:312][802]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Models/Level_Props/Animated_Props/umbrellaAnim_Anim.umbrellaAnim_Anim
+[2025.05.24-15.09.09:312][802]LogContentValidation: Display: Validating /Script/Engine.PhysicsAsset /Game/Models/Level_Props/Animated_Props/umbrellaAnim_PhysicsAsset.umbrellaAnim_PhysicsAsset
+[2025.05.24-15.09.09:312][802]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/Models/Level_Props/Animated_Props/umbrellaAnim_Skeleton.umbrellaAnim_Skeleton
+[2025.05.24-15.09.09:356][802]LogAutomationController: Ignoring very large delta of 2.91 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.24-15.09.14:212][294]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad_C
+[2025.05.24-15.09.14:212][294]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad_C
+[2025.05.24-15.09.14:214][294]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad as actor: BP_BouncePad_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_BouncePad_C_0
+[2025.05.24-15.09.14:215][294]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad as actor: BP_BouncePad_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_BouncePad_C_0
+[2025.05.24-15.09.14:225][294]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.05.24-15.09.14:361][297]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad_C
+[2025.05.24-15.09.14:361][297]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad_C
+[2025.05.24-15.09.14:363][297]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad as actor: BP_BouncePad_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_BouncePad_C_1
+[2025.05.24-15.09.14:364][297]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad as actor: BP_BouncePad_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_BouncePad_C_1
+[2025.05.24-15.09.15:023][345]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad_C
+[2025.05.24-15.09.15:023][345]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad_C
+[2025.05.24-15.09.15:025][345]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad as actor: BP_BouncePad_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_BouncePad_C_UAID_74563C6C81B06C6B02_1840249732
+[2025.05.24-15.09.15:027][345]LogActorFactory: Actor Factory spawned Blueprint /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad as actor: BP_BouncePad_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_BouncePad_C_UAID_74563C6C81B06C6B02_1840249732
+[2025.05.24-15.09.22:782][120]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-15.09.22:855][120]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_0/8/CU/OW9SGJZEQSX1I4GEW565SK
+[2025.05.24-15.09.22:855][120]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/OW9SGJZEQSX1I4GEW565SK6144F98649DF78758ACD95AE2DC0E9A9.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_0/8/CU/OW9SGJZEQSX1I4GEW565SK.uasset'
+[2025.05.24-15.09.22:867][120]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 12.2 sec)
+[2025.05.24-15.09.22:867][120]AssetCheck: New page: Asset Save: BP_BouncePad_C_UAID_74563C6C81B06C6B02_1840249732
+[2025.05.24-15.09.22:867][120]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_BouncePad.BP_BouncePad_C /Game/ThirdPerson/Maps/Level_0.Level_0:PersistentLevel.BP_BouncePad_C_UAID_74563C6C81B06C6B02_1840249732
+[2025.05.24-15.09.23:895][232]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.24-15.09.23:905][232]LogContentBundle: [Level_0(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.24-15.09.23:905][232]LogWorldPartition: Display: GenerateStreaming for 'Level_0' started...
+[2025.05.24-15.09.23:911][232]LogWorldPartition: Display: GenerateStreaming for 'Level_0' took 6 ms (total: 726 ms)
+[2025.05.24-15.09.23:911][232]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.24-15.09.23:911][232]PIE: New page: PIE session: Level_0 (24 maj 2025, 17:09:23)
+[2025.05.24-15.09.23:912][232]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.05.24-15.09.23:934][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021579s)
+[2025.05.24-15.09.23:934][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/Level_0.Level_0 to /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 (0.021612s)
+[2025.05.24-15.09.23:953][232]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2025.05.24-15.09.23:961][232]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-15.09.23:961][232]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-15.09.23:962][232]LogAIModule: Creating AISystem for world Level_0
+[2025.05.24-15.09.23:962][232]LogWorldPartition: ULevel::OnLevelLoaded(Level_0)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.24-15.09.23:962][232]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.24-15.09.23:962][232]LogWorldPartition: UWorldPartition::Initialize : World = Level_0, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.24-15.09.23:962][232]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.24-15.09.23:968][232]LogContentBundle: [Level_0(Standalone)] Creating new contrainer.
+[2025.05.24-15.09.23:968][232]LogWorldPartition: Display: WorldPartition initialize took 5 ms (total: 17.1 sec)
+[2025.05.24-15.09.23:968][232]LogPlayLevel: PIE: World Init took: (0.006643s)
+[2025.05.24-15.09.23:968][232]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2025.05.24-15.09.23:968][232]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.24-15.09.23:968][232]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.24-15.09.23:968][232]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.24-15.09.23:968][232]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.24-15.09.23:968][232]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.24-15.09.23:968][232]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.24-15.09.23:968][232]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.24-15.09.23:968][232]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.24-15.09.23:968][232]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.24-15.09.23:968][232]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.24-15.09.23:968][232]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.24-15.09.23:970][232]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.24-15.09.23:988][232]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.05.24-15.09.23:988][232]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.24-15.09.23:988][232]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.24-15.09.23:988][232]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.24-15.09.23:989][232]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2025.05.24-15.09.23:989][232]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2025.05.24-15.09.23:990][232]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2025.05.24-15.09.23:990][232]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2025.05.24-15.09.23:990][232]LogInit: FAudioDevice initialized with ID 30.
+[2025.05.24-15.09.23:990][232]LogAudio: Display: Audio Device (ID: 30) registered with world 'Level_0'.
+[2025.05.24-15.09.23:990][232]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2025.05.24-15.09.23:993][232]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.05.24-15.09.24:000][232]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_Level_0.Level_0 up for play (max tick rate 0) at 2025.05.24-16.09.24
+[2025.05.24-15.09.24:002][232]LogWorld: Bringing up level for play took: 0.009166
+[2025.05.24-15.09.24:006][232]LogOnline: OSS: Created online subsystem instance for: :Context_116
+[2025.05.24-15.09.24:007][232]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.05.24-15.09.24:008][232]PIE: Server logged in
+[2025.05.24-15.09.24:009][232]PIE: Play in editor total start time 0,105 seconds.
+[2025.05.24-15.09.24:015][232]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'MusicLoopCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-15.09.24:015][232]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'WindCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-15.09.24:015][232]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'WindCue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-15.09.24:015][232]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'jungleAmbience_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.05.24-15.09.25:656][414]LogBlueprintUserMessages: [BP_BambooCollectable_C_UAID_74563C6C81B0B06702_1489487242] 1
+[2025.05.24-15.09.26:842][547]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B06C6B02_1840249732] BOING
+[2025.05.24-15.09.28:225][707]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B06C6B02_1840249732] BOING
+[2025.05.24-15.09.29:628][866]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B06C6B02_1840249732] BOING
+[2025.05.24-15.09.31:023][ 27]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B06C6B02_1840249732] BOING
+[2025.05.24-15.09.32:421][192]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B06C6B02_1840249732] BOING
+[2025.05.24-15.09.33:821][352]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B06C6B02_1840249732] BOING
+[2025.05.24-15.09.35:224][518]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B06C6B02_1840249732] BOING
+[2025.05.24-15.09.36:626][681]LogBlueprintUserMessages: [BP_BouncePad_C_UAID_74563C6C81B06C6B02_1840249732] BOING
+[2025.05.24-15.09.36:637][682]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 2.0
+[2025.05.24-15.09.36:637][682]LogBlueprintUserMessages: [BP_Projectile_C_2] 1.0
+[2025.05.24-15.09.38:138][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.24-15.09.38:138][847]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_Level_0
+[2025.05.24-15.09.38:139][847]LogWorld: UWorld::CleanupWorld for Level_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-15.09.38:141][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-15.09.38:142][847]LogContentBundle: [Level_0(Standalone)] Deleting container.
+[2025.05.24-15.09.38:144][847]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.24-15.09.38:150][847]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-15.09.38:166][847]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.24-15.09.38:167][847]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2025.05.24-15.09.38:167][847]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2025.05.24-15.09.38:169][847]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2025.05.24-15.09.38:172][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.24-15.09.38:177][847]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.05.24-15.09.38:251][848]LogPlayLevel: Display: Destroying online subsystem :Context_116
