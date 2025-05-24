@@ -8711,3 +8711,81 @@ UnknownFunction []
 [2025.05.24-14.48.37:290][895]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
 [2025.05.24-14.48.37:303][895]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
 [2025.05.24-14.48.37:400][896]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2025.05.24-14.49.29:741][ 87]LogWorld: UWorld::CleanupWorld for World_77, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-14.49.29:741][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-14.49.29:761][ 87]LogWorld: UWorld::CleanupWorld for World_78, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-14.49.29:761][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-14.49.29:810][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2025.05.24-14.49.30:536][161]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-14.49.30:538][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-14.49.30:558][161]LogWorld: UWorld::CleanupWorld for World_76, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-14.49.30:558][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-14.49.30:598][161]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2025.05.24-14.50.07:906][537]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-14.50.07:994][537]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2025.05.24-14.50.08:017][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.05.24-14.50.08:035][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.05.24-14.50.08:051][537]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 10.7 sec)
+[2025.05.24-14.50.19:085][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.05.24-14.50.19:178][778]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-14.50.19:178][778]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.24-14.50.19:178][778]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.24-14.50.19:178][778]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.24-14.50.19:345][778]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.24-14.50.19:345][778]LogWorldPartition: Display: WorldPartition initialize took 167 ms (total: 16.1 sec)
+[2025.05.24-14.50.19:356][778]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/MainMenu.MainMenu
+[2025.05.24-14.50.19:356][778]Cmd: MAP LOAD FILE="../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.05.24-14.50.19:356][778]LightingResults: New page: Lighting Build
+[2025.05.24-14.50.19:358][778]LoadErrors: New page: Loading map: MainMenu.umap
+[2025.05.24-14.50.19:412][778]LogWorld: UWorld::CleanupWorld for World_74, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-14.50.19:412][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-14.50.19:446][778]LogWorld: UWorld::CleanupWorld for VictoryScreen, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-14.50.19:446][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-14.50.19:455][778]LogContentBundle: [VictoryScreen(Standalone)] Deleting container.
+[2025.05.24-14.50.19:455][778]MapCheck: New page: Map Check
+[2025.05.24-14.50.19:455][778]LightingResults: New page: Lighting Build
+[2025.05.24-14.50.19:473][778]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.24-14.50.19:487][778]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2025.05.24-14.50.19:497][778]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.05.24-14.50.19:498][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.24-14.50.19:499][778]LogContentBundle: [MainMenu(Standalone)] Deleting container.
+[2025.05.24-14.50.19:523][778]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2025.05.24-14.50.19:540][778]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2025.05.24-14.50.19:561][778]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2025.05.24-14.50.19:561][778]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-14.50.19:561][778]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-14.50.19:562][778]LogAIModule: Creating AISystem for world MainMenu
+[2025.05.24-14.50.19:562][778]LogWorldPartition: ULevel::OnLevelLoaded(MainMenu)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.24-14.50.19:562][778]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.24-14.50.19:562][778]LogWorldPartition: UWorldPartition::Initialize : World = MainMenu, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.24-14.50.19:736][778]LogContentBundle: [MainMenu(Standalone)] Creating new contrainer.
+[2025.05.24-14.50.19:736][778]LogWorldPartition: Display: WorldPartition initialize took 172 ms (total: 16.3 sec)
+[2025.05.24-14.50.19:779][778]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.05.24-14.50.19:796][778]LogWorldPartition: Actor /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.RecastNavMesh_UAID_74563C6C81B0905D02-Default is unreachable without properly detaching object /Game/__ExternalActors__/ThirdPerson/Maps/MainMenu/2/ZA/61077G2OHT4M1OSUQTKII3.PackageMetaData in its package
+[2025.05.24-14.50.19:800][778]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2025.05.24-14.50.19:808][778]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.05.24-14.50.19:809][778]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,584ms to complete.
+[2025.05.24-14.50.19:864][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2025.05.24-14.50.24:202][216]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/ThirdPerson/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2025.05.24-14.50.24:202][216]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.05.24-14.50.24:202][216]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.05.24-14.50.35:174][398]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-14.50.35:286][398]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2025.05.24-14.50.35:298][398]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/MainMenu
+[2025.05.24-14.50.35:299][398]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MainMenu83FE7DDC4420B8DF52B8B2B321035174.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/MainMenu.umap'
+[2025.05.24-14.50.35:306][398]LogFileHelpers: All files are already saved.
+[2025.05.24-14.50.35:307][398]LogFileHelpers: Saving map 'MainMenu' took 0.071
+[2025.05.24-14.50.35:315][398]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 10.8 sec)
+[2025.05.24-14.50.35:318][398]AssetCheck: New page: Asset Save: MainMenu
+[2025.05.24-14.50.35:318][398]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/MainMenu.MainMenu
+[2025.05.24-14.50.35:656][438]BlueprintLog: New page: Compile MainMenu
+[2025.05.24-14.50.35:689][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.05.24-14.50.41:686][150]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.24-14.50.41:800][150]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2025.05.24-14.50.41:810][150]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/MainMenu
+[2025.05.24-14.50.41:811][150]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/MainMenu9782CA0F459383AA3591778F1FFE106E.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/ThirdPerson/Maps/MainMenu.umap'
+[2025.05.24-14.50.41:818][150]LogFileHelpers: All files are already saved.
+[2025.05.24-14.50.41:819][150]LogFileHelpers: Saving map 'MainMenu' took 0.066
+[2025.05.24-14.50.41:826][150]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 11.0 sec)
+[2025.05.24-14.50.41:830][150]AssetCheck: New page: Asset Save: MainMenu
+[2025.05.24-14.50.41:830][150]LogContentValidation: Display: Validating /Script/Engine.World /Game/ThirdPerson/Maps/MainMenu.MainMenu
