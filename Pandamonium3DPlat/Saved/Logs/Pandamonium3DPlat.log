@@ -1571,3 +1571,10 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.05.25-13.58.01:311][278]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/PickUps/BP_Glider.BP_Glider
 [2025.05.25-13.58.01:782][334]BlueprintLog: New page: Compile BP_Glider
 [2025.05.25-13.58.01:815][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.05.25-13.59.31:947][658]LogEditorViewport: Clicking Background
+[2025.05.25-13.59.32:121][676]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.25-13.59.32:190][676]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/Level_1/0/Z0/2E1IH0TW55BVXGAHUL3JNJ
+[2025.05.25-13.59.32:191][676]LogSavePackage: Moving '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Saved/2E1IH0TW55BVXGAHUL3JNJ03C2CF2C41280C8867E021B9E9E5827C.tmp' to '../../../../../../Users/okacp/Documents/GitHub/Pandamonium-3D-Platformer/Pandamonium3DPlat/Content/__ExternalActors__/ThirdPerson/Maps/Level_1/0/Z0/2E1IH0TW55BVXGAHUL3JNJ.uasset'
+[2025.05.25-13.59.32:198][676]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 947 ms)
+[2025.05.25-13.59.32:201][676]AssetCheck: New page: Asset Save: BP_KillzoneWater_C_UAID_74563C6C81B0B86B02_1899618979
+[2025.05.25-13.59.32:201][676]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/EnvironmentBP/BP_KillzoneWater.BP_KillzoneWater_C /Game/ThirdPerson/Maps/Level_1.Level_1:PersistentLevel.BP_KillzoneWater_C_UAID_74563C6C81B0B86B02_1899618979
