@@ -49,6 +49,9 @@ The aim of this project is to produce a polished game level of a 3D platformer. 
 ### Controls
 ![AD_4nXdlh392jeRvO_V41YtGMjDVUUdDzZSiiwZYYIoE2xJPwX](https://github.com/user-attachments/assets/419308bc-8163-4ac8-a9de-aa439d57e838)
 
+## Video Demo
+Below is a YouTube link to the gameplay video for this game!
+https://www.youtube.com/watch?v=HzdO4qUeV0g
 
 ## Licences + Audio Sources
 
