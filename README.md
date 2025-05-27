@@ -53,6 +53,10 @@ The aim of this project is to produce a polished game level of a 3D platformer. 
 Below is a YouTube link to the gameplay video for this game!
 https://www.youtube.com/watch?v=HzdO4qUeV0g
 
+## Latest Build
+
+https://github.com/CaptainFlamey/Pandamonium-3D-Platformer/releases/tag/v0.1.6
+
 ## Licences + Audio Sources
 
 - Pixabay Content License - https://pixabay.com/service/license-summary/
